@@ -1,0 +1,32 @@
+\BOOKMARK [0][-]{chapter.1}{Introdu\347\343o}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Estrutura de um Documento}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Estrutura de um ficheiro .tex}{chapter.2}% 3
+\BOOKMARK [2][-]{subsection.2.1.1}{documentclass}{section.2.1}% 4
+\BOOKMARK [2][-]{subsection.2.1.2}{Uso de packages}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.3}{Top Matter}{section.2.1}% 6
+\BOOKMARK [1][-]{section.2.2}{Estrutura do documento}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.1}{Cap\355tulos, Sec\347\365es, e Subsec\347\365es}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.2}{\315ndice Remissivo}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.3}{Lista de figuras / tabelas}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.4}{Gloss\341rio / Acr\363nimos}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.5}{Bibliografia}{section.2.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Manipula\347\343o de Texto}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Caract\351res}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.1.1}{Tamanho de Letra}{section.3.1}% 15
+\BOOKMARK [2][-]{subsection.3.1.2}{Fonts}{section.3.1}% 16
+\BOOKMARK [2][-]{subsection.3.1.3}{Cor}{section.3.1}% 17
+\BOOKMARK [2][-]{subsection.3.1.4}{Outras Tranforma\347\365es}{section.3.1}% 18
+\BOOKMARK [1][-]{section.3.2}{Formata\347\343o}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.2.1}{Par\341grafos}{section.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.2.2}{Breaks}{section.3.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.3}{Preenchimento de Linhas}{section.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.2.4}{Alinhamento Textual}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.5}{Notas de Rodap\351}{section.3.2}% 24
+\BOOKMARK [0][-]{chapter.4}{Escrita de f\363rmulas matem\341ticas}{}% 25
+\BOOKMARK [1][-]{section.4.1}{Modo de matem\341tica}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.2}{S\355mbolos matem\341ticos}{chapter.4}% 27
+\BOOKMARK [0][-]{chapter.5}{Listas, Tabelas e Imagens}{}% 28
+\BOOKMARK [1][-]{section.5.1}{Listas}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.2}{Tabelas}{chapter.5}% 30
+\BOOKMARK [1][-]{section.5.3}{Imagens}{chapter.5}% 31
+\BOOKMARK [0][-]{chapter.6}{Conclus\365es}{}% 32

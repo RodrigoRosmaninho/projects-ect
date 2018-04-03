@@ -1,0 +1,225 @@
+
+[
+  {"numDePerguntas": 22},
+  {
+    "resposta": 2,
+    "opcoes": [
+      "\\title",
+      "\\endtitle",
+      "\\maketitle",
+      "\\finishtitle"
+    ],
+    "pergunta": "Com que código deve ser terminada a informção <b>Top Matter</b>? "
+  },
+  {
+    "resposta": 0,
+    "opcoes": [
+      "\\tableofcontents",
+      "\\makeindex",
+      "\\startindex",
+      "\\contenttable"
+    ],
+    "pergunta": "Qual o comando para um índice automatizado?"
+  },
+  {
+    "resposta": 1,
+    "opcoes": [
+      ".bibli",
+      ".bib",
+      ".txt",
+      ".tex"
+    ],
+    "pergunta": "De que tipo é o ficheiro de Bibliografia, criado separadamente?"
+  },
+  {
+    "resposta": 2,
+    "opcoes": [
+      "\\tiny",
+      "\\Large",
+      "\\SuperBig",
+      "\\scriptsize"
+    ],
+    "pergunta": "Qual destes comandos não representa uma mudança de tamanho rápida?"
+  },
+  {
+    "resposta": 2,
+    "opcoes": [
+      "\\usefont{CM Roman}",
+      "\\docfont{CM Roman}",
+      "\\usepackage{CM Roman}",
+      "\\texfont{CM Roman}"
+    ],
+    "pergunta": "Qual dos códigos irá usar <i>CM Roman</i> como font do documento"
+  },
+  {
+    "resposta": 3,
+    "opcoes": [
+      "\\color{vermelho}",
+      "\\usecolor{red}",
+      "\\textcolor{red}",
+      "\\color{red}"
+    ],
+    "pergunta": "Que comando vai mudar a cor do texto para vermelho?"
+  },
+  {
+    "resposta": 0,
+    "opcoes": [
+      "\\textbf",
+      "\\b",
+      "\\bold",
+      "\\textb"
+    ],
+    "pergunta": "Como se coloca texto a <b>Negrito</b>?"
+  },
+  {
+    "resposta": 2,
+    "opcoes": [
+      "Coloca o texto a negrito quando este não se encontra a negrito",
+      "Coloca o texto a itálico quando este não se encontra a itálico",
+      "O comando coloca o texto no modo oposto (negrito ou itálico) ao que se encontrava antes do código",
+      "Nenhuma das opções"
+    ],
+    "pergunta": "O que é que o comando \\emph faz?"
+  },
+  {
+    "resposta": 0 ,
+    "opcoes": [
+      "M's maiúsculos",
+      "Centímetros",
+      "M's minúsculos",
+      "Milímetros"
+    ],
+    "pergunta": "O que é a medida <i>em</i> no espaçamento de parágrafos?"
+  },
+  {
+    "resposta": 1,
+    "opcoes": [
+      "Faz um novo parágrafo",
+      "Muda de linha, sem criar um novo parágrafo",
+      "Muda de linha, criando um novo parágrafo",
+      "Nenhuma das opções"
+    ],
+    "pergunta": "O que é que o comando \\newline faz?"
+  },
+  {
+    "resposta": 0,
+    "opcoes": [
+      "Alinha o texto à esquerda",
+      "Alinha o texto à direita",
+      "Centra o texto",
+      "Nenhuma das opções"
+    ],
+    "pergunta": "Com o package <i>ragged2e</i> iniciado, o que faz o comando \\RaggedRight?"
+  },
+  {
+    "resposta": 0,
+    "opcoes": [
+      "\\justify",
+      "\\RaggedJust",
+      "\\just",
+      "\\RaggedJustify"
+    ],
+    "pergunta": "Qual o comando para justificar o texto?"
+  },
+  {
+    "resposta": 1,
+    "opcoes": [
+      "\\footnote...\\footnote[número]{texto a acrescentar}",
+      "\\footnotemark...\\footnotetext{texto adicional}",
+      "\\markfootnote[número]...\\footnote[número]{texto adicional}",
+      "Nenhuma das opções"
+    ],
+    "pergunta": "Qual a dupla de códigos que vai permite marcar uma nota de rodapé, sem que o texto adicional seja escrito juntamente com o texto principal? "
+  },
+  {
+    "resposta": 1,
+    "opcoes": [
+      "$3+x=2y$",
+      "$$3+x=2y$$",
+      "\\mathdisplay 3+x=2y",
+      "\\mathinline 3+x=2y"
+    ],
+    "pergunta": "Em modo matemática, qual dos códigos vai reproduzir, em modo <i>display</i> a equação <i>3+x=2y</i> ?"
+  },
+  {
+    "resposta": 2,
+    "opcoes": [
+      "\\begin{list}...\\end{list}",
+      "\\list...\\list",
+      "\\begin{itemize}...\\end{itemize}",
+      "\\itemize...\\itemize"
+    ],
+    "pergunta": "Quais são os códigos para início e fim de uma lista, respetivamente?"
+  },
+  {
+    "resposta": 1,
+    "opcoes": [
+      "$ para a mudança de coluna, // para a mudança de linha",
+      "& para a mudanca de coluna, \\\\ para a mudança de linha",
+      "// para a mudança de coluna, $ para a mudança de linha",
+      "\\\\ para a mudança de coluna, & para a mudança de linha"
+    ],
+    "pergunta": "Que símbolos são usados para a separação dos elemntos de uma tabela?"
+  },
+  {
+    "resposta": 1,
+    "opcoes": [
+      "\\usepackage{graphics}",
+      "\\usepackage{graphicx}",
+      "\\startpackage{graphicx}",
+      "\\startpackage{images}"
+    ],
+    "pergunta": "Qual é a package necessária para a inserção e edição de imagens?"
+  },
+  {
+    "resposta": 3,
+    "opcoes": [
+      "\\startpackage{...}",
+      "\\beginpackage{...}",
+      "\\package{...}",
+      "\\usepackage{...}"
+    ],
+    "pergunta": "Qual é o código usado poara a inicialização de qualquer package?"
+  },
+  {
+    "resposta": 2,
+    "opcoes": [
+      "\\i",
+      "\\italic",
+      "\\textit",
+      "Nenhuma das opções"
+    ],
+    "pergunta": "Qual é o código para colocar o texto em <i>itálico</i>?"
+  },
+  {
+    "resposta": 1,
+    "opcoes": [
+      "\\textu",
+      "\\underline",
+      "\\textunderline",
+      "Nenhuma das opções"
+    ],
+    "pergunta": "Com que código é possível sublinhar texto?"
+  },
+  {
+    "resposta": 2,
+    "opcoes": [
+      "\\usepackage{acronym}",
+      "\\startpackage{acronym}",
+      "\\usepackage[acronym]{glossaries}",
+      "\\startpackage[acronym]{glossaries}"
+    ],
+    "pergunta": "Qual é a package que inicializa que possibilita a criação da página de acrónimos?"
+  },
+  {
+    "resposta": 0,
+    "opcoes": [
+      "\\listoftables e \\listoffigures",
+      "\\tablelist e \\figureslist",
+      "\\showtable e \\showlists",
+      "Nenhuma das opções"
+    ],
+    "pergunta": "Tal como o índice, é possivel criar uma lista automatizada de tabelas e/ou listas. Quais os códigos utilizados, respetivamente, para esse fim?"
+  }
+
+]

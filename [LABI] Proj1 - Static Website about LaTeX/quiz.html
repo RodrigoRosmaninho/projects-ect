@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <title>Quiz | LaTeX</title>
+
+  <link href="imagens/ua_favicon.png" rel="shortcut icon">
+
+  <!-- Bootstrap css e js, jQuery, e Popper.js (requerido pelo js do bootstrap) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  <!-- Fontes -->
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">LaTeX</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse show" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="estrutura.html">Estrutura</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="texto.html">Manipulação de Texto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="matematica.html">Fórmulas Matemáticas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="extras.html">Listas, Tabelas, Figuras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Acerca</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 mx-auto">
+          <div class="site-heading">
+            <h1 id="heading">Questionário</h1>
+            <span class="subheading">Prova as tuas capacidades de fazer documentos em LaTeX</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div id="substituir">
+          <p>Responde a perguntas sobre as funcionalidades do LaTeX exploradas neste website.</p>
+        </div>
+
+        <div id="quizDiv">
+          <div align="center">
+            <br>
+            <button type="button" class="btn btn-primary" onclick="começarQuiz()">Começar!</button>
+          </div>
+        </div>
+
+        <br>
+
+        <br>
+        <div align="center" id="submit"></div>
+
+        <!-- Script que gere o questionário -->
+        <script type="text/javascript" src="js/quiz.js"></script>
+
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <footer>Rodrigo Rosmaninho e Jorge C. Silva
+    <br> Universidade de Aveiro - 2018</footer>
+
+</body>

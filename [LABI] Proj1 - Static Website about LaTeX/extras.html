@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Extras | LaTeX</title>
+
+  <link href="imagens/ua_favicon.png" rel="shortcut icon">
+
+  <!-- Bootstrap css e js, jQuery, e Popper.js (requerido pelo js do bootstrap) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  <!-- Fontes -->
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">LaTeX</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse show" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="estrutura.html">Estrutura</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="texto.html">Manipulação de Texto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="matematica.html">Fórmulas Matemáticas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="extras.html">Listas, Tabelas, Figuras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Acerca</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 mx-auto">
+          <div class="site-heading">
+            <h1 id="heading">Listas, Tabelas, Figuras</h1>
+            <span class="subheading">Suficiente para enriquecer qualquer relatório</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <div class="alert alert-primary" role="alert">
+          <a>Depois de te familiarizares com o LaTeX faz o nosso </a>
+          <a id="quizLink" href="quiz.html">questionário!</a>
+        </div>
+
+        <p>LaTeX, como sistema de preparação de texto, possúi também maneiras para criar listas, tabelas e gráficos. E tal como
+          todas as outras funcionalidades, estas também estão munidas de um elevado grau de customização. </p>
+        <br>
+        <br>
+        <nav class="nav nav-tabs nav-fill" id="subcapitulos" role="tablist">
+          <a class="nav-item nav-link active" id="nav-listas-tab" data-toggle="tab" href="#nav-listas" role="tab" aria-controls="nav-listas"
+            aria-selected="true">Listas</a>
+          <a class="nav-item nav-link" id="nav-tabelas-tab" data-toggle="tab" href="#nav-tabelas" role="tab" aria-controls="nav-tabelas"
+            aria-selected="false">Tabelas</a>
+          <a class="nav-item nav-link" id="nav-imagens-tab" data-toggle="tab" href="#nav-imagens" role="tab" aria-controls="nav-imagens"
+            aria-selected="false">Imagens</a>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-listas" role="tabpanel" aria-labelledby="nav-listas-tab">
+
+            <!-- Listas -->
+            <br>
+            <h3>Listas</h3>
+            <br>
+
+            <p>A criação de listas é uma tarefa bastante intuitiva.</p>
+            <pre>
+\begin{itemize}
+  \item Este e o 1o elemento de uma lista
+  \item Este e o 2o elemento da mesma lista
+\end{itemize}</pre>
+
+            <figure>
+              <img src="imagens/Listas1.png"></img>
+              <figcaption>Lista gerada pelo código exemplo</figcaption>
+            </figure>
+
+            <p>Também é possível colocar listas dentro de um item de uma outra lista.</p>
+            <pre>
+\begin{itemize}
+  \item Este e o 1o item de uma lista
+  \begin{itemize}
+    \item Este e o 1o elemento de uma lista secundaria
+    \item Estes items estao contidos no 1o item da 1a lista
+  \end{itemize}
+  \item Este e o 2o item da 1a lista
+\end{itemize}</pre>
+
+            <figure>
+              <img src="imagens/Listas2.png"></img>
+              <figcaption>Lista gerada pelo código exemplo</figcaption>
+            </figure>
+
+            <p>Os elementos de uma lista também podem ser numerados. Estes items também podem conter uma outra lista numerada
+              dentro da mesma, como no exemplo dado em cima. Em vez da utilização do código itemize, é colocado {dentro das
+              chavetas} o código
+              <b>enumerate</b>.</p>
+            <pre>
+\begin{enumerate}
+  \item Este e o 1o item de uma lista
+  \begin{enumerate}
+    \item Este e o 1o elemento de uma lista secundaria
+    \item Estes items estao contidos no 1o item da 1a lista
+    \end{enumerate}
+  \item Este e o 2o item da 1a lista
+\end{enumerate}</pre>
+
+            <figure>
+              <img src="imagens/Lista3.png"></img>
+              <figcaption>Lista gerada pelo código exemplo</figcaption>
+            </figure>
+          </div>
+
+
+          <div class="tab-pane fade" id="nav-tabelas" role="tabpanel" aria-labelledby="nav-tabelas-tab">
+
+            <!-- Tabelas -->
+            <br>
+            <h3>Tabelas</h3>
+            <br>
+
+            <p>Tabelas podem ser usadas como forma de listagem ou se forem mais complexas, uma ferramenta de comparação ou de
+              fornecimento de informação compacta. LaTeX permite-nos a criação de todo o tipo de tabelas.</p>
+            <pre>
+\begin{center}
+\begin{tabular}{ c c c }
+  Elemento 1 & Elemento 4 & Elemento 7 \\
+  Elemento 2 & Elemento 5 & Elemento 8 \\
+  Elemento 3 & Elemento 6 & Elemento 9
+\end{tabular}
+\end{center}</pre>
+
+            <figure>
+              <img src="imagens/Tabelas1.png"></img>
+              <figcaption>Tabela gerada pelo 1º código exemplo</figcaption>
+            </figure>
+
+            <pre>
+\begin{center}
+\begin{tabular}{| c | c | c |}
+  \hline
+  Elemento 1 & Elemento 4 & Elemento 7 \\
+  \hline
+  Elemento 2 & Elemento 5 & Elemento 8 \\
+  \hline
+  Elemento 3 & Elemento 6 & Elemento 9
+  \hline
+  \end{tabular}
+\end{center}</pre>
+
+            <figure>
+              <img src="imagens/Tabelas2.png"></img>
+              <figcaption>Tabela gerada pelo 2º código exemplo</figcaption>
+            </figure>
+
+            <p>Como se pode verificar, acrescentar o símbolo
+              <b>|</b> e o código
+              <b>\hline</b> em certas posições específicas do código da tabela, os elementos aparecem separados por tabelas.</p>
+
+            <p>Outras modificações simples podem ser feitas substituíndo a letra
+              <b>c</b>, que neste código está a centralizar os elementos da tabela, pela letra
+              <b>l</b> ou
+              <b>r</b> que irão alinhar o texto à esquerda e à direita respetivamente. O código
+              <b>\hline</b> coloca uma linha horizontal nos limites da tabela. Isto pode ser usado um número ilimitado de vezes.
+              O símbolo
+              <b>&</b> separa os elementos da tabela e para terminar uma linha na tabela, e delimitar a mesma, usa-se
+              <b>\\</b>.</p>
+            <p>Várias alterações podem ser feitas a uma tabela. Os exemplos dados são tabelas simples, porque LaTeX oferece
+              infinitas possibilidades de customização para a criação de tabelas.</p>
+
+            <p>Para mais informação sobre a criação de tabelas em LaTeX,
+              <a href="https://www.sharelatex.com/learn/Tables">visite a secção de tabelas da página ShareLatex</a>.</p>
+          </div>
+
+
+          <div class="tab-pane fade" id="nav-imagens" role="tabpanel" aria-labelledby="nav-imagens-tab">
+
+            <!-- Imagens -->
+            <br>
+            <h3>Imagens</h3>
+            <br>
+
+            <p>LaTeX Também permite a inserção de imagens. Para tal é necessário a inicialização de uma nova package, usando
+              o código
+              <b>\usepackage{</b>graphicx
+              <b>}</b>. Como a inserção de imagens invoca um ficheiro de imagem, é necessário indicar o seu path. Isso pode
+              ser feito no momento de invocação do ficheiro, mas como alternativa, se todos os ficheiros de imagem estiverem
+              contidos no mesmo diretório, é possível definir o path no início do documento, para facilitar a invocação das
+              imagens quando for necessário. Isto é possível através do comando
+              <b>\graphicspath{ {</b>path
+              <b>} }</b>.</p>
+
+            <pre>
+A imagem abaixo mostra uma vista aerea de parte do campus da
+Universidade de Aveiro. A imagem foi retirada do site da UA (ua.pt).
+\centering
+\includegraphics[scale=0.15]{Campus}</pre>
+
+            <figure>
+              <img src="imagens/Imagens1.png"></img>
+              <figcaption>Imagem inserida pelo código exemplo</figcaption>
+            </figure>
+
+            <p>No caso do exemplo, como o ficheiro utilizado tinha uma dimensão demasiado grande, diminui-se a escala para ficar
+              do tamanho desejado. Isto é possível através da extensão
+              <b>[scale=</b>escala pretendida
+              <b>]</b>.</p>
+
+            <p>É também possível formatar a imagem como o utilizador desejar. Em vez da extensão scale usa-se o controlo de
+              largura
+              <b>widht=xcm</b> e o controlo de comprimento
+              <b>height=ycm</b> e controlo de rotação
+              <b>angle=z</b> (x, y, e z serão valores introduzidos pelo redator do documento, numa unidade qualquer). Isto permite
+              ao utilizador distorcer a imagem como for necessário.</p>
+
+            <pre>
+A imagem utilizada em cima ira agora aparecer distorcida
+\centering
+\includegraphics[width=4cm, height=5cm, angle=30]{Campus}</pre>
+
+            <figure>
+              <img src="imagens/Imagens2.png"></img>
+              <figcaption>Alterações causadas pelo código exemplo</figcaption>
+            </figure>
+
+            <p>Para mais informação sobre a inserção de imagens e transformação das mesmas
+              <a href="https://www.sharelatex.com/learn/Inserting_Images">visite a secção de imagens da página ShareLatex</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <hr>
+  <footer>Rodrigo Rosmaninho e Jorge C. Silva
+    <br> Universidade de Aveiro - 2018</footer>
+
+</body>

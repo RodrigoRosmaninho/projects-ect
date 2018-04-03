@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Estrutura | LaTeX</title>
+
+  <link href="imagens/ua_favicon.png" rel="shortcut icon">
+
+  <!-- Bootstrap css e js, jQuery, e Popper.js (requerido pelo js do bootstrap) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  <!-- Fontes -->
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">LaTeX</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse show" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="estrutura.html">Estrutura</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="texto.html">Manipulação de Texto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="matematica.html">Fórmulas Matemáticas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="extras.html">Listas, Tabelas, Figuras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Acerca</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 mx-auto">
+          <div class="site-heading">
+            <h1 id="heading">Estrutura de um Documento</h1>
+            <span class="subheading">Os comandos relevantes à estruturação e hierarquização do documento</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <div class="alert alert-primary" role="alert">
+          <a>Depois de te familiarizares com o LaTeX faz o nosso </a>
+          <a id="quizLink" href="quiz.html">questionário!</a>
+        </div>
+
+        <p>Ao elaborar qualquer tipo de documento em LaTeX é importante saber a estrutura a que o ficheiro
+          <b>.tex</b> em causa deve obedecer. Ou seja, os comandos indispensáveis à realização de um relatório. </p>
+        <p>Para além disso, existem comandos para alterar a estrutura e hierarquia do documento em si, como, por exemplo:</p>
+        <ul class="tex">
+          <li>Páginas de Capa</li>
+          <li>Índices</li>
+          <li>Capítulos</li>
+          <li>Secções, Sub-Secções</li>
+          <li>Bibliografias</li>
+        </ul>
+
+        <br>
+        <br>
+        <nav class="nav nav-tabs nav-fill" id="subcapitulos" role="tablist">
+          <a class="nav-item nav-link active" id="nav-ficheiro-tab" data-toggle="tab" href="#nav-ficheiro" role="tab" aria-controls="nav-ficheiro"
+            aria-selected="true">Estrutura de um ficheiro
+            <b>.tex</b>
+          </a>
+          <a class="nav-item nav-link" id="nav-documento-tab" data-toggle="tab" href="#nav-documento" role="tab" aria-controls="nav-documento"
+            aria-selected="false">Estrutura do documento</a>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-ficheiro" role="tabpanel" aria-labelledby="nav-ficheiro-tab">
+
+            <!-- ESTRUTURA DE UM FICHEIRO .TEX -->
+            <br>
+            <h3>Estrutura de um ficheiro .tex</h3>
+            <br>
+
+            <div class="list-group">
+              <a href="#1.1.1" class="list-group-item list-group-item-action">\documentclass</a>
+              <a href="#1.1.2" class="list-group-item list-group-item-action">Uso de packages</a>
+              <a href="#1.1.3" class="list-group-item list-group-item-action">Top Matter</a>
+            </div>
+
+            <br>
+            <br>
+
+            <h5 class="seccao" id="1.1.1">documentclass</h5>
+            <button type="button" class="btn btn-primary btn-sm float-right" onclick="location.href='#subcapitulos'">Ir para o índice</button>
+
+            <p>Todos os documentos em LaTeX têm que conter os comandos:</p>
+            <pre>
+\documentclass[options]{class}
+
+\begin{document}
+% Entre estes dois comandos encontra-se o corpo do documento
+\end{document}</pre>
+
+            <p>Existem vários tipos diferentes de classes de documentos.</p>
+
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Classe</th>
+                  <th scope="col">Descrição</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">article</th>
+                  <td>Para artigos em jornais científicos, apresentações, relatórios curtos, ...</td>
+                </tr>
+                <tr>
+                  <th scope="row">IEEEtran</th>
+                  <td>Para artigos com o formato IEEE transactions</td>
+                </tr>
+                <tr>
+                  <th scope="row">proc</th>
+                  <td>Para eventos (baseada na class article)</td>
+                </tr>
+                <tr>
+                  <th scope="row">report</th>
+                  <td>Para relatórios longos que contêm vários capítulos, livros pequenos, ou teses</td>
+                </tr>
+                <tr>
+                  <th scope="row">book</th>
+                  <td>Para livros</td>
+                </tr>
+                <tr>
+                  <th scope="row">slides</th>
+                  <td>Para slides</td>
+                </tr>
+                <tr>
+                  <th scope="row">memoir</th>
+                  <td>Permite alterações sensíveis do documento (baseada na class book)</td>
+                </tr>
+                <tr>
+                  <th scope="row">letter</th>
+                  <td>Para escrever cartas</td>
+                </tr>
+                <tr>
+                  <th scope="row">beamer</th>
+                  <td>Para escrever apresentações</td>
+                </tr>
+              </tbody>
+              <caption>Algumas classes do comando \documentclass</caption>
+            </table>
+
+            <p>Para além destas classes pré-incluídas no LaTeX existem outras que são desenvolvidas por terceiros.</p>
+
+            <p>Apesar de ter que escolher um classe de documento, o utilizador tem a liberdade de alterar algumas definições
+              específicas. Algumas dessas opções incluídas no LaTeX constam na tabela seguinte:</p>
+
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Opção</th>
+                  <th scope="col">Descrição</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">10pt, 11pt, 12pt</th>
+                  <td>Define o tamanho da fonte principal do documento (10pt por defeito)</td>
+                </tr>
+                <tr>
+                  <th scope="row">a4paper, letterpaper, ...</th>
+                  <td>Define o tamanho do papel</td>
+                </tr>
+                <tr>
+                  <th scope="row">fleqn</th>
+                  <td>Alinha as fórmulas matemáticas à esquerda em vez de ao centro</td>
+                </tr>
+                <tr>
+                  <th scope="row">leqno</th>
+                  <td>Coloca a numeração das fórmulas à esquerda em vez de à direita</td>
+                </tr>
+                <tr>
+                  <th scope="row">titlepage, notitlepage</th>
+                  <td>Especifica se deve ser criada uma nova página depois do título.</td>
+                </tr>
+                <tr>
+                  <th scope="row">twocolumn</th>
+                  <td>O conteúdo passa a ser apresentado em duas colunas.</td>
+                </tr>
+                <tr>
+                  <th scope="row">landscape</th>
+                  <td>Altera a orientação do documento para modo paisagem</td>
+                </tr>
+                <tr>
+                  <th scope="row">openright</th>
+                  <td>Obriga os capítulos a começarem em páginas ímpares.</td>
+                </tr>
+                <tr>
+                  <th scope="row">draft</th>
+                  <td>Gera o documento em modo de rascunho, indicando potenciais erros.</td>
+                </tr>
+              </tbody>
+              <caption>Algumas opções do comando \documentclass</caption>
+            </table>
+
+            <p>Por exemplo, se for preciso um relatório com páginas A4, fonte de tamanho 12pt, orientação em modo paisagem,
+              e sem titlepage, devemos usar o comando
+              <b>\documentclass</b> deste modo:</p>
+
+            <pre>
+\documentclass[a4paper, 12pt, landscape, notitlepage]{report}</pre>
+
+            <br>
+            <h5 class="seccao" id="1.1.2">Uso de packages</h5>
+            <button type="button" class="btn btn-primary btn-sm float-right" onclick="location.href='#subcapitulos'">Ir para o índice</button>
+
+            <p>Ao elaborar um documento, podem surgir problemas que as ferramentas do LaTeX base não conseguem resolver. Como,
+              por exemplo, a inclusão de gráficos, texto colorido, ou blocos de código. A solução para estes problemas consiste
+              na utilização de packages. Algumas packages estão incluídas no LaTeX base, enquanto que outras são disponibilizadas
+              separadamente. O comando para incluir uma determinada package num documento é o seguinte:</p>
+
+            <pre>
+\usepackage[options]{package}</pre>
+
+            <p>Em que ’package’ e o nome da package pretendida e ’options’ a lista de opcoes extra que o utilizador quer definir.
+              Este comando é colocado na secção do ficheiro
+              <b>.tex</b> entre os comandos
+              <b>\documentclass</b> e
+              <b>\begin{document}</b> . Como se pode verificar neste exemplo:</p>
+
+            <pre>
+\documentclass{report}
+\usepackage{color}
+\begin{document}</pre>
+
+            <br>
+            <h5 class="seccao" id="1.1.3">Top Matter</h5>
+            <button type="button" class="btn btn-primary btn-sm float-right" onclick="location.href='#subcapitulos'">Ir para o índice</button>
+
+            <p>No início da maioria dos documentos é declarado um conjunto de informações importantes acerca do documento como:</p>
+
+            <ul class="tex">
+              <li>Título</li>
+              <li>Informação sobre o(s) Autor(es)</li>
+              <li>Data</li>
+              <li>Versão do documento</li>
+              <li>Entre outros, ...</li>
+            </ul>
+
+            <p>Todo este tipo de informação é referido coletivamente como top matter. O exemplo seguinte demonstra uma implementação
+              simples de alguns dos comandos referidos:</p>
+
+            <pre>
+\documentclass{report}
+\begin{document}
+\title{Isto constitui um titulo exemplo}
+\author{Jose Silva}
+\date{Novembro 2017}
+\maketitle</pre>
+
+            <p>Como se pode verificar, a Top Matter deve ser terminada com o comando
+              <b>\maketitle</b> , que concretiza a informação previamente numa página de capa gerada automaticamente pelo LaTeX.</p>
+
+          </div>
+          <div class="tab-pane fade" id="nav-documento" role="tabpanel" aria-labelledby="nav-documento-tab">
+
+            <!-- ESTRUTURA DO DOCUMENTO -->
+            <br>
+            <h3>Estrutura do documento</h3>
+            <br>
+
+            <div class="list-group">
+              <a href="#1.2.1" class="list-group-item list-group-item-action">Capítulos, Secções, e Subsecções</a>
+              <a href="#1.2.2" class="list-group-item list-group-item-action">Índice Remissivo</a>
+              <a href="#1.2.3" class="list-group-item list-group-item-action">Lista de figuras / tabelas</a>
+              <a href="#1.2.4" class="list-group-item list-group-item-action">Glossário / Acrónimos</a>
+              <a href="#1.2.5" class="list-group-item list-group-item-action">Bibliografia</a>
+            </div>
+
+            <br>
+            <br>
+            <h5 class="seccao" id="1.2.1">Capítulos, Secções, e Subsecções</h5>
+            <button type="button" class="btn btn-primary btn-sm float-right" onclick="location.href='#subcapitulos'">Ir para o índice</button>
+
+            <p>O LaTeX permite a elaboração de documentos com estrutura organizada e bem definida de forma simples. Dependendo
+              da classe do documento, a estrutura divide-se em Partes (o nível mais abrangente da hierarquia), Capítulos,
+              Secções, Subsecções, Subsubsecções, Parágrafos, e Subparágrafos (o nível menos abrangente da hierarquia). Algumas
+              destas estruturas podem ser verificadas no exemplo seguinte:</p>
+
+            <pre id="hierarquia">
+\chapter{Titulo do Capitulo Exemplo}
+\section{Titulo da Seccao Exemplo}
+\subsection{Titulo da Subseccao Exemplo}</pre>
+
+            <p>De notar o comando
+              <b>\label{id}</b> , (em que
+              <b>id</b> constitui um identificador à escolha do utilizador) que permite que o capítulo seja mais tarde referenciado
+              para interligar tópicos, através do comando
+              <b>\ref{id}</b> O código apresentado anteriormente traduz-se na quebra da página atual e aparecimento da estrutura
+              seguinte:
+            </p>
+
+            <figure>
+              <img src="imagens/hierarquia.png" height="450" width="720"></img>
+              <figcaption>Hierarquia gerada pelo código exemplo</figcaption>
+            </figure>
+
+            <p>Como se pode ver, a hierarquia é bem distinta e apareceu numerada de forma organizada e automática. Esta funcionalidade
+              simplifica muito todo o processo de organização de um documento.</p>
+
+            <br>
+            <h5 class="seccao" id="1.2.2">Índice Remissivo</h5>
+            <button type="button" class="btn btn-primary btn-sm float-right" onclick="location.href='#subcapitulos'">Ir para o índice</button>
+
+            <p>Tal como a numeração de toda hierarquia, o LaTeX é capaz de automatizar todo o processo de elaboração de um índice.
+              Apenas é necessária a introdução de um comando:
+              <b>\tableofcontents</b> .</p>
+            <p>Alternativamente, este comando pode também ser invocado com várias opções de modo a customizar o índice para
+              obter o formato desejado. As hierarquia descrita
+              <a href="#hierarquia">neste exemplo</a> apareceria num índice automático da seguinte forma:</p>
+
+            <figure>
+              <img src="imagens/indice.jpg" height="86" width="720"></img>
+              <figcaption>Parte de um Índice exemplo</figcaption>
+            </figure>
+
+            <br>
+            <h5 class="seccao" id="1.2.3">Lista de figuras / tabelas</h5>
+            <button type="button" class="btn btn-primary btn-sm float-right" onclick="location.href='#subcapitulos'">Ir para o índice</button>
+
+            <p>Tal como o que acontece com os capítulos, secções, subsecções e o respetico índice remissivo, o LaTeX é capaz
+              de numerar automaticamente todas as tabelas e figuras do documento e apresentá-las em forma de lista.</p>
+
+            <p>Os comandos para apresentar estas listas são, como no caso do índice, muito simples:
+              <b>\listoftables</b> , e
+              <b>\listoffigures</b>, respetivamente.
+            </p>
+
+            <figure>
+              <img src="imagens/listadefiguras.png" height="450" width="720"></img>
+              <figcaption>Exemplo de uma lista de figuras gerada automaticamente</figcaption>
+            </figure>
+
+            <br>
+            <h5 class="seccao" id="1.2.4">Glossário / Acrónimos</h5>
+            <button type="button" class="btn btn-primary btn-sm float-right" onclick="location.href='#subcapitulos'">Ir para o índice</button>
+
+            <p>Ao escrever um documento que contem alguns termos com significado específico é conveniente adicionar ao mesmo
+              um glossário. O glossário consiste numa lista de termos pouco conhecidos ou específicos de uma certa área,
+              e as suas definições. Primeiro, é necessário que se invoque a package relevante:</p>
+
+            <pre>\usepackage{glossaries}</pre>
+
+            <p>Ou, para o caso de se necessitar de apresentar também uma página semelhante à do glossário mas com o intuito
+              de apresentar as definições de todos os acrónimos utilizados ao longo do documento:</p>
+
+            <pre>\usepackage[acronym]{glossaries}</pre>
+
+            <p>Depois, mas ainda antes do comando
+              <b>\begin{document}</b> , deve-se proceder conforme este exemplo:</p>
+
+            <pre>
+\makeglossaries
+\newglossaryentry{termo1}
+{
+  name=termo1
+  description={Descricao do termo 1}
+}
+\newglossaryentry{termo2}
+{
+  name=termo2
+  description={Descricao do termo 2}
+}
+\newacronym{ua}{UA}{Universidade de Aveiro}
+\newacronym{deti}{DETI}{Departamento de Eletronica, Telecomunicacoes, e Informatica}</pre>
+
+            <p>Finalmente, devem ser colocados algures no documento (antes do comando \end{document} ) os comandos:</p>
+
+            <pre>
+\printglossary[type=\acronymtype] % Apresenta o glossario de acronimos
+\printglossary % Apresenta o glossario</pre>
+
+            <br>
+            <h5 class="seccao" id="1.2.5">Bibliografia</h5>
+            <button type="button" class="btn btn-primary btn-sm float-right" onclick="location.href='#subcapitulos'">Ir para o índice</button>
+
+            <p>O LaTeX inclui um suporte de bibliografias compreensivo, com o qual se pode guardar as referências das citações
+              no próprio documento ou num à parte (ficheiro
+              <b>.bib</b>). Esta funcionalidade é extremamente importante para a eleboração de relatórios sérios que necessitem
+              de citações.</p>
+
+            <p>Exemplo de sintaxe utilizada no ficheiro
+              <b>.bib</b>:</p>
+
+            <pre>
+@misc{glisc,
+  author={{Grey Literature International Steering Committee}},
+  title={{GLISC}},
+  month={oct},
+  year={2014},
+  note = "[Online; acedido em Outubro 2014]"
+}</pre>
+
+            <p>Comandos necessários antes do comando \begin{document} :</p>
+
+            <pre>
+\usepackage[backend=biber]{biblatex}
+\bibliography{nome-do-ficheiro-bib}</pre>
+
+            <p>Já no corpo do documento, é possível citar usando:</p>
+
+            <pre>
+Texto exemplo para demonstracao da funcionalidade de citacao
+    ~\cite{glisc}.</pre>
+
+            <figure>
+              <img src="imagens/biblio.png" height="450" width="720"></img>
+              <figcaption>Bibliografia gerada pelo código exemplo apresentado</figcaption>
+            </figure>
+
+            <p>Assim, conclui-se que é possivel efetuar citações com o comando
+              <b>\cite{nome-da-entrada-da-db}</b>, desde que exista uma entrada correspondente na base de dados presente no
+              ficheiro
+              <b>.bib</b>
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <footer>Rodrigo Rosmaninho e Jorge C. Silva
+    <br> Universidade de Aveiro - 2018</footer>
+
+</body>

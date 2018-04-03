@@ -1,0 +1,83 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {portuguese}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Estrutura de um Documento}{2}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Estrutura de um ficheiro \textbf {.tex}}{2}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}documentclass}{2}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Uso de packages}{3}{subsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.3}Top Matter}{4}{subsection.2.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Estrutura do documento}{5}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Cap\IeC {\'\i }tulos, Sec\IeC {\c c}\IeC {\~o}es, e Subsec\IeC {\c c}\IeC {\~o}es}{5}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}\IeC {\'I}ndice Remissivo}{6}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Lista de figuras / tabelas}{6}{subsection.2.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.4}Gloss\IeC {\'a}rio / Acr\IeC {\'o}nimos}{7}{subsection.2.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.5}Bibliografia}{7}{subsection.2.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Manipula\IeC {\c c}\IeC {\~a}o de Texto}{9}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Caract\IeC {\'e}res}{9}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.1}Tamanho de Letra}{9}{subsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.2}Fonts}{10}{subsection.3.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.3}Cor}{11}{subsection.3.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1.4}Outras Tranforma\IeC {\c c}\IeC {\~o}es}{12}{subsection.3.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Negrito}{12}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{It\IeC {\'a}lico}{13}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Sublinhar Texto}{13}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\IeC {\^E}nfase}{13}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Formata\IeC {\c c}\IeC {\~a}o}{13}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Par\IeC {\'a}grafos}{14}{subsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.2}\textit {Breaks}}{14}{subsection.3.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Preenchimento de Linhas}{15}{subsection.3.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.4}Alinhamento Textual}{15}{subsection.3.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Alinhamento \IeC {\`a} Esquerda}{15}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Alinhamento \IeC {\`a} Direita}{15}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Alinhamento ao Centro}{15}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Justifica\IeC {\c c}\IeC {\~a}o Total}{16}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.5}Notas de Rodap\IeC {\'e}}{16}{subsection.3.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Escrita de f\IeC {\'o}rmulas matem\IeC {\'a}ticas}{17}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Modo de matem\IeC {\'a}tica}{17}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}S\IeC {\'\i }mbolos matem\IeC {\'a}ticos}{18}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Listas, Tabelas e Imagens}{20}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Listas}{20}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Tabelas}{22}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Imagens}{23}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~o}es}{25}{chapter.6}

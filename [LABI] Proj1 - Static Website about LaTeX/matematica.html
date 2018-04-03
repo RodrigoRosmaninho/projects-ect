@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Matemática | LaTeX</title>
+
+  <link href="imagens/ua_favicon.png" rel="shortcut icon">
+
+  <!-- Bootstrap css e js, jQuery, e Popper.js (requerido pelo js do bootstrap) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  <!-- Fontes -->
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">LaTeX</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse show" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="estrutura.html">Estrutura</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="texto.html">Manipulação de Texto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="matematica.html">Fórmulas Matemáticas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="extras.html">Listas, Tabelas, Figuras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Acerca</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 mx-auto">
+          <div class="site-heading">
+            <h1 id="heading">Fórmulas Matemáticas</h1>
+            <span class="subheading">Funcionalidade indispensável para relatórios da comunidade científica</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <div class="alert alert-primary" role="alert">
+          <a>Depois de te familiarizares com o LaTeX faz o nosso </a>
+          <a id="quizLink" href="quiz.html">questionário!</a>
+        </div>
+
+        <p>Uma das funcionalidades mais atrativas do LaTeX para a comunidade científica é a escrita de fórmulas matemáticas
+          complexas de forma fácil e com apresentação correta. É especialmente útil para fórmulas com contenham símbolos
+          pouco usados no dia-a-dia.</p>
+
+        <p>Equações básicas em LaTeX são fácilmente ’programáveis’, como se pode ver no exemplo seguinte (Teorema de Pitágoras):</p>
+
+        <pre>
+\[ x^2 + y^2 = z^2 \]</pre>
+
+        <br>
+        <img class="center" src="http://latex.codecogs.com/gif.latex?x^2 + y^2 = z^2" border="0" />
+
+        <p id="acima_do_indice">No entanto, a forma mais correta de incluir fórmulas num documento é usando o modo de matemática.
+        </p>
+
+        <br>
+        <div class="list-group">
+          <a href="#3.1" class="list-group-item list-group-item-action">Modo de matemática</a>
+          <a href="#3.2" class="list-group-item list-group-item-action">Símbolos matemáticos</a>
+        </div>
+
+        <br>
+
+        <br>
+        <h5 class="seccao" id="3.1">Modo de matemática</h5>
+        <button type="button" class="btn btn-primary btn-sm float-right" onclick="location.href='#acima_do_indice'">Ir para o índice</button>
+
+        <p>O LaTeX permite a escrita de fórmulas matemáticas em dois modos distintos. Estes são o modo inline, e o modo display.
+          A diferença entre eles pode ser verificada no exemplo seguinte:</p>
+
+        <pre>
+% Modo inline:
+A equivalencia massa-energia e descrita pela famosa equacao $E=mc^2$,
+  descoberta em 1905 por Albert Einstein.
+
+% Modo display:
+A equivalencia massa-energia e descrita pela famosa equacao $$E=mc^2$$,
+  descoberta em 1905 por Albert Einstein.</pre>
+
+        <br>
+        <figure>
+          <img src="imagens/inline_vs_display.png" height="194" width="720" />
+          <figcaption>Resultado do código exemplo apresentado</figcaption>
+        </figure>
+
+        <p>Para utlizar o modo inline, podem ser usados um dos seguintes conjuntos de delimitadores:</p>
+
+        <p class="center">
+          <b>\( ... \), $ ... $, \begin{math} ... \end{math}</b>
+        </p>
+
+        <p>Para utlizar o modo display, podem ser usados um dos seguintes conjuntos de delimitadores:</p>
+
+        <p class="center">
+          <b>\[ ... \], $$ ... $$, \begin{displaymath} ... \end{displaymath}</b>
+        </p>
+
+        <p>Como já foi possível verificar, o símbolo ' ^ ' serve, no modo matemático do L A TEX, para escrever expoentes em
+          equações. Existe outro carater especial digno de referência, ' _ '. Este tem o propósito de indicar um índice.</p>
+
+        <br>
+        <h5 class="seccao" id="3.2">Símbolos matemáticos</h5>
+        <button type="button" class="btn btn-primary btn-sm float-right" onclick="location.href='#acima_do_indice'">Ir para o índice</button>
+
+        <p>Alguns exemplos de símbolos matemáticos incluídos no LaTeX podem ser encontrados nas tabelas que se seguem:</p>
+
+        <!-- NOTA: Ao chamar "http://latex.codecogs.com/gif.latex?COMANDO" é devolvida uma imagem com o texto criado pelo COMANDO em LaTeX -->
+
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Comando</th>
+              <th scope="col">Símbolo</th>
+              <th scope="col">Comando</th>
+              <th scope="col">Símbolo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">\alpha A</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\alpha A" border="0" />
+              </td>
+              <th>\nu N</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\nu N" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\beta B</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\beta B" border="0" />
+              </td>
+              <th>\xi \Xi</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\xi \Xi" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\gamma \Gamma</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\gamma \Gamma" border="0" />
+              </td>
+              <th>oO</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?oO" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\delta \Delta</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\delta \Delta" border="0" />
+              </td>
+              <th>\pi \Pi</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\pi \Pi" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\epsilon \varepsilon E</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\epsilon \varepsilon E" border="0" />
+              </td>
+              <th>\rho \varrho P</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\rho \varrho P" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\zeta Z</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\zeta Z" border="0" />
+              </td>
+              <th>\sigma \Sigma</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\sigma \Sigma" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\eta H</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\eta H" border="0" />
+              </td>
+              <th>\tau T</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\tau T" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\theta \vartheta \Theta</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\theta \vartheta \Theta" border="0" />
+              </td>
+              <th>\upsilon \Upsilon</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\upsilon \Upsilon" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\iota I</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\iota I" border="0" />
+              </td>
+              <th>\phi \varphi \Phi</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\phi \varphi \Phi" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\kappa K</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\kappa K" border="0" />
+              </td>
+              <th>\chi X</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\chi X" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\lambda \Lambda</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\lambda \Lambda" border="0" />
+              </td>
+              <th>\psi \Psi</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\psi \Psi" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\mu M</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\mu M" border="0" />
+              </td>
+              <th>\omega \Omega</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\omega \Omega" border="0" />
+              </td>
+            </tr>
+          </tbody>
+          <caption>Exemplos de símbolos gregos (para usar em equações)</caption>
+        </table>
+
+        <br>
+        <br>
+
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Comando</th>
+              <th scope="col">Símbolo</th>
+              <th scope="col">Comando</th>
+              <th scope="col">Símbolo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">\infty</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\infty" border="0" />
+              </td>
+              <th>\forall</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\forall" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\Re</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\Re" border="0" />
+              </td>
+              <th>\Im</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\Im" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\nabla</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\nabla" border="0" />
+              </td>
+              <th>\exists</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\exists" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\partial</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\partial" border="0" />
+              </td>
+              <th>\emptyset</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\emptyset" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\times</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\times" border="0" />
+              </td>
+              <th>\div</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\div" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\cap</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\cap" border="0" />
+              </td>
+              <th>\cup</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\cup" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\neq</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\neq" border="0" />
+              </td>
+              <th>\subset</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\subset" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\leq</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\leq" border="0" />
+              </td>
+              <th>\geq</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\geq" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\in</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\in" border="0" />
+              </td>
+              <th>\notin</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\notin" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\wedge</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\wedge" border="0" />
+              </td>
+              <th>\vee</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\vee" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\simeq</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\simeq" border="0" />
+              </td>
+              <th>\approx</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\approx" border="0" />
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">\equiv</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\equiv" border="0" />
+              </td>
+              <th>\cong</th>
+              <td>
+                <img src="http://latex.codecogs.com/gif.latex?\cong" border="0" />
+              </td>
+            </tr>
+          </tbody>
+          <caption>Exemplos de símbolos matemáticos avulsos (para usar em equações)</caption>
+        </table>
+
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <hr>
+  <footer>Rodrigo Rosmaninho e Jorge C. Silva
+    <br> Universidade de Aveiro - 2018</footer>
+
+</body>

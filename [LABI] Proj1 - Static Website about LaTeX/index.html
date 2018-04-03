@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Início | LaTeX</title>
+
+  <link href="imagens/ua_favicon.png" rel="shortcut icon">
+
+  <!-- Bootstrap css e js, jQuery, e Popper.js (requerido pelo js do bootstrap) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  <!-- Fontes -->
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <!-- Highcharts JS, para o gráfico -->
+  <script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">LaTeX</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse show" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="estrutura.html">Estrutura</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="texto.html">Manipulação de Texto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="matematica.html">Fórmulas Matemáticas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="extras.html">Listas, Tabelas, Figuras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Acerca</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 mx-auto">
+          <div class="site-heading">
+            <h1 id="heading">Funcionalidades do LaTeX</h1>
+            <span class="subheading">Um sistema de preparação de texto extremamente versátil</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="imagens/latex_logo.png" height="144" width="300"></img>
+            </div>
+            <div class="col-md-6">
+              <p>Um sistema de preparação de texto muito completo, util para qualquer caso, e maioritariamente utilizado para
+                a elaboração relatórios científicos</p>
+            </div>
+          </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div id="grafico" style="width: 700px; height: 500px;"></div>
+        <!-- Script que gere o gráfico -->
+        <script src="js/grafico.js"></script>
+
+        <div align=center>
+          <a style="font-size:80%" href="http://www.cebc.cnrs.fr/publipdf/2009/BTS24_2009.pdf">Fonte das estatísticas</a>
+        </div>
+
+        <br>
+
+        <p>Neste website sobre o sistema de preparação de texto denominado LaTeX, iremos abordar, da forma mais breve e conscisa
+          possível, uma variedade de funcionalidades do sistema, todas de grande utilidade, de forma a servir de apoio a
+          quem necessitar de uma introdução base a LaTeX.
+        </p>
+        <p>
+          Essas funcionalidades podem ser divididas em três grandes grupos:
+        </p>
+
+        <ol>
+          <li>
+            <b>formatação e estruturação do documento</b>
+          </li>
+          <li>
+            <b>formatação de caractéres</b>
+          </li>
+          <li>
+            <b>funcionalidades especiais</b>
+          </li>
+        </ol>
+
+        <p>No primeiro grupo, serão tratadas formas de como é possível iniciar o documento e como definir a sua estrutura básica,
+          dependendo da necessidade do redator. Aqui obterá informação sobre a capitulação, índices, bibliografia, etc...
+          <br> Também será abordada a formatação textual, referente a paragrafização e outros aspetos de formatação textual.
+        </p>
+
+        <p>No segundo grupo será tratado a formatação e transformação de caractéres. Aqui é possível encontrar informação sobre
+          o tamanho dos caractéres, a sua fonte, etc...
+        </p>
+
+        <p>No último grupo mencionado, é dada informação sobre algumas funcionalidades extra do LaTeX. Isto engloba fórmulas
+          matemáticas, criação de listas, tabelas e até inserção de imagens.
+        </p>
+
+        <p>Apesar da quantidade de informação ser algo extensa, este website apenas engloba uma fração de todas as funcionalidades
+          do LaTeX, mas o nosso objetivo é, desde já criar algo de fácil leitura, e que seja capaz de fornecer ao leitor
+          as bases necessárias para iniciar a própria redação de documentos em LaTeX</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <footer>Rodrigo Rosmaninho e Jorge C. Silva
+    <br> Universidade de Aveiro - 2018</footer>
+
+</body>
