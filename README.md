@@ -22,12 +22,13 @@ You should not attempt to copy this
      A multi-page static website on LaTeX Functionalities developed with Jorge C. Silva in 2018  
      The project objective was to demonstrate ability in HTML, CSS, JS and Git
 
-- [[LABI] AP2 - TCP Client for connecting to a remote weather sensor](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BLABI%5D%20AP2%20-%20TCP%20Client%20for%20connecting%20to%20a%20%remote%20weather%20sensor)
+- [[LABI] AP2 - TCP Client for connecting to a remote weather sensor](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BLABI%5D%20AP2%20-%20TCP%20Client%20for%20connecting%20to%20a%20remote%20weather%20sensor)
 
      Grade: 18.5/20
     
      A python TCP client featuring Diffie-Hellman key exchange and AES encription for connecting with and saving data from a remote weather sensor.
      Developed with [Eurico Dias](https://github.com/eurico-dias) in 2018
+     
      The project objective was to demonstrate ability in Python, Encription and hashing, CSV, JSON, and TCP sockets
 
 - [[LSDig] MP1 - FPGA Timer in VHDL](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BLSDig%5D%20MP1%20-%20%20FPGA%20Timer%20in%20VHDL)
