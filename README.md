@@ -30,7 +30,7 @@ You should not attempt to copy this
      Developed with [Eurico Dias](https://github.com/eurico-dias) in 2018
      The project objective was to demonstrate ability in Python, Encription and hashing, CSV, JSON, and TCP sockets
 
-- [[LSDig] MP1 - FPGA Timer in VHDL](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BLSDig%5D%20MP1%20-%20FPGA%20Timer%20in%20VHDL)
+- [[LSDig] MP1 - FPGA Timer in VHDL](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BLSDig%5D%20MP1%20-%20%20FPGA%20Timer%20in%20VHDL)
 
      Grade: 20/20
 

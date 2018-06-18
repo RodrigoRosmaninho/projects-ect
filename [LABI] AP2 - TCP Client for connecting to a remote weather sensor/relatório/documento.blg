@@ -1,0 +1,20 @@
+[0] Config.pm:354> INFO - This is Biber 2.7 (beta)
+[0] Config.pm:357> INFO - Logfile is 'documento.blg'
+[19] biber:303> INFO - === sáb abr 21, 2018, 20:41:45
+[29] Biber.pm:360> INFO - Reading 'documento.bcf'
+[76] Biber.pm:836> INFO - Found 5 citekeys in bib section 0
+[85] Biber.pm:3671> INFO - Processing section 0
+[94] Biber.pm:3841> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
+[95] bibtex.pm:1424> INFO - Decoding LaTeX character macros into UTF-8
+[98] bibtex.pm:1281> INFO - Found BibTeX data source 'bibliografia.bib'
+[102] Utils.pm:164> WARN - month field 'jun' in entry 'rfc' is not an integer - this will probably not sort properly.
+[104] Utils.pm:164> WARN - month field 'may' in entry 'ansi' is not an integer - this will probably not sort properly.
+[105] Utils.pm:164> WARN - month field 'jan' in entry 'fermat' is not an integer - this will probably not sort properly.
+[105] Utils.pm:164> WARN - month field 'apr' in entry 'euler' is not an integer - this will probably not sort properly.
+[113] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[113] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[113] Biber.pm:3500> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'pt-PT'
+[113] Biber.pm:3506> INFO - No sort tailoring available for locale 'pt-PT'
+[115] bbl.pm:608> INFO - Writing 'documento.bbl' with encoding 'UTF-8'
+[116] bbl.pm:712> INFO - Output to documento.bbl
+[116] Biber.pm:110> INFO - WARNINGS: 4

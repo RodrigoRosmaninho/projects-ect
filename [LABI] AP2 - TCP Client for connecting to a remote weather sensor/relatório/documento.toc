@@ -1,0 +1,69 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {portuguese}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Metodologia}{2}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}main.py}{2}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Objetivos}{2}{subsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}M\IeC {\'e}todos}{2}{subsection.2.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}todo main()}{2}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}todo handleFatalError()}{3}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}todo getInfo()}{3}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}todo initialExchange()}{4}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}todos restantes}{4}{section*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}net.py}{4}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Objetivos}{4}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}M\IeC {\'e}todos}{4}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}todo tcpConnect()}{4}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}todo tcpSend()}{5}{section*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}todo tcpRead()}{5}{section*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}security.py}{5}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Contexto}{5}{subsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Troca do segredo partilhado}{5}{section*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Encripta\IeC {\c c}\IeC {\~a}o}{5}{section*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Objetivos}{5}{subsection.2.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}M\IeC {\'e}todos}{6}{subsection.2.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}todo DHGetInitialValues()}{6}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}todo \_checkPrime(num, seg=50)}{7}{section*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}todo DHGetSecret(\textit {p}, \textit {B})}{7}{section*.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}todo encrypt(chave, msg)}{8}{section*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{M\IeC {\'e}todo decrypt(chave, msg)}{8}{section*.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Testes}{9}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}main.py}{9}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}security.py}{9}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Conclus\IeC {\~o}es}{11}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Resultados}{11}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Conclus\IeC {\~a}o}{13}{section.4.2}
