@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun Apr 15 19:01:20 2018
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : fase_3
+Top-level Entity Name : MinSegTimer
+Family : Cyclone IV E
+Total logic elements : 227
+    Total combinational functions : 227
+    Dedicated logic registers : 51
+Total registers : 51
+Total pins : 49
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
