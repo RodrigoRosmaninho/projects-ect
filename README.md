@@ -6,7 +6,7 @@
 
 Detailed README pages for each project coming soon: [#1](https://github.com/RodrigoRosmaninho/projects-ect/issues/1)
 
-You should NOT attempt to copy this if you need to hand in a similar project. Use a
+You should NOT attempt to copy this if you need to hand in a similar project.
 
 #### Project List:
 - [[LABI] AP1 - LaTeX Report about LaTeX Functionalities](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BLABI%5D%20AP1%20-%20LaTeX%20Report%20about%20LaTeX%20Functionalities)
@@ -47,7 +47,7 @@ You should NOT attempt to copy this if you need to hand in a similar project. Us
 
      A Stack implementation of a calculator for FPGAs (DE2-115 kit) using the integrated LCD.
 
-     Made with Rita Amante in 2018
+     Developed in VHDL with Rita Amante in 2018
      
  - [[LABI] Proj2 - Comprehensive Web App for editing music in Python](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BLABI%5D%20Proj2%20-%20Comprehensive%20Web%20App%20for%20editing%20music%20in%20Python)
 
