@@ -1,0 +1,161 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.card {
+  height: 100%;
+}
+
+#user{
+  padding-left: 35px;
+}
+
+.votos{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.upvote:hover {
+  color: #f5511d;
+}
+
+.downvote:hover {
+  color: #5742c1;
+}
+
+audio {
+  background-color: #ffffff;
+  margin-top: 10px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#new_sample {
+  margin-top: 31px;
+  margin-left: 1px;
+}
+
+.avatar {
+  max-height: 65px;
+  max-width: 65px;
+
+  border-radius: 24%;
+
+  margin-bottom: 6px;
+}
+
+.user-link {
+  margin-top: 6px;
+}
+
+.votes {
+  padding-top: 12px;
+}
+
+.song-name {
+  padding-top: 5px;
+}
+
+td {
+  padding-top: 25px;
+}
+
+.admin-ico {
+  margin-bottom: 6px;
+  margin-left: 1px;
+}
+
+.song:not(.page-active) {
+  display: none;
+}
+
+/*#musicsheet {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}*/
+
+#samplelist {
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-bottom: 50px;
+  margin-right: -20px;
+  width: 160px;
+}
+
+.grid {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  
+  border-style: solid;
+  border-color: black;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-right: 2px;
+  border-left: 2px;
+}
+
+#effectlist {
+  margin-top: 50px;
+  margin-right: 0px;
+  margin-left: -20px;
+  margin-bottom: 50px;
+  width: 160px;
+}
+
+.dd-btn {
+  width: 120px;
+  height: 40px;
+  color: black;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  border: 0px #808080;
+  margin-bottom: 5px;
+}
+
+.sampleh:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+#reset:hover {
+  background-color: #FF003A;
+  color: white;
+}
+
+.dd-btn:hover {
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+.dditem {
+  text-align: center;
+}
+
+.celula {
+  width: 40px;
+  height: 40px;
+  color: white;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  border: 1px dotted #007bff;
+}
+
+.center-pills {
+  display: flex;
+  justify-content: center;
+}

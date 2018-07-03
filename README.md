@@ -40,4 +40,4 @@ You should not attempt to copy this
 
 #### Subjects:
 - LABI - Informatics Laboratories (1st and 2nd Semesters, 1st Year)
-- LSDig - Digital Systems Laboratories (2nd Semester 1st Year)
+- LSDig - Digital Systems Laboratories (2nd Semester, 1st Year)

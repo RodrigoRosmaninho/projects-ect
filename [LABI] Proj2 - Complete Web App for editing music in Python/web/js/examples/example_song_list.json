@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Loop0",
+        "id": "a28d4b24452hfE356",
+        "length": 101,
+        "date": "2018-05-01 18:47:00",
+        "uses": 10,
+        "path": "samples/aweyeah.mp3",
+        "votes": -1,
+        "author": "r.rosmaninho"
+    },
+    {
+        "name": "Loop1",
+        "id": "a28d4b24452hfE357",
+        "length": 101,
+        "date": "2018-05-01 04:03:00",
+        "uses": 40,
+        "path": "samples/aweyeah.mp3",
+        "votes": 115,
+        "author": "cafe.ramona"
+    },
+    {
+        "name": "Loop2",
+        "id": "a28d4b24452hfE358",
+        "length": 101,
+        "date": "2018-05-06 15:09:00",
+        "uses": 2,
+        "path": "samples/aweyeah.mp3",
+        "votes": 10,
+        "author": "r.rosmaninho"
+    },
+    {
+        "name": "Loop3",
+        "id": "a28d4b24452hfE359",
+        "length": 101,
+        "date": "2018-04-01 15:03:00",
+        "path": "samples/aweyeah.mp3",
+        "uses": 0,
+        "votes": 0,
+        "author": "r.rosmaninho"
+    }
+]

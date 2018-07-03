@@ -1,0 +1,25 @@
+
+State Machine - |calculadora_stack|datapath:data|lcd_updater:lcd_updater|lcd_controller:DISPLAY|state
+Name state.PROCESS_TXD_REQUESTS state.POWER_ON_PHASE_8 state.POWER_ON_PHASE_7 state.POWER_ON_PHASE_6 state.POWER_ON_PHASE_5 state.POWER_ON_PHASE_4 state.POWER_ON_PHASE_3 state.POWER_ON_PHASE_2 state.POWER_ON_PHASE_1 
+state.POWER_ON_PHASE_1 0 0 0 0 0 0 0 0 0 
+state.POWER_ON_PHASE_2 0 0 0 0 0 0 0 1 1 
+state.POWER_ON_PHASE_3 0 0 0 0 0 0 1 0 1 
+state.POWER_ON_PHASE_4 0 0 0 0 0 1 0 0 1 
+state.POWER_ON_PHASE_5 0 0 0 0 1 0 0 0 1 
+state.POWER_ON_PHASE_6 0 0 0 1 0 0 0 0 1 
+state.POWER_ON_PHASE_7 0 0 1 0 0 0 0 0 1 
+state.POWER_ON_PHASE_8 0 1 0 0 0 0 0 0 1 
+state.PROCESS_TXD_REQUESTS 1 0 0 0 0 0 0 0 1 
+
+State Machine - |calculadora_stack|controlpath:control|PS
+Name PS.erro_op PS.erro_num PS.validar_op PS.validar_num PS.eliminar_pos PS.calcular_op PS.guardar_num PS.introd_op PS.ver_pilha PS.introd_num 
+PS.introd_num 0 0 0 0 0 0 0 0 0 0 
+PS.ver_pilha 0 0 0 0 0 0 0 0 1 1 
+PS.introd_op 0 0 0 0 0 0 0 1 0 1 
+PS.guardar_num 0 0 0 0 0 0 1 0 0 1 
+PS.calcular_op 0 0 0 0 0 1 0 0 0 1 
+PS.eliminar_pos 0 0 0 0 1 0 0 0 0 1 
+PS.validar_num 0 0 0 1 0 0 0 0 0 1 
+PS.validar_op 0 0 1 0 0 0 0 0 0 1 
+PS.erro_num 0 1 0 0 0 0 0 0 0 1 
+PS.erro_op 1 0 0 0 0 0 0 0 0 1 

@@ -1,0 +1,17 @@
+\select@language {portuguese}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Interface Web}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Lista de M\IeC {\'u}sicas}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}Lista de Excertos}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Cria\IeC {\c c}\IeC {\~a}o de M\IeC {\'u}sica}{5}{section.2.3}
+\contentsline {chapter}{\numberline {3}Aplica\IeC {\c c}\IeC {\~a}o Web}{7}{chapter.3}
+\contentsline {chapter}{\numberline {4}Persist\IeC {\^e}ncia}{9}{chapter.4}
+\contentsline {chapter}{\numberline {5}Gerador de M\IeC {\'u}sicas}{11}{chapter.5}
+\contentsline {section}{\numberline {5.1}Interpreta\IeC {\c c}\IeC {\~a}o da pauta}{11}{section.5.1}
+\contentsline {section}{\numberline {5.2}Aplica\IeC {\c c}\IeC {\~a}o de Efeitos}{12}{section.5.2}
+\contentsline {section}{\numberline {5.3}Composi\IeC {\c c}\IeC {\~a}o da m\IeC {\'u}sica}{12}{section.5.3}
+\contentsline {section}{\numberline {5.4}Escrita do ficheiro}{13}{section.5.4}
+\contentsline {chapter}{\numberline {6}Gera\IeC {\c c}\IeC {\~a}o da imagem da pauta}{14}{chapter.6}
+\contentsline {chapter}{\numberline {7}Testes}{15}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclus\IeC {\~o}es}{16}{chapter.8}
+\contentsline {subsubsection}{Divis\IeC {\~a}o do Trabalho}{16}{section*.8}

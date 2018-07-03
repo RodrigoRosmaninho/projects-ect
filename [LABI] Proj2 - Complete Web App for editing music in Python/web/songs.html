@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>labi2018-p2-g1</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="web/css/vendor/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Custom styles for this template -->
+  <link href="web/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Puré de Som</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="songs">Músicas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="samples">Excertos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="create">Nova Música</a>
+          </li>
+          <li class="nav-item">
+            <a id="user" class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Utilizador</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Jumbotron Header -->
+    <header class="jumbotron my-4">
+      <h1 class="display-3">Lista de Músicas</h1>
+      <p class="lead">Já encontraste a tua música na lista? Conheces o nosso sistema de karma? <br/>
+      Descobre quantas pessoas já usaram a tua música e vê quanto karma tem!</p>
+      <label id="order_label" for="dropdown-div">Ordenar Por</label>
+      <div id="dropdown-div" class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          Nome da Música
+        </button>
+        <div id="order-dropdown" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" onclick="changeSort()">Nome da Música</a>
+          <a class="dropdown-item" onclick="changeSort('data')">Data de criação</a>
+          <a class="dropdown-item" onclick="changeSort('votos')">Nº de votos</a>
+          <a class="dropdown-item" onclick="changeSort('usos')">Nº de usos</a>
+        </div>
+        <div class="form-check form-check-inline" style="margin-left: 25px;">
+          <input class="form-check-input" type="radio" name="asc_desc" id="desc_radio" value=1 checked="">
+          <label class="form-check-label active" for="asc_radio">Descendente</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="asc_desc" id="asc_radio" value=0>
+          <label class="form-check-label" for="desc_radio">Ascendente</label>
+        </div>
+      </div>
+    </header>
+
+    <!-- Popup -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Alterar avatar</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>A imagem antiga poderá continuar a ser exibida devido à cache. Reinicie o browser se tal acontecer.</p>
+            <form action="newAvatar/" method="post" enctype="multipart/form-data">
+              <div class="input-group">
+                <input id="avatar_upload" name="avatar_upload" type="file" accept=".png,.jpg,.bnp,.JPG,.PNG,.BNP" class="form-control-file file"
+                  id="exampleFormControlFile1" data-show-preview="false" required>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="submit" class="btn btn-primary">Guardar as alterações</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page Features -->
+    <div class="row text-center">
+
+      <table class="table table-hover">
+        <tbody id="list">
+
+        </tbody>
+      </table>
+      <div align="center">
+        <ul id="paginacao" class="pagination"></ul>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Projeto realizado no âmbito da U.C. de Laboratórios de Informática</p>
+      <p class="m-0 text-center text-white">Grupo 1</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="web/js/vendor/jquery-3.3.1.min.js"></script>
+  <script src="web/js/vendor/jquery.twbsPagination.min.js"></script>
+  <script src="web/js/vendor/bootstrap.bundle.min.js"></script>
+
+  <script src="web/js/main.js"></script>
+  <script src="web/js/songlist.js"></script>
+
+</body>
+
+</html>

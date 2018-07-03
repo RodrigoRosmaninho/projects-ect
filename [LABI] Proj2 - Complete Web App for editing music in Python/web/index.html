@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>labi2018-p2-g1</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="web/css/vendor/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="web/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Puré de Som</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="songs">Músicas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="samples">Excertos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="create">Nova Música</a>
+          </li>
+          <li class="nav-item">
+            <a id="user" class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal">Utilizador</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <script src="web/js/main.js"></script>
+
+  <!-- Popup -->
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Alterar avatar</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>A imagem antiga poderá continuar a ser exibida devido à cache. Reinicie o browser se tal acontecer.</p>
+          <form action="newAvatar/" method="post" enctype="multipart/form-data">
+            <div class="input-group">
+              <input id="avatar_upload" name="avatar_upload" type="file" accept=".png,.jpg,.bnp,.JPG,.PNG,.BNP" class="form-control-file file"
+                id="exampleFormControlFile1" data-show-preview="false" required>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <button type="submit" class="btn btn-primary">Guardar as alterações</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Jumbotron Header -->
+    <header class="jumbotron my-4">
+      <h1 class="display-3">Puré de Som!</h1>
+      <p class="lead">Sempre quiseste ser um disc jockey como o Avicii mas estás vivo? A tua mãe não quer comprar 
+      uma mesa de mistura porque depois custa muito a limpar o pó? Então este é o endereço eletrónico que procuras!
+    <br><br>Nota que podes alterar o teu avatar clicando no teu nome de utilizador no canto superior direito!</p>
+    </header>
+
+    <!-- Page Features -->
+    <div class="row text-center">
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="web/static/song_list.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Lista de Músicas</h4>
+            <p class="card-text">Vem ver todas as músicas que os nossos utilizadores já criaram. Não te esqueças de votar nas tuas favoritas!</p>
+          </div>
+          <div class="card-footer">
+            <a href="songs" class="btn btn-primary">Clica aqui!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="web/static/sample_list.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Lista de Excertos</h4>
+            <p class="card-text">Já sabes que excertos de sons queres usar nas tuas criações? Temos aqui sugestões para ti!</p>
+          </div>
+          <div class="card-footer">
+            <a href="samples" class="btn btn-primary">Clica aqui!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="web/static/create_page.png" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Criação de Músicas</h4>
+            <p class="card-text">Tens tudo pensado? Então mete as mãos na mesa e mostra a todos a tua música!</p>
+          </div>
+          <div class="card-footer">
+            <a href="create" class="btn btn-primary">Clica aqui!</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Projeto realizado no âmbito da U.C. de Laboratórios de Informática</p>
+      <p class="m-0 text-center text-white">Grupo 1</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="web/js/vendor/jquery-3.3.1.min.js"></script>
+  <script src="web/js/vendor/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
