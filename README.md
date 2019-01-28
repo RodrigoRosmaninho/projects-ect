@@ -63,10 +63,24 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Made with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PivZ-24), and João Trindade in 2018
 
-    
+ - [[MPEI] PF - Directory file checker using bloom filter and minhashing](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BMPEI%5D%20PF%20-%20Directory%20file%20checker%20using%20bloom%20filter%20and%20minhashing)
+
+     Grade: 19/20
+
+     A Java Swing desktop application to check a directory for duplicates and check if a file belongs to a certain directory
+
+     #### Components:
+     - Counting Bloom Filter
+     - MinHash similarity detection (Jaccard Distance)
+     - Locality Sensitive Hashing
+     - Universal hashing algorithm
+     - Java Swing
+
+     Made with [André Alves](https://github.com/eurico-dias) in 2018
 
 <br>
 
 #### Subjects:
 - LABI - Informatics Laboratories (1st and 2nd Semesters, 1st Year)
 - LSDig - Digital Systems Laboratories (2nd Semester, 1st Year)
+- MPEI - Probabilistic Methods for Computer Science (1st Semestre, 2nd Year)
