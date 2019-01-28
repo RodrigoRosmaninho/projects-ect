@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DirectoryTools:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DirectoryTools_jar</output-path>
+    <root id="archive" name="DirectoryTools.jar">
+      <element id="module-output" name="DirectoryTools" />
+    </root>
+  </artifact>
+</component>

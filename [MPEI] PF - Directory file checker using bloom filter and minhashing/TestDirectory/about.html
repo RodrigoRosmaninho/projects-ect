@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Acerca | LaTeX</title>
+
+  <link href="imagens/ua_favicon.png" rel="shortcut icon">
+
+  <!-- Bootstrap css e js, jQuery, e Popper.js (requerido pelo js do bootstrap) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+  <!-- Fontes -->
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <!-- Leaflet JS, para o Mapa -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">LaTeX</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse show" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="estrutura.html">Estrutura</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="texto.html">Manipulação de Texto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="matematica.html">Fórmulas Matemáticas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="extras.html">Listas, Tabelas, Figuras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Acerca</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 mx-auto">
+          <div class="site-heading">
+            <h1 id="heading">Acerca deste website</h1>
+            <span class="subheading">Informação sobre a realização deste projeto</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Para o popover das contribuições de cada um -->
+  <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })  
+  </script>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <h2>Funcionalidades do LaTeX</h2>
+        <br>
+
+        <nav class="nav nav-tabs nav-fill" id="subcapitulos" role="tablist">
+          <a class="nav-item nav-link active" id="nav-info-tab" data-toggle="tab" href="#nav-info" role="tab" aria-controls="nav-info"
+            aria-selected="true">Informação
+          </a>
+          <a class="nav-item nav-link" id="nav-agradecimentos-tab" data-toggle="tab" href="#nav-agradecimentos" role="tab" aria-controls="nav-agradecimentos"
+            aria-selected="false">Agradecimentos</a>
+          <a class="nav-item nav-link" id="nav-biblio-tab" data-toggle="tab" href="#nav-biblio" role="tab" aria-controls="nav-biblio"
+            aria-selected="false">Conteúdos externos</a>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-info" role="tabpanel" aria-labelledby="nav-info-tab">
+
+            <br>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-6">
+                  <div class="card">
+                    <img class="card-img-top" src="imagens/rr.jpg">
+                    <div class="card-body">
+                      <h4 class="card-title">Rodrigo Rosmaninho</h4>
+                      <p class="card-text">
+                        <b>Num. Mec.:</b> 88802
+                        <br>
+                        <a href="mailto:r.rosmaninho@ua.pt">r.rosmaninho@ua.pt</a>
+                      </p>
+                      <a tabindex="0" class="btn btn-primary" role="button" data-html="true" data-trigger="focus" data-placement="bottom" data-toggle="popover"
+                        title="Contribuições" data-content="<ul><li>Página estrutura.html</li><li>Página matematica.html</li><li>Página about.html</li><li>Página quiz.html e código javascript (quiz.js)</li></ul><hr><p class='center'>Percentagem de colaboração:</p><div align='center'><h5 style='color: #0099ff;'>50%</h5></div><br>">Ver contribuições</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="card">
+                    <img class="card-img-top" data-toggle="modal" data-target="#EasterEggModal" src="imagens/jcs.jpg">
+                    <div class="card-body">
+                      <h4 class="card-title">Jorge C. Silva</h4>
+                      <p class="card-text">
+                        <b>Num. Mec.:</b> 88790
+                        <br>
+                        <a href="mailto:jorgemcsilva99@ua.pt">jorgemcsilva99@ua.pt</a>
+                      </p>
+                      <a tabindex="0" class="btn btn-primary" role="button" data-html="true" data-trigger="focus" data-placement="bottom" data-toggle="popover"
+                        title="Contribuições" data-content="<ul><li>Página texto.html</li><li>Página extras.html</li><li>Página index.html</li><li>Questões e respostas para o quiz (perguntas.json)</li></ul><hr><p class='center'>Percentagem de colaboração:</p><div align='center'><h5 style='color: #0099ff;'>50%</h5></div><br>">Ver contribuições</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <br>
+            <hr>
+            <div align="center">
+              <p>
+                <img src="http://code.ua.pt/themes/redmine_alex_skin/images/logo-neg.png" /> &nbsp; &nbsp;
+                <a style="text-align:right;" href="http://code.ua.pt/projects/labi2017-t5g1">http://code.ua.pt/projects/labi2017-t5g1</a>
+              </p>
+              <br>
+              <p>Projeto entrege a 25/01/2018 e realizado com a supervisão de:</p>
+              <p>
+                <b>Professor Auxiliar António Manuel Adrego da Rocha</b>
+              </p>
+              <p>no âmbito da unidade curricular de:</p>
+              <p>
+                <b>Laboratórios de Informática</b>
+              </p>
+              <p>do curso:</p>
+              <p>
+                <b>Mestrado Integrado em Engenharia de Computadores e Telemática</b>
+              </p>
+            </div>
+
+            <img src="http://www.wptc2016.org/wp-content/uploads/2015/03/deti4.png" height="143" width="720" />
+            <br>
+            <br>
+
+            <div id="mapa" align="center">
+              <!-- Script que gere o Mapa -->
+              <script type="text/javascript" src="js/mapa.js"></script>
+              <button onclick="mostrarMapa()" class="btn btn-primary">Mostrar DETI no mapa</button>
+            </div>
+
+            <br>
+          </div>
+
+          <div class="tab-pane fade" id="nav-agradecimentos" role="tabpanel" aria-labelledby="nav-agradecimentos-tab">
+            <p>Gostaríamos de agradeçer a:</p>
+            <ul>
+              <li>
+                <b>Associação de Eletrónica, Telecomunicações, e Telemática da Universidade de Aveiro (AETTUA) e Professor Miguel
+                  Oliveira e Silva</b>
+                <br>pelos workshops de LaTeX que ocorreram nos dias 14 e 21 de Novembro, e que nos ajudaram muito na realização
+                deste trabalho.</li>
+              <br>
+              <li>
+                <b>Professor Auxiliar António Manuel Adrego da Rocha</b>
+                <br>pelas aulas elucidantes que nos foram dadas sobre LaTeX, HTML, CSS, e Javascript, sem as quais não conseguiríamos
+                ter completado este projeto.
+              </li>
+              <br>
+              <li>
+                <b>Departamento de Eletrónica, Telecomunicações, e Informática (DETI)</b>
+                <br>pela cedência de salas livres nas quais pudemos elaborar o projeto em conjunto.
+              </li>
+              <br>
+              <li>
+                <b>Professor Auxiliar João Paulo Barraca</b>
+                <br>pelo esclarecimento de variadas dúvidas sobre este projeto.</li>
+            </ul>
+
+          </div>
+
+          <div class="tab-pane fade" id="nav-biblio" role="tabpanel" aria-labelledby="nav-biblio-tab">
+            <p>Para a realização de este projeto foram utilizados alguns recursos externos:</p>
+
+            <h5>Template Bootstrap</h5>
+            <p>De acordo com o ficheiro 'Frequently Asked Questions' presente na secção relativa ao Projeto 1 do e-learning,
+              foi-nos permitida a utilização de qualquer template público, desde que tal fosse explicitado na página 'acerca'
+              do nosso website.</p>
+            <p>Como tal, usámos parte de um template bootstrap disponível
+              <a href="https://startbootstrap.com/template-overviews/clean-blog/">neste link</a>
+            </p>
+            <h5>Bibliotecas Externas</h5>
+            <p>Foram utilizadas as seguintes bibliotecas externas: </p>
+
+            <ul>
+              <li>Twitter Bootstrap - v4.0 (Beta 2)</li>
+              <li>jQuery - v3.2.1</li>
+              <li>Popper (requerido pela componente js do bootstrap) - v1.11.0</li>
+              <li>Leaflet - v1.0.2</li>
+              <li>HighCharts.js</li>
+            </ul>
+
+            <br>
+            <h5>Imagens</h5>
+            <p>Todas as imagens presentes neste website foram obra dos autores ou obtidas de websites pertencentes à Universidade
+              de Aveiro.</p>
+
+            <br>
+            <h5>Bibliografia</h5>
+            <p>Nota: Os títulos contêm hiper-ligações.</p>
+            <br>
+
+            <ol>
+              <li>
+                <a href="https://en.wikibooks.org/wiki/LaTeX/Document_Structure">en.wikibooks.org, LaTeX/Document Structure</a>, acedido em Novembro de 2017
+              </li>
+              <br>
+              <li>
+                <a href="https://pt.sharelatex.com/learn/Glossaries">sharelatex.com, Glossaries</a>, acedido em Novembro de 2017
+              </li>
+              <br>
+              <li>
+                <a href="https://pt.sharelatex.com/learn/Bibliography_management_in_LaTeX">sharelatex.com, Bibliography management in LaTeX</a>, acedido em Novembro de 2017
+              </li>
+              <br>
+              <li>
+                <a href="https://elearning.ua.pt">João Paulo Barraca, Diogo Gomes, André Zúquete, João Manuel Rodrigues, António Adrego da Rocha, Tomás Oliveira
+                  e Silva, Sílvia Rodrigues e Óscar Pereira, LABI Guião 3 - Produção de documentos com LATEX</a>, acedido
+                em Novembro de 2017
+              </li>
+              <br>
+              <li>
+                <a href="https://pt.sharelatex.com/learn/Font_sizes,_families,_and_styles">sharelatex.com, Fonts</a>, acedido em Novembro de 2017
+              </li>
+              <br>
+              <li>
+                <a href="https://en.wikibooks.org/wiki/LaTeX/Colors">en.wikibooks.org, LaTeX/Colors</a>, acedido em Novembro de 2017
+              </li>
+              <br>
+              <li>
+                <a href="https://en.wikibooks.org/wiki/LaTeX/Fonts">en.wikibooks.org, LaTeX/Fonts</a>, acedido em Novembro de 2017
+              </li>
+              <br>
+              <li>
+                <a href="https://en.wikibooks.org/wiki/LaTeX/Paragraph_Formatting">en.wikibooks.org, LaTeX/Paragraph Formatting</a>, acedido em Novembro de 2017
+              </li>
+              <br>
+              <li>
+                <a href="https://pt.sharelatex.com/learn/Line_breaks_and_blank_spaces">sharelatex.com, Line breaks and blank spaces</a>, acedido em Novembro de 2017
+              </li>
+              <br>
+              <li>
+                <a href="https://en.wikibooks.org/wiki/LaTeX/Footnotes_and_Margin_Notes">en.wikibooks.org, LaTeX/Footnotes and Margin Notes</a>, acedido em Novembro de 2017
+              </li>
+              <br>
+              <li>
+                <a href="https://pt.sharelatex.com/learn/Mathematical_expressions">sharelatex.com, Mathematical expressions</a>, acedido em Novembro de 2017
+              </li>
+              <br>
+              <li>
+                <a href="https://pt.sharelatex.com/learn/List_of_Greek_letters_and_math_symbols">sharelatex.com, List of Greek letters and math symbols</a>, acedido em Novembro de 2017
+              </li>
+              <br>
+              <li>
+                <a href="https://pt.sharelatex.com/learn/Tables">sharelatex.com, Tables</a>, acedido em Novembro de 2017
+              </li>
+              <br>
+              <li>
+                <a href="https://pt.sharelatex.com/learn/Inserting_Images">sharelatex.com, Inserting Images, LaTeX/Document Structure</a>, acedido em Novembro de 2017
+                <br><br>
+              </li>
+              <li>
+                <a href="http://www.cebc.cnrs.fr/publipdf/2009/BTS24_2009.pdf">cebc.cnrs.fr, Don't format manuscripts</a>, acedido em Janeiro de 2018
+              </li>
+            </ol>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- EASTER EGG -->
+  <div class="modal fade" id="EasterEggModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Error: CHICKEN!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img src="imagens/easter_egg.gif" />
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <footer>Rodrigo Rosmaninho e Jorge C. Silva
+    <br> Universidade de Aveiro - 2018</footer>
+
+</body>
