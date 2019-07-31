@@ -1,0 +1,12 @@
+main():
+    local num x
+    x = 10
+
+    local num y = x
+    local num z = 20
+
+    z++
+
+    y = -z + 3
+    local num amazing = -3
+end

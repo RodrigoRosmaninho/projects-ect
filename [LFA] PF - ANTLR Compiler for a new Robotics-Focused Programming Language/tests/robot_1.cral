@@ -1,0 +1,8 @@
+behav goFwd until false:
+    call motors(left=100,right=100)
+end
+
+main():
+    call print(str="starting")
+    set goFwd
+end

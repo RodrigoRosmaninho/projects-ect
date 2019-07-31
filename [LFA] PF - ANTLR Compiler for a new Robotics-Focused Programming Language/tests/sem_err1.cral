@@ -1,0 +1,20 @@
+#local vs global errors
+
+main():
+	local num a=0
+	
+	num x=1
+	
+	while true:
+		a=x # must not report error
+		local num b=0
+	end
+	
+	b=8 # must report error
+end
+
+f():
+	x=7
+	
+	a=8 # must report error
+end

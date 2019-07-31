@@ -1,0 +1,203 @@
+// dictionaries: allows simple translations
+
+booleanValue ::= [
+   "true":"1",
+   "false":"0",
+   default:"null"
+]
+
+typeValue ::= [
+   "integer":"int",
+   "num":"double",
+   "cond":"bool",
+   "bool":"bool",
+   "string":"string",
+   default:"void"
+]
+
+typeFormat ::= [
+   "integer":"%d",
+   "real":"%lg",
+   "boolean":"%d",
+   "char":"%c",
+   "string":"%s",
+   default:"null"
+]
+
+operators ::= [
+   "*":"*",
+   "/":"/",
+   "%":"%",
+   "+":"+",
+   "-":"-",
+   "^":"^",
+   "==":"==",
+   "is":"==",
+   "!=":"!=",
+   ">" : ">",
+   ">=":">=",
+   "<" : "<",
+   "<=":"<=",
+   "and":"&&",
+   "or":"||",
+   "not":"!",
+   default:"null"
+]
+
+lessThanOperators ::= [
+    "]" : "<=",
+    "[" : "<",
+    default:"null"
+]
+
+moreThanOperators ::= [
+    "]" : ">",
+    "[" : ">=",
+    default:"null"
+]
+
+
+// templates:
+
+module(header,decl,top) ::= <<
+<hardcoded()>
+<header>
+<declarations(decl)>
+<tops(top)>
+>>
+
+hardcoded() ::= <<
+#include \<string>
+using namespace std;
+
+int len(string str) {
+return str.size();
+}
+
+>>
+
+tops(top) ::= <<
+<if(top)><top; separator="\n"><endif>
+>>
+
+function(type,name,argDefine,stat) ::= <<
+<typeValue.(type)> <name>(<if(argDefine)><argDefine; separator=", "><endif>){
+    <stats(stat)>
+}
+>>
+
+behaviour(name,pre_stat,pre_decl,var,stat,apply) ::= <<
+void <name>(){
+    <stats(pre_decl)>
+    while(!<var>){
+        <apply>;
+        <stats(stat)>
+        <stats(pre_stat)>
+    }
+}
+>>
+
+stats(stat) ::= <<
+<if(stat)><stat; separator="\n"><endif>
+>>
+
+terminalStat(stat) ::= <<
+<stat>;
+>>
+
+functionCall(type,var,name,arg,pre_decl) ::= <<
+<if(pre_decl)><stats(pre_decl)><endif>
+<if(var)><typeValue.(type)> <var> = <endif><name>(<args(arg)>)<if(var)>;<endif>
+>>
+
+args(arg) ::= <<
+<if(arg)><arg; separator=", "><endif>
+>>
+
+argDefine(arg, type) ::= <<
+<typeValue.(type)> <arg>
+>>
+
+when(stat,conditional,else_stat) ::= <<
+<stats(stat)>
+<if(conditional)><conditional; separator="\nelse "><endif>
+<if(else_stat)>else {
+    <stats(else_stat)>
+}<endif>
+>>
+
+conditional(var,stat) ::= <<
+if (<var>) {
+    <stats(stat)>
+}
+>>
+
+until(var,pre_decl,pre_stat,stat) ::= <<
+<stats(pre_decl)>
+while(!<var>){
+    <stats(stat)>
+    <stats(pre_stat)>
+}
+>>
+
+while(var,pre_decl,pre_stat,stat) ::= <<
+<stats(pre_decl)>
+while(<var>){
+    <stats(stat)>
+    <stats(pre_stat)>
+}
+>>
+
+for(var,pre_decl,pre_stat,stat,pos_stat) ::= <<
+<stats(pre_decl)>
+while(<var>){
+    <stats(stat)>
+    <stats(pre_stat)>
+    <stats(pos_stat)>
+}
+>>
+
+return(var, pre_stat) ::= <<
+<stats(pre_stat)>
+return <var>;
+>>
+
+init(val) ::= "<if(val)> = <val><endif>"
+decl(type,var,val) ::= "<typeValue.(type)> <var><init(val)>;"
+
+declarations(decl) ::= <<
+<if(decl)><decl; separator="\n"><endif>
+>>
+
+assignment(stat,var,val) ::= <<
+<stats(stat)>
+<var> = <val>;
+>>
+
+assignOp(pre_stat,var,op,val) ::= <<
+<if(pre_stat)><stats(pre_stat)><endif>
+<var> <op>= <val>;
+>>
+
+squareBracketsInterval(var,bracket1,e1,e2,bracket2) ::= <<
+<var> <moreThanOperators.(bracket1)> <e1> && <var> <lessThanOperators.(bracket2)> <e2>
+>>
+
+binaryExpression(type,var,e1,op,e2) ::= "<decl(type,var,[e1,\" \",operators.(op),\" \",e2])>"
+ternaryExpression(type,var,e1,op1,e2,op2,e3) ::= "<decl(type,var,[e1,\" \",operators.(op1),\" \",e2,\" \",\"&&\",\" \",e2,\" \",operators.(op2),\" \",e3])>"
+
+stringConcats(strCat) ::= <<
+<if(strCat)><strCat; separator="\n"><endif>
+>>
+
+stringConcatOthers(var,val,valVar) ::= <<
+<var> = <var> + to_string(<if(val)>"<val>"<endif><if(valVar)><valVar><endif>);
+>>
+
+stringConcatStr(var,val,valVar) ::= <<
+<var> = <var> + <if(val)>"<val>"<endif><if(valVar)><valVar><endif>;
+>>
+
+literalBoolean(val) ::= "<booleanValue.(val)>"
+
+atom(val) ::= "<val>"

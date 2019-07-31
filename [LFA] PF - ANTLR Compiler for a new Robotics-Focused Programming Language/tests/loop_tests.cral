@@ -1,0 +1,40 @@
+#cycle functionality
+
+main():
+	call init(name="TESTE",pos=0)
+	local bool a=(2==4)
+	
+	while a:
+		break
+		#local num a=5
+	end
+	
+	until a:
+		break
+	end
+	
+	until a:
+		while a:
+			while 2==4:
+				until a:
+					local num c = 2
+				end
+				local num b = 5
+				break
+			end
+			break
+		end
+		break
+	end
+	
+	for num a in ]3,7[:
+		for num b in [3,7]:
+			break
+		end
+		break
+	end
+	
+	#*for num b in [3,7]:
+		break
+	end*#
+end

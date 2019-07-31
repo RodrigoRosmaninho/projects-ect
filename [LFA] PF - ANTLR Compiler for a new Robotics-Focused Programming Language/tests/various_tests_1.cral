@@ -1,0 +1,55 @@
+# Função que retorna a soma dos dois números passados como argumento
+num something(num a, num b):
+    return a + b
+end
+
+num x = 2
+num y = 4
+cond verif = x > 6
+
+# Declarar um behaviour
+behav doStuff until verif:
+    local string b = "My \$x\$ is $x$ and my \$y\$ is $y$!"
+    x++
+end
+
+main():
+    local num k = -12+(3*6+4*5)+(-5)
+
+    # Comentário
+    when
+        x > 4: x = 0
+        x < 2: x = 1
+        verif: x = 2
+        x in [4-2,6+y]: x = 3
+        other: x = 4
+    end
+
+    while true:
+        x = 0
+    end
+
+    while x > -500:
+        while x > -1000:
+            x = 2
+        end
+        x = 20
+    end
+
+    while 19 < x < 36:
+        local num get = 2
+    end
+
+    num sumth = 2
+    sumth = something(b=2, a=6)
+
+    something(b=-12, a=16)
+
+    for num i in ]3, 6]:
+        x = i
+    end
+
+    set doStuff
+
+    bool check_it = verif is true
+end

@@ -1,0 +1,9 @@
+main():
+    num x = 10
+    num k = 22
+    string str1 = ""
+    string str2 = "This is a string"
+    string str3 = "\$\$\$\$"
+    string str4 = "$x$$k$"
+    string str5 = "\$\$Valor\$\$ de x é $x$ e de y é $k$!!"
+end

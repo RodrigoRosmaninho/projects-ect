@@ -1,0 +1,19 @@
+#functions and behaviours
+
+
+cond x=true
+
+behav b until x:
+
+end
+
+num f(num a):
+	return 0
+end
+
+main():
+	set b
+	num y
+	y=f(a=0)
+	f(a=7)
+end

@@ -1,0 +1,28 @@
+main():
+    num a=0
+    cond x=(a>0)
+
+    bool b=true
+    cond y=b
+
+    bool bo = x is true
+
+    a += 8
+    a -= 9
+    a *= 6
+    a /= 4
+    a %= 3
+
+    a = (a+2) - (2+4*3)/5
+
+   a=8
+   a=a
+   a=-8
+
+   b = not b
+   b = not(b and b or b)
+
+  b = b and b
+
+  b= not(b)
+end

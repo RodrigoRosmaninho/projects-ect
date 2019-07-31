@@ -1,0 +1,14 @@
+#issues with cond type
+
+cond c1
+cond c2=false
+cond c3=false
+
+bool func(num a):
+	return true
+end
+
+main():
+	local cond c1=func(a=0)
+	bool a=c1
+end

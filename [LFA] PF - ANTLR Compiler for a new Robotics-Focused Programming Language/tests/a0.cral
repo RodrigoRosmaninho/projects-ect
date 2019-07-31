@@ -1,0 +1,85 @@
+num target = 1
+cond facing_beacon = call beaconAngle(id=target) in ]-10,10[
+cond at_beacon = call groundType() == target
+cond facing_start = call startAngle() in ]-10,10[
+cond at_start = call startDistance() < 50
+cond left_of_beacon  = call beaconAngle(id=target) < -5
+cond right_of_beacon = call beaconAngle(id=target) > 5
+cond left_of_start = call startAngle() < -5
+cond right_of_start = call startAngle() > 5
+
+behav faceBeacon until facing_beacon:
+    call motors(left=-60, right=60)
+end
+
+behav faceStart until facing_start:
+    call motors(left=-60, right=60)
+end
+
+behav goToBeaconAvoidingObstacles until at_beacon :
+    # going to target, adjusting orientation if necessary
+    # get sensor data and beacon angle
+    local num fd = call distance(sensor=FRONTSENSOR)
+    local num ld = call distance(sensor=LEFTSENSOR)
+    local num rd = call distance(sensor=RIGHTSENSOR)
+    local num ba = call beaconAngle(id=target)
+    call print(str="distances: $fd$, $ld$, $rd$; angle: $ba$\n")
+    when
+        fd < 80:
+            when
+                ld < 80:  call motors(left=50,right=-50)
+                other:  call motors(left=-50,right=50)
+            end
+        ld < 80 : call motors(left=80,right=40)
+        rd < 80 : call motors(left=40,right=80)
+        left_of_beacon : call motors(left=80,right=40)
+        right_of_beacon : call motors(left=40,right=80)
+        other : call motors(left=80,right=80)
+    end
+end
+
+behav gotoStartAvoidingObstacles until at_start:
+    # going to target, adjusting orientation if necessary
+    local num fd = call distance(sensor=FRONTSENSOR)
+    local num ld = call distance(sensor=LEFTSENSOR)
+    local num rd = call distance(sensor=RIGHTSENSOR)
+    call print(str="distances: $fd$, $ld$, $rd$\n")
+    when
+        fd < 80:
+            when
+                ld < 80 : call motors(left=50,right=-50)
+                other : call motors(left=-50,right=50)
+            end
+        ld < 80 : call motors(left=80,right=40)
+        rd < 80 : call motors(left=40,right=80)
+        left_of_start : call motors(left=80,right=40)
+        right_of_start : call motors(left=40,right=80)
+        other : call motors(left=80,right=80)
+    end
+end
+
+main():
+	# connecting to server
+	call init(name="TESTE",pos=0)
+    # go to beacon number 1
+	call print(str="Going to beacon 1\n")
+	target = 1
+	set faceBeacon
+    set goToBeaconAvoidingObstacles
+    call stop()
+	# picking up its stone
+	call print(str="Signaling arrival to target 1\n")
+	call pickup()
+	call print (str="Signaling returning to start spot\n")
+	call returning()
+    # return to start position
+	call print(str="Going to start spot")
+	set faceStart
+    set gotoStartAvoidingObstacles
+    call stop()
+	# anouncing the end of the run
+	call print(str="Signaling end of trial\n")
+	call finish()
+	# ending the program
+	call print(str="Bye!\n")
+end

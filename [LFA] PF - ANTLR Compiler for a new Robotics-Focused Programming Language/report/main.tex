@@ -1,0 +1,806 @@
+\documentclass{report}
+\usepackage[T1]{fontenc} % Fontes T1
+\usepackage[utf8]{inputenc} % Input UTF8
+\usepackage[backend=biber, style=ieee]{biblatex} % para usar bibliografia
+\usepackage{csquotes}
+\usepackage[portuguese]{babel} %Usar língua portuguesa
+\usepackage{blindtext} % Gerar texto automaticamente
+\usepackage[printonlyused]{acronym}
+\usepackage{hyperref} % para autoref
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{minted} % syntax highligthing
+\bibliography{bibliografia}
+
+\begin{document}
+
+% Definições %
+\def\titulo{CRAL}
+\def\subtitulo {CiberRato Agent Language\vspace{3mm}\\Linguagem para definição e manipulação de robots}
+\def\data{Julho 2019}
+\def\autores{Eurico Dias, Pedro Valério, Daniel Correia, Rodrigo Rosmaninho, Rita Amante}
+\def\autorescontactos{(72783) dias.eurico@ua.pt, (88734) pedrovalerio@ua.pt, (88753) dcorreia@ua.pt, (88802) r.rosmaninho@ua.pt, (89264) rita.amante@ua.pt}
+\def\versao{VERSAO 1}
+\def\departamento{Departamento de Eletrónica, Telecomunicações e Informática}
+\def\empresa{Linguagens Formais e Autómatos}
+\def\logotipo{ua.pdf}
+
+% CAPA %
+\begin{titlepage}
+\begin{center}
+\vspace*{50mm}
+{\Huge \textbf{\titulo}}\\ 
+\vspace{7mm}
+{\Large\textbf{\subtitulo}}\\
+\vspace{10mm}
+{\Large \empresa}\\
+\vspace{10mm}
+{\LARGE \autores}\\ 
+\vspace{20mm}
+
+\begin{figure}[h]
+\center
+\includegraphics{\logotipo}
+\end{figure}
+\end{center}
+\end{titlepage}
+
+% Página de Título %
+\title{
+    {\Huge\textbf{\titulo}}\\
+    \vspace{3mm}
+    {\Large\text{\subtitulo}}\\
+    \vspace{10mm}
+    {\large \empresa \\ \departamento}
+}
+%\center
+\author{
+    \begin{center}
+        \center
+        \autores
+    \end{center} 
+    \center
+    {\autorescontactos
+    \date{\data}\\}
+}
+%\begin{center}
+%\end{center}
+\maketitle
+
+\tableofcontents
+% \listoftables     % descomentar se necessário
+% \listoffigures    % descomentar se necessário
+
+
+\clearpage
+\pagenumbering{arabic}
+
+% CAPITULO 1 - Objetivos %
+\chapter{Objetivos}
+\label{chap.objectives}
+
+O principal objetivo deste projeto é desenvolver uma linguagem que facilite a programação de robots, com especial foco na programação de agentes virtuais no ambiente de simulação do \textsl{Ciber Rato}.
+
+O \textsl{Ciber Rato}  é uma Modalidade de Simulação do Concurso Micro-Rato da Universidade de Aveiro e do seu IEEE Student Branch, que também é utilizada como atividade na Academia de Verão para estudantes do ensino secundário. Esta modalidade é suportada por um ambiente de simulação de robots e labirintos.
+
+Aos concorrentes é proposto o desafio de construir uma simulação de um robot móvel e autónomo que resolva um labirinto desconhecido, no sentido de localizar e alcançar um farol nele colocado e imobilizar-se numa “zona de chegada”. Uma vez alcançado o primeiro objetivo o robot deverá regressar ao seu ponto de partida. Durante o percurso os robots encontram obstáculos fixos - paredes - e obstáculos móveis - outros robots - com os quais não podem colidir, sob pena de serem penalizados.
+
+São disponibilizadas bibliotecas para interagir com a simulação e controlar os robots em \textbf{Python}, \textbf{Java}, e \textbf{C++}. No entanto, os participantes que frequentam o ensino secundário mostram alguma dificuldade a implementar os algoritmos devido ao facto de ser, para muitos, o primeiro contacto com programação em geral. 
+
+Como tal, surge a necessidade de uma nova linguagem que simplifique o processo. Os objetivos principais são:
+\begin{itemize}
+    \item Simplificar a sintaxe em geral;
+    \item Permitir a utilização de intervalos, por exemplo "[3, 5]" ou "3 < x < 7";
+    \item Apresentar mensagens de erro muito informativas;
+    \item Disponibilizar funcionalidades específicas à robótica;
+    \item Permitir a configuração de vários aspetos do compilador de forma fácil para acomodar alterações ao concurso.
+\end{itemize}
+
+% CAPITULO 2 - Instruções de Utilização %
+\chapter{Instruções de Utilização}
+\label{chap.instructions}
+
+Para executar o processo de compilação, é necessário correr os seguintes comandos a partir da raiz do repositório:
+\begin{minted}{bash}
+javac lib/*.java language/*.java config/*.java
+java -ea language/cralMain $nome_do_ficheiro_cral $nome_do_ficheiro_config
+
+# Exemplo com ficheiros reais
+java -ea language/cralMain tests/a0.cral config/example.config
+\end{minted}
+
+O ficheiro compilado irá ser criado na raiz do repositório com o nome \textbf{Output.cpp}\\
+
+No diretório \textbf{tests} existem alguns ficheiros de teste das funcionalidades base da linguagem e o ficheiro \textbf{a0.cral}, que consiste numa implementação em \textit{CRAL} do ficheiro \textbf{a0.cpp} que foi fornecido com as bibliotecas de interação com o simulador e, como tal, tem o mesmo comportamento e pode ser testado com o simulador.
+
+No diretório \textbf{config} existem dois ficheiros exemplo de configuração que possibilitam a interação com a biblioteca \textbf{CiberAV}. Desses, o \textbf{example.config} é indicado para testes que interajam com o simulador, e o \textbf{example\_no\_init.config} para restantes testes de funcionalidade básica da linguagem.
+
+% CAPITULO 3 - Linguagem %
+\chapter{Linguagem}
+\label{chap.language}
+\textit{CRAL} é uma linguagem \textit{domain-specific} compilada cuja linguagem destino é \textbf{C++}, de forma a tirar partido das bibliotecas existentes para interagir com a simulação do \textit{Ciber Rato}.
+A análise sintática e semântica está implementada em \textbf{ANTLR4}.\\
+
+Exemplo de um programa muito simples implementado em \textit{CRAL}:
+\begin{minted}{python}
+    cond left_of_start = call startAngle() < -5
+    cond right_of_start = call startAngle() > 5
+    cond at_start = call startDistance() < 50
+
+    behav gotoStart() until at_start:
+        # going to target, adjusting orientation if necessary
+        when:
+            left_of_start: call motors(left=80, right=70)
+            right_of_start: call motors(left=70, right=80)
+            other: call motors(left=80, right=80)
+        end
+    end
+    
+    main():
+        # connecting to server
+        name = "Grimmy Bear"
+        
+        set goToStart
+        
+        # ending the program
+        call print("Bye!")
+    end
+\end{minted}
+
+\section{Instruções}
+Em \textit{CRAL} existem vários tipos de instruções.
+
+\subsection{Instruções de uma linha}
+
+Algumas instruções, como, por exemplo, declarações e atribuições, ocupam apenas uma linha.
+
+\begin{minted}{python}
+bool verdadeiro         # Declaração
+verdadeiro = true;      # Atribuição - ponto e virgula (';') é opcional
+num numero = 1999       # Declaração e Atribuição simultaneamente
+\end{minted}
+
+No entanto, é possível condensar várias instruções numa única linha, desde que seja usado o separador '\textbf{;}'
+\begin{minted}{python}
+bool verdadeiro; verdadeiro = true; num numero = 1999
+\end{minted}
+
+É permitido a utilização de '\textbf{;}' para marcar o fim de uma instrução, embora não seja necessário se a instrução for a única na linha onde foi escrita.
+
+\subsection{Instruções que podem gerar um bloco}
+Certas instruções, como as de controlo de fluxo, podem gerar um bloco de instruções.
+
+No corpo dos blocos pode estar qualquer instrução exceto a definição de uma função ou behaviour.
+Podem também existir blocos adicionais dentro de um bloco.
+
+Um bloco é iniciado pelo caráter '\textbf{:}' e terminado por '\textbf{end}'.
+
+\begin{minted}{python}
+call print("fora do bloco")
+while true:
+    call print("dentro do bloco")
+    until x > 3:
+        call print("bloco ao quadrado :D")
+    end
+end
+\end{minted}
+
+
+\subsection{Comentários}
+O código pode ser comentado para efeitos de documentação. Os comentários não são executados e, como tal, é permitida a escrita livre.
+
+Para iniciar um comentário de uma linha utiliza-se o caráter '\textbf{\#}', após o qual todo o texto até à próxima linha é ignorado pelo processo de compilação
+
+Para escrever um comentário multi-linha delimita-se o texto pretendido pelos carateres '\textbf{\#*}' e '\textbf{*\#}', respetivamente.
+
+\begin{minted}{python}
+# Comentário de uma linha
+call print("olá")
+call print("hello") # Outro Comentário de uma linha
+call print("bonjour")
+
+#* 
+linha 1
+linha 2
+etc
+*#
+
+call print("adeus") #* ou apenas uma *#
+\end{minted}
+
+\subsection{Calls}
+\textbf{Calls} são funções disponíveis para utilizar e definidas no ficheiro de configuração, que permitem ao programador de \textit{CRAL} interagir com as funções da(s) biblioteca(s) de interação com a simulação/robots.
+
+O compilador fornecido aos programadores possui listado no ficheiro de configuração as bibliotecas a importar e as funções que estão disponíveis para utilizar, tal como o seu tipo de retorno e argumentos, de modo a poder gerar erros semânticos se estas forem usadas de forma errada. Este ficheiro de configuração é alterável. É possível consultar mais informações sobre este tópico no \textit{\autoref{chap.config}}.\\
+
+Do ponto de vista do programador as calls funcionam exatamente como funções normais, mas chamá-las requer a keyword \textbf{call}.
+
+\begin{minted}{python}
+    call print("hi")
+    call motors(left=70, right=50)
+    num angle = call beaconAngle()
+\end{minted}
+
+\section{Palavras Reservadas}
+Listagem das palavras reservadas de \textit{CRAL}. Estas não podem ser usadas como nomes de variáveis/funções/behaviours.
+\vspace{5mm}
+\begin{center}
+\begin{tabular}{| c | c | c | c |}
+  \hline
+  when & while & for & until\\
+  \hline
+  local & behav & set & end\\
+  \hline
+  string & num & cond & bool\\
+  \hline
+  break & return & other & call\\
+  \hline
+  true & false & &\\
+  \hline
+  \end{tabular}
+\end{center}
+\vspace{3mm}
+
+Para além destas, não é permitido definir funções com nomes idênticos a \textbf{calls} definidas no ficheiro de configuração [\ref{chap.config}].
+
+\section{Tipos}
+Estão disponíveis os seguintes tipos:
+\subsubsection{num (number)}\\
+    \\Número real inteiro ou decimal. Utilizado para representar quantidades reais. Permite valores positivos e negativos.
+\subsubsection{string}\\
+    \\Utilizado para representar texto, equivalente a String em \textbf{C++}. O valor literal representa-se entre aspas '"'.
+    
+    Permite concatenação de expressões de qualquer tipo de forma simples. Utilizando o token '\textbf{\$}' como no exemplo seguinte:
+    
+    \begin{minted}{python}
+    num fd = 10
+    num ba = 90
+    
+    num sum(num a, num b): 
+        return a + b
+    end
+    
+    call print("distances: $fd$, $3+2$, $sum(5,10)$; angle: $ba$")
+    # deverá ser impressa a string: distances: 10, 5, 15; angle: 90
+    \end{minted}
+    
+    Se se pretender escrever o caracter literal '\textbf{\$}' na string é necessário escapá-lo utilizando '\textbf{\textbackslash\$}'.
+    \begin{minted}{python}
+    num x = 1
+    string y = "Writing \$x\$ in this string results in: $x$"
+    # Output: "Writing $x$ in this string results in: 1"
+    \end{minted}
+    
+\subsubsection{cond}\\
+    \\Condição cujo valor booleano (\textbf{true} ou \textbf{false}) é re-calculado cada vez que se pretende aceder a ele.
+    Equivalente a uma função booleana mas com sintaxe mais simples.
+    
+    Este tipo de variável é \textit{final}, ou seja, uma vez configurada, não se pode modificar novamente, funcionando, assim, como uma constante. \\
+    
+    \textit{Contextualização:} 
+Nos programas desenvolvidos pelos participantes da Academia de Verão em \textbf{C++} é frequente a utilização de estruturas \textbf{if-else if-else} de grandes dimensões em que algumas das condições são reutilizadas em outras partes do programa.
+
+Por exemplo, verificar se a distância a um obstáculo está dentro de um certo intervalo. Se for necessário alterar o intervalo o aluno terá de o fazer em diversos locais no código e tende a confundir-se.
+
+Dado este problema a equipa decidiu disponibilizar o tipo \textbf{cond}, que permite atribuir um label a uma condição booleana e utilizá-lo no resto do código. Assim, se for necessária uma alteração da condição, esta faz-se apenas na declaração da variável \textbf{cond}. Para além disso, a leitura do código torna-se mais fácil.
+
+\subsubsection{bool}\\
+    \\Valor booleano normal (valor permanece estático). As expressões são calculadas e o valor final pode ser \textbf{true} ou \textbf{false}.
+
+\section{Variáveis}
+Podem ser declaradas variáveis de qualquer tipo suportado pela linguagem, sendo que este tem de ser explicitamente indicado e não pode ser alterado durante o tempo de vida da variável.
+
+Por omissão todas as variáveis declaradas pertencem ao contexto global, exceto se for utilizada a keyword \textbf{local}. Desta forma alivia-se a confusão sentida pelos participantes que têm dificuldade em perceber programação por contextos.
+
+\begin{minted}{python}
+# Exemplos de declarações
+num answer
+string nome
+# Declarações com assign
+cond at_start = startDistance() < 50
+local bool verdadeiro = false   # Variável local
+# Assign de variaveis já declaradas
+answer = 42
+verdadeiro = true
+\end{minted}
+
+\section{Expressões e Operadores}
+
+Listagem dos operadores disponíveis para usar em expressões:
+
+\begin{center}
+\begin{tabular}{| c | c | c |}
+  \hline
+  \textbf{Operador} & \textbf{Função} & \textbf{Tipos suportados}\\
+  \hline
+  + & soma aritmética & num\\
+  \hline
+  - & subtração aritmética | sinal negativo & num\\
+  \hline
+  * & multiplicação aritmética & num\\
+  \hline
+  / & divisão aritmética & num\\
+  \hline
+  \% & resto da divisão inteira & num\\
+  \hline
+  \^{} & potência & num\\
+  \hline
+  ++ &  incremento por 1 & num\\
+  \hline
+  -{}- & decremento por 1 & num\\
+  \hline
+  += & operador de atribuição da adição & num\\
+  \hline
+  -= & operador de atribuição da subtração & num\\
+  \hline
+  *= & operador de atribuição da multiplicação & num\\
+  \hline
+  /= & operador de atribuição da divisão & num\\
+  \hline
+  \%= & operador de atribuição do resto & num\\
+  \hline
+  \^{}= & operador de atribuição da potência & num\\
+  \hline
+  is & igualdade & num, string, bool, cond\\
+  \hline
+  == & igualdade (símbolo alternativo) & num, string, bool, cond\\
+  \hline
+  != & desigualdade & num, string, bool, cond\\
+  \hline
+  > & maior & num\\
+  \hline
+  < & menor & num\\
+  \hline
+  >= & maior ou igual & num\\
+  \hline
+  <= & menor ou igual & num\\
+  \hline
+  and & conjunção lógica & bool, cond\\
+  \hline
+  or & disjunção lógica & bool, cond\\
+  \hline
+  not & negação lógica & bool, cond\\
+  \hline
+  in [x,y] & pertença a um intervalo & num\\
+  \hline
+  \end{tabular}
+\end{center}
+
+\vspace{3mm}
+
+\begin{center}
+\begin{tabular}{| c | c |}
+  \hline
+  \textbf{Notação de intervalo} & \textbf{Tradução}\\
+  \hline
+  x in [-1,2] & -1 <= x <= 2\\
+  \hline
+  x in ]-1,2] & -1 < x <= 2\\
+  \hline
+  x in [-1,2[ & -1 <= x < 2\\
+  \hline
+  x in ]-1,2[ & -1 < x < 2\\
+  \hline
+  \end{tabular}
+\end{center}
+
+\vspace{4mm}
+
+É também permitida a utilização de expressões booleanas ternárias de verificação de pertença a um intervalo:
+\begin{minted}{python}
+-1 < x <= 2  # Equivale a: x > -1 and x <= 2
+\end{minted}
+
+\begin{minted}{python}
+# Exemplos de expressões
+num expr = 3 + 4
+bool outra_expr = 30 > 4 and false
+expr += 2   # expr = 9
+while expr in [9, 15[ :
+    expr++
+end
+# expr = 15
+\end{minted}
+
+\section{Controlo de Fluxo}
+\subsection{Escolha - when blocks}
+\textit{Contextualização:} 
+Nos programas desenvolvidos pelos participantes da Academia de Verão em \textbf{C++} é frequente a utilização de estruturas \textbf{if-else if-else} de grandes dimensões e em que cada condicional executa um número reduzido de instruções. Pelo que seria conveniente simplificar a sintaxe.\\ Dado este problema a equipa decidiu tentar emular a sintaxe de um bloco \textbf{switch-case}.\\
+
+Para iniciar um \textbf{when-block} utiliza-se a expressão \textbf{when} seguida de '\textbf{:}', e \textbf{end} para terminar. Dentro do bloco apenas é permitido escrever condições. A 'cabeça' da condição é uma expressão ou variável do tipo \textbf{bool} ou \textbf{cond}. O corpo é uma sequência de instruções que podem ser in-line (com uso de '\textbf{;}' caso seja mais do que uma) ou multi-line.
+
+Qualquer condição tem prioridade sobre as condições escritas posteriormente e \textbf{other} é uma palavra reservada que equivale a \textbf{else}. Pelo que:
+
+\begin{minted}{python}
+when:
+    x > 1: call print("if")
+    bool_variable: call print("else if")
+    other: call print("else")
+end
+\end{minted}
+
+Equivale, em \textbf{C}, a:\\
+
+\begin{minted}{C}
+if(x > 1) {
+    print("if"); // printf(......)
+}
+else if(bool_variable){
+    print("else if");
+}
+else{
+    print("else");
+}
+\end{minted}\\
+
+\vspace{7mm}
+
+\begin{minted}{python}
+# Exemplo de when-block
+when:
+    # Equivalente, em C, a: if(cond_variable) { num = 42; }
+    cond_variable: num = 42
+    bool_variable: call print("else if")
+    x in [3,8]: motors(30,50)
+    x > 50: 
+        call print("else if")
+        while true:
+            call print("infinite loop")
+        end
+    other: call print("else")
+end
+\end{minted}\\
+\vspace{5mm}
+
+\subsection{Ciclos}
+Em \textit{CRAL} são disponibilizados 3 tipos de ciclos distintos: 
+\begin{itemize}
+    \item \textbf{while}\\
+    \\ Este tipo de ciclo é equivalente a um \textbf{while loop} em \textbf{C++}. O ciclo acontece enquanto a condição for verdadeira. Aceita qualquer condição booleana (\textbf{bool} ou \textbf{cond}).
+    \begin{minted}{python}
+        # Exemplo de ciclos while
+        while true:
+            while 3 > 6:
+                call print("unreachable code")
+            end
+        end
+        
+        num soma = 0
+        while bool_or_cond_variable:
+            soma = soma + 2
+        end
+    \end{minted}
+    \item \textbf{for}\\
+    \\ Este tipo de ciclo é equivalente a um \textbf{for loop} em \textbf{C++}. Pode ser utilizado de 2 formas diferentes.
+    \begin{enumerate}
+        \item \textbf{for} de 3 expressões (inicialização, condição, ação posterior)\\
+        \\As três expressões são separadas por '\textbf{;}' e significam, respetivamente, ações que são executadas antes do início do ciclo, condição que é verificada a cada iteração, e ações que são efetuadas no fim de cada iteração.\\ 
+        \begin{minted}{python}
+        for num i = 0; i < 4; i = i + 1:
+            call print(i) # É executado 3 vezes
+        end
+        \end{minted}\\
+        \vspace{3mm}
+        \item \textbf{for} num intervalo
+        \begin{minted}{python}
+        for num i in [0, 3]:
+            call print(i) # É executado 3 vezes
+        end
+        \end{minted}
+    \end{enumerate}
+    
+    Ambos os ciclos \textbf{for} apresentados têm o mesmo resultado/output.
+    \item \textbf{until}\\
+    \\ Este tipo de ciclo é equivalente a um \textbf{while loop} em \textbf{C++} com a sua condição negada. Isto é, o ciclo acontece até que a condição se torne verdadeira. Aceita qualquer condição booleana (\textbf{bool} ou \textbf{cond}).
+    \begin{minted}{python}
+        # Exemplo de ciclos until
+        num soma = 0
+        until soma > 10:
+            soma = soma + 1
+        end
+        call print(soma) # soma = 11
+    \end{minted}
+\end{itemize}
+
+\subsection{Funções}
+
+Um programa em \textit{CRAL}, à semelhança de outras linguagens como o \textbf{C}, pode ser organizado em funções.
+As funções possuem obrigatoriamente um nome e um bloco de código que é executado no caso de ser chamada. Podem adicionalmente ter uma lista de argumentos e um tipo de retorno. 
+Uma função sem tipo de retorno é equivalente a uma função \textbf{void} em \textbf{C} e linguagens semelhantes.
+
+Para tornar o código mas legível para os participantes da Academia de Verão, a lista de argumentos requer que o nome do argumento seja identificado. 
+
+As funções declaradas podem ser chamadas com a sintaxe apresentada no exemplo que se segue.
+
+\begin{minted}{python}
+sayHi():
+    call print("Hi")
+end
+
+num soma(num op1, num op2):
+    return op1 + op2                # Retornar num
+end
+
+string getNome():
+    return "\textit{CRAL}"            # Retornar String
+end
+
+main():
+    #* Chamar Funções *#
+    # Utilização sem valor de retorno ou argumentos
+    sayHi()
+    # Utilização do valor de retorno
+    call print(getNome())
+    # Utilização do valor de retorno e argumentos
+    num resposta = soma(op1=20, op2=21) + 1
+    # A ordem em que os argumentos aparecem não é importante
+    num resposta2 = soma(op2=99, op1=1) + 1
+end
+\end{minted}
+
+\subsection{Behaviours}
+\label{behav}
+
+\textit{Contextualização:} 
+Nos programas desenvolvidos pelos participantes da Academia de Verão em \textbf{C++} é frequente a utilização de um elevado número de ciclos de grandes dimensões para descrever comportamentos do robot enquanto a condição do ciclo se verificar. Esta estrutura tem efeitos adversos na legibilidade do código.
+
+Um \textbf{behaviour} é essencialmente uma função que executa o bloco em ciclo até uma condição se verificar. A cada ciclo de um behaviour é chamada a call apply que garante que o behaviour está sincronizado com simulador. 
+Isto é, corresponde a um determinado comportamento do robot.
+
+Desta forma, um programa pode ser abstraído como uma sequência de comportamentos.\\
+
+Para iniciar um comportamento é utilizada a keyword \textbf{set}.
+
+\begin{minted}{python}
+at_beacon = call groundType() is target
+left_of_beacon  = call beaconAngle(target) < -5
+right_of_beacon = call beaconAngle(target) > 5
+
+behav gotoBeaconAvoidingObstacles until at_beacon:
+
+    # going to target, adjusting orientation if necessary
+    # get sensor data and beacon angle
+    num fd = call sensorData(FRONT)
+    num ld = call sensorData(LEFT)
+    num rd = call sensorData(RIGHT)
+    num ba = call beaconAngle(target)
+    call print("distances: $fd$, $ld$, $rd$; angle: $ba$")
+
+    when:
+        fd < 80:
+            # nested when-block
+            when:
+                ld < 80: call motors(left=50,right=-50)
+                other: call motors(left=-50, right=50)
+            end
+        ld < 80: call motors(left=80, right=40)
+        rd < 80: call motors(left=40, right=80)
+        left_of_beacon: call motors(left=80, right=40)
+        right_of_beacon: call motors(left=40, right=80)
+        other: call motors(left=80, right=80)
+    end
+end
+
+main():
+    num target = 1
+    set gotoBeaconAvoidingObstacles
+    # após o primeiro behav ter terminado, iniciar outro
+    set anotherBehav
+end
+\end{minted}
+
+% CAPITULO 4 - Configuração do Compilador %
+\chapter{Configuração do Compilador}
+\label{chap.config}
+\section{Introdução}
+
+É permitida a configuração de certos aspetos da compilação através da escrita de um ficheiro \textbf{.config}, que é interpretado apenas uma vez no início do processo de compilação.\\
+
+\textit{Contextualização}: Visto que o objetivo da linguagem é a programação de robots reais e, principalmente, simulados, os programas feitos nesta necessitam de um conjunto de funções que lhe permitam interagir com o robot/simulador. Estas funções provêm essencialmente de bibliotecas externas em C++ que devem ser importadas no ficheiro output (também \textbf{C++}).
+
+Portanto, é evidente a necessidade de haver um ficheiro de configuração onde os imports que o ficheiro output deve ter sejam especificados.
+No entanto, essa configuração não é suficiente, já que o compilador de \textit{CRAL} desconheceria quais as funções disponíveis nas bibliotecas importadas e os seus argumentos e tipos de retorno. O que impossibilita a indicação de erros, caso existam.\\
+
+O ficheiro inclui 3 componentes: \textbf{header}, \textbf{define}, e \textbf{calls}, por essa ordem. No entanto, apenas \textbf{calls} é obrigatória.
+\begin{minted}{text}
+# Exemplo
+header :
+#include <stdio.h>
+#include "CiberAV.h"
+end
+define:
+    FRONT : int
+    LEFT : int
+    RIGHT : int
+    REAR : int
+end
+
+#* multi-line
+   comment *#
+calls:
+    # inline comment
+    call "init":
+        init
+        vars:
+            "name" : string [1:] "Name can not be empty"
+            "pos"  : int [:] ""
+            "host" : string [:] ""
+        end
+        methods:
+            [name, pos] : "init(<name>,<pos>)"
+            [name, pos, host] : "init2(<name>,<pos>,<host>)"
+        end
+    end
+    call "north":
+        critical    # another comment
+        return: int end
+        methods:
+            [] : "northAngle()"
+        end
+    end
+end
+\end{minted}
+
+Tal como em \textit{CRAL}, os blocos iniciam-se com o caráter '\textbf{:}' e terminam com a keyword \textbf{end}.
+
+\section{Header}
+A componente \textbf{header} permite escrever código em \textbf{C++} que é injetado no topo do ficheiro output da compilação.
+É especialmente útil para importar bibliotecas relevantes à programação do robot, interação com o simulador, entre outros.
+Esta componente, ao contrário da componente \textbf{calls}, é opcional.
+
+\begin{minted}{text}
+# Exemplo
+header :
+#include <stdio.h>
+#include "CiberAV.h"
+// comentário em C++ aparece também no topo do ficheiro output
+int func(int arg){
+    return arg + 1;
+}
+end
+\end{minted}
+
+De notar que quaisquer funções definidas no \textbf{header} terão de constar em \textbf{calls} para que o compilador tome conhecimento delas e funcionem corretamente.
+
+\section{Define}
+A componente \textbf{define} permite listar as variáveis e constantes que se pretendem disponibilizar aos alunos existentes nas bibliotecas importadas ou no \textbf{header}. Desta forma, o compilador de \textit{CRAL} conhecerá quais as variáveis e constantes disponíveis nas bibliotecas importadas e os seus respetivos tipos.
+
+\begin{minted}{text}
+define:
+    "FRONTSENSOR" : int
+    "NAME" : string
+    "val"  : double
+    "is_finished" : bool
+end
+\end{minted}
+
+
+\section{Calls}
+Após inserir bibliotecas, é necessário definir todas as funções que o aluno poderá usar. Para tal, a componente \textbf{calls} apresenta uma lista das funções disponíveis, tal como o seu tipo de retorno e lista de argumentos, que permite posteriormente averiguar e indicar a ocorrência de erros, caso a função não tenha sido corretamente utilizada.
+
+ Assim, a componente \textit{calls} contém uma lista de blocos \textbf{call} que representam funções, sendo que cada uma pode apresentar vários blocos como: \textit{init}, \textit{apply}, \textit{critical}, \textit{return}, \textit{vars} e \textit{methods}. Estes blocos têm que estar definidos por esta ordem, no entanto, só o bloco \textit{methods} é obrigatório.
+
+\subsection{Init}
+O bloco \textit{init} permite sinalizar a \textbf{call} que deve ser chamada em primeiro lugar na função \textit{main}, caso exista.
+
+Este bloco não pode estar em simultâneo com o bloco \textit{apply}.\\
+
+\textit{Contextualização}: Na biblioteca da Academia de Verão (CiberAV), que foi disponibilizada como referência para a realização deste projeto, existe uma função \textit{init} que é crucial ser chamada como primeira instrução da função \textit{main}. Por esse motivo, é importante o compilador tomar o conhecimento qual das funções definidas do bloco \textbf{calls} é esta função prioritária.
+
+\begin{minted}{text}
+# Exemplo
+call "example":
+    init
+    # (.....)
+end
+\end{minted}
+
+\subsection{Apply}
+O bloco \textit{apply} tem como função identificar qual das calls é a função de atualização do simulador. (ver \textit{\autoref{behav}})
+
+\begin{minted}{text}
+# Exemplo
+call "example":
+    # (.....)
+    apply
+    # (.....)
+end
+\end{minted}
+
+\subsection{Critical}
+O bloco \textit{critical} significa qual a função que deve ser utilizada num contexto atualizado, como um \textbf{behaviour}. Permitindo assim apresentar um \textit{warning} ao programador se a função for utilizada em outros contextos.
+
+\begin{minted}{text}
+# Exemplo
+call "example":
+    # (.....)
+    critical
+    # (.....)
+end
+\end{minted}
+
+\subsection{Return}
+O bloco \textit{return} especifica o tipo de retorno da call, podendo tomar os valores: \textbf{int}, \textbf{double}, \textbf{bool}, e \textbf{string}.
+
+\begin{minted}{text}
+# Exemplo
+call "example":
+    # (.....)
+    return: int end
+    # (.....)
+end
+\end{minted}
+
+\subsection{Vars}
+O bloco \textit{vars} especifica as variáveis que podem ser passadas na chamada de uma call e as suas respetivas restrições, nomeadamente o seu tipo e, opcionalmente, valores permitidos e mensagem de erro apresentada caso as restrições não sejam respeitadas.
+ 
+\begin{minted}{text}
+# Exemplo
+call "example":
+    # (.....)
+    vars: 
+        "name" : string [1:] "Name can not be empty"
+        "pos"  : int
+        "left"  : int [-150:150] "power out of range"
+        "sensor" : int [0:3] "sensor does not exist"
+        "var" : int [0:3] "sensor does not exist"
+    end
+    # (.....)
+end
+\end{minted}
+
+\subsection{Methods}
+O bloco \textit{methods} contém as combinações das variáveis permitidas e a respetiva função a que correspondem no ficheiro importado no bloco \textbf{header}, em que os argumentos estão definidos no formato StringTemplate para facilitar o \textit{parsing} do ficheiro de configuração.
+
+\begin{minted}{text}
+# Exemplo
+call "example":
+    # (.....)
+    methods:
+        [name, pos] : "init(<name>,<pos>)"
+        [name, pos, host] : "init2(<name>,<pos>,<host>)"
+    end
+end
+\end{minted}
+
+% Contribuições dos autores %
+\chapter{Contribuições dos autores}
+\label{chap.authors}
+\begin{itemize}
+    \item \textbf{Eurico Dias} - 20\%
+        \begin{itemize}
+        \item Compilador da linguagem \textit{CRAL}
+        \item Ajuda no Ficheiro String Template Group para \textbf{C++}
+        \item Classes da package lib
+        \item Planeamento e conceptualização
+        \end{itemize}
+    \item \textbf{Pedro Valério} - 20\%
+        \begin{itemize}
+        \item Gramática da linguagem \textit{CRAL}
+        \item Análise Semântica da linguagem \textit{CRAL}
+        \item Classes da package lib
+        \item Planeamento e conceptualização
+        \end{itemize}
+    \item \textbf{Daniel Correia} - 20\%
+        \begin{itemize}
+        \item Gramática do Ficheiro de Configuração 
+        \item Interpretador do Ficheiro de Configuração
+        \item Classes da package lib
+        \item Planeamento e conceptualização
+        \end{itemize}
+    \item \textbf{Rodrigo Rosmaninho} - 20\%
+        \begin{itemize}
+        \item Ficheiro String Template Group para \textbf{C++}
+        \item Relatório / Documentação
+        \item Ajuda no Compilador da linguagem \textit{CRAL}
+        \item Planeamento e conceptualização
+        \end{itemize}
+    \item \textbf{Rita Amante} - 20\%
+        \begin{itemize}
+        \item Error Handling
+        \item Relatório / Documentação 
+        \item Planeamento e conceptualização
+        \end{itemize}
+\end{itemize}
+
+\end{document}

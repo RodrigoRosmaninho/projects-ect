@@ -1,0 +1,9 @@
+#break and return statements
+
+main():
+	while true:
+		break # must not report error
+	end
+	
+	break # must report error
+end

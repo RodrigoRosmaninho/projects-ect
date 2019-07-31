@@ -1,0 +1,22 @@
+#break and return statements
+
+main():
+	num a=1
+	
+	when
+		a is 0: return
+		a == 1: return
+	end
+	
+	while (true):
+		break
+	end
+	
+	
+end
+
+num func():
+	a = 7
+	return a
+end
+	

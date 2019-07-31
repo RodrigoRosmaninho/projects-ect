@@ -1,0 +1,51 @@
+#*
+    THIS
+    IS
+    A
+    MULTI
+    LINE
+    COMMENT
+    :D
+*#
+
+cond x=true
+cond a=call startDistance()>5
+
+num f1():
+	return 0
+end
+
+num f2(num a):
+	return 0
+end
+
+num f3(num a1, num a2, num a3):
+	return 0
+end
+
+nested_for_range():
+	for num a in ]3,7[:
+		for num b in [3,7]:
+		    local bool k = true
+			break
+		end
+		local bool k = false
+	end
+
+end
+
+example_print_call():
+	call print(str="$a$")
+	local num fd=0
+	local num ld=0
+	local num rd=0
+	local num ba=0
+	call print(str="distances: $fd$, $ld$, $rd$; angle: $ba$")
+	local num ec1=8
+	call print(str="$ec1$")
+end
+
+main():
+	
+end
+

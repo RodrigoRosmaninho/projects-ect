@@ -1,0 +1,28 @@
+#local vs global tests
+
+num z=0
+bool a=true
+
+main():
+	num x = 6
+	num y = x
+	
+	local num a = y + x
+	
+	while true:
+		local num a = 5
+		x = a
+	end
+	
+	y = a
+	
+	a++
+	
+	a = a++
+	
+end
+
+f(num g):
+	local num b = y + x
+end
+	
