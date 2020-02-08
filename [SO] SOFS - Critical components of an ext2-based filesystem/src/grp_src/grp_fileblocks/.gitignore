@@ -1,0 +1,11 @@
+# all files and folders are to be ignored...
+/*
+
+# except those following
+!.gitignore
+!CMakeLists.txt
+!grp_alloc_fileblock.cpp
+!grp_free_fileblocks.cpp
+!grp_get_fileblock.cpp
+!grp_read_fileblock.cpp
+!grp_write_fileblock.cpp

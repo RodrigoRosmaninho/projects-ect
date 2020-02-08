@@ -1,0 +1,12 @@
+# This the configuration for MktPub
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+# ip 192.168.1.1 255.0.0.0
+#
+
+set pcname MktPub
+ip 200.134.102.129/26 200.134.102.189
+ip 2001:78:0:1::5/64 2001:78:0:1:efff:ffff:ffff:fffe
+ip dns 10.142.5.1

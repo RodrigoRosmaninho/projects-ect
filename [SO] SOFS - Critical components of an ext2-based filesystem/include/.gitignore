@@ -1,0 +1,23 @@
+# all files and folders are to be ignored...
+/*
+
+# except those following
+!.gitignore
+!core.h
+!exception.h
+!probing.h
+!binselection.h
+!rawdisk.h
+!superblock.h
+!inode.h
+!direntry.h
+!blockviews.h
+!mksofs.h
+!dal.h
+!freelists.h
+!fileblocks.h
+!direntries.h
+!testtool.h
+!syscalls.h
+!bin
+!grp

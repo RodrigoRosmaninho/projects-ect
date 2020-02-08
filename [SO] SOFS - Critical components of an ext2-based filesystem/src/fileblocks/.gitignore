@@ -1,0 +1,11 @@
+# all files and folders are to be ignored...
+/*
+
+# except those following
+!.gitignore
+!alloc_fileblock.cpp
+!CMakeLists.txt
+!free_fileblocks.cpp
+!get_fileblock.cpp
+!read_fileblock.cpp
+!write_fileblock.cpp

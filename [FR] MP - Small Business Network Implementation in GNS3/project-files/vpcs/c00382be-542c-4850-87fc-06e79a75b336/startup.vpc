@@ -1,0 +1,12 @@
+# This the configuration for AdmPub
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+# ip 192.168.1.1 255.0.0.0
+#
+
+set pcname AdmPub
+ip 200.134.102.193/28 200.134.102.205
+ip 2001:78:0:2::5/64 2001:78:0:2:efff:ffff:ffff:fffe
+ip dns 10.142.5.1

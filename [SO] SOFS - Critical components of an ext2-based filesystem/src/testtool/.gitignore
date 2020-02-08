@@ -1,0 +1,13 @@
+# all files and folders are to be ignored...
+/*
+
+# except those following
+!.gitignore
+!CMakeLists.txt
+!testtool_core.cpp
+!testtool.cpp
+!testtool_direntries.cpp
+!testtool_fileblocks.cpp
+!testtool_freelists.cpp
+!testtool_inodeattrs.cpp
+!testtool_msgs.cpp

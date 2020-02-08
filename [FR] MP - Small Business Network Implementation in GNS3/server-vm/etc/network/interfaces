@@ -1,0 +1,31 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0 eth0:0
+allow-hotplug eth0 eth0:0
+
+# eth0 -> Public IPv4 Address
+iface eth0 inet static
+address 200.134.102.65
+netmask 255.255.255.192
+gateway 200.134.102.126
+dns-nameservers 127.0.0.1
+
+# eth0 -> Global IPv6 Address
+iface eth0 inet6 static
+address 2001:78:0:5::1
+netmask 64
+gateway 2001:78:0:5:efff:ffff:ffff:ffff
+
+# eth0:0 -> Private IPv4 Address
+iface eth0:0 inet static
+address 10.142.5.1
+netmask 255.255.255.0
+gateway 10.142.5.254

@@ -1,0 +1,17 @@
+# all files and folders are to be ignored...
+/*
+
+# except those following
+!.gitignore
+!CMakeLists.txt
+!rawdisk
+!core
+!dal
+!freelists
+!fileblocks
+!direntries
+!syscalls
+!mksofs
+!testtool
+!sofsmount
+!grp_src

@@ -1,0 +1,12 @@
+# all files and folders are to be ignored...
+/*
+
+# except those following
+!.gitignore
+!CMakeLists.txt
+!grp_mksofs_CS.cpp
+!grp_mksofs_FIT.cpp
+!grp_mksofs_FRDB.cpp
+!grp_mksofs_FRD.cpp
+!grp_mksofs_FSB.cpp
+!grp_mksofs_RFDB.cpp

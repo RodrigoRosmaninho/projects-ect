@@ -1,0 +1,12 @@
+# all files and folders are to be ignored...
+/*
+
+# except those following
+!.gitignore
+!CMakeLists.txt
+!grp_alloc_data_block.cpp
+!grp_alloc_inode.cpp
+!grp_deplete_tail_cache.cpp
+!grp_free_data_block.cpp
+!grp_free_inode.cpp
+!grp_replenish_head_cache.cpp

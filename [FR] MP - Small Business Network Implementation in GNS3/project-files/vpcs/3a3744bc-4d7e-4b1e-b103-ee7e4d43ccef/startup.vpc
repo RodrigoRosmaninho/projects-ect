@@ -1,0 +1,12 @@
+# This the configuration for Datacenter1
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+# ip 192.168.1.1 255.0.0.0
+#
+
+set pcname Datacenter1
+ip 10.142.5.2 255.255.255.0 10.142.5.254
+ip 2001:78:0:5::2/64 2001:78:0:5:efff:ffff:ffff:ffff
+ip dns 10.142.5.1

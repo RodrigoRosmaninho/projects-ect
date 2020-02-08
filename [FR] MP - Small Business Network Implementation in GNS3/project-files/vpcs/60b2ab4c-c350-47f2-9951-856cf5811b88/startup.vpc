@@ -1,0 +1,12 @@
+# This the configuration for Des2
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+# ip 192.168.1.1 255.0.0.0
+#
+
+set pcname Des2
+ip 10.142.0.2 255.255.255.0 10.142.0.253
+ip 2001:78:0:0::2/64 2001:78::EFFF:FFFF:FFFF:FFFE
+ip dns 10.142.5.1

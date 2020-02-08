@@ -1,0 +1,16 @@
+$TTL 604800
+$ORIGIN projeto.pt.
+@       IN      SOA     ns1.projeto.pt. adm.projeto.pt. (
+                        2       ; Serial
+                        604800  ; Refresh
+                        86400   ; Retry
+                        2419200 ; Expire
+                        604800) ; Negative Cache TTL
+        IN      NS      ns1.projeto.pt.
+ns1     IN      A       10.142.5.1
+@       IN      A       10.142.5.1
+www     IN      A       10.142.5.1
+info    IN      A       10.142.5.1
+easter  IN      A       10.142.5.1
+internet        IN      A       100.0.0.1
+

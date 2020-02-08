@@ -1,0 +1,12 @@
+# This the configuration for DMZPub
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+# ip 192.168.1.1 255.0.0.0
+#
+
+set pcname DMZPub
+ip 200.134.102.1 255.255.255.192 200.134.102.62
+ip 2001:78:0:4::2/64 2001:78:0:4:efff:ffff:ffff:ffff
+ip dns 10.142.5.1
