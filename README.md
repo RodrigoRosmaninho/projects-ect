@@ -37,7 +37,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Grade: 20.0/20
 
-     A simple timer for use in FPGAs (DE2-115 kit) developed in VHDL with Rita Amante in 2018.
+     A simple timer for use in FPGAs (DE2-115 kit) developed in VHDL with [Rita Amante](https://github.com/rita-amante) in 2018.
 
      The project objective was to demonstrate ability in VHDL
 
@@ -47,7 +47,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      A Stack implementation of a calculator for FPGAs (DE2-115 kit) using the integrated LCD.
 
-     Developed in VHDL with Rita Amante in 2018
+     Developed in VHDL with [Rita Amante](https://github.com/rita-amante) in 2018
 
  - [[LABI] Proj2 - Comprehensive Web App for editing music in Python](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BLABI%5D%20Proj2%20-%20Comprehensive%20Web%20App%20for%20editing%20music%20in%20Python)
 
@@ -61,7 +61,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      - Music Generarion - Python w/Struct module
      - Dynamic Website - Vanilla JS w/JQuery and Bootstrap v4
 
-     Made with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PivZ-24), and João Trindade in 2018
+     Made with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PivZ-24), and [João Trindade](https://github.com/3ndade) in 2018
 
  - [[MPEI] PF - Directory file checker using bloom filter and minhashing](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BMPEI%5D%20PF%20-%20Directory%20file%20checker%20using%20bloom%20filter%20and%20minhashing)
 
@@ -91,17 +91,17 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      - Interpreter for the Compiler Configuration Language (in Java)
      - Error Handling (in Java)
 
-     Made with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PivZ-24), [Daniel Correia](https://github.com/danielcorreia13), and Rita Amante in 2019
+     Made with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PivZ-24), [Daniel Correia](https://github.com/danielcorreia13), and [Rita Amante](https://github.com/rita-amante) in 2019
 
- - [[SO] SOFS - Critical components of an ext2-based filesystem](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BLFA%5D%20PF%20-%20ANTLR%20Compiler%20for%20a%20new%20Robotics-Focused%20Programming%20Language)
+ - [[SO] SOFS - Critical components of an ext2-based filesystem](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BSO%5D%20SOFS%20-%20Critical%20components%20of%20an%20ext2-based%20filesystem)
 
      Grade: 17.8/20
 
      C++ functions to implement critical components of SOFS19, an ext2-based filesystem
 
-     Made with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PivZ-24), João Trindade, and Rita Amante in 2019
+     Made with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PivZ-24), [João Trindade](https://github.com/3ndade), and [Rita Amante](https://github.com/rita-amante) in 2019
 
-- [[FR] MP - Small Business Network Implementation in GNS3](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BLFA%5D%20PF%20-%20ANTLR%20Compiler%20for%20a%20new%20Robotics-Focused%20Programming%20Language)
+- [[FR] MP - Small Business Network Implementation in GNS3](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BFR%5D%20MP%20-%20Small%20Business%20Network%20Implementation%20in%20GNS3)
 
      Grade: 20/20
 
@@ -117,7 +117,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Made with [Pedro Valério](https://github.com/PivZ-24) in 2019
 
-- [[IIA] TPG - Autonomous agent to play the game Bomberman](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BLFA%5D%20PF%20-%20ANTLR%20Compiler%20for%20a%20new%20Robotics-Focused%20Programming%20Language)
+- [[IIA] TPG - Autonomous agent to play the game Bomberman](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BIIA%5D%20TPG%20-%20Autonomous%20agent%20to%20play%20the%20game%20Bomberman)
 
      Grade: 19.8/20
 
@@ -132,7 +132,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Game code by professor [Diogo Gomes](https://github.com/dgomes)
 
-- [[AMS] Proj - Prototype Information System for a Meal Ordering Service akin to Glovo](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BLFA%5D%20PF%20-%20ANTLR%20Compiler%20for%20a%20new%20Robotics-Focused%20Programming%20Language)
+- [[AMS] Proj - Prototype Information System for a Meal Ordering Service akin to Glovo](https://github.com/AMS19-303)
 
      Grade: 19/20
 
@@ -143,7 +143,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      - Numerous reports on use-cases, project vision, requirements, QA, and others
      - Android App functional tests
 
-     Made with [Eurico Dias](https://github.com/eurico-dias) in 2019
+     Made with [Eurico Dias](https://github.com/eurico-dias), [Alexandre Lourenço](https://github.com/AlexMLourenco), and [Tomás Martins](https://github.com/tomasfilipe7) in 2019
 
 <br>
 
