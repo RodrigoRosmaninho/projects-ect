@@ -36,7 +36,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      The project objective was to demonstrate ability in VHDL
 
- - [[LSDig] FinalProj - FPGA Calculator implemented with Stack in VHDL](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/1st%20Year/%5BLSDig%5D%20FPGA%20Calculator%20implemented%20with%20Stack%20in%20VHDL)
+ - [[LSDig] FinalProj - FPGA Calculator implemented with Stack in VHDL](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/1st%20Year/%5BLSDig%5D%20FinalProj%20-%20FPGA%20Calculator%20implemented%20with%20Stack%20in%20VHDL)
 
      Grade: 19.6/20
 
