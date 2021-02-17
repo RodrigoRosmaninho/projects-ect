@@ -1,0 +1,12 @@
+$TTL    604800
+$ORIGIN burn-city.org.
+@       IN      SOA     ns1.burn-city.org.      adm.burn-city.org. (
+                        2                               ;Serial
+                        604800                          ;Refresh
+                        86400                           ;Retry
+                        2419200                         ;Expire
+                        604800                         );Negative Cache TTL
+        IN      NS      ns1.burn-city.org.
+        IN      A       200.100.2.1
+ns1     IN      A       200.100.2.250
+

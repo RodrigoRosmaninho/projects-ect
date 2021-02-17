@@ -1,0 +1,18 @@
+﻿<Window x:Class="GLUA_DB.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GLUA_DB"
+        mc:Ignorable="d"
+        Title="Login" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Email_TextBox" HorizontalAlignment="Left" Height="23" Margin="242,204,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300"/>
+        <Label Content="Email do Utilizador" HorizontalAlignment="Left" Margin="242,173,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="Password_TextBox" HorizontalAlignment="Left" Height="23" Margin="242,275,0,0" VerticalAlignment="Top" Width="300"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="242,244,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Login_Button" Content="Iniciar Sessão" HorizontalAlignment="Left" Margin="335,334,0,0" VerticalAlignment="Top" Width="115" Height="28" Click="Login_Click"/>
+        <Label Content="Plataforma de Gestão" HorizontalAlignment="Left" Margin="290,101,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Image x:Name="Logo_Image" HorizontalAlignment="Left" Height="117" Margin="326,10,0,0" VerticalAlignment="Top" Width="141"/>
+    </Grid>
+</Window>

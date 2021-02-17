@@ -1,0 +1,65 @@
+﻿<Page x:Class="GLUA_DB.Membro"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+      xmlns:local="clr-namespace:GLUA_DB"
+      xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+      mc:Ignorable="d" 
+      Height="Auto" Width="Auto"
+      Title="Membro">
+
+    <Grid>
+        <Button x:Name="Back" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="Back_Click" Style="{DynamicResource MahApps.Metro.Styles.MetroCircleButtonStyle}">
+            <iconPacks:PackIconModern Width="14"
+                                              Height="14"
+                                              Kind="ArrowLeft" />
+        </Button>
+        <TextBox x:Name="Nome_TextBox" HorizontalAlignment="Left" Height="23" Margin="56,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="56,61,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Email_TextBox" HorizontalAlignment="Left" Height="23" Margin="422,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="321" IsReadOnly="True"/>
+        <Label Content="E-mail" HorizontalAlignment="Left" Margin="422,61,0,0" VerticalAlignment="Top" Width="45"/>
+        <TextBox x:Name="Telemovel_TextBox" HorizontalAlignment="Left" Height="23" Margin="56,189,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142" IsReadOnly="True"/>
+        <Label Content="Telemóvel" HorizontalAlignment="Left" Margin="56,158,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tipo" HorizontalAlignment="Left" Margin="237,158,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="Tipo_ComboBox" HorizontalAlignment="Left" Margin="237,189,0,0" VerticalAlignment="Top" Width="151" IsEnabled="False">
+            <ComboBoxItem>Efetivo</ComboBoxItem>
+            <ComboBoxItem>Colaborador</ComboBoxItem>
+            <ComboBoxItem>Coordenação</ComboBoxItem>
+            <ComboBoxItem>Sénior</ComboBoxItem>
+            <ComboBoxItem>Honorário</ComboBoxItem>
+        </ComboBox>
+        <Label Content="Estado" HorizontalAlignment="Left" Margin="422,158,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="Estado_ComboBox" HorizontalAlignment="Left" Margin="422,189,0,0" VerticalAlignment="Top" Width="151" IsEnabled="False">
+            <ComboBoxItem>Inativo</ComboBoxItem>
+            <ComboBoxItem>Ativo</ComboBoxItem>
+        </ComboBox>
+        <TextBox x:Name="Notas_TextBox" HorizontalAlignment="Left" Height="109" Margin="56,286,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="687" IsReadOnly="True"/>
+        <Label Content="Notas" HorizontalAlignment="Left" Margin="56,255,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="showPlatforms" Content="Ver Acessos" HorizontalAlignment="Left" Margin="85,556,0,-124" VerticalAlignment="Top" Width="85" Click="showPlatforms_Click"/>
+        <Button x:Name="showInventory" Content="Ver Inventário" HorizontalAlignment="Left" Margin="220,556,0,-124" VerticalAlignment="Top" Width="103" Click="showInventory_Click"/>
+        <Button x:Name="showHelpdesks" Content="Ver Sessões de Helpdesk" HorizontalAlignment="Left" Margin="380,556,0,-124" VerticalAlignment="Top" Width="160" Click="showHelpdesk_Click"/>
+        <Button x:Name="showSessions" Content="Ver Atendimentos" HorizontalAlignment="Left" Margin="580,556,0,-124" VerticalAlignment="Top" Width="118" Click="showSessions_Click"/>
+        <Button x:Name="Edit" Content="Editar" HorizontalAlignment="Left" Margin="597,23,0,0" VerticalAlignment="Top" Width="52" Click="Edit_Click"/>
+        <Button x:Name="Delete" Content="Apagar" HorizontalAlignment="Left" Margin="699,23,0,0" VerticalAlignment="Top" Width="55" Click="Delete_Click"/>
+        <Label Content="Data de Entrada&#xD;&#xA;" HorizontalAlignment="Left" Margin="603,158,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="Data_DatePicker" HorizontalAlignment="Left" Margin="603,189,0,0" VerticalAlignment="Top" Width="140" Focusable="False" IsHitTestVisible="False"/>
+        <Button x:Name="Save" Content="Guardar" HorizontalAlignment="Left" Margin="597,23,0,0" VerticalAlignment="Top" Width="63" Click="Save_Click" Visibility="Hidden"/>
+        <Button x:Name="Cancel" Content="Cancelar" HorizontalAlignment="Left" Margin="699,23,0,0" VerticalAlignment="Top" Width="55" Click="Cancel_Click" Visibility="Hidden"/>
+        <Button x:Name="CreateMembro" Content="Inserir Membro" HorizontalAlignment="Left" Margin="102,556,0,0" VerticalAlignment="Top" Width="100" Click="createMembro_Click"  Visibility="Hidden"/>
+        
+        <RadioButton x:Name="Yes_Radio" GroupName="Conteudo_RadioGroup" Content="Sim" HorizontalAlignment="Left" Margin="57,470,0,-29" VerticalAlignment="Top" IsEnabled="True" Checked="Yes_Radio_Checked" RenderTransformOrigin="0.017,-0.667"/>
+        <RadioButton x:Name="No_Radio" GroupName="Conteudo_RadioGroup" Content="Não" HorizontalAlignment="Left" Margin="57,493,0,-52" VerticalAlignment="Top" IsEnabled="True" Checked="No_Radio_Checked"/>
+        <Label  x:Name="Estudante_label" Content="Estudante" HorizontalAlignment="Left" Margin="57,432,0,0" VerticalAlignment="Top" Height="25"/>
+        <TextBox  x:Name="NMec_TextBox" HorizontalAlignment="Left" Height="23" Margin="184,471,0,-38" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" />
+        <Label x:Name="NMec_label" Content="Nº Mecanográfico" HorizontalAlignment="Left" Margin="184,440,0,-7" VerticalAlignment="Top"/>
+        <mah:DateTimePicker  x:Name="DataMatricula_DatePicker" HorizontalAlignment="Left" Margin="616,470,0,-37" VerticalAlignment="Top"/>
+        <Label  x:Name="DataMatricula_label" Content="Ano de Matrícula" HorizontalAlignment="Left" Margin="616,440,0,-7" VerticalAlignment="Top"/>
+        <ComboBox  x:Name="Departamento_Drop" HorizontalAlignment="Left" Margin="361,472,0,-39" VerticalAlignment="Top" Width="98" SelectionChanged="Departamento_ComboBox_SelectionChanged"/>
+        <ComboBox  x:Name="Curso_Drop" HorizontalAlignment="Left" Margin="464,472,0,-39" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.773,0.923"/>
+        <Label  x:Name="Departamento_label" Content="Departamento" HorizontalAlignment="Left" Margin="361,441,0,-8" VerticalAlignment="Top"/>
+        <Label  x:Name="Curso_label" Content="Curso" HorizontalAlignment="Left" Margin="464,441,0,-8" VerticalAlignment="Top"/>
+        <Button x:Name="add_curso" Content="+" HorizontalAlignment="Left" Margin="544,471,0,-39" VerticalAlignment="Top" Width="29" RenderTransformOrigin="0.5,0.593" Click="showCreateCurso_Click"/>
+    </Grid>
+</Page>

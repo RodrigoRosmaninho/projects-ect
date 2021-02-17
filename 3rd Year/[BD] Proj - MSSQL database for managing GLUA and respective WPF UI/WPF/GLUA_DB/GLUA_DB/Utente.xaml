@@ -1,0 +1,48 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GLUA_DB"
+      xmlns:Custom="http://metro.mahapps.com/winfx/xaml/iconpacks" xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Class="GLUA_DB.Utente"
+      mc:Ignorable="d" 
+      Height="Auto" Width="Auto"
+      Title="Utente">
+
+    <Grid>
+        <Button HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="Button_Click" Style="{DynamicResource MahApps.Metro.Styles.MetroCircleButtonStyle}">
+            <Custom:PackIconModern Width="14"
+                Height="14"
+                Kind="ArrowLeft" />
+        </Button>
+        <TextBox x:Name="Nome_TextBox" HorizontalAlignment="Left" Height="23" Margin="56,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True" RenderTransformOrigin="0.47,0.577"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="56,68,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Contacto_TextBox" HorizontalAlignment="Left" Height="23" Margin="504,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250" IsReadOnly="True"/>
+        <Label Content="Contacto" HorizontalAlignment="Left" Margin="504,76,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Notas_TextBox" HorizontalAlignment="Left" Height="75" Margin="56,204,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="698" IsReadOnly="True"/>
+        <Label Content="Notas" HorizontalAlignment="Left" Margin="58,164,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="showLastSession" Content="Ver Último Atendimentos" HorizontalAlignment="Left" Margin="70,432,0,-9" VerticalAlignment="Top" Width="160" Click="showLastSession_Click" />
+        <Button x:Name="createUtente" Content="Inserir Utente" HorizontalAlignment="Left" Margin="70,432,0,-9" VerticalAlignment="Top" Width="160" Click="createUtente_Click" />
+        <Button x:Name="showProblems" Content="Ver Problemas" HorizontalAlignment="Left" Margin="280,432,0,-9" VerticalAlignment="Top" Width="103" Click="showProblems_Click" />
+        <Button x:Name="showSessions" Content="Ver Histórico de Atendimentos" HorizontalAlignment="Left" Margin="566,432,0,-9" VerticalAlignment="Top" Width="188" Click="showSessions_Click"  />
+        <Button x:Name="Edit" Content="Editar" HorizontalAlignment="Left" Margin="597,23,0,0" VerticalAlignment="Top" Width="52" Click="Edit_Click"/>
+        <Button x:Name="Delete" Content="Apagar" HorizontalAlignment="Left" Margin="699,23,0,0" VerticalAlignment="Top" Width="55" Click="Delete_Click" />
+        <Button x:Name="Save" Content="Guardar" HorizontalAlignment="Left" Margin="597,23,0,0" VerticalAlignment="Top" Width="63" Click="Save_Click"  Visibility="Hidden"/>
+        <Button x:Name="Cancel" Content="Cancelar" HorizontalAlignment="Left" Margin="690,23,0,0" VerticalAlignment="Top" Width="64" Click="Cancel_Click"  Visibility="Hidden" />
+        <RadioButton x:Name="Yes_Radio" GroupName="Conteudo_RadioGroup" Content="Sim" HorizontalAlignment="Left" Margin="56,343,0,0" VerticalAlignment="Top" IsEnabled="True" Checked="Yes_Radio_Checked" RenderTransformOrigin="0.017,-0.667"/>
+        <RadioButton x:Name="No_Radio" GroupName="Conteudo_RadioGroup" Content="Não" HorizontalAlignment="Left" Margin="56,366,0,0" VerticalAlignment="Top" IsEnabled="True" Checked="No_Radio_Checked"/>
+        <Label  x:Name="Estudante_label" Content="Estudante" HorizontalAlignment="Left" Margin="56,305,0,0" VerticalAlignment="Top" Height="25"/>
+        <TextBox  x:Name="NMec" HorizontalAlignment="Left" Height="23" Margin="183,344,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" />
+        <Label x:Name="NMec_label" Content="Nº Mecanográfico" HorizontalAlignment="Left" Margin="183,313,0,0" VerticalAlignment="Top"/>
+
+        <mah:DateTimePicker  x:Name="DataMatricula" HorizontalAlignment="Left" Margin="615,343,0,0" VerticalAlignment="Top"/>
+        <Label  x:Name="DataMatricula_label" Content="Ano de Matrícula" HorizontalAlignment="Left" Margin="615,313,0,0" VerticalAlignment="Top"/>
+        <ComboBox  x:Name="Departamento" HorizontalAlignment="Left" Margin="360,345,0,0" VerticalAlignment="Top" Width="98" SelectionChanged="Departamento_ComboBox_SelectionChanged"/>
+        <ComboBox  x:Name="Curso" HorizontalAlignment="Left" Margin="463,345,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.773,0.923"/>
+        <Label  x:Name="Departamento_label" Content="Departamento" HorizontalAlignment="Left" Margin="360,314,0,0" VerticalAlignment="Top"/>
+        <Label  x:Name="Curso_label" Content="Curso" HorizontalAlignment="Left" Margin="463,314,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="add_curso" Content="+" HorizontalAlignment="Left" Margin="543,344,0,0" VerticalAlignment="Top" Width="29" RenderTransformOrigin="0.5,0.593" Click="showCreateCurso_Click"/>
+
+
+    </Grid>
+</Page>

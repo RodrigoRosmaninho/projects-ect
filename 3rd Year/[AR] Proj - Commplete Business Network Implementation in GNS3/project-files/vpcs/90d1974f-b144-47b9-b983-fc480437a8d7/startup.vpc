@@ -1,0 +1,11 @@
+# This the configuration for PC_Engenheiro_Bs
+#
+# Uncomment the following line to enable DHCP
+# dhcp
+# or the line below to manually setup an IP address and subnet mask
+# ip 192.168.1.1 255.0.0.0
+#
+
+set pcname PC_Engenheiro_Bs
+ip 10.66.8.10 255.255.252.0 10.66.8.1
+ip 2200:20:20:4208::1/64 2200:20:20:4208:EFFF:FFFF:FFFF:FFFF

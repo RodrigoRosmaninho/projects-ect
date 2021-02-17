@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="673363">
+  <docid>673363</docid>
+  <title>xXx</title>
+  <year>2002</year>
+  <type>movie</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Lebenzon, Chris</editor>
+    <editor>Negron, Joel</editor>
+    <editor>Rubell, Paul</editor>
+  </editors>
+  <genres>
+    <genre>Thriller</genre>
+    <genre>Adventure</genre>
+    <genre>Action</genre>
+    <genre>Crime</genre>
+  </genres>
+  <keywords>
+    <keyword>rescue</keyword>
+    <keyword>arrest</keyword>
+    <keyword>undercover-agent</keyword>
+    <keyword>opera</keyword>
+    <keyword>death</keyword>
+    <keyword>explosion</keyword>
+    <keyword>police</keyword>
+    <keyword>tattoo</keyword>
+    <keyword>blood-splatter</keyword>
+    <keyword>river</keyword>
+    <keyword>prague</keyword>
+    <keyword>magnum-handgun</keyword>
+    <keyword>poison-gas</keyword>
+    <keyword>cafeteria</keyword>
+    <keyword>exploding-building</keyword>
+    <keyword>agent</keyword>
+    <keyword>car-accident</keyword>
+    <keyword>sawn-off-shotgun</keyword>
+    <keyword>politician</keyword>
+    <keyword>x-rayed-skeleton</keyword>
+    <keyword>cell-phone</keyword>
+    <keyword>sniper</keyword>
+    <keyword>telephone</keyword>
+    <keyword>extreme-sports</keyword>
+    <keyword>snowboarding</keyword>
+    <keyword>colombia</keyword>
+    <keyword>shot-to-death</keyword>
+    <keyword>weapon-of-mass-destruction</keyword>
+    <keyword>motorcycle</keyword>
+    <keyword>anti-hero</keyword>
+    <keyword>gatling-gun</keyword>
+    <keyword>restaurant</keyword>
+    <keyword>gun</keyword>
+    <keyword>skydiving</keyword>
+    <keyword>sniper-rifle</keyword>
+    <keyword>black-comedy</keyword>
+    <keyword>shot-in-the-back</keyword>
+    <keyword>product-placement</keyword>
+    <keyword>chemical-weapons</keyword>
+    <keyword>tranquilizer-dart</keyword>
+    <keyword>exploding-boat</keyword>
+    <keyword>avalanche</keyword>
+    <keyword>murder</keyword>
+    <keyword>honor</keyword>
+    <keyword>premarital-sex</keyword>
+    <keyword>terrorist</keyword>
+    <keyword>u-boat</keyword>
+    <keyword>sawed-off-shotgun</keyword>
+    <keyword>reference-to-frankenstein</keyword>
+    <keyword>torture</keyword>
+    <keyword>director-cameo</keyword>
+    <keyword>california</keyword>
+    <keyword>secret-agent</keyword>
+    <keyword>spy</keyword>
+    <keyword>double-agent</keyword>
+    <keyword>femme-fatale</keyword>
+    <keyword>machete</keyword>
+    <keyword>anarchy</keyword>
+    <keyword>lasersight</keyword>
+    <keyword>swat-team</keyword>
+    <keyword>helicopter</keyword>
+    <keyword>diner</keyword>
+    <keyword>motocross</keyword>
+    <keyword>mass-murder</keyword>
+    <keyword>redemption</keyword>
+    <keyword>gadget-car</keyword>
+    <keyword>base-jumping</keyword>
+    <keyword>exploding-car</keyword>
+    <keyword>female-nudity</keyword>
+    <keyword>cocaine</keyword>
+    <keyword>bridge</keyword>
+    <keyword>club</keyword>
+    <keyword>nerve-gas</keyword>
+    <keyword>car-chase</keyword>
+    <keyword>fortress</keyword>
+    <keyword>snowmobile</keyword>
+    <keyword>police-chase</keyword>
+    <keyword>interracial-relationship</keyword>
+    <keyword>submarine</keyword>
+    <keyword>character-name-in-title</keyword>
+    <keyword>x-ray-vision</keyword>
+    <keyword>daredevil</keyword>
+    <keyword>auto-theft</keyword>
+    <keyword>sky-surfing</keyword>
+  </keywords>
+  <languages>
+    <language>Czech</language>
+    <language>Spanish</language>
+    <language>German</language>
+    <language>Russian</language>
+    <language>English</language>
+  </languages>
+  <soundmixes>
+    <soundmix>SDDS</soundmix>
+    <soundmix>DTS</soundmix>
+    <soundmix>Dolby Digital</soundmix>
+  </soundmixes>
+  <countries>
+    <country>USA</country>
+  </countries>
+  <certificates>
+    <certificate country="Sweden">15</certificate>
+    <certificate country="Peru">14</certificate>
+    <certificate country="Argentina">13</certificate>
+    <certificate country="Netherlands">12</certificate>
+    <certificate country="Brazil">14</certificate>
+    <certificate country="India">UA</certificate>
+    <certificate country="UK">15</certificate>
+    <certificate country="Taiwan">R-12</certificate>
+    <certificate country="Singapore">PG</certificate>
+    <certificate country="Germany">12</certificate>
+    <certificate country="France">U</certificate>
+    <certificate country="Malaysia">18SG</certificate>
+    <certificate country="Hong Kong">IIB</certificate>
+    <certificate country="Iceland">14</certificate>
+    <certificate country="South Korea">12</certificate>
+    <certificate country="Spain">13</certificate>
+    <certificate country="Australia">M</certificate>
+    <certificate country="Switzerland">16</certificate>
+    <certificate country="Norway">15</certificate>
+    <certificate country="Canada">18</certificate>
+    <certificate country="Finland">K-15</certificate>
+    <certificate country="Austria">14</certificate>
+    <certificate country="Philippines">PG-13</certificate>
+    <certificate country="USA">PG-13</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="Sweden">25 October 2002</releasedate>
+    <releasedate country="South Africa">13 September 2002</releasedate>
+    <releasedate country="Peru">3 October 2002</releasedate>
+    <releasedate country="Argentina">7 November 2002</releasedate>
+    <releasedate country="Turkey">13 September 2002</releasedate>
+    <releasedate country="Netherlands">24 October 2002</releasedate>
+    <releasedate country="Brazil">6 September 2002</releasedate>
+    <releasedate country="Japan">26 October 2002</releasedate>
+    <releasedate country="Israel">12 September 2002</releasedate>
+    <releasedate country="UK">17 October 2002</releasedate>
+    <releasedate country="Taiwan">30 August 2002</releasedate>
+    <releasedate country="Ukraine">20 September 2002</releasedate>
+    <releasedate country="Greece">13 September 2002</releasedate>
+    <releasedate country="Germany">17 October 2002</releasedate>
+    <releasedate country="Belgium">30 October 2002</releasedate>
+    <releasedate country="France">9 October 2002</releasedate>
+    <releasedate country="Hungary">10 October 2002</releasedate>
+    <releasedate country="Hong Kong">22 August 2002</releasedate>
+    <releasedate country="Estonia">30 August 2002</releasedate>
+    <releasedate country="Czech Republic">10 October 2002</releasedate>
+    <releasedate country="Iceland">13 September 2002</releasedate>
+    <releasedate country="Mexico">4 October 2002</releasedate>
+    <releasedate country="Slovakia">3 October 2002</releasedate>
+    <releasedate country="South Korea">3 October 2002</releasedate>
+    <releasedate country="Poland">11 October 2002</releasedate>
+    <releasedate country="Spain">18 October 2002</releasedate>
+    <releasedate country="Egypt">11 September 2002</releasedate>
+    <releasedate country="Australia">3 October 2002</releasedate>
+    <releasedate country="Switzerland">17 October 2002</releasedate>
+    <releasedate country="Norway">11 October 2002</releasedate>
+    <releasedate country="Canada">9 August 2002</releasedate>
+    <releasedate country="Finland">18 October 2002</releasedate>
+    <releasedate country="Austria">17 October 2002</releasedate>
+    <releasedate country="Italy">31 October 2002</releasedate>
+    <releasedate country="Philippines">21 August 2002</releasedate>
+    <releasedate country="New Zealand">3 October 2002</releasedate>
+    <releasedate country="Colombia">20 September 2002</releasedate>
+    <releasedate country="USA">9 August 2002</releasedate>
+    <releasedate country="Kuwait">1 October 2002</releasedate>
+    <releasedate country="Denmark">3 October 2002</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="default">132</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Cohen, Rob (I)</director>
+  </directors>
+  <producers>
+    <producer>Minkowski, David</producer>
+    <producer>Purple, Michelle</producer>
+    <producer>Stillman, Matthew (I)</producer>
+    <producer>Bellinger, Creighton</producer>
+    <producer>Dauchy, Derek</producer>
+    <producer>Diesel, Vin</producer>
+    <producer>Garner, Todd</producer>
+    <producer>Schmidt, Arne (I)</producer>
+    <producer>Zakk, George</producer>
+    <producer>Moritz, Neal H.</producer>
+  </producers>
+  <writers>
+    <writer>Wilkes, Rich</writer>
+  </writers>
+  <composers>
+    <composer>Edelman, Randy</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Arcieri, Leila</actor>
+      <role>Jordan King</role>
+    </credit>
+    <credit>
+      <actor>Argento, Asia</actor>
+      <role>Yelena</role>
+    </credit>
+    <credit>
+      <actor>Asman, David (I)</actor>
+      <role>Agent Polk</role>
+    </credit>
+    <credit>
+      <actor>Aulicino, Paul</actor>
+      <role>Police Officer</role>
+    </credit>
+    <credit>
+      <actor>Babson, James</actor>
+      <role>Technician</role>
+    </credit>
+    <credit>
+      <actor>Bauerová, Martina</actor>
+      <role>Female Opera Singer (Zerlina)</role>
+    </credit>
+    <credit>
+      <actor>Berger, Leslie</actor>
+      <role>Airline Passenger (extended version)</role>
+    </credit>
+    <credit>
+      <actor>Bouchner, Vitezslav</actor>
+      <role>Head Technician</role>
+    </credit>
+    <credit>
+      <actor>Boyce, TeeJay</actor>
+      <role>Bimbo Intern</role>
+    </credit>
+    <credit>
+      <actor>Bucaro III, Joe</actor>
+      <role>Virg</role>
+    </credit>
+    <credit>
+      <actor>Bárta, Martin (I)</actor>
+      <role>Male Opera Singer (Don Giovanni)</role>
+    </credit>
+    <credit>
+      <actor>Cantina, Armando</actor>
+      <role>Field Worker</role>
+    </credit>
+    <credit>
+      <actor>Chalupa, Václav</actor>
+      <role>Nervous Hacker</role>
+    </credit>
+    <credit>
+      <actor>Cihalikova, Alena</actor>
+      <role>Xander's Bedroom Dancer</role>
+    </credit>
+    <credit>
+      <actor>Cohen, Rob (I)</actor>
+      <role>Colombian Horseman</role>
+    </credit>
+    <credit>
+      <actor>Csokas, Marton</actor>
+      <role>Yorgi</role>
+    </credit>
+    <credit>
+      <actor>Cueto, Esteban</actor>
+      <role>Gold Tooth Narco</role>
+    </credit>
+    <credit>
+      <actor>Daehn, Werner</actor>
+      <role>Kirill</role>
+    </credit>
+    <credit>
+      <actor>Deegan, Brian</actor>
+      <role>Extreme Guy</role>
+    </credit>
+    <credit>
+      <actor>Diesel, Vin</actor>
+      <role>Xander Cage</role>
+    </credit>
+    <credit>
+      <actor>Ellis, Jason (I)</actor>
+      <role>Van Video Shooter</role>
+    </credit>
+    <credit>
+      <actor>Escamilla, Mike</actor>
+      <role>Ramp Truck Passenger</role>
+    </credit>
+    <credit>
+      <actor>Eve (II)</actor>
+      <role>J.J.</role>
+    </credit>
+    <credit>
+      <actor>Everett, Tom</actor>
+      <role>Senator Dick Hotchkiss</role>
+    </credit>
+    <credit>
+      <actor>Filipensky, Jan Pavel</actor>
+      <role>Viktor</role>
+    </credit>
+    <credit>
+      <actor>Gann, Chris</actor>
+      <role>T.J.</role>
+    </credit>
+    <credit>
+      <actor>Gill, Tanner</actor>
+      <role>Trucker</role>
+    </credit>
+    <credit>
+      <actor>Green, Mary-Pat</actor>
+      <role>Waitress</role>
+    </credit>
+    <credit>
+      <actor>Griffith, Thomas Ian</actor>
+      <role>Agent Jim McGrath</role>
+    </credit>
+    <credit>
+      <actor>Hart, Carey (III)</actor>
+      <role>Caddy Passenger</role>
+    </credit>
+    <credit>
+      <actor>Hartnoll, Paul</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hartnoll, Phil</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hawk, Tony</actor>
+      <role>Caddy Driver</role>
+    </credit>
+    <credit>
+      <actor>Hendrix, Lori Jo</actor>
+      <role>Woman in Restaurant</role>
+    </credit>
+    <credit>
+      <actor>Hoffman, Mat</actor>
+      <role>Extreme Guy</role>
+    </credit>
+    <credit>
+      <actor>Hope, William</actor>
+      <role>Agent Roger Donnan</role>
+    </credit>
+    <credit>
+      <actor>Hub, Martin</actor>
+      <role>Ivan Podrov</role>
+    </credit>
+    <credit>
+      <actor>Jackson, Samuel L.</actor>
+      <role>Agent Augustus Gibbons</role>
+    </credit>
+    <credit>
+      <actor>Jákl, Petr (II)</actor>
+      <role>Kolya</role>
+    </credit>
+    <credit>
+      <actor>Kruspe, Richard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Landers, Paul (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lindemann, Till</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lorenz, Flake</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Matrka, Roman</actor>
+      <role>Czech Agent</role>
+    </credit>
+    <credit>
+      <actor>Maynard, Ted</actor>
+      <role>James Tannick</role>
+    </credit>
+    <credit>
+      <actor>McKay, W. Colin</actor>
+      <role>Van Driver</role>
+    </credit>
+    <credit>
+      <actor>Montero, Joshua</actor>
+      <role>Child Field Worker</role>
+    </credit>
+    <credit>
+      <actor>Morales, F. Valentino</actor>
+      <role>Short Order Cook/NSA Agent</role>
+    </credit>
+    <credit>
+      <actor>Müller, Michal</actor>
+      <role>Zither player</role>
+    </credit>
+    <credit>
+      <actor>Müller, Richy</actor>
+      <role>Milan Sova</role>
+    </credit>
+    <credit>
+      <actor>Niederle, Ivo</actor>
+      <role>Head Chemist</role>
+    </credit>
+    <credit>
+      <actor>Pospisil, Lubos</actor>
+      <role>Czech Major</role>
+    </credit>
+    <credit>
+      <actor>Riedel, Oliver</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Roof, Michael</actor>
+      <role>Agent Toby Lee Shavers</role>
+    </credit>
+    <credit>
+      <actor>Roy, Rob (III)</actor>
+      <role>Navy SEAL</role>
+    </credit>
+    <credit>
+      <actor>Rueda, Ivan</actor>
+      <role>Child Field Worker</role>
+    </credit>
+    <credit>
+      <actor>Ruiz, Christopher Eric</actor>
+      <role>F.A.R.C. Soldier</role>
+    </credit>
+    <credit>
+      <actor>Schneider, Christoph (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Thomas, Leonard L.</actor>
+      <role>NSA Agent</role>
+    </credit>
+    <credit>
+      <actor>Thorne, Rick</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Todd, Josh (I)</actor>
+      <role>Extra at party with boxing gloves</role>
+    </credit>
+    <credit>
+      <actor>Tomecka, Radek</actor>
+      <role>Ivan Pedgrag</role>
+    </credit>
+    <credit>
+      <actor>Trejo, Danny</actor>
+      <role>El Jefe</role>
+    </credit>
+    <credit>
+      <actor>Vallely, Mike</actor>
+      <role>Skater</role>
+    </credit>
+    <credit>
+      <actor>Vasut, Marek</actor>
+      <role>Czech General</role>
+    </credit>
+    <credit>
+      <actor>Waugh, Scott (I)</actor>
+      <role>Stockbroker</role>
+    </credit>
+    <credit>
+      <actor>Wells, Rob (I)</actor>
+      <role>Hillside Video Shooter</role>
+    </credit>
+    <credit>
+      <actor>Wilkes, Rich</actor>
+      <role>Tall Guy</role>
+    </credit>
+  </cast>
+<plot>Xander Cage is your standard adrenaline junkie with no fear and a lousy attitude. When the US Government "recruits" him to go on a mission, he's not exactly thrilled. His mission: to gather information on an organization that may just be planning the destruction of the world, led by the nihilistic Yorgi.</plot><url>http://localhost:8983/solr/movie.html?673363</url></doc>

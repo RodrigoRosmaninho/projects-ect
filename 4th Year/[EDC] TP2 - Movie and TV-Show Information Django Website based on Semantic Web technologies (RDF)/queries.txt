@@ -1,0 +1,180 @@
+# Metadata
+PREFIX predicate: <http://moviesDB.com/predicate>
+select ?uri ?id ?title ?type ?year ?poster ?imdb_rating ?imdb_votes
+where {
+    ?uri predicate:docid ?id .
+    ?uri predicate:title ?title .
+    ?uri predicate:type ?type .
+    ?uri predicate:year ?year .
+    ?uri predicate:poster ?poster .
+    ?uri predicate:imdb_rating ?imdb_rating .
+    ?uri predicate:imdb_votes ?imdb_votes .
+}
+
+# Non-List Fields for id (ex: 000105)
+PREFIX predicate: <http://moviesDB.com/predicate>
+select ?uri ?title ?type ?year ?poster ?imdb_rating ?imdb_votes ?awards ?metascore ?plot
+where {
+    ?uri predicate:docid <"000105"> .
+    ?uri predicate:title ?title .
+    ?uri predicate:type ?type .
+    ?uri predicate:year ?year .
+    ?uri predicate:poster ?poster .
+    ?uri predicate:imdb_rating ?imdb_rating .
+    ?uri predicate:imdb_votes ?imdb_votes .
+    ?uri predicate:awards ?awards .
+    ?uri predicate:metascore ?metascore .
+    ?uri predicate:plot ?plot .
+}
+
+# Simple List fields for id (ex: 000105, retrieve writers)
+PREFIX predicate: <http://moviesDB.com/predicate>
+select ?value
+where {
+    ?mov predicate:docid <"000105"> .
+    ?mov predicate:<writers> ?value .
+}
+
+# Nested List fields for id (ex: 000105, runningtimes)
+PREFIX predicate: <http://moviesDB.com/predicate>
+select ?country ?value
+where {
+    ?mov predicate:docid <"000105"> .
+    ?mov predicate:<runningtimes> ?anon .
+    ?anon predicate:<country> ?country .
+    ?anon predicate:<runningtime> ?value .
+}
+
+# Ask genre
+PREFIX predicate: <http://moviesDB.com/predicate>
+ask {
+    ?uri predicate:docid <"000105"> .
+    ?genre predicate:name <"War"> .
+    ?uri predicate:genres  ?genre .
+}
+
+# Ask literal
+PREFIX predicate: <http://moviesDB.com/predicate>
+ask {
+    ?uri predicate:docid <"000105"> .
+    ?uri predicate:countries <"UK"> .
+}
+
+# Ask people
+PREFIX predicate: <http://moviesDB.com/predicate>
+ask {
+    ?uri predicate:docid "000105" .
+    ?person predicate:name "Kaye, Gorden" .
+    { ?uri predicate:editors ?person . }
+    union { ?uri predicate:directors ?person . }
+    union { ?uri predicate:producers ?person . }
+    union { ?uri predicate:writers ?person . }
+    union { ?uri predicate:composers ?person . }
+    union {
+        ?uri predicate:cast ?anon .
+        ?anon predicate:actor ?person .
+    }
+}
+
+# Group by genres
+PREFIX predicate: <http://moviesDB.com/predicate>
+SELECT ?name (count(?genre) as ?count)
+WHERE
+{
+  ?mov predicate:genres ?genre .
+  ?genre predicate:name ?name
+}
+GROUP BY ?name
+
+# Group by year
+PREFIX predicate: <http://moviesDB.com/predicate>
+SELECT ?year (count(?year) as ?count)
+WHERE
+{
+  ?mov predicate:year ?year .
+}
+GROUP BY ?year
+
+# Insert Review
+PREFIX predicate: <http://moviesDB.com/predicate>
+PREFIX doc: <http://moviesDB.com/entity/doc>
+insert {
+    ?mov predicate:reviews [
+        predicate:id 0;
+    	predicate:name "testname";
+     	predicate:stars 3;
+      	predicate:comment "This is comment"
+    ]
+}
+WHERE {
+    ?mov predicate:docid "000105".
+}
+
+# Delete Review
+PREFIX predicate: <http://moviesDB.com/predicate>
+PREFIX doc: <http://moviesDB.com/entity/doc>
+delete {
+    ?mov predicate:reviews ?rev.
+    ?rev ?p ?v
+}
+WHERE {
+    ?mov predicate:docid "000105" .
+    ?mov predicate:reviews ?rev .
+    ?rev predicate:id 0 .
+    ?rev ?p ?v .
+}
+
+# Inference person worked on genre
+PREFIX predicate: <http://moviesDB.com/predicate>
+PREFIX doc: <http://moviesDB.com/entity/doc>
+construct {
+    ?person predicate:worked ?genre
+}
+where {
+    ?mov predicate:cast ?anon .
+    ?anon predicate:actor ?person .
+    
+    ?mov predicate:genres ?genre .
+}
+
+# Inference person co-worker
+PREFIX predicate: <http://moviesDB.com/predicate>
+PREFIX doc: <http://moviesDB.com/entity/doc>
+construct {
+    ?person1 predicate:coworker ?person2 .
+    
+}
+where {
+    ?mov1 predicate:cast ?anon1 .
+    ?anon1 predicate:actor ?person1 .
+    optional {
+        ?mov2 predicate:cast ?anon2 .
+        ?anon2 predicate:actor ?person2.
+        filter(?person1 != ?person2 && ?mov1 = ?mov2)
+    }
+}
+
+# Genres of person
+PREFIX entity: <http://moviesDB.com/entity>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns>
+PREFIX person: <http://moviesDB.com/entity/person>
+PREFIX predicate: <http://moviesDB.com/predicate>
+select ?person ?name ?genre
+where {
+    ?person rdf:type entity:person .
+    ?person predicate:name ?name .
+    ?person predicate:worked ?genre .
+}
+
+
+# DBpedia Query
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?abstract ?Person_1
+WHERE { ?Person_1 a dbo:Person .
+        ?Person_1 foaf:name ?name .
+        ?Person_1 dbo:abstract ?abstract .
+        FILTER ( ?name = 'Tom Cruise'@en )
+        FILTER (lang(?abstract) = 'en') }
+LIMIT 1

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="doc" type="docType"/>
+    <xs:complexType name="colorinfosType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="colorinfo" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="editorsType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="editor" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="genresType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="genre" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="keywordsType">
+        <xs:sequence>
+            <xs:element name="keyword" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="languagesType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="language" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="soundmixesType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="soundmix" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="countriesType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="country" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="certificateType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="country"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="certificatesType">
+        <xs:sequence>
+            <xs:element type="certificateType" name="certificate" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="releasedateType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="country"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="releasedatesType">
+        <xs:sequence>
+            <xs:element type="releasedateType" name="releasedate" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="directorsType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="director" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="composersType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="composer" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="runningtimeType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="country"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="runningtimesType">
+        <xs:sequence>
+            <xs:element type="runningtimeType" name="runningtime" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="producersType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="producer" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="writersType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="writer" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="creditType">
+        <xs:sequence>
+            <xs:element name="actor"/>
+            <xs:element name="role"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="othercreditType">
+        <xs:sequence>
+            <xs:element name="name"/>
+            <xs:element name="job"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="castType">
+        <xs:sequence>
+            <xs:element type="creditType" name="credit" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="othercrewType">
+        <xs:sequence>
+            <xs:element type="othercreditType" name="credit" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="reviewType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="name"/>
+            <xs:element type="xs:int" name="stars"/>
+            <xs:element type="xs:string" name="comment"/>
+        </xs:sequence>
+        <xs:attribute name="id"/>
+    </xs:complexType>
+    <xs:complexType name="reviewsType">
+        <xs:sequence>
+            <xs:element type="reviewType" name="review" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="docType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="docid"/>
+            <xs:element type="xs:string" name="title"/>
+            <xs:element type="xs:string" name="year"/>
+            <xs:element type="xs:string" name="type"/>
+            <xs:element type="reviewsType" name="reviews" minOccurs="0"/>
+            <xs:element type="xs:string" name="poster" minOccurs="0"/>
+            <xs:element type="xs:string" name="imdb_rating" minOccurs="0"/>
+            <xs:element type="xs:string" name="imdb_votes" minOccurs="0"/>
+            <xs:element type="xs:string" name="awards" minOccurs="0"/>
+            <xs:element type="xs:string" name="metascore" minOccurs="0"/>
+            <xs:element type="colorinfosType" name="colorinfos" minOccurs="0"/>
+            <xs:element type="editorsType" name="editors" minOccurs="0"/>
+            <xs:element type="genresType" name="genres" minOccurs="0"/>
+            <xs:element type="keywordsType" name="keywords" minOccurs="0"/>
+            <xs:element type="languagesType" name="languages" minOccurs="0"/>
+            <xs:element type="soundmixesType" name="soundmixes" minOccurs="0"/>
+            <xs:element type="countriesType" name="countries" minOccurs="0"/>
+            <xs:element type="certificatesType" name="certificates" minOccurs="0"/>
+            <xs:element type="releasedatesType" name="releasedates" minOccurs="0"/>
+            <xs:element type="runningtimesType" name="runningtimes" minOccurs="0"/>
+            <xs:element type="directorsType" name="directors" minOccurs="0"/>
+            <xs:element type="producersType" name="producers" minOccurs="0"/>
+            <xs:element type="writersType" name="writers" minOccurs="0"/>
+            <xs:element type="othercrewType" name="othercrew" minOccurs="0"/>
+            <xs:element type="composersType" name="composers" minOccurs="0"/>
+            <xs:element type="castType" name="cast" minOccurs="0"/>
+            <xs:element type="xs:string" name="plot" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element type="xs:string" name="url" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="id"/>
+    </xs:complexType>
+</xs:schema>

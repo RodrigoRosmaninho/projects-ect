@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="673297">
+  <docid>673297</docid>
+  <title>iCarly</title>
+  <year>2007</year>
+  <type>TelevisionSeries</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Ett, Michael</editor>
+    <editor>Lamphear, Marc</editor>
+    <editor>Prime, Stephen (II)</editor>
+    <editor>Vejar, Dennis C.</editor>
+    <editor>White, Danny (I)</editor>
+  </editors>
+  <genres>
+    <genre>Family</genre>
+    <genre>Comedy</genre>
+  </genres>
+  <keywords>
+    <keyword>artist</keyword>
+    <keyword>dressed-in-chicken-costume</keyword>
+    <keyword>stop-motion</keyword>
+    <keyword>webcast</keyword>
+    <keyword>best-friend</keyword>
+    <keyword>brother-sister-relationship</keyword>
+    <keyword>wedgie</keyword>
+    <keyword>teenage-girl</keyword>
+    <keyword>seattle</keyword>
+    <keyword>wigs</keyword>
+    <keyword>pair-of-shoes</keyword>
+    <keyword>title-not-said-in-theme-song</keyword>
+    <keyword>guardian</keyword>
+    <keyword>character-name-in-title</keyword>
+    <keyword>christmas</keyword>
+    <keyword>one-word-title</keyword>
+    <keyword>apartment</keyword>
+    <keyword>price-of-fame</keyword>
+  </keywords>
+  <languages>
+    <language>English</language>
+  </languages>
+  <countries>
+    <country>USA</country>
+  </countries>
+  <certificates>
+    <certificate country="Netherlands">AL</certificate>
+    <certificate country="Australia">G</certificate>
+    <certificate country="USA">TV-Y7</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="Netherlands">17 May 2008</releasedate>
+    <releasedate country="Brazil">17 April 2008</releasedate>
+    <releasedate country="Israel">15 May 2008</releasedate>
+    <releasedate country="UK">17 January 2009</releasedate>
+    <releasedate country="United Arab Emirates">June 2008</releasedate>
+    <releasedate country="Singapore">19 October 2008</releasedate>
+    <releasedate country="Germany">23 February 2008</releasedate>
+    <releasedate country="Belgium">17 May 2008</releasedate>
+    <releasedate country="Hungary">1 May 2009</releasedate>
+    <releasedate country="Nicaragua">22 September 2007</releasedate>
+    <releasedate country="Australia">8 May 2008</releasedate>
+    <releasedate country="Canada">8 October 2007</releasedate>
+    <releasedate country="Philippines">31 May 2008</releasedate>
+    <releasedate country="New Zealand">4 May 2008</releasedate>
+    <releasedate country="USA">25 July 2008</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="USA">25</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Christiansen, Roger</director>
+    <director>Goldstein, Jonathan (VII)</director>
+    <director>Hoefer, Steve</director>
+    <director>Kendall, David (II)</director>
+    <director>Reinsel, Russ</director>
+    <director>Weissman, Adam (I)</director>
+  </directors>
+  <producers>
+    <producer>Comisar, Amber</producer>
+    <producer>Opp, Becky</producer>
+    <producer>Sheridan, Neil A.</producer>
+    <producer>Schneider, Dan (II)</producer>
+    <producer>Berman, Bruce Rand</producer>
+    <producer>Catania, Joe</producer>
+    <producer>Petrosini, Jana</producer>
+    <producer>Petrosini, Jana</producer>
+    <producer>Weiner, Robin (I)</producer>
+    <producer>Comisar, Amber</producer>
+  </producers>
+  <writers>
+    <writer>Banville, Ethan</writer>
+    <writer>Dornetto, Karey</writer>
+    <writer>Doty IV, George</writer>
+    <writer>Farrow, Jake</writer>
+    <writer>Fleckenstein, Matt</writer>
+    <writer>Gradstein, Arthur</writer>
+    <writer>Holland, Steve (VI)</writer>
+    <writer>Molaro, Steven</writer>
+    <writer>Murphy, Dicky</writer>
+    <writer>Newman, Andrew Hill</writer>
+    <writer>Schneider, Dan (II)</writer>
+  </writers>
+  <composers>
+    <composer>Corcoran, Michael (III)</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Abbott, Mitchell</actor>
+      <role>Edgar</role>
+    </credit>
+    <credit>
+      <actor>Ainsworth, Lexi</actor>
+      <role>Lexi</role>
+    </credit>
+    <credit>
+      <actor>Aisling, Samantha</actor>
+      <role>Connie</role>
+    </credit>
+    <credit>
+      <actor>Albert, Aaron (II)</actor>
+      <role>Jonah</role>
+    </credit>
+    <credit>
+      <actor>Alexander, Reed</actor>
+      <role>Nevel</role>
+    </credit>
+    <credit>
+      <actor>Alexander, Reed</actor>
+      <role>Nevel Papperman</role>
+    </credit>
+    <credit>
+      <actor>Alexander, Reed</actor>
+      <role>Nevel Papperman</role>
+    </credit>
+    <credit>
+      <actor>Alexander, Reed</actor>
+      <role>Nevel Papperman</role>
+    </credit>
+    <credit>
+      <actor>Anderson, Nicole Gale</actor>
+      <role>Tasha</role>
+    </credit>
+    <credit>
+      <actor>Anthony, Reed</actor>
+      <role>Officer 'Dale'</role>
+    </credit>
+    <credit>
+      <actor>Archuleta, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Argota, Ashley</actor>
+      <role>Kathy</role>
+    </credit>
+    <credit>
+      <actor>Armstrong, Curtis</actor>
+      <role>Store Clerk</role>
+    </credit>
+    <credit>
+      <actor>Ashe, Casandra</actor>
+      <role>Fairy</role>
+    </credit>
+    <credit>
+      <actor>Astor, Isabella</actor>
+      <role>Claire</role>
+    </credit>
+    <credit>
+      <actor>Ausburn, Ashley</actor>
+      <role>Cross Eyed Girl</role>
+    </credit>
+    <credit>
+      <actor>Ausburn, Ashley</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Ayres, Maray</actor>
+      <role>Grandmother</role>
+    </credit>
+    <credit>
+      <actor>Azlynn, Valerie</actor>
+      <role>Veronica</role>
+    </credit>
+    <credit>
+      <actor>Bang, Vivian</actor>
+      <role>Dental Hygentist</role>
+    </credit>
+    <credit>
+      <actor>Bangs, Cherise</actor>
+      <role>Miss Fielder</role>
+    </credit>
+    <credit>
+      <actor>Barer, Libe</actor>
+      <role>Tareen</role>
+    </credit>
+    <credit>
+      <actor>Barnett, Kimberly</actor>
+      <role>Suezay</role>
+    </credit>
+    <credit>
+      <actor>Basey, Jill (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Basso, Alexandria</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Basso, Gabriel</actor>
+      <role>Fake Freddie</role>
+    </credit>
+    <credit>
+      <actor>Bearor, Molly</actor>
+      <role>Annie</role>
+    </credit>
+    <credit>
+      <actor>Beck, Erica (II)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Beckett, Taylor Ashlynn</actor>
+      <role>Highschool Student</role>
+    </credit>
+    <credit>
+      <actor>Benton, Kalyn</actor>
+      <role>9th Grader #3</role>
+    </credit>
+    <credit>
+      <actor>Berger, Leslie</actor>
+      <role>Speed Walker #2</role>
+    </credit>
+    <credit>
+      <actor>Bernal, Simon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Betty-Horton, Yoshicka</actor>
+      <role>Dancer</role>
+    </credit>
+    <credit>
+      <actor>Beyer, Tom (I)</actor>
+      <role>LCC Inspector Bullock</role>
+    </credit>
+    <credit>
+      <actor>Bishop, Derrick</actor>
+      <role>Reporter #2</role>
+    </credit>
+    <credit>
+      <actor>Bizgia, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Blodgett, Sean</actor>
+      <role>Mover #1</role>
+    </credit>
+    <credit>
+      <actor>Bollman, Ryan</actor>
+      <role>Detective Stuart 'Spanky' Stimbler</role>
+    </credit>
+    <credit>
+      <actor>Bologna, L.J.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bolourchi, Andre</actor>
+      <role>Yurgin</role>
+    </credit>
+    <credit>
+      <actor>Bondar, Carly</actor>
+      <role>Valerie</role>
+    </credit>
+    <credit>
+      <actor>Boogie (I)</actor>
+      <role>T-Bo</role>
+    </credit>
+    <credit>
+      <actor>Bouey, Che</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Brackett, Troy</actor>
+      <role>Referee #2</role>
+    </credit>
+    <credit>
+      <actor>Braun, Wendy</actor>
+      <role>Mrs. Papperman</role>
+    </credit>
+    <credit>
+      <actor>Braunger, Matt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bridges, Spencir</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Brochu, Doug</actor>
+      <role>Duke</role>
+    </credit>
+    <credit>
+      <actor>Brochu, Doug</actor>
+      <role>Wrestler #1</role>
+    </credit>
+    <credit>
+      <actor>Bromberg, Hayden</actor>
+      <role>Darby</role>
+    </credit>
+    <credit>
+      <actor>Brown, Yvette Nicole</actor>
+      <role>Art Student</role>
+    </credit>
+    <credit>
+      <actor>Bryan, Greg</actor>
+      <role>Officer Price</role>
+    </credit>
+    <credit>
+      <actor>Burch, Anthony</actor>
+      <role>Dink</role>
+    </credit>
+    <credit>
+      <actor>Butler, Austin Robert</actor>
+      <role>Jake Krandle</role>
+    </credit>
+    <credit>
+      <actor>Butler, Drew</actor>
+      <role>Security Guard</role>
+    </credit>
+    <credit>
+      <actor>Butler, Nicole J.</actor>
+      <role>Woman on Computer</role>
+    </credit>
+    <credit>
+      <actor>Buttler, Joseph (I)</actor>
+      <role>Mr. Stern</role>
+    </credit>
+    <credit>
+      <actor>Cann, Cathy</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Cann, Jonathon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Carino, Stacey</actor>
+      <role>Edith's Stunt Double</role>
+    </credit>
+    <credit>
+      <actor>Carlacci, Danielle</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Carlson, Chloe</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Carper, Wyatt</actor>
+      <role>Spanky's son</role>
+    </credit>
+    <credit>
+      <actor>Carrozzo, Michaela</actor>
+      <role>9th Grader #1</role>
+    </credit>
+    <credit>
+      <actor>Centrella, Sammy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cesario, Julien</actor>
+      <role>Juan</role>
+    </credit>
+    <credit>
+      <actor>Chansky, Alex</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Chavarria, Kyle</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Chew, Rich</actor>
+      <role>Gas Company Guy #2</role>
+    </credit>
+    <credit>
+      <actor>Chirco, Guistina</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Choi, Claudia</actor>
+      <role>Reporter</role>
+    </credit>
+    <credit>
+      <actor>Chowdhury, Ryan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Citrano, Lenny</actor>
+      <role>Don Flanken</role>
+    </credit>
+    <credit>
+      <actor>Coffee, Bryan</actor>
+      <role>Hal</role>
+    </credit>
+    <credit>
+      <actor>Cohen, Maryah Gabrielle</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Connor, Brendan Patrick</actor>
+      <role>Buttburn</role>
+    </credit>
+    <credit>
+      <actor>Cosgrove, Miranda</actor>
+      <role>Carly Shay</role>
+    </credit>
+    <credit>
+      <actor>Coughlin, Natalie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Cowart, William (I)</actor>
+      <role>Mr. Wimbley</role>
+    </credit>
+    <credit>
+      <actor>Craigie, Derek</actor>
+      <role>Buckminsta</role>
+    </credit>
+    <credit>
+      <actor>Crowder, Shawn</actor>
+      <role>Gary</role>
+    </credit>
+    <credit>
+      <actor>Crowder, Shawn</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cruikshank, Lucas</actor>
+      <role>Fred Figglehorn/Himself</role>
+    </credit>
+    <credit>
+      <actor>Cupp, Shane</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>D'Amicol, Dan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dallas, Cynthia</actor>
+      <role>Jocelyn</role>
+    </credit>
+    <credit>
+      <actor>Daly, Jesse (II)</actor>
+      <role>DAKA Executive</role>
+    </credit>
+    <credit>
+      <actor>Danielle-Cheri</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>David, Christopher (III)</actor>
+      <role>Ripoff Rodney</role>
+    </credit>
+    <credit>
+      <actor>Davis, Andrew Michael (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Davis, Austin Herrera</actor>
+      <role>Guy #1</role>
+    </credit>
+    <credit>
+      <actor>Davis, Austin Herrera</actor>
+      <role>Guy In Video</role>
+    </credit>
+    <credit>
+      <actor>Davis, Taryn (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>De Longis, Anthony</actor>
+      <role>Emile</role>
+    </credit>
+    <credit>
+      <actor>DeFatta, Annie</actor>
+      <role>Fake Sam</role>
+    </credit>
+    <credit>
+      <actor>DeFatta, Annie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>DeRoesi, Jason</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>DeShazer, Brandon</actor>
+      <role>Massuer</role>
+    </credit>
+    <credit>
+      <actor>Deadrick Jr., Vince</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Deadrick Jr., Vince</actor>
+      <role>Rep #1</role>
+    </credit>
+    <credit>
+      <actor>Del Mundo, Liza</actor>
+      <role>Sonya</role>
+    </credit>
+    <credit>
+      <actor>Delgado, Kim</actor>
+      <role>Agent Newman</role>
+    </credit>
+    <credit>
+      <actor>Derr, Kevin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Derryberry, Debi</actor>
+      <role>Principal Franklin's Secretary</role>
+    </credit>
+    <credit>
+      <actor>Di Brizzi Jr., Nick</actor>
+      <role>Pizza Delivery Man</role>
+    </credit>
+    <credit>
+      <actor>Diane, Maria</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Dill, Deena</actor>
+      <role>Charlotte</role>
+    </credit>
+    <credit>
+      <actor>Domond, Gregory</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Doty IV, George</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Doty, Missy</actor>
+      <role>Teacher who falls out of her chair</role>
+    </credit>
+    <credit>
+      <actor>Dumenigo, Jayson</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Duncan, Christopher B.</actor>
+      <role>Colonel Morgan</role>
+    </credit>
+    <credit>
+      <actor>Dworkin, Bruce</actor>
+      <role>Sweaty Guy</role>
+    </credit>
+    <credit>
+      <actor>Edmonds, Stephanie (II)</actor>
+      <role>Fight Cheerleader</role>
+    </credit>
+    <credit>
+      <actor>Ellis, Katherine M.</actor>
+      <role>Rebecca Berkowitz</role>
+    </credit>
+    <credit>
+      <actor>Ethridge, Jon Kent</actor>
+      <role>Grover</role>
+    </credit>
+    <credit>
+      <actor>Fahey, Jozef</actor>
+      <role>Guy in Bunny Suit</role>
+    </credit>
+    <credit>
+      <actor>Farrow, Jake</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fazzino, Christine</actor>
+      <role>Jenny</role>
+    </credit>
+    <credit>
+      <actor>Feonix, Brennan</actor>
+      <role>Delivery Man #2</role>
+    </credit>
+    <credit>
+      <actor>Flanagan, Maile</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Flanagan, Patrick (X)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Flanders, Chris</actor>
+      <role>TV Dad</role>
+    </credit>
+    <credit>
+      <actor>Fleckenstein, Matt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Floeter, Dakota</actor>
+      <role>Guitarist</role>
+    </credit>
+    <credit>
+      <actor>Foden, Tyler</actor>
+      <role>JD Fallon</role>
+    </credit>
+    <credit>
+      <actor>Foose, Lauren</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Fox, Rachel G.</actor>
+      <role>Amber Tate</role>
+    </credit>
+    <credit>
+      <actor>Frausto, Scott</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Frazier, John (IV)</actor>
+      <role>Pirate</role>
+    </credit>
+    <credit>
+      <actor>French, Millicent</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Full, Stephen</actor>
+      <role>Lenny</role>
+    </credit>
+    <credit>
+      <actor>Fuller, Andra</actor>
+      <role>Paramedic</role>
+    </credit>
+    <credit>
+      <actor>Gant, Justin (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gant, Justin (I)</actor>
+      <role>William</role>
+    </credit>
+    <credit>
+      <actor>Garces, J. Teddy</actor>
+      <role>Prsioner #2</role>
+    </credit>
+    <credit>
+      <actor>Garza, Leslie</actor>
+      <role>Fighter</role>
+    </credit>
+    <credit>
+      <actor>Giacalone, Johnny</actor>
+      <role>Stu</role>
+    </credit>
+    <credit>
+      <actor>Ginsberg, Seth</actor>
+      <role>Matt</role>
+    </credit>
+    <credit>
+      <actor>Glouberman, Bob</actor>
+      <role>Dr. Moonie</role>
+    </credit>
+    <credit>
+      <actor>Gobienko, Andy</actor>
+      <role>Dave</role>
+    </credit>
+    <credit>
+      <actor>Gonsalves, Emily Ann</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Gould, Jadin</actor>
+      <role>Little Carly</role>
+    </credit>
+    <credit>
+      <actor>Grace, Jeff (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gradstein, Arthur</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Grammer, David</actor>
+      <role>Travis</role>
+    </credit>
+    <credit>
+      <actor>Grey, Reatha</actor>
+      <role>Woman in Lobby</role>
+    </credit>
+    <credit>
+      <actor>Grief, Mike</actor>
+      <role>Mover #2</role>
+    </credit>
+    <credit>
+      <actor>Gunnin, Taylor</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Guo, Michelle</actor>
+      <role>Sheila</role>
+    </credit>
+    <credit>
+      <actor>Hack, Steven</actor>
+      <role>Mr. Feldon</role>
+    </credit>
+    <credit>
+      <actor>Hadinger, David</actor>
+      <role>Monster #2</role>
+    </credit>
+    <credit>
+      <actor>Haines, Wendy</actor>
+      <role>Trudy</role>
+    </credit>
+    <credit>
+      <actor>Hall, Desiree</actor>
+      <role>Ms. Kepple</role>
+    </credit>
+    <credit>
+      <actor>Hamilton, De'Mar</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hammer, Travis</actor>
+      <role>Barry Schatz</role>
+    </credit>
+    <credit>
+      <actor>Hanratty, Sammi</actor>
+      <role>Morgan</role>
+    </credit>
+    <credit>
+      <actor>Hanson, Arianna</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Happy, Ryan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hargrove, Jonathan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Harper, Chris (VI)</actor>
+      <role>Mr. Chambers</role>
+    </credit>
+    <credit>
+      <actor>Harris, Estelle</actor>
+      <role>Mrs. Halberstadt</role>
+    </credit>
+    <credit>
+      <actor>Harris, Piper Mackenzie</actor>
+      <role>Emily Millford</role>
+    </credit>
+    <credit>
+      <actor>Hartley, Nate</actor>
+      <role>Jeb</role>
+    </credit>
+    <credit>
+      <actor>Hartsock, Charlie</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Higgenson, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hing, Juliette</actor>
+      <role>Karen Yamakawa</role>
+    </credit>
+    <credit>
+      <actor>Hinton, Shauntay</actor>
+      <role>Jessica Warner/Reporter</role>
+    </credit>
+    <credit>
+      <actor>Hinton, Shauntay</actor>
+      <role>TV Reporter</role>
+    </credit>
+    <credit>
+      <actor>Hisoler, Ben</actor>
+      <role>Delivery Man</role>
+    </credit>
+    <credit>
+      <actor>Hitchcock, Bryce</actor>
+      <role>David Archuleta fan</role>
+    </credit>
+    <credit>
+      <actor>Hoefer, Steve</actor>
+      <role>The Director</role>
+    </credit>
+    <credit>
+      <actor>Holdren, Rand</actor>
+      <role>Dr. Porterfield</role>
+    </credit>
+    <credit>
+      <actor>Holladay, Logan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Holland, Karla Marie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Holman, Jeff (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Holmes, Alex Robert</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Holmes, Hayley</actor>
+      <role>Girl with Leg Over Head</role>
+    </credit>
+    <credit>
+      <actor>Hong, Kevin (II)</actor>
+      <role>Emmett</role>
+    </credit>
+    <credit>
+      <actor>Hornor, Timothy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hosken, Olivia</actor>
+      <role>Young Sam</role>
+    </credit>
+    <credit>
+      <actor>Huddleson, Joan</actor>
+      <role>Ms. Murdoch</role>
+    </credit>
+    <credit>
+      <actor>Jackson, Clinton</actor>
+      <role>Referee #2</role>
+    </credit>
+    <credit>
+      <actor>James, Chaz</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jann, Jessica</actor>
+      <role>Celine</role>
+    </credit>
+    <credit>
+      <actor>Jay, Cannon</actor>
+      <role>Dave</role>
+    </credit>
+    <credit>
+      <actor>Jeffery, Carla</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Jewell, Emmy</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Jewell, Linda</actor>
+      <role>Carly's Stunt Double</role>
+    </credit>
+    <credit>
+      <actor>Jewell, Linda</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Jewell, Nicholas</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>John, Marlon</actor>
+      <role>FBI Agent</role>
+    </credit>
+    <credit>
+      <actor>Jones, Asante</actor>
+      <role>Detective Tragg</role>
+    </credit>
+    <credit>
+      <actor>Jones, Dot</actor>
+      <role>Corrections Officer</role>
+    </credit>
+    <credit>
+      <actor>Jow, Malese</actor>
+      <role>Fake Carly</role>
+    </credit>
+    <credit>
+      <actor>Justice, Victoria</actor>
+      <role>Shelby Marx</role>
+    </credit>
+    <credit>
+      <actor>Kan, Eric</actor>
+      <role>School administrator</role>
+    </credit>
+    <credit>
+      <actor>Kash, Daniel (II)</actor>
+      <role>Jack</role>
+    </credit>
+    <credit>
+      <actor>Kasp, Thomas</actor>
+      <role>Polish Guy</role>
+    </credit>
+    <credit>
+      <actor>Keiffer, Dennis</actor>
+      <role>Prisoner #3</role>
+    </credit>
+    <credit>
+      <actor>Kemper, Drake</actor>
+      <role>Darren</role>
+    </credit>
+    <credit>
+      <actor>Kenoyer, Annamarie</actor>
+      <role>Shannon Mitchell</role>
+    </credit>
+    <credit>
+      <actor>Kerns, Kallie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Kim, Charles (II)</actor>
+      <role>Chuck</role>
+    </credit>
+    <credit>
+      <actor>Kingi, Dorian</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Klebba, Martin</actor>
+      <role>Nug Nug</role>
+    </credit>
+    <credit>
+      <actor>Kraemer, Sarah</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Kreiger, Will</actor>
+      <role>Tripp</role>
+    </credit>
+    <credit>
+      <actor>Kress, Nathan (I)</actor>
+      <role>Freddie</role>
+    </credit>
+    <credit>
+      <actor>Kress, Nathan (I)</actor>
+      <role>Freddie Benson</role>
+    </credit>
+    <credit>
+      <actor>Landayan, Ruffy</actor>
+      <role>Guy #1</role>
+    </credit>
+    <credit>
+      <actor>Landayan, Ruffy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lane Jr., Teddy</actor>
+      <role>Sam's Boss</role>
+    </credit>
+    <credit>
+      <actor>Lanier, Jasi Cotton</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Latzer, Josh</actor>
+      <role>Janitor Andy</role>
+    </credit>
+    <credit>
+      <actor>Lawrence, Cody</actor>
+      <role>Alex</role>
+    </credit>
+    <credit>
+      <actor>Lawson, Joshua Lopez</actor>
+      <role>Kid</role>
+    </credit>
+    <credit>
+      <actor>Lee, Terrell</actor>
+      <role>Jackson Colt</role>
+    </credit>
+    <credit>
+      <actor>Lewis, Randy (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Limbaugh, Joseph</actor>
+      <role>Dr. Wheeler</role>
+    </credit>
+    <credit>
+      <actor>Lindy, Peter</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lockridge, Andrew</actor>
+      <role>Will</role>
+    </credit>
+    <credit>
+      <actor>Loewenstein, Eitan</actor>
+      <role>Matthew's Dad</role>
+    </credit>
+    <credit>
+      <actor>Lopez, Tim</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Luthman, Joey</actor>
+      <role>Dave</role>
+    </credit>
+    <credit>
+      <actor>Madison, Alex</actor>
+      <role>Carly's Stunt Double</role>
+    </credit>
+    <credit>
+      <actor>Makinson, Jessica</actor>
+      <role>Miss Lauren Ackerman</role>
+    </credit>
+    <credit>
+      <actor>Malina, Joshua</actor>
+      <role>Goldstein</role>
+    </credit>
+    <credit>
+      <actor>Mandala, Adam</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mandisa, Melissa</actor>
+      <role>Sam's Mom</role>
+    </credit>
+    <credit>
+      <actor>Manigo, C.J.</actor>
+      <role>Guy #2</role>
+    </credit>
+    <credit>
+      <actor>Manigo, C.J.</actor>
+      <role>Guy In Video</role>
+    </credit>
+    <credit>
+      <actor>Mann, Thomas (V)</actor>
+      <role>Jeffrey</role>
+    </credit>
+    <credit>
+      <actor>Martin, Graham Patrick</actor>
+      <role>Pete</role>
+    </credit>
+    <credit>
+      <actor>Martinez, Angelyna</actor>
+      <role>Mother in Lobby</role>
+    </credit>
+    <credit>
+      <actor>Maslow, James</actor>
+      <role>Shane</role>
+    </credit>
+    <credit>
+      <actor>Mattey, David</actor>
+      <role>Prison Guard</role>
+    </credit>
+    <credit>
+      <actor>McCarthy, Kevin T.</actor>
+      <role>Prisoner #1</role>
+    </credit>
+    <credit>
+      <actor>McCrary, Joel</actor>
+      <role>Porkchop</role>
+    </credit>
+    <credit>
+      <actor>McCurdy, Jennette</actor>
+      <role>Sam</role>
+    </credit>
+    <credit>
+      <actor>McCurdy, Jennette</actor>
+      <role>Sam Puckett</role>
+    </credit>
+    <credit>
+      <actor>McCurdy, Jennette</actor>
+      <role>Sam Puckett/Melanie Puckett</role>
+    </credit>
+    <credit>
+      <actor>McGee, Wes (II)</actor>
+      <role>Brad Conway</role>
+    </credit>
+    <credit>
+      <actor>McGinnis, Ryan (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McGonagle, Marta</actor>
+      <role>Sandra</role>
+    </credit>
+    <credit>
+      <actor>McKenna Posey, Parker</actor>
+      <role>Kathy</role>
+    </credit>
+    <credit>
+      <actor>McKnight, Annie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>McLaughlin, Dylan</actor>
+      <role>Benji</role>
+    </credit>
+    <credit>
+      <actor>McMillan, Jameelah</actor>
+      <role>Bianca Jay</role>
+    </credit>
+    <credit>
+      <actor>McMillan, Jameelah</actor>
+      <role>Bianca Jay</role>
+    </credit>
+    <credit>
+      <actor>McWethy, Myra</actor>
+      <role>Margaret Collins</role>
+    </credit>
+    <credit>
+      <actor>Mejia, Brennan</actor>
+      <role>Brennan Yubberly</role>
+    </credit>
+    <credit>
+      <actor>Mejia, Brennan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Menchaca, Gil</actor>
+      <role>Rob</role>
+    </credit>
+    <credit>
+      <actor>Meyer, John Charles</actor>
+      <role>Dirk</role>
+    </credit>
+    <credit>
+      <actor>Michael, Christopher (I)</actor>
+      <role>Officer Carl</role>
+    </credit>
+    <credit>
+      <actor>Michaels, Norma</actor>
+      <role>Jake's Grandmother</role>
+    </credit>
+    <credit>
+      <actor>Mitchiner, Justin</actor>
+      <role>Larry the Mailman</role>
+    </credit>
+    <credit>
+      <actor>Mladineo, Antonio</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mobley, 'Big' LeRoy</actor>
+      <role>Fireman #2</role>
+    </credit>
+    <credit>
+      <actor>Moio, Ashton</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Moio, Monette</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Molale, Brandon</actor>
+      <role>Officer Platt</role>
+    </credit>
+    <credit>
+      <actor>Monroe, Steve (I)</actor>
+      <role>Braxley</role>
+    </credit>
+    <credit>
+      <actor>Monson, Rashad</actor>
+      <role>Kevin Colt</role>
+    </credit>
+    <credit>
+      <actor>Mora, Norman</actor>
+      <role>Crazy Prisoner</role>
+    </credit>
+    <credit>
+      <actor>Morella, Tabitha</actor>
+      <role>Rona Berger</role>
+    </credit>
+    <credit>
+      <actor>Moy, Matthew</actor>
+      <role>Shawn</role>
+    </credit>
+    <credit>
+      <actor>Muirhead, Oliver</actor>
+      <role>Harry Joyner</role>
+    </credit>
+    <credit>
+      <actor>Mullavy, Greg</actor>
+      <role>Grandfather Shay</role>
+    </credit>
+    <credit>
+      <actor>Munck, Noah</actor>
+      <role>Gibby</role>
+    </credit>
+    <credit>
+      <actor>Munck, Noah</actor>
+      <role>Gibby</role>
+    </credit>
+    <credit>
+      <actor>Munck, Noah</actor>
+      <role>Gibby</role>
+    </credit>
+    <credit>
+      <actor>Munck, Noah</actor>
+      <role>Gibby</role>
+    </credit>
+    <credit>
+      <actor>Murphy, Dicky</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Napper, Lane</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Narayan, Roger</actor>
+      <role>Dental Patient</role>
+    </credit>
+    <credit>
+      <actor>Neil, Adrian</actor>
+      <role>Mr. Devlin</role>
+    </credit>
+    <credit>
+      <actor>Nelsen, Eric</actor>
+      <role>Zeke</role>
+    </credit>
+    <credit>
+      <actor>Newman, Andrew Hill</actor>
+      <role>Bra Vo</role>
+    </credit>
+    <credit>
+      <actor>Newman, Andrew Hill</actor>
+      <role>Mr. Henning</role>
+    </credit>
+    <credit>
+      <actor>Nutt, J.R.</actor>
+      <role>Jim</role>
+    </credit>
+    <credit>
+      <actor>O'Dell, Dalton</actor>
+      <role>Ozlottis Dorfman</role>
+    </credit>
+    <credit>
+      <actor>Ochoa, Ryan (II)</actor>
+      <role>Chuck</role>
+    </credit>
+    <credit>
+      <actor>Oishi, Calvin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Olsen, Paul (IV)</actor>
+      <role>Fencer #3</role>
+    </credit>
+    <credit>
+      <actor>Olynek, Scott</actor>
+      <role>Boom Operator</role>
+    </credit>
+    <credit>
+      <actor>Palatas, Cameron</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Palmer, Bridger</actor>
+      <role>Frankenstein</role>
+    </credit>
+    <credit>
+      <actor>Park, Randall</actor>
+      <role>Mr. Palladino</role>
+    </credit>
+    <credit>
+      <actor>Partlow, Shane</actor>
+      <role>Dr. Dorfman</role>
+    </credit>
+    <credit>
+      <actor>Pattillo, Greg</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pearson, Nathan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pearson, Nathan</actor>
+      <role>Jeremy</role>
+    </credit>
+    <credit>
+      <actor>Pease, Gary</actor>
+      <role>Reuben</role>
+    </credit>
+    <credit>
+      <actor>Perez, Mario (II)</actor>
+      <role>Fencer #4</role>
+    </credit>
+    <credit>
+      <actor>Perry, Brien</actor>
+      <role>Fireman</role>
+    </credit>
+    <credit>
+      <actor>Phillip, Alex</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pike, Gary</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pirri, Jim</actor>
+      <role>Mario</role>
+    </credit>
+    <credit>
+      <actor>Porter, Bobby</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Quinonez, Adrian</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Raulston, Stefan</actor>
+      <role>Benjamin Yip</role>
+    </credit>
+    <credit>
+      <actor>Rawlings, Tyger</actor>
+      <role>Myron</role>
+    </credit>
+    <credit>
+      <actor>Retondo, Mike</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Reynolds, Greg (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ritchie, Steven (IV)</actor>
+      <role>Kevin</role>
+    </credit>
+    <credit>
+      <actor>Robles, Dustin Cyril</actor>
+      <role>Harry's Assistant</role>
+    </credit>
+    <credit>
+      <actor>Robuck, Nicolas</actor>
+      <role>Navin</role>
+    </credit>
+    <credit>
+      <actor>Rodriguez, Rico (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rolin, Gary</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rowley, Jeremy</actor>
+      <role>Lewbert</role>
+    </credit>
+    <credit>
+      <actor>Rowley, Jeremy</actor>
+      <role>Lewbert the Doorman</role>
+    </credit>
+    <credit>
+      <actor>Rowley, Jeremy</actor>
+      <role>Lewbert the Doorman</role>
+    </credit>
+    <credit>
+      <actor>Roy, Drew</actor>
+      <role>Griffin</role>
+    </credit>
+    <credit>
+      <actor>Russ, Tim</actor>
+      <role>Principal Franklin</role>
+    </credit>
+    <credit>
+      <actor>Russell, Robert (XVIII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sabinski, Frank</actor>
+      <role>Fencer #2</role>
+    </credit>
+    <credit>
+      <actor>Sahgal, Ajay</actor>
+      <role>Lubman</role>
+    </credit>
+    <credit>
+      <actor>Samonas, Daniel</actor>
+      <role>Doug Toder</role>
+    </credit>
+    <credit>
+      <actor>Schemmer, Alex</actor>
+      <role>Wade Collins</role>
+    </credit>
+    <credit>
+      <actor>Schirra, Easton</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Seminara, Jon</actor>
+      <role>Blake</role>
+    </credit>
+    <credit>
+      <actor>Sharpe, Saleemah</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sibner, Andrew</actor>
+      <role>Bobby</role>
+    </credit>
+    <credit>
+      <actor>Siegel, Jake</actor>
+      <role>Cal</role>
+    </credit>
+    <credit>
+      <actor>Silpa, Mitch</actor>
+      <role>Doctor</role>
+    </credit>
+    <credit>
+      <actor>Smith, Sean (II)</actor>
+      <role>Dr. Dresdin</role>
+    </credit>
+    <credit>
+      <actor>Smith, Stu (III)</actor>
+      <role>Pirate</role>
+    </credit>
+    <credit>
+      <actor>Soleil, Sky</actor>
+      <role>FBI Agent</role>
+    </credit>
+    <credit>
+      <actor>Spencer, Jonathan (I)</actor>
+      <role>Mr. Connick</role>
+    </credit>
+    <credit>
+      <actor>Spensor, Colin</actor>
+      <role>Wesley</role>
+    </credit>
+    <credit>
+      <actor>Sprayberry, Dylan</actor>
+      <role>Matthew</role>
+    </credit>
+    <credit>
+      <actor>St. James, David</actor>
+      <role>Mr. Howard</role>
+    </credit>
+    <credit>
+      <actor>Stader, Peter</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Starzyk, David</actor>
+      <role>Brad</role>
+    </credit>
+    <credit>
+      <actor>Steele, Nick (I)</actor>
+      <role>Olaf</role>
+    </credit>
+    <credit>
+      <actor>Symons, Kevin</actor>
+      <role>Greg Horvath</role>
+    </credit>
+    <credit>
+      <actor>Tait, Adam</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Tangradi, Bill</actor>
+      <role>Rod</role>
+    </credit>
+    <credit>
+      <actor>Tavera, Anthony</actor>
+      <role>Andy</role>
+    </credit>
+    <credit>
+      <actor>Thomas III, Leon</actor>
+      <role>Harper</role>
+    </credit>
+    <credit>
+      <actor>Tintor, Jaime</actor>
+      <role>Brett Thompson</role>
+    </credit>
+    <credit>
+      <actor>Tirio, Dave</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Topp, Shayne</actor>
+      <role>Phillip Brownley</role>
+    </credit>
+    <credit>
+      <actor>Trainor, Jerry</actor>
+      <role>Spencer</role>
+    </credit>
+    <credit>
+      <actor>Trainor, Jerry</actor>
+      <role>Spencer Shay</role>
+    </credit>
+    <credit>
+      <actor>Trobec, Tim</actor>
+      <role>Hugh</role>
+    </credit>
+    <credit>
+      <actor>Turner, Adrian Kali</actor>
+      <role>Mobster #1</role>
+    </credit>
+    <credit>
+      <actor>Vandervort, Paul</actor>
+      <role>Klaus</role>
+    </credit>
+    <credit>
+      <actor>Vargas, Eli</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Vosburg, Jarron</actor>
+      <role>Guy #1</role>
+    </credit>
+    <credit>
+      <actor>Vosburg, Jarron</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Walker, Erik</actor>
+      <role>Cleeshay</role>
+    </credit>
+    <credit>
+      <actor>Wanzo, Tramaine</actor>
+      <role>The Assistant</role>
+    </credit>
+    <credit>
+      <actor>Warzel, Matthew</actor>
+      <role>Chili Man</role>
+    </credit>
+    <credit>
+      <actor>Wells, Austin</actor>
+      <role>Kyle-Head of Mathletes</role>
+    </credit>
+    <credit>
+      <actor>Whinery Jr., Webster P.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wiff, Biff</actor>
+      <role>Hollywood Hobo</role>
+    </credit>
+    <credit>
+      <actor>Willig, Matthew</actor>
+      <role>Sledgehammer</role>
+    </credit>
+    <credit>
+      <actor>Wilson, Theo</actor>
+      <role>Marvin</role>
+    </credit>
+    <credit>
+      <actor>Woodburn, Danny</actor>
+      <role>Mitch</role>
+    </credit>
+    <credit>
+      <actor>Woods, John T.</actor>
+      <role>Newberg</role>
+    </credit>
+    <credit>
+      <actor>Wortham, Keller</actor>
+      <role>Reporter #1</role>
+    </credit>
+  </cast>
+<plot>Carly hosts her own home-grown web show, iCarly. She lives with her twenty-something brother/guardian Spencer and produces her Web casts from a makeshift third-floor loft studio. Grappling with adolescence, she never aimed to gain fame as a rising star/underground celebrity to kids. As events unfold in the pilot, it all happens by accident when a teacher puts her in charge of the school talent show. She and her sassy best bud Sam turn the audition process into a show, which Carly's tech savvy smitten friend Freddy tapes -- including their hilarious banter and great chemistry -- and posts on the Web without telling the girls. The on-line audience clamors for more, and a pop phenomenon blooms, with Carly and sidekick Sam's regular Web casts ultimately featuring everything from comedy sketches and talent contests to interviews, recipes, and problem-solving.</plot><url>http://localhost:8983/solr/movie.html?673297</url></doc>

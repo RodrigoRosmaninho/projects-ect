@@ -1,0 +1,50 @@
+EDC G12 - 2020/2021
+João Trindade - 89140
+Pedro Valério - 88734
+Rodrigo Rosmaninho - 88802
+
+# Pontos-Chave do Projeto Desenvolvido
+
+## Queries & Inferências
+
+Todas as queries usadas neste projecto se encontram no ficheiro queries.txt, estando a sua utilização no código python adaptada de modo a permitir alguma parametrização.
+Para além das queries usadas para concretizar as funcionalidades do projecto, estão, também as queries utilizadas nas inferências, nomeadamente, a query de inserção de dados sobre os géneros em que um actor já trabalhou, executada quando a aplicação é iniciada.
+Os resultados da execução dessa inferência podem ser conferidos na página de detalhes de um ator.
+Para além desta, encontra-se, no ficheiro, uma inferência que estabelece uma relação de 'co worker' entre actores que trabalharam no mesmo filme, no entanto, esta query revelou ter um tempo de execução muito elevado, pelo que não foi utilizada.
+
+- Read
+    - Operações normais de obtenção de dados relativos a uma entidade. Por exemplo: Obter o conjunto de informações referentes a um dado filme.
+    - Obtenção de dados de uma entidade, com um dado valor numa dada relação ou com um dado valor numa relação pertencente a um dos seus objectos, através da operação ‘ASK’
+    (ex: para descobrir filmes que tenham um dado género, obter a lista completa de filmes e por cada um, verificar se contém um género na sua lista de relações ‘genre’)
+    - Obtenção de dados ordenados
+    - Agregações de dados para efeitos de estatísticas (por género ou ano)
+
+- Create, Update, Delete
+    - Criação, atualização, e remoção de uma crítica (review) de um dado filme no fim da página de detalhes sobre o mesmo.
+
+## N3 & RDFa
+
+Os dados em XML foram convertidos para o formato N3 com um script python cujo código pode ser consultado em xmlToN3.py
+À exceção da página ‘Stats’, todas as outras possuem elementos de RDFa. Nestas é possível encontrar sujeitos como é o exemplo do ‘doc’ (representando um filme ou série), ‘genre’ (género do filme/série), ‘person’ (podendo esta ser um realizador, diretor, etc.). Existem ainda várias properties como, por exemplo: ‘name’, ‘title’, ‘year’, ‘type’, ‘keywords’, ‘plot’, etc.
+Já um exemplo de um nó anónimo é o caso de um ator/atriz. Foi criado um nó anónimo para cada, estando estes presentes na relação ‘cast’. Este nó é constituído por um ‘predicate:role’, que tem como objeto um valor literal em string e um ‘predicate:actor’ que representa uma ‘person’.
+
+## DBpedia
+
+Na página de detalhes sobre uma dada pessoa é apresentado um breve resumo biográfico (dbo:abstract) sobre a mesma obtido através da realização de uma query SPARQL à DBpedia. É utilizado o nome do indivíduo para a pesquisa da entidade correspondente.
+Esta query poderá ser consultada em queries.txt ou views.py (método person())
+
+
+# Instruções de Execução
+
+- Criar um repositório / base de dados no GraphDB com o nome ‘moviedb’ e ruleset ‘No inference’
+
+- Importar o ficheiro ‘smallset.n3’ para o default graph
+
+Para executar a aplicação é obrigatória a instalação do python3 e python3-pip
+Recomenda-se a utilização de um ambiente virtual virtualenv.
+
+Para instalar todas as dependências executar:
+$ pip3 install -r requirements.txt
+
+Para iniciar o Django executar:
+$ python3 manage.py runserver

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="188192">
+  <docid>188192</docid>
+  <title>Fallen</title>
+  <year>1998</year>
+  <type>movie</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Jordan, Lawrence (I)</editor>
+  </editors>
+  <genres>
+    <genre>Drama</genre>
+    <genre>Thriller</genre>
+    <genre>Crime</genre>
+  </genres>
+  <keywords>
+    <keyword>twist-in-the-end</keyword>
+    <keyword>death</keyword>
+    <keyword>police</keyword>
+    <keyword>devil</keyword>
+    <keyword>cat</keyword>
+    <keyword>poison</keyword>
+    <keyword>religion</keyword>
+    <keyword>telephone</keyword>
+    <keyword>macabre</keyword>
+    <keyword>execution</keyword>
+    <keyword>gun</keyword>
+    <keyword>old-language</keyword>
+    <keyword>false-accusation</keyword>
+    <keyword>shot-in-the-head</keyword>
+    <keyword>product-placement</keyword>
+    <keyword>supernatural-power</keyword>
+    <keyword>philadelphia-pennsylvania</keyword>
+    <keyword>subway</keyword>
+    <keyword>soul-transference</keyword>
+    <keyword>comic-relief</keyword>
+    <keyword>demonic-possession</keyword>
+    <keyword>flashback</keyword>
+    <keyword>psychopath</keyword>
+    <keyword>self-sacrifice</keyword>
+    <keyword>serial-killer</keyword>
+    <keyword>demon</keyword>
+    <keyword>azazel</keyword>
+    <keyword>cabin</keyword>
+    <keyword>gas-chamber</keyword>
+    <keyword>neo-noir</keyword>
+    <keyword>one-word-title</keyword>
+    <keyword>snow</keyword>
+  </keywords>
+  <languages>
+    <language>Assyrian Neo-Aramaic</language>
+    <language>English</language>
+    <language>Aramaic</language>
+  </languages>
+  <soundmixes>
+    <soundmix>SDDS</soundmix>
+    <soundmix>DTS</soundmix>
+    <soundmix>Dolby Digital</soundmix>
+  </soundmixes>
+  <countries>
+    <country>USA</country>
+  </countries>
+  <certificates>
+    <certificate country="Sweden">15</certificate>
+    <certificate country="Peru">14</certificate>
+    <certificate country="Argentina">13</certificate>
+    <certificate country="Portugal">M/12</certificate>
+    <certificate country="Netherlands">16</certificate>
+    <certificate country="UK">15</certificate>
+    <certificate country="Singapore">PG</certificate>
+    <certificate country="Germany">16</certificate>
+    <certificate country="Belgium">KT</certificate>
+    <certificate country="Chile">14</certificate>
+    <certificate country="France">U</certificate>
+    <certificate country="Iceland">16</certificate>
+    <certificate country="South Korea">15</certificate>
+    <certificate country="Spain">13</certificate>
+    <certificate country="Australia">M</certificate>
+    <certificate country="Norway">15</certificate>
+    <certificate country="Canada">14A</certificate>
+    <certificate country="Finland">K-16</certificate>
+    <certificate country="Philippines">PG-13</certificate>
+    <certificate country="New Zealand">M</certificate>
+    <certificate country="USA">R</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="Argentina">30 April 1998</releasedate>
+    <releasedate country="Portugal">21 January 1999</releasedate>
+    <releasedate country="Netherlands">28 May 1998</releasedate>
+    <releasedate country="Brazil">17 April 1998</releasedate>
+    <releasedate country="UK">13 March 1998</releasedate>
+    <releasedate country="Thailand">27 February 1998</releasedate>
+    <releasedate country="Singapore">19 February 1998</releasedate>
+    <releasedate country="Germany">26 March 1998</releasedate>
+    <releasedate country="Belgium">18 February 1998</releasedate>
+    <releasedate country="France">18 March 1998</releasedate>
+    <releasedate country="Hungary">19 March 1998</releasedate>
+    <releasedate country="Iceland">17 April 1998</releasedate>
+    <releasedate country="Mexico">22 May 1998</releasedate>
+    <releasedate country="Slovakia">18 June 1998</releasedate>
+    <releasedate country="South Korea">7 March 1998</releasedate>
+    <releasedate country="Spain">9 March 1998</releasedate>
+    <releasedate country="Australia">19 March 1998</releasedate>
+    <releasedate country="Luxembourg">6 March 1998</releasedate>
+    <releasedate country="Finland">19 August 1998</releasedate>
+    <releasedate country="Italy">22 May 1998</releasedate>
+    <releasedate country="Philippines">4 March 1998</releasedate>
+    <releasedate country="New Zealand">11 June 1998</releasedate>
+    <releasedate country="USA">16 January 1998</releasedate>
+    <releasedate country="Denmark">1 May 1998</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="default">123</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Hoblit, Gregory</director>
+  </directors>
+  <producers>
+    <producer>Graf, Patricia</producer>
+    <producer>Suckle, Richard</producer>
+  </producers>
+  <composers>
+    <composer>Dun, Tan</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Aron, Michael</actor>
+      <role>Reporter</role>
+    </credit>
+    <credit>
+      <actor>Aubert, Christian (I)</actor>
+      <role>Professor Louders</role>
+    </credit>
+    <credit>
+      <actor>Austin, Ford</actor>
+      <role>Reporter</role>
+    </credit>
+    <credit>
+      <actor>Bader, Sheila</actor>
+      <role>Witness</role>
+    </credit>
+    <credit>
+      <actor>Beckel, Graham</actor>
+      <role>John Reynolds</role>
+    </credit>
+    <credit>
+      <actor>Carnes, Tara</actor>
+      <role>Teenage Girl</role>
+    </credit>
+    <credit>
+      <actor>Casseus, Gabriel</actor>
+      <role>Art</role>
+    </credit>
+    <credit>
+      <actor>Ciarrocchi, Pat</actor>
+      <role>Anchor</role>
+    </credit>
+    <credit>
+      <actor>Cicchetti, Mike</actor>
+      <role>Mustache Man</role>
+    </credit>
+    <credit>
+      <actor>Clark, Bill (V)</actor>
+      <role>Detective Bill Clark</role>
+    </credit>
+    <credit>
+      <actor>Cutler, Wendy</actor>
+      <role>Denise</role>
+    </credit>
+    <credit>
+      <actor>Davidtz, Embeth</actor>
+      <role>Gretta Milano</role>
+    </credit>
+    <credit>
+      <actor>Davis, Frank (IV)</actor>
+      <role>Prison Guard</role>
+    </credit>
+    <credit>
+      <actor>Descano, John</actor>
+      <role>Cab Driver</role>
+    </credit>
+    <credit>
+      <actor>Donnelly, Tony Michael</actor>
+      <role>Toby</role>
+    </credit>
+    <credit>
+      <actor>Gandolfini, James</actor>
+      <role>Lou</role>
+    </credit>
+    <credit>
+      <actor>George, Jason Winston</actor>
+      <role>College Kid</role>
+    </credit>
+    <credit>
+      <actor>Goodman, John (I)</actor>
+      <role>Jonesy</role>
+    </credit>
+    <credit>
+      <actor>Grimshaw, Jim</actor>
+      <role>Warden</role>
+    </credit>
+    <credit>
+      <actor>Hawkins, Anika</actor>
+      <role>Girlfriend</role>
+    </credit>
+    <credit>
+      <actor>Hayden, Cynthia</actor>
+      <role>Society Woman</role>
+    </credit>
+    <credit>
+      <actor>Hendley, Elleanor Jean</actor>
+      <role>Reporter</role>
+    </credit>
+    <credit>
+      <actor>Henley, Barry Shabaka</actor>
+      <role>Uniformed Cop</role>
+    </credit>
+    <credit>
+      <actor>Highsmith, Steve</actor>
+      <role>Anchor</role>
+    </credit>
+    <credit>
+      <actor>Holden, Jill</actor>
+      <role>Gracie</role>
+    </credit>
+    <credit>
+      <actor>Jeffreys, Chuck</actor>
+      <role>Transit Cop</role>
+    </credit>
+    <credit>
+      <actor>Joy, Robert (I)</actor>
+      <role>Charles</role>
+    </credit>
+    <credit>
+      <actor>Kang, Stan</actor>
+      <role>Japanese Businessman</role>
+    </credit>
+    <credit>
+      <actor>Koteas, Elias</actor>
+      <role>Edgar Reese</role>
+    </credit>
+    <credit>
+      <actor>Manahan, Kent (II)</actor>
+      <role>Anchor</role>
+    </credit>
+    <credit>
+      <actor>Mayanja, Isaac</actor>
+      <role>Bodyguard for Hobbes During Execution</role>
+    </credit>
+    <credit>
+      <actor>Mazzotta, Sal</actor>
+      <role>Jimmy Moore</role>
+    </credit>
+    <credit>
+      <actor>McCarthy, Thomas J. (II)</actor>
+      <role>Witness</role>
+    </credit>
+    <credit>
+      <actor>McDaniel, Drucie</actor>
+      <role>Vender</role>
+    </credit>
+    <credit>
+      <actor>McGowan, J. Emerson</actor>
+      <role>Demon Passer</role>
+    </credit>
+    <credit>
+      <actor>Medrano, Frank</actor>
+      <role>Charles' Killer</role>
+    </credit>
+    <credit>
+      <actor>Munro, Ronn</actor>
+      <role>Mini Golf Owner</role>
+    </credit>
+    <credit>
+      <actor>Pagan, Michael J.</actor>
+      <role>Sam</role>
+    </credit>
+    <credit>
+      <actor>Pellegrino, George</actor>
+      <role>Prison guard</role>
+    </credit>
+    <credit>
+      <actor>Roman, Scott</actor>
+      <role>Witness</role>
+    </credit>
+    <credit>
+      <actor>Ruggiero, Allelon</actor>
+      <role>Executioner</role>
+    </credit>
+    <credit>
+      <actor>Rumnock, Bob</actor>
+      <role>Schoolteacher</role>
+    </credit>
+    <credit>
+      <actor>Russell, John R.</actor>
+      <role>Distinguished Gentleman</role>
+    </credit>
+    <credit>
+      <actor>Sadovsky, Aaron</actor>
+      <role>Train Conductor</role>
+    </credit>
+    <credit>
+      <actor>Scott, Byron (I)</actor>
+      <role>Reporter</role>
+    </credit>
+    <credit>
+      <actor>Siegler, Ben</actor>
+      <role>Priest</role>
+    </credit>
+    <credit>
+      <actor>Sutherland, Donald (I)</actor>
+      <role>Lt. Stanton</role>
+    </credit>
+    <credit>
+      <actor>Tanner, Jeff</actor>
+      <role>Lawrence</role>
+    </credit>
+    <credit>
+      <actor>Walsh, Jerry</actor>
+      <role>Fat Man</role>
+    </credit>
+    <credit>
+      <actor>Warner, Rick (I)</actor>
+      <role>Governor</role>
+    </credit>
+    <credit>
+      <actor>Washington, Denzel</actor>
+      <role>John Hobbes</role>
+    </credit>
+    <credit>
+      <actor>Wiles, Michael Shamus</actor>
+      <role>Prison Guard</role>
+    </credit>
+    <credit>
+      <actor>Williams, Cress</actor>
+      <role>Detective Joe</role>
+    </credit>
+    <credit>
+      <actor>Wilson, Reno</actor>
+      <role>Mike</role>
+    </credit>
+    <credit>
+      <actor>Witko, Glen</actor>
+      <role>Muscovich</role>
+    </credit>
+    <credit>
+      <actor>Xifo, Ray</actor>
+      <role>Society Man</role>
+    </credit>
+    <credit>
+      <actor>Young, Rozwill</actor>
+      <role>Prison Guard</role>
+    </credit>
+    <credit>
+      <actor>Zitin, Brandon</actor>
+      <role>Muscle Builder</role>
+    </credit>
+  </cast>
+<plot>Det. John Hobbes is convinced that when killer Edgar Reese is executed, all of his troubles are over. But when people he knows and people on the street start to sing the same tune that Reese sang in the gas chamber, and those same people taunt him, he is told that maybe the cursed fallen angel Azazel is behind it all. Azazel is cursed to roam the Earth without a form, and he can switch bodies by any contact, making him hard to track. When Hobbes is forced to kill a man possessed by Azazel, he must clear his name while protecting his family and others from the evil, vengeful Azazel.</plot><url>http://localhost:8983/solr/movie.html?188192</url></doc>

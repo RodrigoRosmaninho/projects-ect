@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="381534">
+  <docid>381534</docid>
+  <title>Munich</title>
+  <year>2005</year>
+  <type>movie</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Kahn, Michael (I)</editor>
+  </editors>
+  <genres>
+    <genre>Drama</genre>
+    <genre>History</genre>
+    <genre>Thriller</genre>
+  </genres>
+  <keywords>
+    <keyword>hostage</keyword>
+    <keyword>consulate</keyword>
+    <keyword>new-york-city</keyword>
+    <keyword>bombmaker</keyword>
+    <keyword>title-appears-in-writing</keyword>
+    <keyword>airplane</keyword>
+    <keyword>based-on-true-story</keyword>
+    <keyword>nudity</keyword>
+    <keyword>bomb-making</keyword>
+    <keyword>athens-greece</keyword>
+    <keyword>death</keyword>
+    <keyword>kgb</keyword>
+    <keyword>revenge</keyword>
+    <keyword>railway-station</keyword>
+    <keyword>eiffel-tower-paris</keyword>
+    <keyword>explosion</keyword>
+    <keyword>prime-minister</keyword>
+    <keyword>netherlands</keyword>
+    <keyword>arab-israeli-conflict</keyword>
+    <keyword>bomb</keyword>
+    <keyword>public-reading</keyword>
+    <keyword>father-son-relationship</keyword>
+    <keyword>world-trade-center-new-york</keyword>
+    <keyword>blood</keyword>
+    <keyword>betrayal</keyword>
+    <keyword>blood-spatter</keyword>
+    <keyword>terrorism</keyword>
+    <keyword>rome</keyword>
+    <keyword>double-cross</keyword>
+    <keyword>death-of-friend</keyword>
+    <keyword>brooklyn</keyword>
+    <keyword>politics</keyword>
+    <keyword>plastic-explosive</keyword>
+    <keyword>nude-with-a-gun</keyword>
+    <keyword>kitchen</keyword>
+    <keyword>safe-house</keyword>
+    <keyword>nude-woman-murdered</keyword>
+    <keyword>religion</keyword>
+    <keyword>jerusalem</keyword>
+    <keyword>city-name-in-title</keyword>
+    <keyword>birth</keyword>
+    <keyword>telephone</keyword>
+    <keyword>rome-italy</keyword>
+    <keyword>munich-germany</keyword>
+    <keyword>patriotism</keyword>
+    <keyword>airport</keyword>
+    <keyword>machine-gun</keyword>
+    <keyword>shot-to-death</keyword>
+    <keyword>gourmet-cook</keyword>
+    <keyword>book-reading</keyword>
+    <keyword>shot-in-the-throat</keyword>
+    <keyword>mattress</keyword>
+    <keyword>espionage</keyword>
+    <keyword>bare-chested-male</keyword>
+    <keyword>commando</keyword>
+    <keyword>years-of-lead</keyword>
+    <keyword>shot-in-the-chest</keyword>
+    <keyword>male-frontal-nudity</keyword>
+    <keyword>outdoor-cafe</keyword>
+    <keyword>child-in-peril</keyword>
+    <keyword>arabian-nights</keyword>
+    <keyword>mossad</keyword>
+    <keyword>singing</keyword>
+    <keyword>shot-in-the-head</keyword>
+    <keyword>shot-in-the-back</keyword>
+    <keyword>marriage</keyword>
+    <keyword>phone-bomb</keyword>
+    <keyword>sex</keyword>
+    <keyword>brooklyn-new-york</keyword>
+    <keyword>paris-france</keyword>
+    <keyword>cooking</keyword>
+    <keyword>grenade</keyword>
+    <keyword>tragedy</keyword>
+    <keyword>hospital</keyword>
+    <keyword>murder</keyword>
+    <keyword>booby-trap</keyword>
+    <keyword>based-on-book</keyword>
+    <keyword>severed-arm</keyword>
+    <keyword>no-opening-credits</keyword>
+    <keyword>assassination</keyword>
+    <keyword>receipt</keyword>
+    <keyword>terrorist</keyword>
+    <keyword>swiss-bank</keyword>
+    <keyword>shot-in-the-face</keyword>
+    <keyword>fiat</keyword>
+    <keyword>translation</keyword>
+    <keyword>assassination-attempt</keyword>
+    <keyword>munich</keyword>
+    <keyword>shootout</keyword>
+    <keyword>stabbed-in-the-head</keyword>
+    <keyword>blood-on-camera-lens</keyword>
+    <keyword>beirut</keyword>
+    <keyword>secret-agent</keyword>
+    <keyword>olympics</keyword>
+    <keyword>femme-fatale</keyword>
+    <keyword>gore</keyword>
+    <keyword>shot-in-the-forehead</keyword>
+    <keyword>houseboat</keyword>
+    <keyword>suicide</keyword>
+    <keyword>london-england</keyword>
+    <keyword>helicopter</keyword>
+    <keyword>flashback</keyword>
+    <keyword>toy</keyword>
+    <keyword>mass-murder</keyword>
+    <keyword>balcony</keyword>
+    <keyword>place-name-in-title</keyword>
+    <keyword>palestinian</keyword>
+    <keyword>1970s</keyword>
+    <keyword>mother-son-relationship</keyword>
+    <keyword>cia</keyword>
+    <keyword>self-doubt</keyword>
+    <keyword>cafe</keyword>
+    <keyword>violence</keyword>
+    <keyword>pregnancy</keyword>
+    <keyword>geneva-switzerland</keyword>
+    <keyword>female-assassin</keyword>
+    <keyword>female-nudity</keyword>
+    <keyword>telephone-booth</keyword>
+    <keyword>general</keyword>
+    <keyword>paranoia</keyword>
+    <keyword>tel-aviv-israel</keyword>
+    <keyword>red-army-faction</keyword>
+    <keyword>blindfold</keyword>
+    <keyword>cross-dressing</keyword>
+    <keyword>jewish</keyword>
+    <keyword>hotel</keyword>
+    <keyword>munich-olympics</keyword>
+    <keyword>separation-from-family</keyword>
+    <keyword>controversy</keyword>
+    <keyword>loyalty</keyword>
+    <keyword>neo-noir</keyword>
+    <keyword>female-frontal-nudity</keyword>
+    <keyword>epic</keyword>
+    <keyword>toy-maker</keyword>
+    <keyword>one-word-title</keyword>
+    <keyword>cyprus</keyword>
+    <keyword>italy</keyword>
+    <keyword>food-market</keyword>
+    <keyword>chest-hair</keyword>
+    <keyword>piano</keyword>
+    <keyword>title-spoken-by-character</keyword>
+    <keyword>what-happened-to-epilogue</keyword>
+  </keywords>
+  <languages>
+    <language>French</language>
+    <language>Arabic</language>
+    <language>German</language>
+    <language>Hebrew</language>
+    <language>English</language>
+  </languages>
+  <soundmixes>
+    <soundmix>Dolby Digital EX</soundmix>
+    <soundmix>DTS-ES</soundmix>
+    <soundmix>SDDS</soundmix>
+  </soundmixes>
+  <countries>
+    <country>France</country>
+    <country>Canada</country>
+    <country>USA</country>
+  </countries>
+  <certificates>
+    <certificate country="Sweden">15</certificate>
+    <certificate country="South Africa">16</certificate>
+    <certificate country="Peru">14</certificate>
+    <certificate country="Argentina">16</certificate>
+    <certificate country="Portugal">M/16</certificate>
+    <certificate country="Brazil">16</certificate>
+    <certificate country="Netherlands">16</certificate>
+    <certificate country="Japan">PG-12</certificate>
+    <certificate country="India">A</certificate>
+    <certificate country="UK">15</certificate>
+    <certificate country="Singapore">M18</certificate>
+    <certificate country="Germany">16</certificate>
+    <certificate country="France">U</certificate>
+    <certificate country="Malaysia">U</certificate>
+    <certificate country="Hungary">16</certificate>
+    <certificate country="Hong Kong">IIB</certificate>
+    <certificate country="Ireland">15A</certificate>
+    <certificate country="Czech Republic">12</certificate>
+    <certificate country="Iceland">16</certificate>
+    <certificate country="South Korea">15</certificate>
+    <certificate country="Spain">18</certificate>
+    <certificate country="Australia">M</certificate>
+    <certificate country="Switzerland">14</certificate>
+    <certificate country="Norway">15</certificate>
+    <certificate country="Canada">18A</certificate>
+    <certificate country="Finland">K-15</certificate>
+    <certificate country="Philippines">R-13</certificate>
+    <certificate country="New Zealand">R16</certificate>
+    <certificate country="USA">R</certificate>
+    <certificate country="Denmark">15</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="Sweden">10 February 2006</releasedate>
+    <releasedate country="Argentina">26 January 2006</releasedate>
+    <releasedate country="Portugal">2 February 2006</releasedate>
+    <releasedate country="Turkey">27 January 2006</releasedate>
+    <releasedate country="Serbia">7 February 2006</releasedate>
+    <releasedate country="Brazil">27 January 2006</releasedate>
+    <releasedate country="Netherlands">26 January 2006</releasedate>
+    <releasedate country="Japan">4 February 2006</releasedate>
+    <releasedate country="Israel">26 January 2006</releasedate>
+    <releasedate country="UK">27 January 2006</releasedate>
+    <releasedate country="Thailand">26 January 2006</releasedate>
+    <releasedate country="Singapore">23 February 2006</releasedate>
+    <releasedate country="Greece">2 February 2006</releasedate>
+    <releasedate country="Germany">26 January 2006</releasedate>
+    <releasedate country="Belgium">25 January 2006</releasedate>
+    <releasedate country="France">25 January 2006</releasedate>
+    <releasedate country="Malaysia">13 April 2006</releasedate>
+    <releasedate country="Panama">27 January 2006</releasedate>
+    <releasedate country="Hungary">26 January 2006</releasedate>
+    <releasedate country="Hong Kong">9 February 2006</releasedate>
+    <releasedate country="Estonia">27 January 2006</releasedate>
+    <releasedate country="Czech Republic">2 February 2006</releasedate>
+    <releasedate country="Iceland">27 January 2006</releasedate>
+    <releasedate country="Mexico">27 January 2006</releasedate>
+    <releasedate country="Slovakia">2 February 2006</releasedate>
+    <releasedate country="South Korea">9 February 2006</releasedate>
+    <releasedate country="Poland">27 January 2006</releasedate>
+    <releasedate country="Spain">27 January 2006</releasedate>
+    <releasedate country="Egypt">8 March 2006</releasedate>
+    <releasedate country="Australia">2 February 2006</releasedate>
+    <releasedate country="Switzerland">27 January 2006</releasedate>
+    <releasedate country="Norway">3 February 2006</releasedate>
+    <releasedate country="Canada">23 December 2005</releasedate>
+    <releasedate country="Russia">16 February 2006</releasedate>
+    <releasedate country="Finland">10 February 2006</releasedate>
+    <releasedate country="Austria">27 January 2006</releasedate>
+    <releasedate country="Philippines">8 February 2006</releasedate>
+    <releasedate country="Italy">27 January 2006</releasedate>
+    <releasedate country="USA">6 January 2006</releasedate>
+    <releasedate country="Kuwait">19 April 2006</releasedate>
+    <releasedate country="Venezuela">3 February 2006</releasedate>
+    <releasedate country="Denmark">27 January 2006</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="default">164</runningtime>
+    <runningtime country="Philippines">163</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Spielberg, Steven</director>
+  </directors>
+  <producers>
+    <producer>Servant, Vincent</producer>
+    <producer>Kennedy, Kathleen (I)</producer>
+    <producer>Mendel, Barry</producer>
+    <producer>Spielberg, Steven</producer>
+    <producer>Wilson, Colin (II)</producer>
+  </producers>
+  <writers>
+    <writer>Jonas, George (III)</writer>
+    <writer>Kushner, Tony</writer>
+    <writer>Roth, Eric (I)</writer>
+  </writers>
+  <composers>
+    <composer>Williams, John (I)</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Abbass, Hiam</actor>
+      <role>Marie Claude Hamshari</role>
+    </credit>
+    <credit>
+      <actor>Abutbul, Alon</actor>
+      <role>Israeli Soldier with Zamir</role>
+    </credit>
+    <credit>
+      <actor>Adwan, Ziad</actor>
+      <role>Kemal Adwan</role>
+    </credit>
+    <credit>
+      <actor>Alexander, Sharon (I)</actor>
+      <role>General Nadev</role>
+    </credit>
+    <credit>
+      <actor>Alkadhi, Amrou</actor>
+      <role>Yussef's Son</role>
+    </credit>
+    <credit>
+      <actor>Almagor, Gila</actor>
+      <role>Avner's Mother</role>
+    </credit>
+    <credit>
+      <actor>Amalric, Mathieu</actor>
+      <role>Louis</role>
+    </credit>
+    <credit>
+      <actor>Amidou, Souad</actor>
+      <role>Yussef's Wife</role>
+    </credit>
+    <credit>
+      <actor>Amir, Guy</actor>
+      <role>Mark Slavin</role>
+    </credit>
+    <credit>
+      <actor>Arribas, Arturo</actor>
+      <role>Spanish Reporter in Munich Underground</role>
+    </credit>
+    <credit>
+      <actor>Attal, Yvan</actor>
+      <role>Tony - Andreas' Friend</role>
+    </credit>
+    <credit>
+      <actor>Avigdori, Jonathan</actor>
+      <role>Gad Tsabari</role>
+    </credit>
+    <credit>
+      <actor>Bana, Eric (I)</actor>
+      <role>Avner</role>
+    </credit>
+    <credit>
+      <actor>Barek, Djemel</actor>
+      <role>Zaid Muchassi</role>
+    </credit>
+    <credit>
+      <actor>Barnea, Itay</actor>
+      <role>Israeli Deputy Consul NY</role>
+    </credit>
+    <credit>
+      <actor>Bassel, Haj Ibrahim</actor>
+      <role>Palestinian Man Watching TV</role>
+    </credit>
+    <credit>
+      <actor>Beck, Ossie</actor>
+      <role>Eliezer Halfin</role>
+    </credit>
+    <credit>
+      <actor>Becker, Meret</actor>
+      <role>Yvonne</role>
+    </credit>
+    <credit>
+      <actor>Bekkouche, Saïda</actor>
+      <role>Aida Refugee Camp Woman</role>
+    </credit>
+    <credit>
+      <actor>Belal, Baya</actor>
+      <role>Palestinian Woman Watching TV</role>
+    </credit>
+    <credit>
+      <actor>Ben-Shachar, Mordechai</actor>
+      <role>Older Man in Haifa Bar</role>
+    </credit>
+    <credit>
+      <actor>Bess, Daniel</actor>
+      <role>American Athlete</role>
+    </credit>
+    <credit>
+      <actor>Beyer, Alexander (I)</actor>
+      <role>German Reporter in Munich Underground</role>
+    </credit>
+    <credit>
+      <actor>Bleibtreu, Moritz</actor>
+      <role>Andreas</role>
+    </credit>
+    <credit>
+      <actor>Bonastre, Xavier (I)</actor>
+      <role>Passer-by in Paris</role>
+    </credit>
+    <credit>
+      <actor>Bowen, Vincent</actor>
+      <role>Silhouette</role>
+    </credit>
+    <credit>
+      <actor>Brake, Richard</actor>
+      <role>Belligerent American</role>
+    </credit>
+    <credit>
+      <actor>Bruni Tedeschi, Valeria</actor>
+      <role>Sylvie</role>
+    </credit>
+    <credit>
+      <actor>Burke, Robert John (I)</actor>
+      <role>Belligerent American</role>
+    </credit>
+    <credit>
+      <actor>Butler, Jaymes</actor>
+      <role>Belligerent American</role>
+    </credit>
+    <credit>
+      <actor>Calderon, Samuel</actor>
+      <role>General Hofi</role>
+    </credit>
+    <credit>
+      <actor>Casal, María</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Cayatte, Eva</actor>
+      <role>Young girl</role>
+    </credit>
+    <credit>
+      <actor>Chazal, Arthur</actor>
+      <role>Young Boy</role>
+    </credit>
+    <credit>
+      <actor>Chazal, Cyrielle</actor>
+      <role>Young girl</role>
+    </credit>
+    <credit>
+      <actor>Cohen, Assi (II)</actor>
+      <role>Newlywed Man</role>
+    </credit>
+    <credit>
+      <actor>Cohen, Lynn (I)</actor>
+      <role>Golda Meir</role>
+    </credit>
+    <credit>
+      <actor>Collins, Kevin (XII)</actor>
+      <role>American Athlete</role>
+    </credit>
+    <credit>
+      <actor>Craig, Daniel (I)</actor>
+      <role>Steve</role>
+    </credit>
+    <credit>
+      <actor>Croze, Marie-Josée</actor>
+      <role>Jeanette the Dutch Assassin</role>
+    </credit>
+    <credit>
+      <actor>D'Agostino, Greg</actor>
+      <role>Construction Worker</role>
+    </credit>
+    <credit>
+      <actor>Daneshmand, Bijan</actor>
+      <role>Kamal Nasser</role>
+    </credit>
+    <credit>
+      <actor>Dasberg-Shamul, Hagit</actor>
+      <role>Israeli Woman Watching TV</role>
+    </credit>
+    <credit>
+      <actor>Djadjam, Mostefa</actor>
+      <role>Hussein Abad Al-Chir</role>
+    </credit>
+    <credit>
+      <actor>Dorr, Sabi</actor>
+      <role>Yossef Gutfreund</role>
+    </credit>
+    <credit>
+      <actor>Dowell, Geoffrey</actor>
+      <role>Israeli News Anchor</role>
+    </credit>
+    <credit>
+      <actor>Du Jeu, Félicité</actor>
+      <role>Young Swiss Bank Official</role>
+    </credit>
+    <credit>
+      <actor>Edelman, Shmuel</actor>
+      <role>Yacov Springer</role>
+    </credit>
+    <credit>
+      <actor>Feldman, David (VIII)</actor>
+      <role>Kehat Shorr</role>
+    </credit>
+    <credit>
+      <actor>Feuer, Sam</actor>
+      <role>Yossef Romano</role>
+    </credit>
+    <credit>
+      <actor>Freiss, Stéphane</actor>
+      <role>French Reporter in Munich Underground</role>
+    </credit>
+    <credit>
+      <actor>Furon, Nino</actor>
+      <role>Young boy</role>
+    </credit>
+    <credit>
+      <actor>Février, Laurence</actor>
+      <role>Papa's Wife</role>
+    </credit>
+    <credit>
+      <actor>Garioni, Jane</actor>
+      <role>Italian Girl in Car</role>
+    </credit>
+    <credit>
+      <actor>Giannatos, Mihalis</actor>
+      <role>Hotel Aristides Porter</role>
+    </credit>
+    <credit>
+      <actor>Gilleran, Charley</actor>
+      <role>Commando/Arab Guard</role>
+    </credit>
+    <credit>
+      <actor>Goodman, Brian (I)</actor>
+      <role>Belligerent American</role>
+    </credit>
+    <credit>
+      <actor>Guerfa, Lemir</actor>
+      <role>Salameh Guard</role>
+    </credit>
+    <credit>
+      <actor>Hamade, David Ali</actor>
+      <role>Paulo - Afif Ahmed Hamid</role>
+    </credit>
+    <credit>
+      <actor>Hell, Sonia</actor>
+      <role>Passer-by in Paris</role>
+    </credit>
+    <credit>
+      <actor>Hinds, Ciarán</actor>
+      <role>Carl</role>
+    </credit>
+    <credit>
+      <actor>Ivgy, Moshe (I)</actor>
+      <role>Mike Harari</role>
+    </credit>
+    <credit>
+      <actor>Jacob, Amelia</actor>
+      <role>Young Girl</role>
+    </credit>
+    <credit>
+      <actor>Kassovitz, Mathieu</actor>
+      <role>Robert</role>
+    </credit>
+    <credit>
+      <actor>Kennedy, Patrick (IV)</actor>
+      <role>English Reporter in Munich Underground</role>
+    </credit>
+    <credit>
+      <actor>Khouas, Moa</actor>
+      <role>Samir - Jamal Al-Gashey</role>
+    </credit>
+    <credit>
+      <actor>Khoury, Makram</actor>
+      <role>Wael Zwaiter</role>
+    </credit>
+    <credit>
+      <actor>Klaits, Elyse</actor>
+      <role>Israeli Consulate Secretary</role>
+    </credit>
+    <credit>
+      <actor>Knoller, Ohad</actor>
+      <role>Commando</role>
+    </credit>
+    <credit>
+      <actor>Kraish, Mousa</actor>
+      <role>Badran - Mohammed Safady</role>
+    </credit>
+    <credit>
+      <actor>Lavi, Amos</actor>
+      <role>General Yariv</role>
+    </credit>
+    <credit>
+      <actor>Lazar, Rad</actor>
+      <role>KGB Liaison</role>
+    </credit>
+    <credit>
+      <actor>Levi, Yehuda</actor>
+      <role>Tel Aviv Airport Soldier</role>
+    </credit>
+    <credit>
+      <actor>Levo, Liron</actor>
+      <role>Commando</role>
+    </credit>
+    <credit>
+      <actor>Lonsdale, Michael (I)</actor>
+      <role>Papa</role>
+    </credit>
+    <credit>
+      <actor>Lust, Andreas</actor>
+      <role>News Crew at Fürstenfeldbruck</role>
+    </credit>
+    <credit>
+      <actor>Machnicki, Wojciech</actor>
+      <role>Tuvia Sokolovsky</role>
+    </credit>
+    <credit>
+      <actor>Mansour, Leda</actor>
+      <role>Palestinian Teacher</role>
+    </credit>
+    <credit>
+      <actor>Marciszewer, Arnaud</actor>
+      <role>Young Boy</role>
+    </credit>
+    <credit>
+      <actor>Martin, Rayan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McCabe, Rob (I)</actor>
+      <role>American Athlete</role>
+    </credit>
+    <credit>
+      <actor>Memarzia, Nasser</actor>
+      <role>Older Palestinian</role>
+    </credit>
+    <credit>
+      <actor>Mendel, George</actor>
+      <role>Bar Staff in Budapest</role>
+    </credit>
+    <credit>
+      <actor>Mennell, Sarah</actor>
+      <role>Caroline Smith</role>
+    </credit>
+    <credit>
+      <actor>Messalti, Carim</actor>
+      <role>Arab Guard</role>
+    </credit>
+    <credit>
+      <actor>Metalsi, Abdelhafid</actor>
+      <role>Palestinian in 30s</role>
+    </credit>
+    <credit>
+      <actor>Metwally, Omar</actor>
+      <role>Ali</role>
+    </credit>
+    <credit>
+      <actor>Mostafa, Omar</actor>
+      <role>Arab Guard</role>
+    </credit>
+    <credit>
+      <actor>Motola, Yaron</actor>
+      <role>Israeli Reporter in Munich Underground</role>
+    </credit>
+    <credit>
+      <actor>Naciri, Jalil</actor>
+      <role>Arab Reporter in Munich Underground</role>
+    </credit>
+    <credit>
+      <actor>Naor, Yigal</actor>
+      <role>Mahmoud Hamshari</role>
+    </credit>
+    <credit>
+      <actor>Nazzal, Hicham</actor>
+      <role>Salameh Guard</role>
+    </credit>
+    <credit>
+      <actor>Nebbou, Mehdi</actor>
+      <role>Ali Hassan Salameh</role>
+    </credit>
+    <credit>
+      <actor>O'Brien, Ben (II)</actor>
+      <role>Businessman in London Bar</role>
+    </credit>
+    <credit>
+      <actor>Ontrop, Martin</actor>
+      <role>Camera Crew at Munich</role>
+    </credit>
+    <credit>
+      <actor>Paget, Leo</actor>
+      <role>Young boy</role>
+    </credit>
+    <credit>
+      <actor>Paget, Léo</actor>
+      <role>Young boy</role>
+    </credit>
+    <credit>
+      <actor>Perel, Lior</actor>
+      <role>David Berger</role>
+    </credit>
+    <credit>
+      <actor>Pfeffer, Ori</actor>
+      <role>Andre Spitzer</role>
+    </credit>
+    <credit>
+      <actor>Pruti, Faruk</actor>
+      <role>KGB Liaison</role>
+    </credit>
+    <credit>
+      <actor>Quayouh, Karim</actor>
+      <role>Young Palestinian</role>
+    </credit>
+    <credit>
+      <actor>Rozen, Jonathan</actor>
+      <role>Ehud Barak</role>
+    </credit>
+    <credit>
+      <actor>Rush, Geoffrey</actor>
+      <role>Ephraim</role>
+    </credit>
+    <credit>
+      <actor>Sagie, Yossi</actor>
+      <role>Commando</role>
+    </credit>
+    <credit>
+      <actor>Saidi, Karim</actor>
+      <role>Denawi - Adnan Al-Gashey</role>
+    </credit>
+    <credit>
+      <actor>Saleh, Karim</actor>
+      <role>Issa - Luttif Afif/Mohammed Massalha</role>
+    </credit>
+    <credit>
+      <actor>Salem, Lyes</actor>
+      <role>Arab Guard</role>
+    </credit>
+    <credit>
+      <actor>Samir, Sami</actor>
+      <role>Abu Halla - Ahmed Chic Thaa</role>
+    </credit>
+    <credit>
+      <actor>Schenk, Michael (I)</actor>
+      <role>Photographer at Munich</role>
+    </credit>
+    <credit>
+      <actor>Sehili, Lucas</actor>
+      <role>Young Boy</role>
+    </credit>
+    <credit>
+      <actor>Sehili, Samy</actor>
+      <role>Young Boy</role>
+    </credit>
+    <credit>
+      <actor>Shahar, Ohad</actor>
+      <role>Minister</role>
+    </credit>
+    <credit>
+      <actor>Shoov, Amos</actor>
+      <role>Male Israeli News Anchor</role>
+    </credit>
+    <credit>
+      <actor>Silman, Hisham</actor>
+      <role>Salameh Guard</role>
+    </credit>
+    <credit>
+      <actor>Sokolsky, Joseph</actor>
+      <role>Amitzur Shapira</role>
+    </credit>
+    <credit>
+      <actor>Soriano, Gil</actor>
+      <role>Younger Man in Haifa Bar</role>
+    </credit>
+    <credit>
+      <actor>Suleiman, Dirar</actor>
+      <role>Abu Youssef</role>
+    </credit>
+    <credit>
+      <actor>Tabor, Rafael</actor>
+      <role>Minister</role>
+    </credit>
+    <credit>
+      <actor>Tadros, Merik</actor>
+      <role>Tony 'The Cowboy' - Yusuf Nazzal</role>
+    </credit>
+    <credit>
+      <actor>Teomi, Oded</actor>
+      <role>Mossad Accountant</role>
+    </credit>
+    <credit>
+      <actor>Uziel, Jonathan</actor>
+      <role>Commando</role>
+    </credit>
+    <credit>
+      <actor>Voelklein, Joram</actor>
+      <role>Camera Crew at Munich</role>
+    </credit>
+    <credit>
+      <actor>Warshaviak, Michael</actor>
+      <role>Attorney General Meir Shamgar</role>
+    </credit>
+    <credit>
+      <actor>Weinberg, Ami</actor>
+      <role>General Zamir</role>
+    </credit>
+    <credit>
+      <actor>Weinberg, Guri</actor>
+      <role>Moshe Weinberg</role>
+    </credit>
+    <credit>
+      <actor>Wigdor, Haguy</actor>
+      <role>Ze'ev Friedman</role>
+    </credit>
+    <credit>
+      <actor>Wlaschiha, Tom</actor>
+      <role>News Crew at Fürstenfeldbruck</role>
+    </credit>
+    <credit>
+      <actor>Yacoubi, Hichem</actor>
+      <role>Arab Guard</role>
+    </credit>
+    <credit>
+      <actor>Yajjou, Nabil</actor>
+      <role>Young Tarifa Guard</role>
+    </credit>
+    <credit>
+      <actor>Youcef, Ben</actor>
+      <role>Salah - Khalid Jawad</role>
+    </credit>
+    <credit>
+      <actor>Zahavi, Danny</actor>
+      <role>Tel Aviv Airport Soldier</role>
+    </credit>
+    <credit>
+      <actor>Zarb, Mark</actor>
+      <role>Athenian Passerby</role>
+    </credit>
+    <credit>
+      <actor>Zemmouri, Mahmoud</actor>
+      <role>Older Lebanese Man</role>
+    </credit>
+    <credit>
+      <actor>Zerba, Marek</actor>
+      <role>Young boy</role>
+    </credit>
+    <credit>
+      <actor>Zischler, Hanns</actor>
+      <role>Hans</role>
+    </credit>
+    <credit>
+      <actor>Zoaretz, Guy</actor>
+      <role>Commando</role>
+    </credit>
+  </cast>
+<plot>After Black September's assassination of Israeli athletes at the Munich Olympics in 1972, Prime Minister Golda Meir okays a black-box operation to hunt down and kill all involved. A team of five gathers in Switzerland led by Avner, a low-level Mossad techie whose father was a war hero and whose wife is pregnant. It's an expendable team, but relying on paid informants, they track and kill several in Europe and Lebanon. They must constantly look over their shoulders for the CIA, KGB, PLO, and their own sources. As the body count mounts -- with retribution following retribution -- so do questions, doubts, and sleepless nights. Loyalties blur. What does it mean to be a Jew?</plot><url>http://localhost:8983/solr/movie.html?381534</url></doc>

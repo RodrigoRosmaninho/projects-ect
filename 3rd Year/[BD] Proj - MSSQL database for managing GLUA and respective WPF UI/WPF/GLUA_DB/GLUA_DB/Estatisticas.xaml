@@ -1,0 +1,42 @@
+﻿<Page x:Class="GLUA_DB.Estatisticas"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GLUA_DB"
+      xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+      mc:Ignorable="d" 
+      d:DesignHeight="2000" Width="Auto"
+      Title="Estatisticas">
+
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="120" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="170" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="270" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <lvc:PieChart LegendLocation="Bottom" Hoverable="True" x:Name="FlashDrives_PieChart" DataTooltip="{x:Null}" Margin="10,43,452,0" Grid.Row="0" Height="239" VerticalAlignment="Top"/>
+            <lvc:PieChart LegendLocation="Bottom" Hoverable="True" x:Name="Problemas_PieChart" DataTooltip="{x:Null}" Margin="403,43,10,0" Grid.Row="0" Height="239" VerticalAlignment="Top"/>
+            <Label Content="Número de Flash Drives por Sistema Operativo" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Grid.Row="0"/>
+            <Label Content="Número de Problemas por Sistema Operativo" HorizontalAlignment="Left" Margin="434,10,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Grid.Row="0"/>
+            <lvc:PieChart LegendLocation="Bottom" Hoverable="True" x:Name="Cursos_PieChart" DataTooltip="{x:Null}" Margin="10,44,452,-90" Grid.Row="2" Height="230" VerticalAlignment="Top"/>
+            <lvc:PieChart LegendLocation="Bottom" Hoverable="True" x:Name="Estudantes_PieChart" DataTooltip="{x:Null}" Margin="403,44,41,-89" Grid.Row="2" Height="230" VerticalAlignment="Top"/>
+            <Label Content="Número de Atendimentos por Curso" HorizontalAlignment="Left" Margin="37,10,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Grid.Row="2"/>
+            <Label Content="Distribuição de Atendimentos por Utentes" HorizontalAlignment="Left" Margin="434,10,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Grid.Row="2"/>
+            <lvc:PieChart LegendLocation="Bottom" Hoverable="True" x:Name="PCs_PieChart" DataTooltip="{x:Null}" Margin="10,44,452,0" Grid.Row="4" Grid.RowSpan="2" Height="247" VerticalAlignment="Top"/>
+            <lvc:PieChart LegendLocation="Bottom" Hoverable="True" x:Name="Componentes_PieChart" DataTooltip="{x:Null}" Margin="403,44,41,0" Grid.Row="4" Height="247" VerticalAlignment="Top" Grid.RowSpan="2"/>
+            <Label Content="Número de Atendimentos por PC" HorizontalAlignment="Left" Margin="37,10,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Grid.Row="4"/>
+            <Label Content="Número de Problemas por Componente" HorizontalAlignment="Left" Margin="448,10,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Grid.Row="4"/>
+            <Label Content="Atendimentos nos últimos 12 meses" HorizontalAlignment="Left" Margin="238,4,0,0" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Grid.Row="7"/>
+            <lvc:CartesianChart Series="{Binding SeriesCollection}" LegendLocation="Left" x:Name="Month_BarChart" Grid.Row="7" Margin="0,33,0,22" Grid.RowSpan="2"/>
+        </Grid>
+    </ScrollViewer>
+</Page>

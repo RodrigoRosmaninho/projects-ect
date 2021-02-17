@@ -1,0 +1,7 @@
+access-list 10 permit 10.5.0.1
+snmp-server community scidata RO 10
+snmp-server user userCtl groupCtl v3 auth md5 p4ssw0rd priv des56 labbiestcom
+snmp-server group groupCtl v3 priv
+
+p4ssw0rd
+labbiestcom

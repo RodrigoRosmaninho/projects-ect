@@ -1,0 +1,20 @@
+﻿<Page x:Class="GLUA_DB.Sessoes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GLUA_DB"
+      mc:Ignorable="d" 
+      Height="Auto" Width="Auto"
+      Title="Sessoes">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <DataGrid Name="SessoesDataGrid" HorizontalAlignment="Left" Height="590" Margin="0,0,0,0" VerticalAlignment="Top" Width="auto"  MouseDoubleClick="Row_DoubleClick"  IsReadOnly="True"/>
+        <Button x:Name="InsertAtendimento" Content="Adicionar uma Nova Helpdesk" HorizontalAlignment="Left" Margin="20,0,0,-9" VerticalAlignment="Top" Width="210"  Grid.Row="2" Click="InsertAtendimento_Click"/>
+    </Grid>
+</Page>

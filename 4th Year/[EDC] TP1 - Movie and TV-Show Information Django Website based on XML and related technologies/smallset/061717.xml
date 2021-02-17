@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="061717">
+  <docid>061717</docid>
+  <title>Be Kind Rewind</title>
+  <year>2008</year>
+  <type>movie</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Buchanan, Jeff (III)</editor>
+  </editors>
+  <genres>
+    <genre>Drama</genre>
+    <genre>Comedy</genre>
+  </genres>
+  <keywords>
+    <keyword>magnet</keyword>
+    <keyword>mural</keyword>
+    <keyword>railway-station</keyword>
+    <keyword>film-in-film</keyword>
+    <keyword>interracial-romance</keyword>
+    <keyword>police</keyword>
+    <keyword>urination-scene</keyword>
+    <keyword>ladder</keyword>
+    <keyword>copyright-infringement</keyword>
+    <keyword>scene-during-end-credits</keyword>
+    <keyword>movie-fan</keyword>
+    <keyword>steamroller</keyword>
+    <keyword>jazz</keyword>
+    <keyword>small-business</keyword>
+    <keyword>passaic-new-jersey</keyword>
+    <keyword>graffiti</keyword>
+    <keyword>slapstick</keyword>
+    <keyword>videotape</keyword>
+    <keyword>friend</keyword>
+    <keyword>blackface</keyword>
+    <keyword>video-camera</keyword>
+    <keyword>low-tech</keyword>
+    <keyword>sabotage</keyword>
+    <keyword>tinfoil</keyword>
+    <keyword>friendship</keyword>
+    <keyword>store-clerk</keyword>
+    <keyword>dry-cleaning</keyword>
+    <keyword>stunt</keyword>
+    <keyword>medical-examination</keyword>
+    <keyword>power-plant</keyword>
+    <keyword>video-store</keyword>
+    <keyword>amateur-filmmaking</keyword>
+    <keyword>deception</keyword>
+    <keyword>burglary</keyword>
+    <keyword>vomit-scene</keyword>
+    <keyword>power-transformer</keyword>
+    <keyword>movie-premiere</keyword>
+    <keyword>lawyer</keyword>
+    <keyword>auto-mechanic</keyword>
+    <keyword>urban-renewal</keyword>
+    <keyword>camouflage</keyword>
+    <keyword>male-bonding</keyword>
+    <keyword>paranoia</keyword>
+    <keyword>box-office-flop</keyword>
+    <keyword>library</keyword>
+    <keyword>phonograph</keyword>
+    <keyword>underpass</keyword>
+    <keyword>title-spoken-by-character</keyword>
+  </keywords>
+  <languages>
+    <language>English</language>
+  </languages>
+  <soundmixes>
+    <soundmix>SDDS</soundmix>
+    <soundmix>DTS</soundmix>
+    <soundmix>Dolby Digital</soundmix>
+  </soundmixes>
+  <countries>
+    <country>UK</country>
+    <country>USA</country>
+  </countries>
+  <certificates>
+    <certificate country="Sweden">Btl</certificate>
+    <certificate country="Hong Kong">IIA</certificate>
+    <certificate country="Argentina">Atp</certificate>
+    <certificate country="Ireland">12A</certificate>
+    <certificate country="Iceland">L</certificate>
+    <certificate country="Netherlands">AL</certificate>
+    <certificate country="South Korea">12</certificate>
+    <certificate country="UK">12A</certificate>
+    <certificate country="Australia">M</certificate>
+    <certificate country="Switzerland">7</certificate>
+    <certificate country="Norway">7</certificate>
+    <certificate country="Canada">PG</certificate>
+    <certificate country="Singapore">PG</certificate>
+    <certificate country="Finland">K-3</certificate>
+    <certificate country="Greece">K</certificate>
+    <certificate country="Germany">o.Al.</certificate>
+    <certificate country="New Zealand">M</certificate>
+    <certificate country="USA">PG-13</certificate>
+    <certificate country="France">U</certificate>
+    <certificate country="Malaysia">U</certificate>
+    <certificate country="Denmark">A</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="Sweden">18 April 2008</releasedate>
+    <releasedate country="Hungary">23 October 2008</releasedate>
+    <releasedate country="Hong Kong">15 May 2008</releasedate>
+    <releasedate country="South Africa">22 May 2008</releasedate>
+    <releasedate country="Argentina">12 March 2009</releasedate>
+    <releasedate country="Czech Republic">7 July 2008</releasedate>
+    <releasedate country="Turkey">25 April 2008</releasedate>
+    <releasedate country="Iceland">29 February 2008</releasedate>
+    <releasedate country="Mexico">31 October 2008</releasedate>
+    <releasedate country="Brazil">18 March 2009</releasedate>
+    <releasedate country="Netherlands">15 May 2008</releasedate>
+    <releasedate country="Japan">11 October 2008</releasedate>
+    <releasedate country="South Korea">8 January 2009</releasedate>
+    <releasedate country="Israel">6 March 2008</releasedate>
+    <releasedate country="Spain">11 April 2008</releasedate>
+    <releasedate country="UK">22 February 2008</releasedate>
+    <releasedate country="Taiwan">7 November 2008</releasedate>
+    <releasedate country="Australia">20 March 2008</releasedate>
+    <releasedate country="Norway">18 April 2008</releasedate>
+    <releasedate country="Thailand">31 July 2008</releasedate>
+    <releasedate country="Singapore">20 March 2008</releasedate>
+    <releasedate country="Russia">24 April 2008</releasedate>
+    <releasedate country="Finland">28 March 2008</releasedate>
+    <releasedate country="Romania">September 2008</releasedate>
+    <releasedate country="Greece">20 March 2008</releasedate>
+    <releasedate country="Germany">3 April 2008</releasedate>
+    <releasedate country="Belgium">13 August 2008</releasedate>
+    <releasedate country="Colombia">11 September 2009</releasedate>
+    <releasedate country="USA">17 June 2008</releasedate>
+    <releasedate country="France">5 March 2008</releasedate>
+    <releasedate country="Denmark">17 April 2008</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="default">102</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Gondry, Michel</director>
+  </directors>
+  <producers>
+    <producer>Adlan, Raffi</producer>
+    <producer>Ruark, Ann</producer>
+    <producer>Emmerich, Toby</producer>
+    <producer>Stodel, Guy</producer>
+    <producer>Bermann, Georges</producer>
+    <producer>Fong, Julie</producer>
+    <producer>Gondry, Michel</producer>
+  </producers>
+  <writers>
+    <writer>Gondry, Michel</writer>
+  </writers>
+  <composers>
+    <composer>Bernard, Jean-Michel</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Aaron, Quinton</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Austen, Marc Alan</actor>
+      <role>Man in Video Store #3</role>
+    </credit>
+    <credit>
+      <actor>Barman, Paul</actor>
+      <role>Young Man Watching TV</role>
+    </credit>
+    <credit>
+      <actor>Berkley, Elizabeth</actor>
+      <role>Girl In Library</role>
+    </credit>
+    <credit>
+      <actor>Black, Jack (I)</actor>
+      <role>Jerry Gerber</role>
+    </credit>
+    <credit>
+      <actor>Bourdo, Sacha</actor>
+      <role>Man in queue</role>
+    </credit>
+    <credit>
+      <actor>Byrne, P.J.</actor>
+      <role>Mr. Baker</role>
+    </credit>
+    <credit>
+      <actor>Chand, Kishu</actor>
+      <role>Alma's Sister</role>
+    </credit>
+    <credit>
+      <actor>Creole, Kid (I)</actor>
+      <role>West Coast Video Employee Passaic</role>
+    </credit>
+    <credit>
+      <actor>Cropper, Steve</actor>
+      <role>Fats Waller's fan in train</role>
+    </credit>
+    <credit>
+      <actor>Def, Mos</actor>
+      <role>Mike</role>
+    </credit>
+    <credit>
+      <actor>Diaz, Melonie</actor>
+      <role>Alma</role>
+    </credit>
+    <credit>
+      <actor>Dickerson, Victor</actor>
+      <role>Man in Video Store #1</role>
+    </credit>
+    <credit>
+      <actor>Dinello, Paul</actor>
+      <role>Mr. Rooney</role>
+    </credit>
+    <credit>
+      <actor>Fabian, Francisco (II)</actor>
+      <role>Simon from the Copy Shop</role>
+    </credit>
+    <credit>
+      <actor>Farrow, Mia</actor>
+      <role>Miss Falewicz</role>
+    </credit>
+    <credit>
+      <actor>Franklin, Marcus Carl</actor>
+      <role>Kid #1</role>
+    </credit>
+    <credit>
+      <actor>Girardeau, Frank</actor>
+      <role>Officer Gary</role>
+    </credit>
+    <credit>
+      <actor>Glaser, Jon</actor>
+      <role>West Coast Video Employee NYC</role>
+    </credit>
+    <credit>
+      <actor>Glover, Danny</actor>
+      <role>Elroy Fletcher</role>
+    </credit>
+    <credit>
+      <actor>Gooch, Irv</actor>
+      <role>Wilson</role>
+    </credit>
+    <credit>
+      <actor>Guerino, Anthony</actor>
+      <role>Laundromat Patron</role>
+    </credit>
+    <credit>
+      <actor>Heins, Frank</actor>
+      <role>Patrick</role>
+    </credit>
+    <credit>
+      <actor>Helbig, Walter</actor>
+      <role>Video Store Customer #3</role>
+    </credit>
+    <credit>
+      <actor>Hightower, Blake</actor>
+      <role>Kid #2</role>
+    </credit>
+    <credit>
+      <actor>Hodges, Parrie</actor>
+      <role>Miss Falewicz's Friend/Fats Waller's Mom</role>
+    </credit>
+    <credit>
+      <actor>Hogan, Harvey (I)</actor>
+      <role>Video Store Customer #1</role>
+    </credit>
+    <credit>
+      <actor>Hugot, Marceline</actor>
+      <role>City Hall Employee</role>
+    </credit>
+    <credit>
+      <actor>Jones, Booker T.</actor>
+      <role>Fats Waller's fan in train</role>
+    </credit>
+    <credit>
+      <actor>Lawless, Heather</actor>
+      <role>Sherry</role>
+    </credit>
+    <credit>
+      <actor>Longo, Ann</actor>
+      <role>Miss Falewicz's Friend</role>
+    </credit>
+    <credit>
+      <actor>McElwee, Ted</actor>
+      <role>Video Store Customer #2</role>
+    </credit>
+    <credit>
+      <actor>Page, McKinley</actor>
+      <role>Brother McDuff</role>
+    </credit>
+    <credit>
+      <actor>Papas, Loukas</actor>
+      <role>Tophat Harry</role>
+    </credit>
+    <credit>
+      <actor>Parker, Chandler</actor>
+      <role>Craig</role>
+    </credit>
+    <credit>
+      <actor>Perez, Gio (I)</actor>
+      <role>Randy</role>
+    </credit>
+    <credit>
+      <actor>Said, Amir Ali</actor>
+      <role>Kid #3</role>
+    </credit>
+    <credit>
+      <actor>Scott, Jimmy (I)</actor>
+      <role>Fats Waller's fan in train</role>
+    </credit>
+    <credit>
+      <actor>Sheppard, David M.</actor>
+      <role>Man in Video Store #2</role>
+    </credit>
+    <credit>
+      <actor>Slotkoff, David</actor>
+      <role>Jack</role>
+    </credit>
+    <credit>
+      <actor>Smith, Arjay</actor>
+      <role>Manny</role>
+    </credit>
+    <credit>
+      <actor>Soltys, Tomasz</actor>
+      <role>Carl</role>
+    </credit>
+    <credit>
+      <actor>Tormey, John</actor>
+      <role>Demolition Chief</role>
+    </credit>
+    <credit>
+      <actor>Tyner, McCoy</actor>
+      <role>Fats Waller's fan in train</role>
+    </credit>
+    <credit>
+      <actor>Walsh, Matt (I)</actor>
+      <role>Officer Julian</role>
+    </credit>
+    <credit>
+      <actor>Warrick, Todd Travis</actor>
+      <role>Store Patron</role>
+    </credit>
+    <credit>
+      <actor>Woods Jr., Allie</actor>
+      <role>Doctor Bent</role>
+    </credit>
+  </cast>
+<plot>Jerry is a junkyard worker who attempts to sabotage a power plant he suspects of causing his headaches. But he inadvertently causes his brain to become magnetized, leading to the unintentional destruction of all the movies in his friend's store. In order to keep the store's one loyal customer, an elderly lady with a tenuous grasp on reality, the pair re-create a long line of films including The Lion King, Rush Hour, Ghostbusters, When We Were Kings, Driving Miss Daisy, and Robocop, putting themselves and their townspeople into it. They become the biggest stars in their neighborhood.</plot><url>http://localhost:8983/solr/movie.html?061717</url></doc>

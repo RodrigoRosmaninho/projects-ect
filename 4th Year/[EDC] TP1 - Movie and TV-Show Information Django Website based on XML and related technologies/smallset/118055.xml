@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="118055">
+  <docid>118055</docid>
+  <title>Crazy Taxi</title>
+  <year>1999</year>
+  <type>VideoGame</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <genres>
+    <genre>Comedy</genre>
+    <genre>Action</genre>
+  </genres>
+  <keywords>
+    <keyword>taxicab</keyword>
+    <keyword>video-game</keyword>
+  </keywords>
+  <languages>
+    <language>English</language>
+  </languages>
+  <soundmixes>
+    <soundmix>Stereo</soundmix>
+  </soundmixes>
+  <countries>
+    <country>Japan</country>
+  </countries>
+  <certificates>
+    <certificate country="USA">T</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="USA">18 November 2001</releasedate>
+  </releasedates>
+  <directors>
+    <director>Kanno, Kenji</director>
+  </directors>
+  <producers>
+    <producer>Kanno, Kenji</producer>
+    <producer>Oguchi, Hisao</producer>
+  </producers>
+  <cast>
+    <credit>
+      <actor>Cochrane, Marie</actor>
+      <role>Gena (Gamecube)</role>
+    </credit>
+    <credit>
+      <actor>Dangerfield, Marvin</actor>
+      <role>Customer Voice (Gamecube)</role>
+    </credit>
+    <credit>
+      <actor>Frick, Kent</actor>
+      <role>B.D.Joe (Dreamcast)</role>
+    </credit>
+    <credit>
+      <actor>Fromm, Dave</actor>
+      <role>Customer Voice (Gamecube)</role>
+    </credit>
+    <credit>
+      <actor>Harris, Darrell (I)</actor>
+      <role>B.D. Joe (Gamecube)</role>
+    </credit>
+    <credit>
+      <actor>Harris, Lynn (IV)</actor>
+      <role>Multiple Passengers</role>
+    </credit>
+    <credit>
+      <actor>King, Thomas (III)</actor>
+      <role>Gus (Dreamcast)</role>
+    </credit>
+    <credit>
+      <actor>Lewis, Bryan Burton</actor>
+      <role>Axel (Dreamcast/Gamecube)</role>
+    </credit>
+    <credit>
+      <actor>Peppler, Chris</actor>
+      <role>Gus (Gamecube)</role>
+    </credit>
+  </cast>
+<plot>An arcade game where you first select a character of four drivers and their cabs, each of whom has slightly different attributes: Axel is the well-balanced cab choice, Gina has the best acceleration/deceleration and braking, B.D. Joe has the fastest floored speed but least controllability, and Gus has the heaviest cab, enabling him to drive well off-road and even onto most oncoming traffic. Then you drive a taxi cab through a virtual San Francisco. Your goal is to try and earn big cab fares, by picking up any customers and dropping them off at their destination spots as fast as possible before you run out of time!</plot><url>http://localhost:8983/solr/movie.html?118055</url></doc>

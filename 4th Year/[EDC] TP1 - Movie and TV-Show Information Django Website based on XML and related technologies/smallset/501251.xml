@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="501251">
+  <docid>501251</docid>
+  <title>Sleep</title>
+  <year>2006</year>
+  <type>movie</type>
+  <colorinfos>
+    <colorinfo>Black and White</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Adams, Christopher J.</editor>
+  </editors>
+  <genres>
+    <genre>Short</genre>
+    <genre>Horror</genre>
+  </genres>
+  <languages>
+    <language>English</language>
+  </languages>
+  <countries>
+    <country>USA</country>
+  </countries>
+  <releasedates>
+    <releasedate country="USA">21 July 2006</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="USA">5</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Adams, Christopher J.</director>
+    <director>Overstreet, Matthew</director>
+  </directors>
+  <producers>
+    <producer>Adams, Christopher J.</producer>
+    <producer>Overstreet, Matthew</producer>
+  </producers>
+  <writers>
+    <writer>Adams, Christopher J.</writer>
+    <writer>Overstreet, Matthew</writer>
+  </writers>
+  <composers>
+    <composer>Lane, Chris (VIII)</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Miller, Adam (IX)</actor>
+      <role>Death</role>
+    </credit>
+    <credit>
+      <actor>Mish, Sean</actor>
+      <role>Tom</role>
+    </credit>
+  </cast>
+<plot>At the impressionable age of twelve, Tom Howard discovered his mother in the bathtub. What he saw has changed the course of his entire life. Each night, she told him of her visions, but the true extent of her misery had always eluded him. Now, the visions are haunting him.</plot><url>http://localhost:8983/solr/movie.html?501251</url></doc>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="590991">
+  <docid>590991</docid>
+  <title>The Simpsons Movie</title>
+  <year>2007</year>
+  <type>movie</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Carnochan, John</editor>
+  </editors>
+  <genres>
+    <genre>Animation</genre>
+    <genre>Comedy</genre>
+    <genre>Adventure</genre>
+  </genres>
+  <keywords>
+    <keyword>kicked-in-the-crotch</keyword>
+    <keyword>bully</keyword>
+    <keyword>cinema</keyword>
+    <keyword>obscene-finger-gesture</keyword>
+    <keyword>doctor</keyword>
+    <keyword>twist-in-the-end</keyword>
+    <keyword>theatre</keyword>
+    <keyword>men-kissing</keyword>
+    <keyword>underage-drinking</keyword>
+    <keyword>explosion</keyword>
+    <keyword>cartoon-dog</keyword>
+    <keyword>death-of-mother</keyword>
+    <keyword>mafia</keyword>
+    <keyword>alaska</keyword>
+    <keyword>wrecking-ball</keyword>
+    <keyword>torchlight</keyword>
+    <keyword>skateboard</keyword>
+    <keyword>actor-playing-multiple-roles</keyword>
+    <keyword>bomb</keyword>
+    <keyword>attempted-murder</keyword>
+    <keyword>father-son-relationship</keyword>
+    <keyword>reference-to-arnold-schwarzenegger</keyword>
+    <keyword>accent</keyword>
+    <keyword>based-on-cult-favorite</keyword>
+    <keyword>scene-during-end-credits</keyword>
+    <keyword>food</keyword>
+    <keyword>pipe-smoking</keyword>
+    <keyword>environmental-issues</keyword>
+    <keyword>arnold-schwarzenegger</keyword>
+    <keyword>president</keyword>
+    <keyword>mob</keyword>
+    <keyword>popcorn</keyword>
+    <keyword>concert</keyword>
+    <keyword>house</keyword>
+    <keyword>torch</keyword>
+    <keyword>cat-and-mouse</keyword>
+    <keyword>character-can-read-end-credits</keyword>
+    <keyword>fantasy-sequence</keyword>
+    <keyword>cult-cartoon</keyword>
+    <keyword>surprise-after-end-credits</keyword>
+    <keyword>gag</keyword>
+    <keyword>cult-favorite</keyword>
+    <keyword>nokia-ringtone</keyword>
+    <keyword>angry-mob</keyword>
+    <keyword>barge</keyword>
+    <keyword>motorcycle</keyword>
+    <keyword>bong</keyword>
+    <keyword>hit-in-crotch</keyword>
+    <keyword>dish</keyword>
+    <keyword>tree</keyword>
+    <keyword>noose</keyword>
+    <keyword>animate-tree</keyword>
+    <keyword>sinkhole</keyword>
+    <keyword>motorcycle-stunt</keyword>
+    <keyword>hole</keyword>
+    <keyword>male-frontal-nudity</keyword>
+    <keyword>sequel-mentioned-during-end-credits</keyword>
+    <keyword>moon-landing</keyword>
+    <keyword>fast-food</keyword>
+    <keyword>famous-song</keyword>
+    <keyword>dirty-dish</keyword>
+    <keyword>studio-logo-segues-into-film</keyword>
+    <keyword>actor</keyword>
+    <keyword>vigilantism</keyword>
+    <keyword>dog</keyword>
+    <keyword>shot-in-the-head</keyword>
+    <keyword>black-comedy</keyword>
+    <keyword>slapstick</keyword>
+    <keyword>commercial</keyword>
+    <keyword>environmental-protection-agency</keyword>
+    <keyword>fire</keyword>
+    <keyword>pig</keyword>
+    <keyword>austria</keyword>
+    <keyword>genocide</keyword>
+    <keyword>actor-playing-himself</keyword>
+    <keyword>brother-sister-relationship</keyword>
+    <keyword>avalanche</keyword>
+    <keyword>murder</keyword>
+    <keyword>timebomb</keyword>
+    <keyword>no-opening-credits</keyword>
+    <keyword>environmental-protest</keyword>
+    <keyword>botox</keyword>
+    <keyword>motor-bike</keyword>
+    <keyword>church</keyword>
+    <keyword>returning-character-killed-off</keyword>
+    <keyword>neighbor</keyword>
+    <keyword>throat-singing</keyword>
+    <keyword>eskimo</keyword>
+    <keyword>homosexual</keyword>
+    <keyword>alcoholics-anonymous</keyword>
+    <keyword>carnival</keyword>
+    <keyword>hot-dog</keyword>
+    <keyword>pickup-truck</keyword>
+    <keyword>u.s.-president</keyword>
+    <keyword>multiple-cameos</keyword>
+    <keyword>strauss-also-sprach-zarathustra</keyword>
+    <keyword>inuit</keyword>
+    <keyword>public-nudity</keyword>
+    <keyword>treehouse</keyword>
+    <keyword>fictional-city</keyword>
+    <keyword>gay-character</keyword>
+    <keyword>helicopter</keyword>
+    <keyword>hamburger</keyword>
+    <keyword>actress-playing-male-role</keyword>
+    <keyword>anger</keyword>
+    <keyword>painful-humor</keyword>
+    <keyword>penis</keyword>
+    <keyword>environmental-crime</keyword>
+    <keyword>orange-tree</keyword>
+    <keyword>sandbox</keyword>
+    <keyword>male-rear-nudity</keyword>
+    <keyword>lake</keyword>
+    <keyword>shock-in-the-end</keyword>
+    <keyword>movie-in-title</keyword>
+    <keyword>adult-animation</keyword>
+    <keyword>walk-on-ceiling</keyword>
+    <keyword>based-on-tv-series</keyword>
+    <keyword>camera-phone</keyword>
+    <keyword>northern-lights</keyword>
+    <keyword>commercial-spot</keyword>
+    <keyword>blockbuster</keyword>
+    <keyword>husband-wife-relationship</keyword>
+    <keyword>squirrel</keyword>
+    <keyword>dome</keyword>
+    <keyword>self-referential</keyword>
+    <keyword>dysfunctional-family</keyword>
+    <keyword>social-satire</keyword>
+    <keyword>male-female-relationship</keyword>
+    <keyword>cartoon-nudity</keyword>
+    <keyword>sandwich</keyword>
+    <keyword>dog-attack</keyword>
+    <keyword>gay-kid</keyword>
+    <keyword>austrian-accent</keyword>
+    <keyword>carnival-barker</keyword>
+    <keyword>underage-smoking</keyword>
+    <keyword>adult-humor</keyword>
+    <keyword>canyon</keyword>
+    <keyword>homosexuality</keyword>
+    <keyword>hotel</keyword>
+    <keyword>electrocution</keyword>
+    <keyword>german-accent</keyword>
+    <keyword>breaking-the-fourth-wall</keyword>
+    <keyword>surprise-during-end-credits</keyword>
+    <keyword>toxic-waste</keyword>
+    <keyword>house-on-fire</keyword>
+    <keyword>evil-businessman</keyword>
+    <keyword>studio-logo-parody</keyword>
+    <keyword>small-town</keyword>
+    <keyword>gay-couple</keyword>
+    <keyword>mob-hit</keyword>
+    <keyword>character-name-in-title</keyword>
+    <keyword>altered-version-of-studio-logo</keyword>
+    <keyword>cat-lady</keyword>
+    <keyword>child-nudity</keyword>
+    <keyword>husky-dog</keyword>
+    <keyword>male-male-kiss</keyword>
+    <keyword>siamese-twins</keyword>
+    <keyword>medicine-woman</keyword>
+    <keyword>arnold-schwarzenegger-spoof</keyword>
+    <keyword>mutation</keyword>
+    <keyword>monster</keyword>
+    <keyword>heavy-accent</keyword>
+    <keyword>domed-city</keyword>
+    <keyword>silo</keyword>
+    <keyword>snow</keyword>
+  </keywords>
+  <languages>
+    <language>English</language>
+  </languages>
+  <soundmixes>
+    <soundmix>DTS</soundmix>
+    <soundmix>Dolby Digital</soundmix>
+  </soundmixes>
+  <countries>
+    <country>USA</country>
+  </countries>
+  <certificates>
+    <certificate country="Sweden">7</certificate>
+    <certificate country="South Africa">PG</certificate>
+    <certificate country="Peru">PT</certificate>
+    <certificate country="Argentina">Atp</certificate>
+    <certificate country="Portugal">M/6</certificate>
+    <certificate country="Brazil">12</certificate>
+    <certificate country="Netherlands">6</certificate>
+    <certificate country="Japan">U</certificate>
+    <certificate country="UK">PG</certificate>
+    <certificate country="Taiwan">PG-12</certificate>
+    <certificate country="Singapore">PG</certificate>
+    <certificate country="Germany">6</certificate>
+    <certificate country="Chile">TE</certificate>
+    <certificate country="France">U</certificate>
+    <certificate country="Malaysia">U</certificate>
+    <certificate country="Hong Kong">IIA</certificate>
+    <certificate country="Ireland">PG</certificate>
+    <certificate country="South Korea">12</certificate>
+    <certificate country="Australia">PG</certificate>
+    <certificate country="Switzerland">7</certificate>
+    <certificate country="Norway">7</certificate>
+    <certificate country="Canada">PG</certificate>
+    <certificate country="Finland">K-7</certificate>
+    <certificate country="USA">PG-13</certificate>
+    <certificate country="Denmark">7</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="Sweden">27 July 2007</releasedate>
+    <releasedate country="South Africa">27 July 2007</releasedate>
+    <releasedate country="Peru">26 July 2007</releasedate>
+    <releasedate country="Indonesia">25 July 2007</releasedate>
+    <releasedate country="Argentina">26 July 2007</releasedate>
+    <releasedate country="Portugal">26 July 2007</releasedate>
+    <releasedate country="Latvia">27 July 2007</releasedate>
+    <releasedate country="Turkey">27 July 2007</releasedate>
+    <releasedate country="Serbia">26 July 2007</releasedate>
+    <releasedate country="Brazil">17 August 2007</releasedate>
+    <releasedate country="Netherlands">16 August 2007</releasedate>
+    <releasedate country="Japan">15 December 2007</releasedate>
+    <releasedate country="Croatia">26 July 2007</releasedate>
+    <releasedate country="Slovenia">26 July 2007</releasedate>
+    <releasedate country="Israel">26 July 2007</releasedate>
+    <releasedate country="India">3 August 2007</releasedate>
+    <releasedate country="UK">25 July 2007</releasedate>
+    <releasedate country="Bulgaria">27 July 2007</releasedate>
+    <releasedate country="Thailand">9 August 2007</releasedate>
+    <releasedate country="Singapore">26 July 2007</releasedate>
+    <releasedate country="Romania">27 July 2007</releasedate>
+    <releasedate country="Greece">30 August 2007</releasedate>
+    <releasedate country="Germany">26 July 2007</releasedate>
+    <releasedate country="Belgium">25 July 2007</releasedate>
+    <releasedate country="Chile">26 July 2007</releasedate>
+    <releasedate country="France">25 July 2007</releasedate>
+    <releasedate country="Malaysia">26 July 2007</releasedate>
+    <releasedate country="Panama">27 July 2007</releasedate>
+    <releasedate country="Uruguay">26 July 2007</releasedate>
+    <releasedate country="Hungary">9 August 2007</releasedate>
+    <releasedate country="Pakistan">26 October 2007</releasedate>
+    <releasedate country="Hong Kong">9 August 2007</releasedate>
+    <releasedate country="Estonia">27 July 2007</releasedate>
+    <releasedate country="Ireland">26 July 2007</releasedate>
+    <releasedate country="Iceland">27 July 2007</releasedate>
+    <releasedate country="Mexico">2 August 2007</releasedate>
+    <releasedate country="Slovakia">26 July 2007</releasedate>
+    <releasedate country="South Korea">23 August 2007</releasedate>
+    <releasedate country="Poland">3 August 2007</releasedate>
+    <releasedate country="Spain">26 July 2007</releasedate>
+    <releasedate country="Egypt">25 July 2007</releasedate>
+    <releasedate country="Australia">26 July 2007</releasedate>
+    <releasedate country="Lithuania">27 July 2007</releasedate>
+    <releasedate country="Norway">27 July 2007</releasedate>
+    <releasedate country="Canada">27 July 2007</releasedate>
+    <releasedate country="Russia">16 August 2007</releasedate>
+    <releasedate country="Finland">27 July 2007</releasedate>
+    <releasedate country="Kazakhstan">16 August 2007</releasedate>
+    <releasedate country="Austria">26 July 2007</releasedate>
+    <releasedate country="Italy">14 September 2007</releasedate>
+    <releasedate country="Philippines">25 July 2007</releasedate>
+    <releasedate country="New Zealand">26 July 2007</releasedate>
+    <releasedate country="Colombia">27 July 2007</releasedate>
+    <releasedate country="USA">27 July 2007</releasedate>
+    <releasedate country="Kuwait">25 July 2007</releasedate>
+    <releasedate country="Venezuela">27 July 2007</releasedate>
+    <releasedate country="Denmark">3 August 2007</releasedate>
+    <releasedate country="Albania">27 July 2007</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="default">87</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Silverman, David (I)</director>
+  </directors>
+  <producers>
+    <producer>Concepcion, Katherine C.</producer>
+    <producer>Belknap, Elise</producer>
+    <producer>Miller, Karen K.</producer>
+    <producer>Sost, Craig</producer>
+    <producer>Kuwahara, Joel</producer>
+    <producer>Shin, Nelson (I)</producer>
+    <producer>Moshay, Amanda</producer>
+    <producer>Nalivansky, Felicia</producer>
+    <producer>Orefice, Matt</producer>
+    <producer>Gave, Peter</producer>
+    <producer>Kleckner, Jay</producer>
+    <producer>Smith, Loren (V)</producer>
+    <producer>Symon, Geraldine</producer>
+    <producer>Vanzo, Nikki</producer>
+    <producer>Brooks, James L.</producer>
+    <producer>Groening, Matt</producer>
+    <producer>Jean, Al</producer>
+    <producer>Sakai, Richard (I)</producer>
+    <producer>Scully, Mike</producer>
+    <producer>Katz, Claudia (I)</producer>
+    <producer>Raynis, Richard</producer>
+    <producer>Yun, Hyejoon</producer>
+  </producers>
+  <writers>
+    <writer>Brooks, James L.</writer>
+    <writer>Groening, Matt</writer>
+    <writer>Jean, Al</writer>
+    <writer>Maxtone-Graham, Ian</writer>
+    <writer>Meyer, George (II)</writer>
+    <writer>Mirkin, David</writer>
+    <writer>Reiss, Mike</writer>
+    <writer>Scully, Mike</writer>
+    <writer>Selman, Matt</writer>
+    <writer>Swartzwelder, John</writer>
+    <writer>Vitti, Jon</writer>
+  </writers>
+  <composers>
+    <composer>Zimmer, Hans</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Armstrong, Billie Joe</actor>
+      <role>Green Day</role>
+    </credit>
+    <credit>
+      <actor>Azaria, Hank</actor>
+      <role>Professor Frink/Comic Book Guy/Moe/Chief Wiggum/Lou/Carl/Cletus/Bumblebee Man/Male EPA Worker/Dome Depot Announcer/Kissing Cop/Carnival Barker/Counter Man/Apu/Drederick Tatum/Sea Captain/EPA Passenger/Robot/Dr. Nick</role>
+    </credit>
+    <credit>
+      <actor>Brooks, Albert (I)</actor>
+      <role>Russ Cargill</role>
+    </credit>
+    <credit>
+      <actor>Cartwright, Nancy (I)</actor>
+      <role>Bart/Maggie/Ralph/Nelson/Todd Flanders/TV Daughter/Woman on Phone</role>
+    </credit>
+    <credit>
+      <actor>Castellaneta, Dan</actor>
+      <role>Homer/Itchy/Barney/Grampa/Stage Manager/Krusty the Clown/Mayor Quimby/Mayor's Aide/Multi-Eyed Squirrel/Panicky Man/Sideshow Mel/Mr. Teeny/EPA Official/Kissing Cop/Bear/Boy on Phone/NSA Worker/Officer/Santa's Little Helper/Squeaky-Voiced Teen</role>
+    </credit>
+    <credit>
+      <actor>Cool, Tre (I)</actor>
+      <role>Green Day</role>
+    </credit>
+    <credit>
+      <actor>Dirnt, Mike</actor>
+      <role>Green Day</role>
+    </credit>
+    <credit>
+      <actor>Hanks, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hayden, Pamela (I)</actor>
+      <role>Milhouse/Rod Flanders</role>
+    </credit>
+    <credit>
+      <actor>Kavner, Julie</actor>
+      <role>Marge Simpson/Selma/Patty</role>
+    </credit>
+    <credit>
+      <actor>MacNeille, Tress</actor>
+      <role>Sweet Old Lady/Colin/Mrs. Skinner/Nelson's Mother/Pig/Cat Lady/Female EPA Worker/G.P.S. Woman/Cookie Kwan/Lindsey Naegle/TV Son/Medicine Woman/Girl on Phone</role>
+    </credit>
+    <credit>
+      <actor>Mantegna, Joe</actor>
+      <role>Fat Tony</role>
+    </credit>
+    <credit>
+      <actor>Rosenthal, Phil</actor>
+      <role>TV Dad</role>
+    </credit>
+    <credit>
+      <actor>Shearer, Harry</actor>
+      <role>Scratchy/Mr. Burns/Rev. Lovejoy/Ned Flanders/Lenny/Skull/President Arnold Schwarzenegger/Kent Brockman/Principal Skinner/Dr. Hibbert/Smithers/Toll Booth Man/Guard/Otto/Kang</role>
+    </credit>
+    <credit>
+      <actor>Wiedergott, Karl</actor>
+      <role>Man/EPA Driver</role>
+    </credit>
+  </cast>
+<plot>Homer adopts a pig who's run away from Krusty Burger after Krusty tried to have him slaughtered, naming the pig "Spider Pig." At the same time, the lake is protected after the audience sink the barge Green Day are on with garbage after they mention the environment. Meanwhile, Spider Pig's waste has filled up a silo in just 2 days, apparently with Homer's help. Homer can't get to the dump quickly so dumps the silo in the lake, polluting it. Russ Cargill, the villainous boss of the EPA, gives Arnold Schwarzenegger 5 options, forcing him to choose 4 (which is, unfortunately, to destroy Springfield) and putting a dome over Springfield to prevent evacuation. Homer, however, has escaped, along with his family. Can he stop the evil Cargill from annihilating his home town, and his family, who have been forced to return to Springfield?</plot><url>http://localhost:8983/solr/movie.html?590991</url></doc>

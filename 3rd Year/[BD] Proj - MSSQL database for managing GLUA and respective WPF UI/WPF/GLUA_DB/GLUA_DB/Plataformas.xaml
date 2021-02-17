@@ -1,0 +1,20 @@
+﻿<Page x:Class="GLUA_DB.Plataformas"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GLUA_DB"
+      mc:Ignorable="d" 
+      Height="Auto" Width="Auto"
+      Title="Plataformas">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <DataGrid Name="PlataformasGrid" HorizontalAlignment="Left" Height="590"  VerticalAlignment="Top" Width="Auto" IsReadOnly="True" MouseDoubleClick="PlataformasGrid_MouseDoubleClick"/>
+        <Button x:Name="InsertPlataforma" Content="Adicionar uma Nova Plataforma" HorizontalAlignment="Left" Margin="20,0,0,-9" Width="210"  Grid.Row="2" Click="InsertPlataforma_Click"/>
+    </Grid>
+</Page>

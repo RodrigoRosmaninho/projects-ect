@@ -100,6 +100,13 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Developed with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PivZ-24), [Daniel Correia](https://github.com/danielcorreia13), and [Rita Amante](https://github.com/rita-amante) in 2019
 
+ - [[SO] SOFS - Critical components of an ext2-based filesystem](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BSO%5D%20SOFS%20-%20Critical%20components%20of%20an%20ext2-based%20filesystem)
+
+     Grade: 17.8/20
+
+     C++ functions to implement critical components of SOFS19, an ext2-based filesystem
+
+     Developed with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PivZ-24), [João Trindade](https://github.com/3ndade), and [Rita Amante](https://github.com/rita-amante) in 2019
 
 <br>
 
@@ -149,14 +156,6 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      - Android App functional tests
 
      Developed with [Eurico Dias](https://github.com/eurico-dias), [Alexandre Lourenço](https://github.com/AlexMLourenco), and [Tomás Martins](https://github.com/tomasfilipe7) in 2019
-     
- - [[SO] SOFS - Critical components of an ext2-based filesystem](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/%5BSO%5D%20SOFS%20-%20Critical%20components%20of%20an%20ext2-based%20filesystem)
-
-     Grade: 17.8/20
-
-     C++ functions to implement critical components of SOFS19, an ext2-based filesystem
-
-     Developed with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PivZ-24), [João Trindade](https://github.com/3ndade), and [Rita Amante](https://github.com/rita-amante) in 2019
      
 - [[PEI] - End-to-end IoT platform for UAveiro's Electronics, Telecomunications, and Informatics Department](https://github.com/DETImotica)
 

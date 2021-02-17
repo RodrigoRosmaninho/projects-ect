@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="648780">
+  <docid>648780</docid>
+  <title>Wayne's World 2</title>
+  <year>1993</year>
+  <type>movie</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Campbell, Malcolm (I)</editor>
+  </editors>
+  <genres>
+    <genre>Comedy</genre>
+    <genre>Music</genre>
+  </genres>
+  <keywords>
+    <keyword>guitar</keyword>
+    <keyword>elvis-presley</keyword>
+    <keyword>broken-glass</keyword>
+    <keyword>sequel-to-cult-favorite</keyword>
+    <keyword>concert</keyword>
+    <keyword>dream-sequence</keyword>
+    <keyword>car-falling-off-cliff</keyword>
+    <keyword>number-in-title</keyword>
+    <keyword>saturday-night-live</keyword>
+    <keyword>cell-phone</keyword>
+    <keyword>indian</keyword>
+    <keyword>cult-favorite</keyword>
+    <keyword>unix</keyword>
+    <keyword>based-on-sketch-comedy</keyword>
+    <keyword>second-part</keyword>
+    <keyword>beautiful-woman</keyword>
+    <keyword>wedding</keyword>
+    <keyword>interrupted-wedding</keyword>
+    <keyword>illinois</keyword>
+    <keyword>sequel</keyword>
+    <keyword>rock-music</keyword>
+    <keyword>based-on-tv-series</keyword>
+    <keyword>woodstock</keyword>
+    <keyword>gay-bar</keyword>
+    <keyword>character-name-in-title</keyword>
+    <keyword>desert</keyword>
+  </keywords>
+  <languages>
+    <language>Cantonese</language>
+    <language>English</language>
+  </languages>
+  <soundmixes>
+    <soundmix>Dolby</soundmix>
+  </soundmixes>
+  <countries>
+    <country>USA</country>
+  </countries>
+  <certificates>
+    <certificate country="Sweden">7</certificate>
+    <certificate country="Netherlands">AL</certificate>
+    <certificate country="UK">PG</certificate>
+    <certificate country="Singapore">PG</certificate>
+    <certificate country="Germany">6</certificate>
+    <certificate country="Ireland">PG</certificate>
+    <certificate country="Iceland">L</certificate>
+    <certificate country="South Korea">15</certificate>
+    <certificate country="Australia">PG</certificate>
+    <certificate country="Norway">10</certificate>
+    <certificate country="Canada">PG</certificate>
+    <certificate country="Finland">S</certificate>
+    <certificate country="USA">PG-13</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="Sweden">25 February 1994</releasedate>
+    <releasedate country="Argentina">16 December 1993</releasedate>
+    <releasedate country="Netherlands">10 March 1994</releasedate>
+    <releasedate country="UK">4 February 1994</releasedate>
+    <releasedate country="Germany">24 March 1994</releasedate>
+    <releasedate country="France">6 April 1994</releasedate>
+    <releasedate country="Australia">16 December 1993</releasedate>
+    <releasedate country="Finland">11 February 1994</releasedate>
+    <releasedate country="USA">10 December 1993</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="default">95</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Surjik, Stephen</director>
+  </directors>
+  <producers>
+    <producer>Minot, Dinah</producer>
+    <producer>Thompson, Barnaby (I)</producer>
+    <producer>Koch, Hawk</producer>
+    <producer>Michaels, Lorne</producer>
+  </producers>
+  <writers>
+    <writer>Myers, Mike (I)</writer>
+    <writer>Turner, Bonnie</writer>
+    <writer>Turner, Terry (I)</writer>
+  </writers>
+  <composers>
+    <composer>Burwell, Carter (I)</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Barrymore, Drew (I)</actor>
+      <role>Bjergen Kjergen</role>
+    </credit>
+    <credit>
+      <actor>Basinger, Kim</actor>
+      <role>Honey Horneé</role>
+    </credit>
+    <credit>
+      <actor>Bell, Dan (I)</actor>
+      <role>Neil</role>
+    </credit>
+    <credit>
+      <actor>Brown, Ralph (I)</actor>
+      <role>Del Preston</role>
+    </credit>
+    <credit>
+      <actor>Campos, Jaime (II)</actor>
+      <role>Concert Rocker</role>
+    </credit>
+    <credit>
+      <actor>Carrere, Tia</actor>
+      <role>Cassandra Wong</role>
+    </credit>
+    <credit>
+      <actor>Carvey, Dana</actor>
+      <role>Garth Algar</role>
+    </credit>
+    <credit>
+      <actor>Coberly, Sydney</actor>
+      <role>Mikita's Waitress</role>
+    </credit>
+    <credit>
+      <actor>Coffey, Scott (I)</actor>
+      <role>Heavy Metaller</role>
+    </credit>
+    <credit>
+      <actor>Corazon, Carlo</actor>
+      <role>Aerosmith fan at the concert</role>
+    </credit>
+    <credit>
+      <actor>Cory, Priscilla</actor>
+      <role>Pretty Brunette at Concert</role>
+    </credit>
+    <credit>
+      <actor>DiLeo, Frank</actor>
+      <role>Frankie 'Mr. Big' Sharp</role>
+    </credit>
+    <credit>
+      <actor>Downey, James (I)</actor>
+      <role>Jeff Wong</role>
+    </credit>
+    <credit>
+      <actor>Edwards, Lance</actor>
+      <role>Heavy Metaller</role>
+    </credit>
+    <credit>
+      <actor>Epper, Richard</actor>
+      <role>Guy at Concert</role>
+    </credit>
+    <credit>
+      <actor>Farley, Chris</actor>
+      <role>Milton</role>
+    </credit>
+    <credit>
+      <actor>Foster, George (I)</actor>
+      <role>Lead Guitarist</role>
+    </credit>
+    <credit>
+      <actor>Graham, Benny</actor>
+      <role>Security Guy</role>
+    </credit>
+    <credit>
+      <actor>Grazer, Gavin</actor>
+      <role>Scott</role>
+    </credit>
+    <credit>
+      <actor>Gress, Googy</actor>
+      <role>Gate Security Guy</role>
+    </credit>
+    <credit>
+      <actor>Guess, Sean Michael</actor>
+      <role>Roadie</role>
+    </credit>
+    <credit>
+      <actor>Haakenson, Ryal</actor>
+      <role>Wedding Guest</role>
+    </credit>
+    <credit>
+      <actor>Hamilton, Tom (II)</actor>
+      <role>Himself - Aerosmith Bassist</role>
+    </credit>
+    <credit>
+      <actor>Hansen, Al (I)</actor>
+      <role>Bad Actor</role>
+    </credit>
+    <credit>
+      <actor>Heston, Charlton</actor>
+      <role>Good Actor</role>
+    </credit>
+    <credit>
+      <actor>Hong, James</actor>
+      <role>Jeff Wong</role>
+    </credit>
+    <credit>
+      <actor>Kato, Nash</actor>
+      <role>Musician exiting Limo</role>
+    </credit>
+    <credit>
+      <actor>Kenna, Matthew</actor>
+      <role>Roadie</role>
+    </credit>
+    <credit>
+      <actor>Kramer, Joey</actor>
+      <role>Himself - Aerosmith Drummer</role>
+    </credit>
+    <credit>
+      <actor>Larkin, Bob</actor>
+      <role>Wedding Minister</role>
+    </credit>
+    <credit>
+      <actor>Leno, Jay</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Liss, Joe</actor>
+      <role>Chicken Guy</role>
+    </credit>
+    <credit>
+      <actor>Litman, Ron</actor>
+      <role>Tool Box DJ</role>
+    </credit>
+    <credit>
+      <actor>Locklear, Heather</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>McGinley, Ted</actor>
+      <role>Mr. Scream</role>
+    </credit>
+    <credit>
+      <actor>McShane, Jenny</actor>
+      <role>Girl at Concert</role>
+    </credit>
+    <credit>
+      <actor>Meadows, Tim</actor>
+      <role>Sammy Davis, Jr.</role>
+    </credit>
+    <credit>
+      <actor>Myers, Mike (I)</actor>
+      <role>Wayne Campbell</role>
+    </credit>
+    <credit>
+      <actor>Nickles, Michael A.</actor>
+      <role>Jim Morrison</role>
+    </credit>
+    <credit>
+      <actor>O'Neill, Ed (I)</actor>
+      <role>Glen, Mikita's Manager</role>
+    </credit>
+    <credit>
+      <actor>Odenkirk, Bob</actor>
+      <role>Concert Nerd</role>
+    </credit>
+    <credit>
+      <actor>Perry, Joe (I)</actor>
+      <role>Himself - Aerosmith Guitarist</role>
+    </credit>
+    <credit>
+      <actor>Pleshaw, Tim T.S.</actor>
+      <role>Waynestock fan</role>
+    </credit>
+    <credit>
+      <actor>Pollak, Kevin</actor>
+      <role>Jerry Segel</role>
+    </credit>
+    <credit>
+      <actor>Rachelle, Stevie</actor>
+      <role>Rocker</role>
+    </credit>
+    <credit>
+      <actor>Raczkowski, Paul</actor>
+      <role>Recording Engineer</role>
+    </credit>
+    <credit>
+      <actor>Sellers, Larry</actor>
+      <role>Naked Indian</role>
+    </credit>
+    <credit>
+      <actor>Shearer, Harry</actor>
+      <role>Handsome Dan</role>
+    </credit>
+    <credit>
+      <actor>Slayton, Bobby (I)</actor>
+      <role>Watermelon Guy</role>
+    </credit>
+    <credit>
+      <actor>Smigel, Robert</actor>
+      <role>Concert Nerd</role>
+    </credit>
+    <credit>
+      <actor>Surjik, Stephen</actor>
+      <role>Director</role>
+    </credit>
+    <credit>
+      <actor>Taylor, Rip</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Tergesen, Lee</actor>
+      <role>Terry</role>
+    </credit>
+    <credit>
+      <actor>Tyler, Steven (I)</actor>
+      <role>Himself - Aerosmith Singer</role>
+    </credit>
+    <credit>
+      <actor>Valenti, Duke</actor>
+      <role>Security Guy</role>
+    </credit>
+    <credit>
+      <actor>Walken, Christopher</actor>
+      <role>Bobby Cahn</role>
+    </credit>
+    <credit>
+      <actor>Whitford, Brad</actor>
+      <role>Himself - Aerosmith Guitarist</role>
+    </credit>
+    <credit>
+      <actor>Wilson, Shawn (IV)</actor>
+      <role>Security Guard</role>
+    </credit>
+    <credit>
+      <actor>d'Abo, Olivia</actor>
+      <role>Betty Jo</role>
+    </credit>
+  </cast>
+<plot>Wayne is back, this time trying to organize a rock festival with help from friend Garth and the spirit of Jim Morrison (Doors). Meanwhile, his girlfriend's manager is busy trying to woo her away from Wayne and move her to LA. Life gets interesting when Wayne must rush from the concert to try and stop the wedding. Aerosmith are featured at the concert.</plot><url>http://localhost:8983/solr/movie.html?648780</url></doc>

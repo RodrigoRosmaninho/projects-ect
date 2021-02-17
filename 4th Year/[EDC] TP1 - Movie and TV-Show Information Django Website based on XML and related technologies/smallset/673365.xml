@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="673365">
+  <docid>673365</docid>
+  <title>xXx: State of the Union</title>
+  <year>2005</year>
+  <type>movie</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Goldblatt, Mark</editor>
+    <editor>Miller, Todd E.</editor>
+    <editor>Rosenblum, Steven</editor>
+  </editors>
+  <genres>
+    <genre>Thriller</genre>
+    <genre>Adventure</genre>
+    <genre>Action</genre>
+    <genre>Crime</genre>
+  </genres>
+  <keywords>
+    <keyword>power-failure</keyword>
+    <keyword>sequel-with-unusual-number</keyword>
+    <keyword>faked-death</keyword>
+    <keyword>politics</keyword>
+    <keyword>jump-from-bridge</keyword>
+    <keyword>washington-d.c.</keyword>
+    <keyword>shot-to-death</keyword>
+    <keyword>nsa</keyword>
+    <keyword>missile-launcher</keyword>
+    <keyword>shot-in-the-back</keyword>
+    <keyword>train-explosion</keyword>
+    <keyword>exploding-boat</keyword>
+    <keyword>train</keyword>
+    <keyword>helicopter</keyword>
+    <keyword>sequel</keyword>
+    <keyword>exploding-car</keyword>
+    <keyword>violence</keyword>
+    <keyword>white-house</keyword>
+    <keyword>tank</keyword>
+    <keyword>box-office-flop</keyword>
+    <keyword>car-chase</keyword>
+    <keyword>bullet-train</keyword>
+    <keyword>character-name-in-title</keyword>
+  </keywords>
+  <languages>
+    <language>English</language>
+  </languages>
+  <soundmixes>
+    <soundmix>SDDS</soundmix>
+    <soundmix>DTS</soundmix>
+    <soundmix>Dolby Digital</soundmix>
+  </soundmixes>
+  <countries>
+    <country>USA</country>
+  </countries>
+  <certificates>
+    <certificate country="Sweden">11</certificate>
+    <certificate country="Peru">14</certificate>
+    <certificate country="Argentina">13</certificate>
+    <certificate country="Netherlands">12</certificate>
+    <certificate country="Brazil">14</certificate>
+    <certificate country="UK">12A</certificate>
+    <certificate country="Taiwan">R-12</certificate>
+    <certificate country="Singapore">NC-16</certificate>
+    <certificate country="Germany">12</certificate>
+    <certificate country="Chile">14</certificate>
+    <certificate country="France">U</certificate>
+    <certificate country="Malaysia">U</certificate>
+    <certificate country="Hong Kong">IIA</certificate>
+    <certificate country="Ireland">12A</certificate>
+    <certificate country="South Korea">12</certificate>
+    <certificate country="Australia">M</certificate>
+    <certificate country="Switzerland">14</certificate>
+    <certificate country="Norway">15</certificate>
+    <certificate country="Canada">PG</certificate>
+    <certificate country="Finland">K-15</certificate>
+    <certificate country="Philippines">PG-13</certificate>
+    <certificate country="USA">PG-13</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="Sweden">27 April 2005</releasedate>
+    <releasedate country="Argentina">28 April 2005</releasedate>
+    <releasedate country="Portugal">28 April 2005</releasedate>
+    <releasedate country="Turkey">3 June 2005</releasedate>
+    <releasedate country="Brazil">29 April 2005</releasedate>
+    <releasedate country="Netherlands">28 April 2005</releasedate>
+    <releasedate country="Japan">16 December 2005</releasedate>
+    <releasedate country="Croatia">28 April 2005</releasedate>
+    <releasedate country="Israel">28 April 2005</releasedate>
+    <releasedate country="UK">29 April 2005</releasedate>
+    <releasedate country="Bulgaria">29 April 2005</releasedate>
+    <releasedate country="Thailand">28 April 2005</releasedate>
+    <releasedate country="United Arab Emirates">27 April 2005</releasedate>
+    <releasedate country="Singapore">28 April 2005</releasedate>
+    <releasedate country="Greece">24 June 2005</releasedate>
+    <releasedate country="Germany">28 April 2005</releasedate>
+    <releasedate country="Belgium">27 April 2005</releasedate>
+    <releasedate country="Chile">28 April 2005</releasedate>
+    <releasedate country="France">27 April 2005</releasedate>
+    <releasedate country="Panama">29 April 2005</releasedate>
+    <releasedate country="Hungary">28 April 2005</releasedate>
+    <releasedate country="Hong Kong">28 April 2005</releasedate>
+    <releasedate country="China">17 June 2005</releasedate>
+    <releasedate country="Estonia">29 April 2005</releasedate>
+    <releasedate country="Czech Republic">28 April 2005</releasedate>
+    <releasedate country="Iceland">29 April 2005</releasedate>
+    <releasedate country="South Korea">29 April 2005</releasedate>
+    <releasedate country="Poland">3 June 2005</releasedate>
+    <releasedate country="Spain">29 April 2005</releasedate>
+    <releasedate country="Egypt">27 April 2005</releasedate>
+    <releasedate country="Australia">28 April 2005</releasedate>
+    <releasedate country="Switzerland">29 April 2005</releasedate>
+    <releasedate country="Russia">28 April 2005</releasedate>
+    <releasedate country="Finland">27 April 2005</releasedate>
+    <releasedate country="Republic of Macedonia">27 April 2005</releasedate>
+    <releasedate country="Austria">29 April 2005</releasedate>
+    <releasedate country="Kazakhstan">28 April 2005</releasedate>
+    <releasedate country="Italy">29 April 2005</releasedate>
+    <releasedate country="Philippines">27 April 2005</releasedate>
+    <releasedate country="USA">29 April 2005</releasedate>
+    <releasedate country="Kuwait">27 April 2005</releasedate>
+    <releasedate country="Denmark">27 April 2005</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="default">101</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Tamahori, Lee</director>
+  </directors>
+  <producers>
+    <producer>Cohen, Rob (I)</producer>
+    <producer>Dauchy, Derek</producer>
+    <producer>Garner, Todd</producer>
+    <producer>Moritz, Neal H.</producer>
+    <producer>Schmidt, Arne (I)</producer>
+  </producers>
+  <writers>
+    <writer>Kinberg, Simon</writer>
+    <writer>Wilkes, Rich</writer>
+  </writers>
+  <composers>
+    <composer>Beltrami, Marco (I)</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Alonzo, Robert</actor>
+      <role>Guard</role>
+    </credit>
+    <credit>
+      <actor>Ando, Yoshi</actor>
+      <role>Zeke's thief</role>
+    </credit>
+    <credit>
+      <actor>Arness, Andy</actor>
+      <role>Marine</role>
+    </credit>
+    <credit>
+      <actor>Baer, Dotan</actor>
+      <role>Tank Commando</role>
+    </credit>
+    <credit>
+      <actor>Baldwin, Lance</actor>
+      <role>Sharpshooter</role>
+    </credit>
+    <credit>
+      <actor>Baptiste, Ian</actor>
+      <role>Marine</role>
+    </credit>
+    <credit>
+      <actor>Bloodgood, Paul Michael</actor>
+      <role>Bama Commando #8</role>
+    </credit>
+    <credit>
+      <actor>Bronson, Toby</actor>
+      <role>Tank Commander</role>
+    </credit>
+    <credit>
+      <actor>Brown, J. Anthony</actor>
+      <role>Webster</role>
+    </credit>
+    <credit>
+      <actor>Browning, Krystal</actor>
+      <role>Undercover Agent</role>
+    </credit>
+    <credit>
+      <actor>Bruce, Bruce</actor>
+      <role>Maurice</role>
+    </credit>
+    <credit>
+      <actor>Bryant, Rich (I)</actor>
+      <role>Man in Air Force Trench Coat</role>
+    </credit>
+    <credit>
+      <actor>Campbell, Doug (VIII)</actor>
+      <role>Marine</role>
+    </credit>
+    <credit>
+      <actor>Carson, Steve (I)</actor>
+      <role>Prisoner</role>
+    </credit>
+    <credit>
+      <actor>Castro, Mary</actor>
+      <role>Waitress at Elwood Diner</role>
+    </credit>
+    <credit>
+      <actor>Challita, Eddy</actor>
+      <role>SWAT</role>
+    </credit>
+    <credit>
+      <actor>Chandler, Jared</actor>
+      <role>Firing Team Commander</role>
+    </credit>
+    <credit>
+      <actor>Chater, Eos</actor>
+      <role>String Quartet</role>
+    </credit>
+    <credit>
+      <actor>Cheek, James E.</actor>
+      <role>Inmate 4425</role>
+    </credit>
+    <credit>
+      <actor>Chiu, Baldwin</actor>
+      <role>Navy Officer</role>
+    </credit>
+    <credit>
+      <actor>Collins, Paul (I)</actor>
+      <role>NSA Director Bill Brody</role>
+    </credit>
+    <credit>
+      <actor>Connolly, John G.</actor>
+      <role>Lt. Alabama 'Bama' Cobb</role>
+    </credit>
+    <credit>
+      <actor>Cool, Greg</actor>
+      <role>Press Camera Man</role>
+    </credit>
+    <credit>
+      <actor>Cottrell, Darius</actor>
+      <role>SWAT #2</role>
+    </credit>
+    <credit>
+      <actor>Cronander, Bruce</actor>
+      <role>Congressional Delegation</role>
+    </credit>
+    <credit>
+      <actor>Cube, Ice</actor>
+      <role>Darius Stone/XXX</role>
+    </credit>
+    <credit>
+      <actor>Dafoe, Willem</actor>
+      <role>General George Deckert</role>
+    </credit>
+    <credit>
+      <actor>Davis, Tania</actor>
+      <role>String Quartet</role>
+    </credit>
+    <credit>
+      <actor>Dawson, Bruce Allen</actor>
+      <role>World Leader</role>
+    </credit>
+    <credit>
+      <actor>Dayspring, Michael</actor>
+      <role>Sgt Myers</role>
+    </credit>
+    <credit>
+      <actor>De Ocampo, Ramon</actor>
+      <role>Agent Meadows</role>
+    </credit>
+    <credit>
+      <actor>DeBona, Joseph</actor>
+      <role>Military Prisoner #3449</role>
+    </credit>
+    <credit>
+      <actor>Duma, Richard L.</actor>
+      <role>Marine Captain Freedman</role>
+    </credit>
+    <credit>
+      <actor>Ecker, Haylie</actor>
+      <role>String Quartet</role>
+    </credit>
+    <credit>
+      <actor>Evans, Michael Don</actor>
+      <role>Conductor</role>
+    </credit>
+    <credit>
+      <actor>Feurzeig, Larry</actor>
+      <role>Marine</role>
+    </credit>
+    <credit>
+      <actor>Fields, Barsha</actor>
+      <role>Navy Captain</role>
+    </credit>
+    <credit>
+      <actor>Fiscella, Andrew</actor>
+      <role>Guard</role>
+    </credit>
+    <credit>
+      <actor>Gaye, Nona</actor>
+      <role>Lola Jackson</role>
+    </credit>
+    <credit>
+      <actor>Geer, Darrell</actor>
+      <role>Soldier</role>
+    </credit>
+    <credit>
+      <actor>Gerald, Matt</actor>
+      <role>Liebo</role>
+    </credit>
+    <credit>
+      <actor>Gilman, Dan (II)</actor>
+      <role>Captured Commando</role>
+    </credit>
+    <credit>
+      <actor>Goode, Gavin Lindsay</actor>
+      <role>SWAT Officer</role>
+    </credit>
+    <credit>
+      <actor>Gossom Jr., Thom</actor>
+      <role>Baptist Preacher</role>
+    </credit>
+    <credit>
+      <actor>Hansen, Frank (III)</actor>
+      <role>U.S. Marine</role>
+    </credit>
+    <credit>
+      <actor>Harris, Eli</actor>
+      <role>SWAT</role>
+    </credit>
+    <credit>
+      <actor>Hinson, Travis</actor>
+      <role>Tank Gunner</role>
+    </credit>
+    <credit>
+      <actor>Holly, Bryan</actor>
+      <role>NSA Agent</role>
+    </credit>
+    <credit>
+      <actor>Hopkins, Priscilla</actor>
+      <role>Tourist</role>
+    </credit>
+    <credit>
+      <actor>Howard, Courtney Mykelle</actor>
+      <role>Chop Shop Blonde</role>
+    </credit>
+    <credit>
+      <actor>Howerton, Charles</actor>
+      <role>News Anchor</role>
+    </credit>
+    <credit>
+      <actor>Huntington, Dalon</actor>
+      <role>Bama Boy</role>
+    </credit>
+    <credit>
+      <actor>Ibarra, Rene</actor>
+      <role>Casket Detail Commander</role>
+    </credit>
+    <credit>
+      <actor>Jackson, Samuel L.</actor>
+      <role>Agent Augustus Gibbons</role>
+    </credit>
+    <credit>
+      <actor>Jaderlund, Henry</actor>
+      <role>Ambassador</role>
+    </credit>
+    <credit>
+      <actor>Johnson, Chris J.</actor>
+      <role>Young Agent</role>
+    </credit>
+    <credit>
+      <actor>Joyner, Lisa</actor>
+      <role>Field Reporter at Fire</role>
+    </credit>
+    <credit>
+      <actor>Keeley, Paul (I)</actor>
+      <role>Field Reporter</role>
+    </credit>
+    <credit>
+      <actor>Kennedy, Dave</actor>
+      <role>Funeral Commander</role>
+    </credit>
+    <credit>
+      <actor>Kirkpatrick, Bruce</actor>
+      <role>Police Captain Davis</role>
+    </credit>
+    <credit>
+      <actor>Kong, Branden Weslee</actor>
+      <role>Marine</role>
+    </credit>
+    <credit>
+      <actor>Kresal, Shawn</actor>
+      <role>Marine</role>
+    </credit>
+    <credit>
+      <actor>Langenfeld, Todd A.</actor>
+      <role>Capitol Hill Suit</role>
+    </credit>
+    <credit>
+      <actor>Larsen, Brian (I)</actor>
+      <role>Bridge Actor</role>
+    </credit>
+    <credit>
+      <actor>Lazarus, Danielle</actor>
+      <role>Secret Service Agent</role>
+    </credit>
+    <credit>
+      <actor>Lewis, James (VII)</actor>
+      <role>World Leader</role>
+    </credit>
+    <credit>
+      <actor>Louiso, Todd</actor>
+      <role>Dickie Ambrose</role>
+    </credit>
+    <credit>
+      <actor>Mabrey, Sunny</actor>
+      <role>Charlie Mayweather</role>
+    </credit>
+    <credit>
+      <actor>Mack, Sarah (I)</actor>
+      <role>Presidential Aide</role>
+    </credit>
+    <credit>
+      <actor>Malanga, Tony</actor>
+      <role>Bama Commando Tank Driver</role>
+    </credit>
+    <credit>
+      <actor>Marshall, Robert Neal</actor>
+      <role>Capitol Hill Employee</role>
+    </credit>
+    <credit>
+      <actor>Martinez, Bobby (III)</actor>
+      <role>Secret Service Agent</role>
+    </credit>
+    <credit>
+      <actor>Max, Masuimi</actor>
+      <role>Zeke's Girlfriend</role>
+    </credit>
+    <credit>
+      <actor>Mendez, Tiger</actor>
+      <role>Old Troop Commando</role>
+    </credit>
+    <credit>
+      <actor>Mihok, Gwen</actor>
+      <role>Field Reporter</role>
+    </credit>
+    <credit>
+      <actor>Mobley, 'Big' LeRoy</actor>
+      <role>Marine</role>
+    </credit>
+    <credit>
+      <actor>Monzon, Christian</actor>
+      <role>Thief</role>
+    </credit>
+    <credit>
+      <actor>Moon, Jeffrey</actor>
+      <role>Soldier</role>
+    </credit>
+    <credit>
+      <actor>Morgan, Scott Michael</actor>
+      <role>Farmhand</role>
+    </credit>
+    <credit>
+      <actor>Oliverez, Manny</actor>
+      <role>World Leader</role>
+    </credit>
+    <credit>
+      <actor>Patrician, David</actor>
+      <role>Prisoner</role>
+    </credit>
+    <credit>
+      <actor>Pitt, James (I)</actor>
+      <role>Bama Commando</role>
+    </credit>
+    <credit>
+      <actor>Postiglione, Pete</actor>
+      <role>Special Forces Commando</role>
+    </credit>
+    <credit>
+      <actor>Robinson, Joe (II)</actor>
+      <role>Senate Intern</role>
+    </credit>
+    <credit>
+      <actor>Roof, Michael</actor>
+      <role>Agent Toby Lee Shavers</role>
+    </credit>
+    <credit>
+      <actor>Rose, Rudi</actor>
+      <role>Bama Commando</role>
+    </credit>
+    <credit>
+      <actor>Rountree, David</actor>
+      <role>Agent</role>
+    </credit>
+    <credit>
+      <actor>Runcorn, James</actor>
+      <role>Old Troop Commando</role>
+    </credit>
+    <credit>
+      <actor>Schmidtke, Ned</actor>
+      <role>General Jack Pettibone</role>
+    </credit>
+    <credit>
+      <actor>Sellers, Stan</actor>
+      <role>Uptight Businessman</role>
+    </credit>
+    <credit>
+      <actor>Shapiro, Kenny</actor>
+      <role>Capitol Hill Laywer</role>
+    </credit>
+    <credit>
+      <actor>Shocknek, Kent</actor>
+      <role>Newscaster</role>
+    </credit>
+    <credit>
+      <actor>Sigismondi, Barry</actor>
+      <role>Bull</role>
+    </credit>
+    <credit>
+      <actor>Simmons, Donn Andrew</actor>
+      <role>Navy Officer</role>
+    </credit>
+    <credit>
+      <actor>Solenberger, Ben</actor>
+      <role>Capitol Hill Businessman/Frisbee Thrower</role>
+    </credit>
+    <credit>
+      <actor>Speedman, Scott</actor>
+      <role>Agent Kyle Steele</role>
+    </credit>
+    <credit>
+      <actor>Stewart, Thomas W.</actor>
+      <role>Diplomat</role>
+    </credit>
+    <credit>
+      <actor>Straley, Robert</actor>
+      <role>Waiter</role>
+    </credit>
+    <credit>
+      <actor>Strauss, Peter (I)</actor>
+      <role>President James Sanford</role>
+    </credit>
+    <credit>
+      <actor>Tan, Kevin (I)</actor>
+      <role>Capital Hill Intern</role>
+    </credit>
+    <credit>
+      <actor>Tegan, Peter F.</actor>
+      <role>Bama Commando</role>
+    </credit>
+    <credit>
+      <actor>Trinidad, Ernesto</actor>
+      <role>Senator at Ball</role>
+    </credit>
+    <credit>
+      <actor>Vance, Schuster</actor>
+      <role>Secret Service Agent</role>
+    </credit>
+    <credit>
+      <actor>Walker, Glen (II)</actor>
+      <role>Newscaster</role>
+    </credit>
+    <credit>
+      <actor>Weston II, James D.</actor>
+      <role>Marine</role>
+    </credit>
+    <credit>
+      <actor>Whatley, Don</actor>
+      <role>Political Official</role>
+    </credit>
+    <credit>
+      <actor>Xzibit</actor>
+      <role>Zeke</role>
+    </credit>
+  </cast>
+<plot>Agent Augustus Gibbons has selected an imprisoned former US Navy SEAL Darius Stone, a new agent in the XXX program, travels to Washington D.C., where they track a splinter faction of the U.S. military that attempts to overthrow the U.S. government and assassinate the President, led by Secretary of Defense and former 4-Star General George Deckert, Stone's former commanding officer whom he once led a mutiny against. But he's been targeted for assassination by a radical splinter group of dissenters deep within the United States government. The new XXX agent must uncover the insurgents from within. It is the nation's only hope to stop the first coup d'etat in American history.</plot><url>http://localhost:8983/solr/movie.html?673365</url></doc>

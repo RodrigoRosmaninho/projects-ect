@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="061690">
+  <docid>061690</docid>
+  <title>Be Cool</title>
+  <year>2005</year>
+  <type>movie</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Kahn, Sheldon</editor>
+  </editors>
+  <genres>
+    <genre>Comedy</genre>
+    <genre>Crime</genre>
+  </genres>
+  <keywords>
+    <keyword>loss-of-husband</keyword>
+    <keyword>los-angeles-california</keyword>
+    <keyword>dancing</keyword>
+    <keyword>rock-star</keyword>
+    <keyword>gay-slur</keyword>
+    <keyword>record-company</keyword>
+    <keyword>wig</keyword>
+    <keyword>nightclub</keyword>
+    <keyword>profanity</keyword>
+    <keyword>basketball</keyword>
+    <keyword>hitman</keyword>
+    <keyword>hollywood</keyword>
+    <keyword>rapper</keyword>
+    <keyword>music-executive</keyword>
+    <keyword>based-on-novel</keyword>
+    <keyword>russian-mafia</keyword>
+    <keyword>pawnshop</keyword>
+    <keyword>russian-accent</keyword>
+    <keyword>movie-star</keyword>
+    <keyword>widow</keyword>
+    <keyword>baseball-bat</keyword>
+    <keyword>rivalry</keyword>
+    <keyword>record-contract</keyword>
+    <keyword>female-singer</keyword>
+    <keyword>white-male-pretending-to-be-black</keyword>
+    <keyword>movie-business</keyword>
+    <keyword>gay-black-man</keyword>
+    <keyword>sequel</keyword>
+    <keyword>acting-musician</keyword>
+    <keyword>gay-interest</keyword>
+    <keyword>violence</keyword>
+    <keyword>hung-upside-down</keyword>
+    <keyword>kitchen-scene</keyword>
+    <keyword>bludgeoning</keyword>
+    <keyword>racial-slur</keyword>
+    <keyword>bodyguard</keyword>
+    <keyword>music-business</keyword>
+    <keyword>billboard</keyword>
+    <keyword>foot-fetish</keyword>
+    <keyword>rock-concert</keyword>
+    <keyword>intimidation</keyword>
+    <keyword>dumb-criminal</keyword>
+    <keyword>cigar-smoking</keyword>
+    <keyword>record-producer</keyword>
+    <keyword>title-spoken-by-character</keyword>
+  </keywords>
+  <languages>
+    <language>Russian</language>
+    <language>English</language>
+  </languages>
+  <soundmixes>
+    <soundmix>SDDS</soundmix>
+    <soundmix>DTS</soundmix>
+    <soundmix>Dolby Digital</soundmix>
+  </soundmixes>
+  <countries>
+    <country>USA</country>
+  </countries>
+  <certificates>
+    <certificate country="Sweden">11</certificate>
+    <certificate country="Hong Kong">IIA</certificate>
+    <certificate country="Peru">PT</certificate>
+    <certificate country="Argentina">Atp</certificate>
+    <certificate country="Ireland">12A</certificate>
+    <certificate country="Iceland">14</certificate>
+    <certificate country="Netherlands">12</certificate>
+    <certificate country="Brazil">14</certificate>
+    <certificate country="South Korea">15</certificate>
+    <certificate country="UK">12A</certificate>
+    <certificate country="Australia">M</certificate>
+    <certificate country="Taiwan">R-12</certificate>
+    <certificate country="Switzerland">14</certificate>
+    <certificate country="Canada">G</certificate>
+    <certificate country="Singapore">PG</certificate>
+    <certificate country="Finland">K-15</certificate>
+    <certificate country="Philippines">PG-13</certificate>
+    <certificate country="Germany">12</certificate>
+    <certificate country="New Zealand">M</certificate>
+    <certificate country="USA">PG-13</certificate>
+    <certificate country="Malaysia">18PL</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="Sweden">15 April 2005</releasedate>
+    <releasedate country="Hungary">17 March 2005</releasedate>
+    <releasedate country="Hong Kong">31 March 2005</releasedate>
+    <releasedate country="Estonia">1 April 2005</releasedate>
+    <releasedate country="Argentina">14 April 2005</releasedate>
+    <releasedate country="Portugal">31 March 2005</releasedate>
+    <releasedate country="Czech Republic">21 April 2005</releasedate>
+    <releasedate country="Turkey">15 April 2005</releasedate>
+    <releasedate country="Iceland">23 March 2005</releasedate>
+    <releasedate country="Mexico">8 April 2005</releasedate>
+    <releasedate country="Brazil">15 April 2005</releasedate>
+    <releasedate country="Netherlands">31 March 2005</releasedate>
+    <releasedate country="Japan">3 September 2005</releasedate>
+    <releasedate country="South Korea">8 April 2005</releasedate>
+    <releasedate country="Croatia">10 March 2005</releasedate>
+    <releasedate country="Poland">22 April 2005</releasedate>
+    <releasedate country="Spain">8 April 2005</releasedate>
+    <releasedate country="Egypt">20 April 2005</releasedate>
+    <releasedate country="UK">1 April 2005</releasedate>
+    <releasedate country="Taiwan">11 March 2005</releasedate>
+    <releasedate country="Australia">10 March 2005</releasedate>
+    <releasedate country="Switzerland">15 April 2005</releasedate>
+    <releasedate country="Bulgaria">11 March 2005</releasedate>
+    <releasedate country="Norway">22 April 2005</releasedate>
+    <releasedate country="Canada">4 March 2005</releasedate>
+    <releasedate country="Thailand">21 April 2005</releasedate>
+    <releasedate country="United Arab Emirates">16 March 2005</releasedate>
+    <releasedate country="Singapore">31 March 2005</releasedate>
+    <releasedate country="Ukraine">7 April 2005</releasedate>
+    <releasedate country="Russia">7 April 2005</releasedate>
+    <releasedate country="Finland">8 April 2005</releasedate>
+    <releasedate country="Austria">1 April 2005</releasedate>
+    <releasedate country="Greece">1 April 2005</releasedate>
+    <releasedate country="Italy">15 April 2005</releasedate>
+    <releasedate country="Philippines">30 March 2005</releasedate>
+    <releasedate country="Germany">31 March 2005</releasedate>
+    <releasedate country="Belgium">16 March 2005</releasedate>
+    <releasedate country="USA">4 March 2005</releasedate>
+    <releasedate country="France">23 March 2005</releasedate>
+    <releasedate country="Georgia">22 April 2005</releasedate>
+    <releasedate country="Panama">15 April 2005</releasedate>
+    <releasedate country="Denmark">21 April 2005</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="default">118</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Gray, F. Gary</director>
+  </directors>
+  <producers>
+    <producer>Downes, Anson</producer>
+    <producer>Favila, Linda</producer>
+    <producer>Gose, Andy</producer>
+    <producer>Gray, F. Gary</producer>
+    <producer>Leonard, Elmore</producer>
+    <producer>Siegel, Michael (II)</producer>
+    <producer>DeVito, Danny</producer>
+    <producer>Nicksay, David</producer>
+    <producer>Shamberg, Michael (I)</producer>
+    <producer>Sher, Stacey</producer>
+  </producers>
+  <writers>
+    <writer>Leonard, Elmore</writer>
+    <writer>Steinfeld, Peter (II)</writer>
+  </writers>
+  <composers>
+    <composer>Powell, John (I)</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Adelstein, Paul</actor>
+      <role>Hy Gordon</role>
+    </credit>
+    <credit>
+      <actor>Adsit, Scott</actor>
+      <role>Program Director</role>
+    </credit>
+    <credit>
+      <actor>Ahuja, Christopher</actor>
+      <role>Basketball Fan</role>
+    </credit>
+    <credit>
+      <actor>Apl.de.Ap</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ashley, Ryan</actor>
+      <role>Swing Dancer</role>
+    </credit>
+    <credit>
+      <actor>Balfour, Eric</actor>
+      <role>Derek</role>
+    </credit>
+    <credit>
+      <actor>Beach, Shannon</actor>
+      <role>Swing Dancer</role>
+    </credit>
+    <credit>
+      <actor>Benjamin, André</actor>
+      <role>Dabu</role>
+    </credit>
+    <credit>
+      <actor>Brown, Blythe</actor>
+      <role>Concert goer</role>
+    </credit>
+    <credit>
+      <actor>Brown, Dan (VI)</actor>
+      <role>Concert Goer</role>
+    </credit>
+    <credit>
+      <actor>Brown, Kimberly J.</actor>
+      <role>Tiffany</role>
+    </credit>
+    <credit>
+      <actor>Campbell, Kasey (I)</actor>
+      <role>Pussycat Doll</role>
+    </credit>
+    <credit>
+      <actor>Carswell, Leon C.</actor>
+      <role>Music Video Dancer</role>
+    </credit>
+    <credit>
+      <actor>Carter, Darren (I)</actor>
+      <role>Glenn</role>
+    </credit>
+    <credit>
+      <actor>Castello, Stephen</actor>
+      <role>Bartender</role>
+    </credit>
+    <credit>
+      <actor>Cedric the Entertainer</actor>
+      <role>Sin LaSalle</role>
+    </credit>
+    <credit>
+      <actor>Christensen, Brian (I)</actor>
+      <role>Hairy Russian</role>
+    </credit>
+    <credit>
+      <actor>Clayton, Jovan</actor>
+      <role>Music Video Dancer</role>
+    </credit>
+    <credit>
+      <actor>Danam, Osa</actor>
+      <role>Waitress</role>
+    </credit>
+    <credit>
+      <actor>DeVito, Danny</actor>
+      <role>Martin Weir</role>
+    </credit>
+    <credit>
+      <actor>Denise, Donyelle Jones</actor>
+      <role>Music Video Dancer</role>
+    </credit>
+    <credit>
+      <actor>Duboc, Carol</actor>
+      <role>Pumpkin</role>
+    </credit>
+    <credit>
+      <actor>Durst, Fred</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dyer, Karen (II)</actor>
+      <role>Swing Dancer</role>
+    </credit>
+    <credit>
+      <actor>Faulk, Alison</actor>
+      <role>Swing Dancer</role>
+    </credit>
+    <credit>
+      <actor>Ferguson, Stacy</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Fiiller, Tabbert</actor>
+      <role>Russian Mobster</role>
+    </credit>
+    <credit>
+      <actor>Fisher, George (III)</actor>
+      <role>Ivan</role>
+    </credit>
+    <credit>
+      <actor>Getit, Carmen</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Green, Seth</actor>
+      <role>Shotgun - music video director</role>
+    </credit>
+    <credit>
+      <actor>Hamilton, Tom (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Harris, Will (I)</actor>
+      <role>Dub MDs</role>
+    </credit>
+    <credit>
+      <actor>Henderson, Corinthea</actor>
+      <role>Music Video Dancer</role>
+    </credit>
+    <credit>
+      <actor>Irwin, Russ</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jackson, Phil (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jean, Wyclef</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jenkins, Micah</actor>
+      <role>Music Video Dancer</role>
+    </credit>
+    <credit>
+      <actor>Johnson, Dwayne (I)</actor>
+      <role>Elliot Wilhelm</role>
+    </credit>
+    <credit>
+      <actor>Jones, Daryl</actor>
+      <role>Dub MDs</role>
+    </credit>
+    <credit>
+      <actor>Kalsin, Serdar</actor>
+      <role>Bearded Russian</role>
+    </credit>
+    <credit>
+      <actor>Kebbel, Arielle</actor>
+      <role>Robin</role>
+    </credit>
+    <credit>
+      <actor>Keitel, Harvey</actor>
+      <role>Nick Carr</role>
+    </credit>
+    <credit>
+      <actor>Keoke, Kimo</actor>
+      <role>Swing Dancer</role>
+    </credit>
+    <credit>
+      <actor>Kramer, Joey</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kubik, Alex</actor>
+      <role>Roman Bulkin</role>
+    </credit>
+    <credit>
+      <actor>LaBelle, Patti</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Lewis, Chris (VII)</actor>
+      <role>Dub MDs</role>
+    </credit>
+    <credit>
+      <actor>Lilo, Mervyn</actor>
+      <role>Samoan Dancer</role>
+    </credit>
+    <credit>
+      <actor>Lloyd, Frank (II)</actor>
+      <role>A&amp;R Guy</role>
+    </credit>
+    <credit>
+      <actor>Loren, Nick</actor>
+      <role>Assistant Director</role>
+    </credit>
+    <credit>
+      <actor>Lucky, Steve</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Maiava, Lesa</actor>
+      <role>Samoan Dancer</role>
+    </credit>
+    <credit>
+      <actor>Maye, Steve</actor>
+      <role>Steve</role>
+    </credit>
+    <credit>
+      <actor>Mazar, Debi</actor>
+      <role>Marla</role>
+    </credit>
+    <credit>
+      <actor>McGee, Clifford</actor>
+      <role>Music Video Dancer</role>
+    </credit>
+    <credit>
+      <actor>McKee, Danielle</actor>
+      <role>Basketball Fan</role>
+    </credit>
+    <credit>
+      <actor>Mendes, Sergio</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Miles, Rashad</actor>
+      <role>Music Video Dancer</role>
+    </credit>
+    <credit>
+      <actor>Milian, Christina</actor>
+      <role>Linda Moon</role>
+    </credit>
+    <credit>
+      <actor>Nyi, Frank</actor>
+      <role>Coroner</role>
+    </credit>
+    <credit>
+      <actor>Orosco, Oscar</actor>
+      <role>Music Video Dancer</role>
+    </credit>
+    <credit>
+      <actor>Pastorelli, Robert</actor>
+      <role>Joe Loop</role>
+    </credit>
+    <credit>
+      <actor>Perry, Christian (I)</actor>
+      <role>Swing Dancer</role>
+    </credit>
+    <credit>
+      <actor>Perry, Joe (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Prevost, Nathan</actor>
+      <role>Swing Dancer</role>
+    </credit>
+    <credit>
+      <actor>RZA (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Raith, Hans</actor>
+      <role>Russian Mafia Member</role>
+    </credit>
+    <credit>
+      <actor>Randolph, Jerry 'Flo'</actor>
+      <role>Music Video Dancer</role>
+    </credit>
+    <credit>
+      <actor>Ribustello, Anthony J.</actor>
+      <role>Fast Freddie</role>
+    </credit>
+    <credit>
+      <actor>Simmons, Gene (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Suasin, Roel</actor>
+      <role>Music Video Dancer</role>
+    </credit>
+    <credit>
+      <actor>Susser, Craig</actor>
+      <role>Assistant Director</role>
+    </credit>
+    <credit>
+      <actor>Taboo (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Taylor, Quincy</actor>
+      <role>Dub MDs</role>
+    </credit>
+    <credit>
+      <actor>Toler, Christopher</actor>
+      <role>Music Video Dancer</role>
+    </credit>
+    <credit>
+      <actor>Travolta, John</actor>
+      <role>Chili Palmer</role>
+    </credit>
+    <credit>
+      <actor>Tremmel, Floyd</actor>
+      <role>Dub MDs</role>
+    </credit>
+    <credit>
+      <actor>Tyler, Steven (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Vargas, Gustavo (I)</actor>
+      <role>Swing Dancer</role>
+    </credit>
+    <credit>
+      <actor>Vaughn, Vince</actor>
+      <role>Raji</role>
+    </credit>
+    <credit>
+      <actor>Velez, Ivan 'Flipz'</actor>
+      <role>Music Video Dancer</role>
+    </credit>
+    <credit>
+      <actor>Watkins, Alex-Andre</actor>
+      <role>Dub MDs</role>
+    </credit>
+    <credit>
+      <actor>Whitford, Brad</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wilhelm, Elliot</actor>
+      <role>Patron at Viper Room</role>
+    </credit>
+    <credit>
+      <actor>Will i Am</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Williams, Gregory Alan</actor>
+      <role>Darryl</role>
+    </credit>
+    <credit>
+      <actor>Willis, Ceasare</actor>
+      <role>Music Video Dancer</role>
+    </credit>
+    <credit>
+      <actor>Woods, James (I)</actor>
+      <role>Tommy Athens</role>
+    </credit>
+    <credit>
+      <actor>Yasnogorodsky, Vitaly</actor>
+      <role>Swing Dancer</role>
+    </credit>
+  </cast>
+<plot>Streetwise mobster-turned-movie producer Chili Palmer is back, but this time Chili has abandoned the fickle movie industry and veered into the music business, tangling with Russian mobsters and gangsta rappers and taking a talented, feisty young singer named Linda Moon under his wing. From the recording studio to an Aerosmith concert to the MTV Music Awards, he manipulates events to watch them play out the Chili way, using his signature blend of wiseguy skills and negotiation tactics. It's a dangerous business, and everyone's looking for their next big hit.</plot><url>http://localhost:8983/solr/movie.html?061690</url></doc>

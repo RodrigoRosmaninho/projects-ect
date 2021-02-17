@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="591256">
+  <docid>591256</docid>
+  <title>The Skeleton Key</title>
+  <year>2005</year>
+  <type>movie</type>
+  <colorinfos>
+    <colorinfo>Black and White</colorinfo>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Hutshing, Joe</editor>
+  </editors>
+  <genres>
+    <genre>Drama</genre>
+    <genre>Mystery</genre>
+    <genre>Thriller</genre>
+    <genre>Horror</genre>
+  </genres>
+  <keywords>
+    <keyword>drugged-drink</keyword>
+    <keyword>photograph</keyword>
+    <keyword>new-orleans-louisiana</keyword>
+    <keyword>shotgun</keyword>
+    <keyword>twist-in-the-end</keyword>
+    <keyword>dumpster</keyword>
+    <keyword>bound-and-gagged</keyword>
+    <keyword>secret-room</keyword>
+    <keyword>fight</keyword>
+    <keyword>psychological-thriller</keyword>
+    <keyword>new-orleans</keyword>
+    <keyword>ring</keyword>
+    <keyword>blood</keyword>
+    <keyword>bathtub</keyword>
+    <keyword>invalid</keyword>
+    <keyword>nightclub</keyword>
+    <keyword>profanity</keyword>
+    <keyword>dream-sequence</keyword>
+    <keyword>bedsheet</keyword>
+    <keyword>car-accident</keyword>
+    <keyword>kitchen</keyword>
+    <keyword>louisiana</keyword>
+    <keyword>gothic</keyword>
+    <keyword>skeleton-key</keyword>
+    <keyword>rowboat</keyword>
+    <keyword>occult</keyword>
+    <keyword>superstition</keyword>
+    <keyword>kidnapping</keyword>
+    <keyword>loss-of-father</keyword>
+    <keyword>swamp</keyword>
+    <keyword>key</keyword>
+    <keyword>wheelchair</keyword>
+    <keyword>roommate</keyword>
+    <keyword>marriage</keyword>
+    <keyword>lynching</keyword>
+    <keyword>gas-station</keyword>
+    <keyword>chalk</keyword>
+    <keyword>candlelight-dinner</keyword>
+    <keyword>dust</keyword>
+    <keyword>elderly</keyword>
+    <keyword>mirror</keyword>
+    <keyword>hoodoo</keyword>
+    <keyword>soul-transference</keyword>
+    <keyword>candle</keyword>
+    <keyword>strangulation</keyword>
+    <keyword>nurse</keyword>
+    <keyword>fall-down-stairs</keyword>
+    <keyword>plantation-house</keyword>
+    <keyword>flashback-sequence</keyword>
+    <keyword>volkswagen-beetle</keyword>
+    <keyword>paralysis</keyword>
+    <keyword>fall-from-height</keyword>
+    <keyword>lawyer</keyword>
+    <keyword>stroke</keyword>
+    <keyword>laundromat</keyword>
+    <keyword>attic</keyword>
+    <keyword>1920s</keyword>
+    <keyword>job-interview</keyword>
+    <keyword>rainstorm</keyword>
+    <keyword>nursing-home</keyword>
+    <keyword>hospice</keyword>
+    <keyword>voodoo</keyword>
+    <keyword>black-magic</keyword>
+    <keyword>phonograph</keyword>
+    <keyword>southern-gothic</keyword>
+    <keyword>party</keyword>
+    <keyword>domestic-violence</keyword>
+  </keywords>
+  <languages>
+    <language>French</language>
+    <language>English</language>
+  </languages>
+  <soundmixes>
+    <soundmix>SDDS</soundmix>
+    <soundmix>DTS</soundmix>
+    <soundmix>Dolby Digital</soundmix>
+  </soundmixes>
+  <countries>
+    <country>USA</country>
+  </countries>
+  <certificates>
+    <certificate country="Sweden">11</certificate>
+    <certificate country="Peru">14</certificate>
+    <certificate country="Argentina">13</certificate>
+    <certificate country="Portugal">M/16</certificate>
+    <certificate country="Netherlands">16</certificate>
+    <certificate country="Brazil">14</certificate>
+    <certificate country="UK">15</certificate>
+    <certificate country="Taiwan">R-12</certificate>
+    <certificate country="Singapore">PG</certificate>
+    <certificate country="Germany">16</certificate>
+    <certificate country="Belgium">KNT</certificate>
+    <certificate country="Malaysia">U</certificate>
+    <certificate country="Hong Kong">IIB</certificate>
+    <certificate country="Ireland">15A</certificate>
+    <certificate country="Czech Republic">15</certificate>
+    <certificate country="Iceland">16</certificate>
+    <certificate country="South Korea">12</certificate>
+    <certificate country="Australia">M</certificate>
+    <certificate country="Switzerland">16</certificate>
+    <certificate country="Norway">15</certificate>
+    <certificate country="Canada">13+</certificate>
+    <certificate country="Finland">K-15</certificate>
+    <certificate country="Philippines">PG-13</certificate>
+    <certificate country="New Zealand">R13</certificate>
+    <certificate country="USA">R</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="Sweden">5 August 2005</releasedate>
+    <releasedate country="South Africa">2 September 2005</releasedate>
+    <releasedate country="Argentina">15 September 2005</releasedate>
+    <releasedate country="Portugal">11 August 2005</releasedate>
+    <releasedate country="Turkey">26 August 2005</releasedate>
+    <releasedate country="Brazil">26 August 2005</releasedate>
+    <releasedate country="Netherlands">18 August 2005</releasedate>
+    <releasedate country="Israel">25 August 2005</releasedate>
+    <releasedate country="UK">29 July 2005</releasedate>
+    <releasedate country="Bulgaria">21 October 2005</releasedate>
+    <releasedate country="Thailand">1 September 2005</releasedate>
+    <releasedate country="Singapore">13 October 2005</releasedate>
+    <releasedate country="Greece">6 October 2005</releasedate>
+    <releasedate country="Germany">18 August 2005</releasedate>
+    <releasedate country="Belgium">14 September 2005</releasedate>
+    <releasedate country="France">3 August 2005</releasedate>
+    <releasedate country="Panama">14 October 2005</releasedate>
+    <releasedate country="Hungary">25 August 2005</releasedate>
+    <releasedate country="Hong Kong">15 September 2005</releasedate>
+    <releasedate country="Estonia">23 September 2005</releasedate>
+    <releasedate country="Czech Republic">25 August 2005</releasedate>
+    <releasedate country="Iceland">19 August 2005</releasedate>
+    <releasedate country="Mexico">2 September 2005</releasedate>
+    <releasedate country="South Korea">25 August 2005</releasedate>
+    <releasedate country="Poland">2 September 2005</releasedate>
+    <releasedate country="Spain">29 July 2005</releasedate>
+    <releasedate country="Egypt">31 August 2005</releasedate>
+    <releasedate country="Australia">18 August 2005</releasedate>
+    <releasedate country="Switzerland">9 September 2005</releasedate>
+    <releasedate country="Finland">26 August 2005</releasedate>
+    <releasedate country="Austria">19 August 2005</releasedate>
+    <releasedate country="Italy">9 September 2005</releasedate>
+    <releasedate country="Philippines">17 August 2005</releasedate>
+    <releasedate country="USA">12 August 2005</releasedate>
+    <releasedate country="Georgia">8 August 2005</releasedate>
+    <releasedate country="Denmark">12 August 2005</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="default">104</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Softley, Iain</director>
+  </directors>
+  <producers>
+    <producer>Townsend, Clayton</producer>
+    <producer>Bobker, Daniel</producer>
+    <producer>Shamberg, Michael (I)</producer>
+    <producer>Sher, Stacey</producer>
+    <producer>Softley, Iain</producer>
+  </producers>
+  <writers>
+    <writer>Kruger, Ehren</writer>
+  </writers>
+  <composers>
+    <composer>Shearmur, Ed</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Agee, Stafford</actor>
+      <role>Rebirth Brass Band</role>
+    </credit>
+    <credit>
+      <actor>Allen, Shamarr</actor>
+      <role>Rebirth Brass Band</role>
+    </credit>
+    <credit>
+      <actor>Anderson, Rico E.</actor>
+      <role>Orderly in hospital</role>
+    </credit>
+    <credit>
+      <actor>Andrews, Glen</actor>
+      <role>Rebirth Brass Band</role>
+    </credit>
+    <credit>
+      <actor>Apgar, Jen</actor>
+      <role>Madeleine Thorpe</role>
+    </credit>
+    <credit>
+      <actor>Barnett, Maxine</actor>
+      <role>Mama Cynthia</role>
+    </credit>
+    <credit>
+      <actor>Beckett, Andreas</actor>
+      <role>Ballroom Dancer</role>
+    </credit>
+    <credit>
+      <actor>Bernard, Byron</actor>
+      <role>Rebirth Brass Band</role>
+    </credit>
+    <credit>
+      <actor>Boudreaux, Pauline</actor>
+      <role>Party guest</role>
+    </credit>
+    <credit>
+      <actor>Bryant, Joy</actor>
+      <role>Jill</role>
+    </credit>
+    <credit>
+      <actor>Chalaire, Kristi</actor>
+      <role>Club Goer</role>
+    </credit>
+    <credit>
+      <actor>Chrest, Joe</actor>
+      <role>Paramedic</role>
+    </credit>
+    <credit>
+      <actor>Curtis, David J.</actor>
+      <role>Party Guest</role>
+    </credit>
+    <credit>
+      <actor>Dalrymple, Ann</actor>
+      <role>C.N.A.</role>
+    </credit>
+    <credit>
+      <actor>De Bankolé, Isaach</actor>
+      <role>Creole Gas Station Owner</role>
+    </credit>
+    <credit>
+      <actor>Delahunt, Natasha</actor>
+      <role>Ballroom Dancer</role>
+    </credit>
+    <credit>
+      <actor>Duhon, James J.</actor>
+      <role>Club Goer</role>
+    </credit>
+    <credit>
+      <actor>Fleetwood, Dustin</actor>
+      <role>3rd Infantry Band Member</role>
+    </credit>
+    <credit>
+      <actor>Frazier, Keith</actor>
+      <role>Rebirth Brass Band</role>
+    </credit>
+    <credit>
+      <actor>Frazier, Philip</actor>
+      <role>Rebirth Brass Band</role>
+    </credit>
+    <credit>
+      <actor>Garcino, Ianello</actor>
+      <role>Mama Cecile's Lyncher</role>
+    </credit>
+    <credit>
+      <actor>Groetsch, Justin</actor>
+      <role>Club Goer</role>
+    </credit>
+    <credit>
+      <actor>Harper, George</actor>
+      <role>Jazz Band</role>
+    </credit>
+    <credit>
+      <actor>Harris, Fahnlohnee R.</actor>
+      <role>Hallie</role>
+    </credit>
+    <credit>
+      <actor>Harrison, Roderick (I)</actor>
+      <role>3rd Infantry Band Member</role>
+    </credit>
+    <credit>
+      <actor>Harvey, Lawrence 'King'</actor>
+      <role>Bar Man</role>
+    </credit>
+    <credit>
+      <actor>Helland, Tiffany</actor>
+      <role>Party Guest</role>
+    </credit>
+    <credit>
+      <actor>Henry, Michael Tyler</actor>
+      <role>Older Martin</role>
+    </credit>
+    <credit>
+      <actor>Hudson, Kate (I)</actor>
+      <role>Caroline Ellis</role>
+    </credit>
+    <credit>
+      <actor>Hurt, John</actor>
+      <role>Ben Devereaux</role>
+    </credit>
+    <credit>
+      <actor>Jarmon, Korey L.</actor>
+      <role>Club Goer</role>
+    </credit>
+    <credit>
+      <actor>Jensen, David (II)</actor>
+      <role>Country doctor</role>
+    </credit>
+    <credit>
+      <actor>Kindred, Lakrishi</actor>
+      <role>Frail Customer</role>
+    </credit>
+    <credit>
+      <actor>Krasnoff, Mark</actor>
+      <role>Pickup Driver</role>
+    </credit>
+    <credit>
+      <actor>Landis, Forrest</actor>
+      <role>Martin Thorpe</role>
+    </credit>
+    <credit>
+      <actor>Marcus, Trula M.</actor>
+      <role>Nurse Trula</role>
+    </credit>
+    <credit>
+      <actor>Martin, Melissa Reneé</actor>
+      <role>Caviar Eating Guest</role>
+    </credit>
+    <credit>
+      <actor>McCall, Ronald</actor>
+      <role>Papa Justify</role>
+    </credit>
+    <credit>
+      <actor>McCary, Howard</actor>
+      <role>Jazz Band</role>
+    </credit>
+    <credit>
+      <actor>McKenzie, Bill H.</actor>
+      <role>Mr. Talcott</role>
+    </credit>
+    <credit>
+      <actor>McKinley, Torrey</actor>
+      <role>3rd Infantry Band Member</role>
+    </credit>
+    <credit>
+      <actor>McNeil, Natalie</actor>
+      <role>Cigar Smoking Party Guest</role>
+    </credit>
+    <credit>
+      <actor>O'Neal, Kevin (IV)</actor>
+      <role>Jazz Band</role>
+    </credit>
+    <credit>
+      <actor>Porter, Ryan (I)</actor>
+      <role>Jazz Band</role>
+    </credit>
+    <credit>
+      <actor>Regalado, Rudy (I)</actor>
+      <role>Jazz Band</role>
+    </credit>
+    <credit>
+      <actor>Rouillier, Ross</actor>
+      <role>Vigilante</role>
+    </credit>
+    <credit>
+      <actor>Ruppert, Brian</actor>
+      <role>Party Guest</role>
+    </credit>
+    <credit>
+      <actor>Sarsgaard, Peter</actor>
+      <role>Luke Marshall</role>
+    </credit>
+    <credit>
+      <actor>Schmidt, Joel</actor>
+      <role>Terrebonne Sheriff</role>
+    </credit>
+    <credit>
+      <actor>Shaheed, Nolan</actor>
+      <role>Jazz Band</role>
+    </credit>
+    <credit>
+      <actor>Shezbie, Derek</actor>
+      <role>Rebirth Brass Band</role>
+    </credit>
+    <credit>
+      <actor>Stevens, Herbert</actor>
+      <role>Rebirth Brass Band</role>
+    </credit>
+    <credit>
+      <actor>Tabb, Derrick</actor>
+      <role>Rebirth Brass Band</role>
+    </credit>
+    <credit>
+      <actor>Uskali, Thomas</actor>
+      <role>Robertson Thorpe</role>
+    </credit>
+    <credit>
+      <actor>Wozniak, Michael</actor>
+      <role>Lynch Group Leader</role>
+    </credit>
+  </cast>
+<plot>A young woman helping care for an invalid in New Orleans finds herself caught in the middle of morbid going-ons centered around a group of Hoodoo (Not Voodoo, it's of a different culture. Voodoo is Haitian while Hoodoo is an old African American magic that just like Voodoo only works if you believe in it.) practitioners.</plot><url>http://localhost:8983/solr/movie.html?591256</url></doc>

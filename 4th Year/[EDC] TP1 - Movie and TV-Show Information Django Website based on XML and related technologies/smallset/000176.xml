@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="000176">
+  <docid>000176</docid>
+  <title>'Crocodile' Dundee II</title>
+  <year>1988</year>
+  <type>movie</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Stiven, David</editor>
+  </editors>
+  <genres>
+    <genre>Action</genre>
+    <genre>Comedy</genre>
+    <genre>Adventure</genre>
+  </genres>
+  <keywords>
+    <keyword>sequel</keyword>
+    <keyword>snake</keyword>
+    <keyword>maori</keyword>
+    <keyword>bat-attack</keyword>
+    <keyword>australia</keyword>
+    <keyword>australian</keyword>
+    <keyword>police</keyword>
+    <keyword>jump-from-height</keyword>
+    <keyword>surveillance</keyword>
+    <keyword>bathroom</keyword>
+    <keyword>bar</keyword>
+    <keyword>australian-outback</keyword>
+    <keyword>number-in-title</keyword>
+    <keyword>adventurer</keyword>
+    <keyword>blockbuster</keyword>
+    <keyword>culture-clash</keyword>
+    <keyword>fried-egg</keyword>
+    <keyword>character-name-in-title</keyword>
+    <keyword>drug-dealer</keyword>
+    <keyword>kidnapping</keyword>
+    <keyword>australian-stereotype</keyword>
+    <keyword>bra-less</keyword>
+    <keyword>gang</keyword>
+    <keyword>mansion</keyword>
+    <keyword>new-york-city</keyword>
+    <keyword>job-seeking</keyword>
+    <keyword>ambush</keyword>
+    <keyword>bowie-knife</keyword>
+    <keyword>wilderness-guide</keyword>
+    <keyword>bra</keyword>
+    <keyword>bra-removing</keyword>
+    <keyword>animal-human-communication</keyword>
+    <keyword>photographer</keyword>
+    <keyword>camping-in-wilderness</keyword>
+    <keyword>fire</keyword>
+    <keyword>mohawk-haircut</keyword>
+    <keyword>death</keyword>
+    <keyword>telephone-call</keyword>
+    <keyword>murder</keyword>
+    <keyword>crocodile</keyword>
+    <keyword>colombia</keyword>
+    <keyword>world-trade-center-new-york</keyword>
+    <keyword>wiretap</keyword>
+    <keyword>animal-tracks</keyword>
+    <keyword>switching-clothes</keyword>
+    <keyword>fishing</keyword>
+    <keyword>roman-numeral-in-title</keyword>
+    <keyword>sneak-attack</keyword>
+    <keyword>second-part</keyword>
+    <keyword>incompetence</keyword>
+  </keywords>
+  <languages>
+    <language>English</language>
+  </languages>
+  <soundmixes>
+    <soundmix>Dolby</soundmix>
+  </soundmixes>
+  <countries>
+    <country>Australia</country>
+    <country>USA</country>
+  </countries>
+  <certificates>
+    <certificate country="UK">PG</certificate>
+    <certificate country="Australia">PG</certificate>
+    <certificate country="Singapore">PG</certificate>
+    <certificate country="Sweden">15</certificate>
+    <certificate country="Iceland">L</certificate>
+    <certificate country="West Germany">12</certificate>
+    <certificate country="South Korea">12</certificate>
+    <certificate country="New Zealand">PG</certificate>
+    <certificate country="Argentina">Atp</certificate>
+    <certificate country="Finland">K-12</certificate>
+    <certificate country="Norway">11</certificate>
+    <certificate country="Canada">PG</certificate>
+    <certificate country="USA">PG</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="France">26 October 1988</releasedate>
+    <releasedate country="Turkey">February 1991</releasedate>
+    <releasedate country="Philippines">3 April 1990</releasedate>
+    <releasedate country="Australia">20 May 1988</releasedate>
+    <releasedate country="Sweden">8 July 1988</releasedate>
+    <releasedate country="West Germany">11 August 1988</releasedate>
+    <releasedate country="South Korea">28 April 1990</releasedate>
+    <releasedate country="Finland">29 July 1988</releasedate>
+    <releasedate country="Norway">15 June 1988</releasedate>
+    <releasedate country="USA">25 May 1988</releasedate>
+    <releasedate country="Denmark">15 July 1988</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="default">108</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Cornell, John (I)</director>
+  </directors>
+  <producers>
+    <producer>Turnbull, Mark (I)</producer>
+    <producer>Hogan, Paul (I)</producer>
+    <producer>Cornell, John (I)</producer>
+    <producer>Scott, Jane (I)</producer>
+  </producers>
+  <writers>
+    <writer>Hogan, Brett</writer>
+    <writer>Hogan, Paul (I)</writer>
+  </writers>
+  <composers>
+    <composer>Best, Peter (I)</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Alexander, Jace</actor>
+      <role>Rat</role>
+    </credit>
+    <credit>
+      <actor>Ali, Tatyana</actor>
+      <role>Park Girl</role>
+    </credit>
+    <credit>
+      <actor>Andrews, Jose</actor>
+      <role>Rico's Guard</role>
+    </credit>
+    <credit>
+      <actor>Arriaga, Luis</actor>
+      <role>Rico's Guard</role>
+    </credit>
+    <credit>
+      <actor>Arvanites, Steven</actor>
+      <role>Phone Talker</role>
+    </credit>
+    <credit>
+      <actor>Asai, Woodrow W.</actor>
+      <role>Japanese Tourist</role>
+    </credit>
+    <credit>
+      <actor>Batten, Tom (I)</actor>
+      <role>Policeboat Sergeant</role>
+    </credit>
+    <credit>
+      <actor>Blinco, Maggie</actor>
+      <role>Ida</role>
+    </credit>
+    <credit>
+      <actor>Bobbit, Betty</actor>
+      <role>Meg (Tourist)</role>
+    </credit>
+    <credit>
+      <actor>Boutsikaris, Dennis</actor>
+      <role>Bob Tanner</role>
+    </credit>
+    <credit>
+      <actor>Carrasco, Carlos</actor>
+      <role>Garcia</role>
+    </credit>
+    <credit>
+      <actor>Cerullo, Al (I)</actor>
+      <role>Helicopter Pilot</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Jim (I)</actor>
+      <role>Dorrigo Brother</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Sam (I)</actor>
+      <role>Dorrigo Brother</role>
+    </credit>
+    <credit>
+      <actor>Cox, Hannah</actor>
+      <role>Office Receptionist</role>
+    </credit>
+    <credit>
+      <actor>Creighton, Rhett</actor>
+      <role>Park Boy</role>
+    </credit>
+    <credit>
+      <actor>Crittenden, Dianne</actor>
+      <role>Woman in Store</role>
+    </credit>
+    <credit>
+      <actor>Crivello, Anthony (I)</actor>
+      <role>Subway Hitman</role>
+    </credit>
+    <credit>
+      <actor>Dingo, Ernie</actor>
+      <role>Charlie</role>
+    </credit>
+    <credit>
+      <actor>Dutton, Charles S.</actor>
+      <role>Leroy Brown</role>
+    </credit>
+    <credit>
+      <actor>Essman, Susie</actor>
+      <role>Tour Guide</role>
+    </credit>
+    <credit>
+      <actor>Fernández, Juan (I)</actor>
+      <role>Miguel</role>
+    </credit>
+    <credit>
+      <actor>Folger, Mark</actor>
+      <role>Mohawk Punk</role>
+    </credit>
+    <credit>
+      <actor>Guzmán, Luis (I)</actor>
+      <role>Jose</role>
+    </credit>
+    <credit>
+      <actor>Hogan, Paul (I)</actor>
+      <role>Michael J. 'Crocodile' Dundee</role>
+    </credit>
+    <credit>
+      <actor>Holt, Jim (I)</actor>
+      <role>Erskine</role>
+    </credit>
+    <credit>
+      <actor>Jbara, Gregory</actor>
+      <role>Young Cop</role>
+    </credit>
+    <credit>
+      <actor>Jerosa, Vincent</actor>
+      <role>Ledge Suicider</role>
+    </credit>
+    <credit>
+      <actor>Kozlowski, Linda</actor>
+      <role>Sue Charlton</role>
+    </credit>
+    <credit>
+      <actor>Krivak, Bryan</actor>
+      <role>Gang Member</role>
+    </credit>
+    <credit>
+      <actor>Lane, Rita</actor>
+      <role>Phone Talker</role>
+    </credit>
+    <credit>
+      <actor>Maldonado, Edwin (I)</actor>
+      <role>Park Boy</role>
+    </credit>
+    <credit>
+      <actor>Meillon, John</actor>
+      <role>Walter Reilly</role>
+    </credit>
+    <credit>
+      <actor>Mercurio, Gus</actor>
+      <role>Frank</role>
+    </credit>
+    <credit>
+      <actor>Quinn, Colin (I)</actor>
+      <role>Onlooker at Mansion</role>
+    </credit>
+    <credit>
+      <actor>Rackman, Steve</actor>
+      <role>Donk</role>
+    </credit>
+    <credit>
+      <actor>Ramsey, John (I)</actor>
+      <role>Barkeeper Al</role>
+    </credit>
+    <credit>
+      <actor>Rios, Julio</actor>
+      <role>Sanchez (Rico's Driver)</role>
+    </credit>
+    <credit>
+      <actor>Root, Stephen (I)</actor>
+      <role>DEA Agent (Toilet)</role>
+    </credit>
+    <credit>
+      <actor>Ruiz, Anthony (I)</actor>
+      <role>Apartment Hitman</role>
+    </credit>
+    <credit>
+      <actor>Sandy, Bill</actor>
+      <role>Teddy</role>
+    </credit>
+    <credit>
+      <actor>Saunders, Mark (I)</actor>
+      <role>Diamond</role>
+    </credit>
+    <credit>
+      <actor>Segura, Fernando</actor>
+      <role>Hotel Manager (Switchboard)</role>
+    </credit>
+    <credit>
+      <actor>Serbagi, Roger</actor>
+      <role>Ralph the Postman</role>
+    </credit>
+    <credit>
+      <actor>Shams, Homay</actor>
+      <role>Snake Charmer</role>
+    </credit>
+    <credit>
+      <actor>Skilton, Gerry</actor>
+      <role>Nugget</role>
+    </credit>
+    <credit>
+      <actor>Skinner, Doug</actor>
+      <role>Toilet Citizen</role>
+    </credit>
+    <credit>
+      <actor>Soriero, Jim</actor>
+      <role>Gang Member</role>
+    </credit>
+    <credit>
+      <actor>Spindell, Ahvi</actor>
+      <role>Cafe Patron</role>
+    </credit>
+    <credit>
+      <actor>Ubarry, Hechter</actor>
+      <role>Luis Rico</role>
+    </credit>
+    <credit>
+      <actor>Vazquez, Alberto (II)</actor>
+      <role>Rico's Guard</role>
+    </credit>
+    <credit>
+      <actor>Welsh, Kenneth</actor>
+      <role>Brannigan</role>
+    </credit>
+    <credit>
+      <actor>Wilson, Alec</actor>
+      <role>Denning</role>
+    </credit>
+    <credit>
+      <actor>Yamamoto, Ronald</actor>
+      <role>Fuji (Kung Fu Tourist)</role>
+    </credit>
+    <credit>
+      <actor>Yasuda, Doug</actor>
+      <role>Cato (Kung Fu Tourist)</role>
+    </credit>
+  </cast>
+<plot>Mick and Sue continue where they left off in "'Crocodile' Dundee". New York gangsters are pursuing Sue, so for her safety, Mick takes her back to Oz. When the gangsters follow them, Mick demonstrates his outback skills once more.</plot><plot>Mick and Sue continue where they left off in "'Crocodile' Dundee". New York gangsters are pursuing Sue, so for her safety, Mick takes her back to Oz. When the gangsters follow them, Mick demonstrates his outback skills once more.</plot><url>http://localhost:8983/solr/movie.html?000176</url></doc>

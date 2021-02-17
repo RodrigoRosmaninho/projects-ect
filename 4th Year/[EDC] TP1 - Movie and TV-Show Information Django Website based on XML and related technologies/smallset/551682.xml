@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="551682">
+  <docid>551682</docid>
+  <title>The Dancer</title>
+  <year>2000</year>
+  <type>movie</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Landra, Sylvie</editor>
+  </editors>
+  <genres>
+    <genre>Drama</genre>
+  </genres>
+  <keywords>
+    <keyword>broadway</keyword>
+    <keyword>dancing</keyword>
+    <keyword>dancer</keyword>
+    <keyword>dance</keyword>
+    <keyword>dreadlocks</keyword>
+    <keyword>student</keyword>
+    <keyword>mute</keyword>
+    <keyword>sign-language</keyword>
+    <keyword>manager</keyword>
+    <keyword>independent-film</keyword>
+    <keyword>children</keyword>
+    <keyword>scientist</keyword>
+    <keyword>restaurant</keyword>
+    <keyword>brooklyn-new-york</keyword>
+    <keyword>brother-sister-relationship</keyword>
+    <keyword>wine</keyword>
+    <keyword>d.j.</keyword>
+    <keyword>experiments-in-sound</keyword>
+    <keyword>audition</keyword>
+    <keyword>dance-teacher</keyword>
+    <keyword>movement</keyword>
+    <keyword>turning-movement-into-sound</keyword>
+    <keyword>driving</keyword>
+    <keyword>dance-contest</keyword>
+    <keyword>disco</keyword>
+    <keyword>shower-scene</keyword>
+    <keyword>laboratory</keyword>
+  </keywords>
+  <languages>
+    <language>English</language>
+  </languages>
+  <soundmixes>
+    <soundmix>Dolby</soundmix>
+  </soundmixes>
+  <countries>
+    <country>France</country>
+  </countries>
+  <certificates>
+    <certificate country="Argentina">13</certificate>
+    <certificate country="Germany">6</certificate>
+    <certificate country="France">U</certificate>
+    <certificate country="Hong Kong">IIA</certificate>
+    <certificate country="South Korea">12</certificate>
+    <certificate country="Australia">M</certificate>
+    <certificate country="Switzerland">12</certificate>
+    <certificate country="USA">PG-13</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="Argentina">3 May 2001</releasedate>
+    <releasedate country="Japan">7 October 2000</releasedate>
+    <releasedate country="Germany">5 October 2000</releasedate>
+    <releasedate country="Belgium">28 June 2000</releasedate>
+    <releasedate country="France">7 June 2000</releasedate>
+    <releasedate country="Hungary">18 October 2001</releasedate>
+    <releasedate country="Hong Kong">24 May 2001</releasedate>
+    <releasedate country="South Korea">24 February 2001</releasedate>
+    <releasedate country="Australia">14 June 2001</releasedate>
+    <releasedate country="Italy">1 February 2002</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="Argentina">92</runningtime>
+    <runningtime country="Australia">93</runningtime>
+    <runningtime country="default">89</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Garson, Frédéric (I)</director>
+  </directors>
+  <producers>
+    <producer>Grenet, Bernard</producer>
+    <producer>Besson, Luc</producer>
+  </producers>
+  <composers>
+    <composer>Lafa, Pascal</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Atkine, Féodor</actor>
+      <role>Oscar</role>
+    </credit>
+    <credit>
+      <actor>Bunch, Jarrod</actor>
+      <role>Bruno</role>
+    </credit>
+    <credit>
+      <actor>Cummings, Axelle</actor>
+      <role>Stephan's girlfriend</role>
+    </credit>
+    <credit>
+      <actor>Dunn, Juliet</actor>
+      <role>Smoking girl</role>
+    </credit>
+    <credit>
+      <actor>Eastman, Rodney</actor>
+      <role>Isaac</role>
+    </credit>
+    <credit>
+      <actor>Frye, Mia</actor>
+      <role>India Rey</role>
+    </credit>
+    <credit>
+      <actor>Gilchrist, Jane (I)</actor>
+      <role>Subway Ticket Seller</role>
+    </credit>
+    <credit>
+      <actor>Kentaro</actor>
+      <role>Guy Unicorn</role>
+    </credit>
+    <credit>
+      <actor>Killer, Cut</actor>
+      <role>DJ Atomic</role>
+    </credit>
+    <credit>
+      <actor>Lucas, Josh (I)</actor>
+      <role>Stephane</role>
+    </credit>
+    <credit>
+      <actor>Paparone, Joe</actor>
+      <role>Warehouse Supervisor</role>
+    </credit>
+    <credit>
+      <actor>Pradon, Jérôme</actor>
+      <role>The director</role>
+    </credit>
+    <credit>
+      <actor>Raphaël (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>René, Thierry</actor>
+      <role>Bruno</role>
+    </credit>
+    <credit>
+      <actor>Whitt, Garland</actor>
+      <role>Jasper Rey</role>
+    </credit>
+  </cast>
+<plot>A mute dancer teaches movement to adoring kids and wins the dance contest every Saturday night at a cavernous Brooklyn disco, makes the final cut for a Broadway show but is dismissed when she gives her name in sign language.</plot><url>http://localhost:8983/solr/movie.html?551682</url></doc>

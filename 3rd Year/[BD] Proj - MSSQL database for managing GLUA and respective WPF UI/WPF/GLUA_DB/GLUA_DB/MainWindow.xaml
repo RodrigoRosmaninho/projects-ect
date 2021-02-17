@@ -1,0 +1,216 @@
+﻿<mah:MetroWindow
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:GLUA_DB"
+    xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+    x:Class="GLUA_DB.MainWindow"
+    mc:Ignorable="d"
+    Icon="logo_glua_thumb_400x400.ico"
+    Title="GLUA - Gestão" Height="750" Width="850">
+
+    <Grid>
+
+        <Grid.Resources>
+
+            <DataTemplate x:Key="MenuItemTemplate" DataType="{x:Type mah:HamburgerMenuGlyphItem}">
+                <Grid Height="48">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="48" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0"
+                    FontSize="16"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontFamily="Segoe MDL2 Assets"
+                    Foreground="White"
+                    Text="{Binding Glyph}" />
+                    <TextBlock Grid.Column="1"
+                    VerticalAlignment="Center"
+                    FontSize="16"
+                    Foreground="White"
+                    Text="{Binding Label}" />
+                </Grid>
+            </DataTemplate>
+
+        </Grid.Resources>
+
+        <mah:HamburgerMenu x:Name="HamburgerMenuControl"
+                        Foreground="White"
+                        PaneBackground="#FF444444"
+                        ItemTemplate="{StaticResource MenuItemTemplate}"
+                        OptionsItemTemplate="{StaticResource MenuItemTemplate}"
+                        ItemClick="HamburgerMenuControl_OnItemClick"
+                        OptionsItemClick="HamburgerMenuControl_OnItemClick"
+                        IsPaneOpen="False"
+                        DisplayMode="CompactInline">
+
+            <mah:HamburgerMenu.ContentTemplate>
+                <DataTemplate DataType="{x:Type mah:HamburgerMenuItem}">
+                    <Grid x:Name="TheContentGrid">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="48" />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Border Grid.Row="0"
+                    Background="#FF444444">
+                            <TextBlock x:Name="Header"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            FontSize="24"
+                            Foreground="White"
+                            Text="{Binding Label}" />
+                        </Border>
+                        <ContentControl x:Name="TheContent"
+                            Grid.Row="1"
+                            Focusable="False"
+                            Foreground="{DynamicResource BlackBrush}">
+                            <Frame x:Name="_Frame" Source="{Binding Tag}" NavigationUIVisibility="Hidden"/>
+                        </ContentControl>
+                    </Grid>
+                </DataTemplate>
+            </mah:HamburgerMenu.ContentTemplate>
+
+            <mah:HamburgerMenu.ItemsSource>
+                <mah:HamburgerMenuItemCollection>
+                    <mah:HamburgerMenuGlyphItem Glyph="" Label="Estatísticas" Tag="Estatisticas.xaml">
+                    </mah:HamburgerMenuGlyphItem>
+                    <mah:HamburgerMenuGlyphItem Glyph="" Label="Membros" Tag="Membros.xaml">
+                    </mah:HamburgerMenuGlyphItem>
+                    <mah:HamburgerMenuGlyphItem Glyph="" Label="Utentes" Tag="Utentes.xaml">
+                    </mah:HamburgerMenuGlyphItem>
+                    <mah:HamburgerMenuGlyphItem Glyph="" Label="Inventário" Tag="Equipamentos.xaml">
+                    </mah:HamburgerMenuGlyphItem>
+                    <mah:HamburgerMenuGlyphItem Glyph="" Label="Plataformas" Tag="Plataformas.xaml">
+                    </mah:HamburgerMenuGlyphItem>
+                    <mah:HamburgerMenuGlyphItem Glyph="" Label="Sessoes de Helpdesk" Tag="Sessoes.xaml">
+                    </mah:HamburgerMenuGlyphItem>
+                    <mah:HamburgerMenuGlyphItem Glyph="" Label="Atendimentos" Tag="Atendimentos.xaml">
+                    </mah:HamburgerMenuGlyphItem>
+                    <mah:HamburgerMenuGlyphItem Glyph="" Label="Topicos de Problemas" Tag="Topicos.xaml">
+                    </mah:HamburgerMenuGlyphItem>
+                    <mah:HamburgerMenuGlyphItem Glyph="" Label="Problemas" Tag="Problemas.xaml">
+                    </mah:HamburgerMenuGlyphItem>
+                    <mah:HamburgerMenuGlyphItem Glyph="" Label="Sistemas Operativos" Tag="SistemasOps.xaml">
+                    </mah:HamburgerMenuGlyphItem>
+                    <mah:HamburgerMenuGlyphItem Glyph="" Label="PCs" Tag="PCs.xaml">
+                    </mah:HamburgerMenuGlyphItem>
+                    <mah:HamburgerMenuGlyphItem Glyph="" Label="Componentes" Tag="Componentes.xaml">
+                    </mah:HamburgerMenuGlyphItem>
+                    <mah:HamburgerMenuGlyphItem Glyph="" Label="Perfil" Tag="Perfil.xaml">
+                    </mah:HamburgerMenuGlyphItem>
+                </mah:HamburgerMenuItemCollection>
+            </mah:HamburgerMenu.ItemsSource>
+
+        </mah:HamburgerMenu>
+
+    </Grid>
+
+    <mah:MetroWindow.Flyouts>
+        <mah:FlyoutsControl>
+            <mah:Flyout x:Name="platformsFlyout" Header="Acessos" Position="Right" Width="600" Theme="Adapt">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="20" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <DataGrid Name="platformsDataGrid" HorizontalAlignment="Left" Height="Auto" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto" MouseLeftButtonUp="Access_Click" IsReadOnly="True" Grid.Row="0"/>
+                    <Label Content="Plataforma" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="2" Margin="20 0 0 0"/>
+                    <ComboBox x:Name="Plataforma_ComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="151" Grid.Row="3" Margin="20 0 0 0"/>
+                    <Label Content="Username" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="4" Margin="20 0 0 0"/>
+                    <TextBox x:Name="Username_TextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" Grid.Row="5" Margin="20 0 0 0"/>
+                    <Label Content="Tipo" HorizontalAlignment="Left" VerticalAlignment="Top" Grid.Row="6" Margin="20 0 0 0"/>
+                    <TextBox x:Name="Tipo_TextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" Grid.Row="7" Margin="20 0 0 0"/>
+                    <Button x:Name="Add_Access" Click="AddAccess_Click" Content="Adicionar" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="9" VerticalAlignment="Top" Width="75"/>
+                    <Button x:Name="Save_Access" Click="SaveAccess_Click" Content="Guardar" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="9" VerticalAlignment="Top" Width="64" Visibility="Hidden"/>
+                    <Button x:Name="Delete_Access" Click="DeleteAccess_Click" Content="Apagar" HorizontalAlignment="Left" Margin="100,0,0,0" Grid.Row="9" VerticalAlignment="Top" Width="64" Visibility="Hidden"/>
+                </Grid>
+            </mah:Flyout>
+            <mah:Flyout x:Name="inventoryFlyout" Header="Inventário" Position="Right" Width="600" Theme="Adapt">
+                <DataGrid Name="inventoryDataGrid" HorizontalAlignment="Left" Height="Auto" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto" MouseDoubleClick="MemberInventory_DoubleClick" IsReadOnly="True"/>
+            </mah:Flyout>
+            <mah:Flyout x:Name="memberHelpdeskFlyout" Header="Sessões de Helpdesk" Position="Right" Width="600" Theme="Adapt">
+                <DataGrid Name="memberHelpdeskDataGrid" HorizontalAlignment="Left" Height="Auto" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto" MouseDoubleClick="MemberHelpdesk_DoubleClick" IsReadOnly="True"/>
+            </mah:Flyout>
+            <mah:Flyout x:Name="memberSessionFlyout" Header="Atendimentos" Position="Right" Width="600" Theme="Adapt">
+                <DataGrid Name="memberSessionDataGrid" HorizontalAlignment="Left" Height="Auto" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto" MouseDoubleClick="MemberAtendimento_DoubleClick" IsReadOnly="True"/>
+            </mah:Flyout>
+            <mah:Flyout x:Name="utenteLastSessionFlyout" Header="Último Atendimento" Position="Right" Width="600" Theme="Adapt">
+                <DataGrid Name="utenteLastSessionDataGrid" HorizontalAlignment="Left" Height="Auto" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto" MouseDoubleClick="LastAtendimento_DoubleClick" IsReadOnly="True"/>
+            </mah:Flyout>
+            <mah:Flyout x:Name="utenteProblemsFlyout" Header="Problemas" Position="Right" Width="600" Theme="Adapt">
+                <DataGrid Name="utenteProblemsDataGrid" HorizontalAlignment="Left" Height="Auto" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto" MouseDoubleClick="UtenteProblems_DoubleClick" IsReadOnly="True"/>
+            </mah:Flyout>
+            <mah:Flyout x:Name="utenteSessionListFlyout" Header="Histórico de Atendimentos" Position="Right" Width="600" Theme="Adapt">
+                <DataGrid Name="utenteSessionListDataGrid" HorizontalAlignment="Left" Height="Auto" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto" MouseDoubleClick="UtenteAtendimento_DoubleClick" IsReadOnly="True"/>
+            </mah:Flyout>
+            <mah:Flyout x:Name="PlatfromAcessListFlyout" Header="Lista de Acessos da Plataforma" Position="Right" Width="600" Theme="Adapt">
+                <DataGrid Name="PlatfromAcessListDataGrid" HorizontalAlignment="Left" Height="Auto" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto" IsReadOnly="True"/>
+            </mah:Flyout>
+            <mah:Flyout x:Name="TopicsListFlyout" Header="Lista de Problemas" Position="Right" Width="600" Theme="Adapt">
+                <DataGrid Name="TopicsListDataGrid" HorizontalAlignment="Left" Height="Auto" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto" MouseDoubleClick="TopicList_DoubleClick" IsReadOnly="True"/>
+            </mah:Flyout>
+            <mah:Flyout x:Name="SelectMembersFlyout" Header="Seleção de Membros" Position="Right" Width="600" Theme="Adapt">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <DataGrid Name="MembrosAtivosDataGrid" HorizontalAlignment="Left" Height="500" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto"  IsReadOnly="True" Grid.Row="0" MouseLeftButtonUp="RowActiveMembersSessao_Click"/>
+                    <Button x:Name="Apply_Member" Click="ApplyList_Click" Content="Aplicar" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="2" VerticalAlignment="Top" Width="75"/>
+                </Grid>
+            </mah:Flyout>
+            <mah:Flyout x:Name="AtendimentosSessaoFlyout" Header="Atendimentos da Sessão" Position="Right" Width="600" Theme="Adapt">
+                <DataGrid Name="AtendimentosSessaoDataGrid" HorizontalAlignment="Left" Height="Auto" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto" MouseDoubleClick="showAtendimento_DoubleClick" IsReadOnly="True"/>
+            </mah:Flyout>
+            <mah:Flyout x:Name="ProblemsFlyout" Header="Problemas atendidos" Position="Right" Width="600" Theme="Adapt">
+                <Grid>
+                    <DataGrid Name="ProblemsDataGrid" HorizontalAlignment="Left" Height="Auto" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto"  IsReadOnly="True" Grid.Row="0" MouseDoubleClick="RowProblems_Click"/>
+                </Grid>
+            </mah:Flyout>
+            <mah:Flyout x:Name="AttemptsFlyout" Header="Tentativas associadas ao Problema" Position="Right" Width="600" Theme="Adapt">
+                <Grid>
+                    <DataGrid Name="AttemptsDataGrid" HorizontalAlignment="Left" Height="Auto" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto"  IsReadOnly="True" Grid.Row="0" MouseDoubleClick="RowAttempts_Click"/>
+                </Grid>
+            </mah:Flyout>
+            <mah:Flyout x:Name="NewAttemptFlyout" Header="Novo Problema/Tentativa" Position="Right" Width="600" Theme="Adapt">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <DataGrid Name="NewAttemptDataGrid" HorizontalAlignment="Left" Height="Auto" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto"  IsReadOnly="True" Grid.Row="0" MouseDoubleClick="RowNewAttempt_Click"/>
+                    <Button x:Name="NewProblem" Click="NewProblem_Click" Content="Criar Novo Problema" HorizontalAlignment="Left" Margin="20,0,0,0" Grid.Row="2" VerticalAlignment="Top" Width="150"/>
+                </Grid>
+            </mah:Flyout>
+            <mah:Flyout x:Name="utenteCreateCursoFlyout" Header="Atendimentos da Sessão" Position="Right" Width="600" Theme="Adapt">
+                <Grid>
+                    <Label Content="Departamento" HorizontalAlignment="Left" Margin="41,72,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.106,1.654"/>
+                    <RadioButton x:Name="ExistingDep" GroupName="Conteudo_RadioGroup10" Content="Já Existente" HorizontalAlignment="Left" Margin="220,114,0,0" VerticalAlignment="Top"  IsEnabled="True" Checked="Existent_Radio_Checked"/>
+                    <RadioButton x:Name="nonExistingDep" GroupName="Conteudo_RadioGroup10" Content="Não Existente" HorizontalAlignment="Left" Margin="220,142,0,0" VerticalAlignment="Top" IsEnabled="True" Checked="NonExistent_Radio_Checked"/>
+                    <TextBox  x:Name="Department_TextBox" HorizontalAlignment="Left" Height="23" Margin="41,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <ComboBox  x:Name="Departamento" HorizontalAlignment="Left" Margin="41,114,0,0" VerticalAlignment="Top" Width="98" />
+                    <Label Content="Curso" HorizontalAlignment="Left" Margin="41,173,0,0" VerticalAlignment="Top"/>
+                    <TextBox  x:Name="Curso_TextBox" HorizontalAlignment="Left" Height="23" Margin="41,214,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <Button x:Name="CreateCurso" Content="Criar" HorizontalAlignment="Left" Margin="41,303,0,0" VerticalAlignment="Top" Width="75" Click="CreateCurso_Click"/>
+                </Grid>
+            </mah:Flyout>
+            <mah:Flyout x:Name="EqActiveMembersFlyout" Header="Membros" Position="Right" Width="600" Theme="Adapt">
+                <DataGrid Name="EqActiveMembersDataGrid" HorizontalAlignment="Left" Height="Auto" Margin="20 0 0 0" VerticalAlignment="Top" Width="Auto" MouseDoubleClick="selectMember_DoubleClick" IsReadOnly="True"/>
+            </mah:Flyout>
+        </mah:FlyoutsControl>
+    </mah:MetroWindow.Flyouts>
+
+</mah:MetroWindow>

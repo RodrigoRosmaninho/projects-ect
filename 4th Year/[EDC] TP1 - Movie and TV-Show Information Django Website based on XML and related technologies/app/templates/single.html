@@ -1,0 +1,674 @@
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ZapFlix &nbsp;&nbsp;|&nbsp;&nbsp; {{ title }}</title>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!-- //for-mobile-apps -->
+    <link href="../static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../static/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../static/css/medile.css" rel='stylesheet' type='text/css'/>
+    <link href="../static/css/single.css" rel='stylesheet' type='text/css'/>
+    <!-- news-css -->
+    <link rel="stylesheet" href="../static/news-css/news.css" type="text/css" media="all"/>
+    <!-- //news-css -->
+    <!-- list-css -->
+    <link rel="stylesheet" href="../static/list-css/list.css" type="text/css" media="all"/>
+    <!-- //list-css -->
+    <!-- font-awesome icons -->
+    <link rel="shortcut icon" type="image/png" href="../static/images/popcorn.ico"/>
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css"/>
+    <!-- //font-awesome icons -->
+    <!-- js -->
+    <script type="text/javascript" src="../static/js/jquery-2.1.4.min.js"></script>
+    <!-- //js -->
+    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300'
+          rel='stylesheet' type='text/css'>
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="../static/js/move-top.js"></script>
+    <script type="text/javascript" src="../static/js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+            });
+        });
+    </script>
+    <!-- start-smoth-scrolling -->
+    <link href="../static/css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
+    <script src="../static/js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo").owlCarousel({
+
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+                items: 5,
+                itemsDesktop: [640, 5],
+                itemsDesktopSmall: [414, 4]
+
+            });
+
+        });
+    </script>
+    <script src="../static/js/simplePlayer.js"></script>
+    <script>
+        $("document").ready(function () {
+            $("#video").simplePlayer();
+        });
+    </script>
+
+</head>
+
+<body>
+<!-- header -->
+<div class="header">
+    <div class="container">
+        <div class="w3layouts_logo">
+            <a href="/"><h1>Zap<span>Flix</span></h1></a>
+        </div>
+        <div class="w3_search">
+            <form action="/list/" method="post" >
+					{% csrf_token %}
+                <input type="text" name="Search" placeholder="Search" required="">
+                <input type="submit" value="Go">
+            </form>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- //header -->
+<!-- nav -->
+	<div class="movies_nav">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav>
+						<ul class="nav navbar-nav">
+							<li><a href="/">Home</a></li>
+							<li><a href="/trailers">Trailers</a></li>
+							<li class="active"><a href="/list">List</a></li>
+                            <li><a href="/stats">Stats</a></li>
+						</ul>
+					</nav>
+				</div>
+			</nav>	
+		</div>
+	</div>
+<!-- //nav -->
+<!-- single -->
+<div class="single-page-agile-main">
+<div class="container">
+		<!-- /w3l-medile-movies-grids -->
+			<div class="agileits-single-top">
+				<ol class="breadcrumb">
+				  <li><a href="/">Home</a></li>
+					{% if type == "Movie" %}
+						<li>Movies</li>
+					{% else %}
+						<li>Series</li>
+					{% endif %}
+				  <li class="active">{{ title }}</li>
+				</ol>
+			</div>
+			<div class="single-page-agile-info">
+                   <!-- /movie-browse-agile -->
+                           <div class="show-top-grids-w3lagile">
+				<div class="col-sm-8 single-left">
+					<div class="song">
+						<div class="song-info">
+							<h3>{{ title|upper }} (<a href='/list?year={{year}}'>{{year}}</a>)</h3>
+						</div>
+					</div>
+					<div class="grid-container">
+					  	<div class="Poster">
+							<div class="img-thumbnail">
+								<img src="{{poster}}" class="img-rounded" width="300" height="420"></img>
+						  	</div>
+					  	</div>
+						{% if genres|length > 0 %}
+						<div class="Genres">
+							<div style="clear: both">
+								{% if genres|length > 1 %}
+								    <h3 style="float: left">Genres: &nbsp;</h3>
+								{% else %}
+									<h3 style="float: left">Genre: &nbsp;</h3>
+								{% endif %}
+								{% for genre in genres %}
+									<h4 style="display: inline-block; padding-top: 7px">
+									{% if forloop.counter == genres|length %}
+										<a href="/list?genre={{genre}}">{{genre}}</a>
+									{% else %}
+										<a href="/list?genre={{genre}}">{{genre}}</a> |
+									{% endif %}
+									</h4>
+								{% endfor %}
+							</div>
+						</div>
+						{% endif %}
+						{% if runtime|length > 0 %}
+						<div class="Runtime">
+							<div style="clear: both">
+								<h3 style="float: left">Runtime: &nbsp;</h3>
+								<h4 style="display: inline-block; padding-top: 6px">{{runtime}} minutes</h4>
+							</div>
+						</div>
+						{% endif %}
+						{% if countries|length > 0 %}
+						<div class="Countries">
+							<div style="clear: both">
+								{% if countries|length > 1 %}
+								    <h3 style="float: left">Countries: &nbsp;</h3>
+								{% else %}
+									<h3 style="float: left">Country: &nbsp;</h3>
+								{% endif %}
+								{% for country in countries %}
+								<h4 style="display: inline-block; padding-top: 7px">
+									{% if forloop.counter == countries|length %}
+										<a href="/list?country={{country}}">{{country}}</a>
+									{% else %}
+										<a href="/list?country={{country}}">{{country}}</a> |
+									{% endif %}
+								</h4>
+								{% endfor %}
+							</div>
+						</div>
+						{% endif %}
+						{% if languages|length > 0 %}
+						<div class="Languages">
+							<div style="clear: both">
+								{% if languages|length > 1 %}
+								    <h3 style="float: left">Languages: &nbsp;</h3>
+								{% else %}
+									<h3 style="float: left">Language: &nbsp;</h3>
+								{% endif %}
+								{% for language in languages %}
+								<h4 style="display: inline-block; padding-top: 7px">
+									{% if forloop.counter == languages|length %}
+										<a href="/list?language={{language}}">{{language}}</a>
+									{% else %}
+										<a href="/list?language={{language}}">{{language}}</a> |
+									{% endif %}
+								</h4>
+								{% endfor %}
+							</div>
+						</div>
+						{% endif %}
+						<div class="Awards">
+							<div style="clear: both">
+								<h3 style="float: left">Awards: &nbsp;</h3>
+								<h4 style="padding-top: 6px">{{awards}}</h4>
+							</div>
+						</div>
+						<div class="IMDbRating">
+							<div style="clear: both">
+								<h3 style="float: left">IMDb Rating: &nbsp;</h3>
+								{% if imdb_rating == "N/A" %}
+									<h4 style="padding-top: 7px;">{{imdb_rating}}</h4>
+								{% else %}
+									<h4 style="padding-top: 7px;">{{imdb_rating}} / 10 &nbsp;&nbsp;({{imdb_votes}} votes)</h4>
+								{% endif %}
+							</div>
+						</div>
+						<div class="Metascore">
+							<div style="clear: both">
+								<h3 style="float: left">Metascore: &nbsp;</h3>
+								{% if metascore == "N/A" %}
+									<h4 style="padding-top: 6px;">{{metascore}}</h4>
+								{% else %}
+									<h4 style="padding-top: 6px;">{{metascore}} / 100</h4>
+								{% endif %}
+							</div>
+						</div>
+						{% if release_dates|length > 0 %}
+						<div class="ReleaseDate">
+							<div style="clear: both">
+								{% if release_dates|length > 1 %}
+								    <h3 style="float: left">Release Dates: &nbsp;</h3>
+								{% else %}
+									<h3 style="float: left">Release Date: &nbsp;</h3>
+								{% endif %}
+								<h4 style="padding-top: 6px;">{% for value in release_dates %}<h4>{{value.country}} - {{value.date}}</h4>{% endfor %}</h4>
+							</div>
+						</div>
+						{% endif %}
+					</div>
+					<div class="clearfix"> </div>
+
+					<div class="all-comments">
+						<div class="all-comments-info">
+							<a>{{ plot }}</a>
+							{% if keywords|length > 0 %}
+							<br><br>
+							<a>Keywords: {{keywords|join:", "}}</a>
+							{% endif %}
+						</div>
+						<div class="media-grids">
+							<div class="media">
+								<h3>CREW</h3>
+								<br>
+								{% if editors|length > 0 %}
+									<div style="padding-left: 30px">
+										{% if editors|length > 1 %}
+											<h5>Editors</h5>
+										{% else %}
+											<h5>Editor</h5>
+										{% endif %}
+										{% for person in editors %}
+											<div class="media-left" style="padding-left: 20px">
+												<img src="../static/images/user.jpg" title="One movies" alt=" " />
+											</div>
+											<div class="media-body">
+												<a href='/list?person={{person}}'>
+												<h5 style="padding-top: 15px">{{person}}</h5>
+												</a>
+											</div>
+											<br>
+										{% endfor %}
+									</div>
+								{% endif %}
+
+                                {% if composers|length > 0 %}
+                                    <div style="padding-left: 30px">
+                                        {% if composers|length > 1 %}
+                                            <h5>Composers</h5>
+                                        {% else %}
+                                            <h5>Composer</h5>
+                                        {% endif %}
+                                        {% for person in composers %}
+                                            <div class="media-left" style="padding-left: 20px">
+                                                <img src="../static/images/user.jpg" title="One movies" alt=" "/>
+                                            </div>
+                                            <div class="media-body">
+                                                <a href='/list?person={{ person }}'>
+                                                    <h5 style="padding-top: 15px">{{ person }}</h5>
+                                                </a>
+                                            </div>
+                                            <br>
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+
+                                {% if writers|length > 0 %}
+                                    <div style="padding-left: 30px">
+                                        {% if writers|length > 1 %}
+                                            <h5>Writers</h5>
+                                        {% else %}
+                                            <h5>Writer</h5>
+                                        {% endif %}
+                                        {% for person in writers %}
+                                            <div class="media-left" style="padding-left: 20px">
+                                                <img src="../static/images/user.jpg" title="One movies" alt=" "/>
+                                            </div>
+                                            <div class="media-body">
+                                                <a href='/list?person={{ person }}'>
+                                                    <h5 style="padding-top: 15px">{{ person }}</h5>
+                                                </a>
+                                            </div>
+                                            <br>
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+
+                                {% if directors|length > 0 %}
+                                    <div style="padding-left: 30px">
+                                        {% if directors|length > 1 %}
+                                            <h5>Directors</h5>
+                                        {% else %}
+                                            <h5>Director</h5>
+                                        {% endif %}
+                                        {% for person in directors %}
+                                            <div class="media-left" style="padding-left: 20px">
+                                                <img src="../static/images/user.jpg" title="One movies" alt=" "/>
+                                            </div>
+                                            <div class="media-body">
+                                                <a href='/list?person={{ person }}'>
+                                                    <h5 style="padding-top: 15px">{{ person }}</h5>
+                                                </a>
+                                            </div>
+                                            <br>
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+
+                                {% if producers|length > 0 %}
+                                    <div style="padding-left: 30px">
+                                        {% if producers|length > 1 %}
+                                            <h5>Producers</h5>
+                                        {% else %}
+                                            <h5>Producer</h5>
+                                        {% endif %}
+                                        {% for person in producers %}
+                                            <div class="media-left" style="padding-left: 20px">
+                                                <img src="../static/images/user.jpg" title="One movies" alt=" "/>
+                                            </div>
+                                            <div class="media-body">
+                                                <a href='/list?person={{ person }}'>
+                                                    <h5 style="padding-top: 15px">{{ person }}</h5>
+                                                </a>
+                                            </div>
+                                            <br>
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+
+								<h3>CAST</h3>
+								<br>
+								{% if cast|length > 0 %}
+									<div style="padding-left: 30px">
+										{% for person in cast %}
+											<div class="media-left" style="padding-left: 20px">
+												<img src="../static/images/user.jpg" title="One movies" alt=" " />
+											</div>
+											<div class="media-body">
+												<a href='/list?person={{person.actor}}'>
+												<h5 style="padding-top: 15px">{{person.actor}} &nbsp;<span>as {{person.role}}</span></h5>
+												</a>
+											</div>
+											<br>
+										{% endfor %}
+									</div>
+								{% else %}
+									<br>
+									{% if type == "Movie" %}
+										<h5 style="padding-left: 30px">We are sorry! We couldn't find the cast for this movie.</h5>
+									{% else %}
+										<h5 style="padding-left: 30px">We are sorry! We couldn't find the cast for this series.</h5>
+									{% endif %}
+								{% endif %}
+							</div class="media">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 single-right">
+					{% if relation|length <= 0 %}
+					<h3>UNFORTUNATELY, WE COULDN'T FIND ANY RELATED MOVIE NOR SERIES!</h3>
+					<div class="single-grid-right">
+					{% else %}
+					<h3>BASED ON {{relation}}:</h3>
+					<div class="single-grid-right">
+						{% for movie in related_movies|slice:":6" %}
+						<div class="single-right-grids">
+							<div class="col-md-4 single-right-grid-left">
+								{% if movie.type == "Movie" %}
+									<a href="/movie/{{movie.docid}}"><img src={{movie.poster}} alt="" width="50" height="140"/></a>
+								{% else %}
+									<a href="/series/{{movie.docid}}"><img src={{movie.poster}} alt="" width="50" height="140"/></a>
+								{% endif %}
+							</div>
+							<div class="col-md-8 single-right-grid-right">
+								{% if movie.type == "Movie" %}
+									<a href="/movie/{{movie.docid}}" class="title"> {{movie.title}} ({{movie.year}})</a>
+								{% else %}
+									<a href="/series/{{movie.docid}}" class="title"> {{movie.title}} ({{movie.year}})</a>
+								{% endif %}
+								<p class="author">
+									{% for genre in movie.genres %}
+										{% if forloop.counter == movie.genres|length %}
+											<a href="/list?genre={{genre}}" class="author">{{genre}}</a>
+										{% else %}
+											<a href="/list?genre={{genre}}" class="author">{{genre}}</a> |
+										{% endif %}
+									{% endfor %}
+								<p class="views">{{movie.imdb_rating}} ({{movie.imdb_votes}} votes)</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						{% endfor %}
+					{% endif %}
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+
+                <script>
+                    var rev_id = -1;
+
+                    function edit(id) {
+                        rev_id = id;
+                        $("#form-name")[0].value = $("#review-" + id).find("h4")[0].textContent;
+                        $("#form-comment")[0].value = $("#review-" + id).find("h5")[0].textContent;
+                        $("#form-stars")[0].selectedIndex = $("#review-0").find("li").length - 1;
+                    }
+
+                    function remove_review(id) {
+                        $.ajax({
+                            url: "/review/{{ mid }}/" + id,
+                            type: "DELETE",
+                            headers: {
+                                "X-CSRFToken": '{{ csrf_token }}'
+                            },
+                            complete: function (xhr) {
+                                location.reload();
+                            }
+                        });
+                    }
+
+                    function submit() {
+                        var name = $("#form-name")[0].value;
+                        var review = $("#form-comment")[0].value;
+                        var stars = $("#form-stars")[0].selectedIndex + 1;
+
+                        $.ajax({
+                            url: "/review/{{ mid }}/" + rev_id,
+                            type: "POST",
+                            data: {
+                                name: name,
+                                review: review,
+                                stars: stars
+                            },
+                            headers: {
+                                "X-CSRFToken": '{{ csrf_token }}'
+                            },
+                            complete: function (xhr) {
+                                location.reload();
+                            }
+                        });
+                    }
+                </script>
+
+                <div class="all-comments">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="page-header">
+                                <h1><small class="pull-right">{{ reviews_num }} reviews</small>
+                                    User Reviews </h1>
+                            </div>
+                            <div class="comments-list">
+                                <div class="media" id="review_form">
+                                    <br>
+                                    <div class="media-body">
+                                        <form id="form-review">
+                                            <div class="form-row">
+                                                <div class="col-md-4">
+                                                    <input required type="text" id="form-name" class="form-control"
+                                                           placeholder="Name">
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <select class="form-control" id="form-stars">
+                                                        <option>1 star</option>
+                                                        <option>2 stars</option>
+                                                        <option>3 stars</option>
+                                                        <option>4 stars</option>
+                                                        <option>5 stars</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-md-8">
+                                                <br>
+                                                <textarea required class="form-control rounded-0" placeholder="Review"
+                                                          id="form-comment" rows="3"></textarea>
+                                                <br>
+                                                <p><a href="javascript:submit()">Submit</a></p>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                {{ reviews | safe }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //movie-browse-agile -->
+            <!--body wrapper start-->
+			<div class="w3_agile_banner_bottom_grid">
+				<div id="owl-demo" class="owl-carousel owl-theme">
+					{% for last in latest %}
+					<div class="item">
+						<div class="w3l-movie-gride-agile w3l-movie-gride-agile1">
+							{% if last.type == "Movie" %}
+								<a href="/movie/{{last.docid}}" class="hvr-shutter-out-horizontal">
+							{% else %}
+								<a href="/series/{{last.docid}}" class="hvr-shutter-out-horizontal">
+							{% endif %}
+							<img src={{last.poster}}  title="album-name"  alt=" " width="200" height="300"/>
+								<div class="w3l-action-icon"><i class="fa fa-play-circle" aria-hidden="true" ></i></div>
+							</a>
+							<div class="mid-1 agileits_w3layouts_mid_1_home">
+								<div class="w3l-movie-text">
+									{% if last.type == "Movie" %}
+										<h6><a href="/movie/{{last.docid}}">{{last.title}}</a></h6>
+									{% else %}
+										<h6><a href="/series/{{last.docid}}">{{last.title}}</a></h6>
+									{% endif %}
+								</div>
+								<div class="mid-2 agile_mid_2_home">
+									<p>{{last.year}}</p>
+									<div class="block-stars">
+										<ul class="w3l-ratings">
+											{% for i in '13579'|make_list %}
+												{% widthratio forloop.counter 1 2 as v %}
+												{% if last.imdb_rating.0 == 'N/A' %}
+													{% if forloop.counter == 1 %}
+														{{last.imdb_rating.0}}
+													{% endif %}
+												{% elif last.imdb_rating.0 >= v and v != '10' %}
+													<li><i class="fa fa-star" aria-hidden="true"></i></li>
+												{% elif last.imdb_rating.0 > i %}
+													<li><i class="fa fa-star-half-o" aria-hidden="true"></i></li>
+												{% else %}
+													<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+												{% endif %}
+											{% endfor %}
+										</ul>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							{% if last.year >= '2010' %}
+								<div class="ribben">
+									<p>NEW</p>
+								</div>
+							{% endif %}
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		<!--body wrapper end-->
+						
+							 
+				</div>
+				<!-- //w3l-latest-movies-grids -->
+			</div>	
+		</div>
+	<!-- //w3l-medile-movies-grids -->
+	
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+        <div class="w3ls_footer_grid">
+            <div class="col-md-6 w3ls_footer_grid_left">
+            </div>
+            <div class="col-md-6 w3ls_footer_grid_right">
+                <a href="/"><h2>Zap<span>Flix</span></h2></a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-md-5 w3ls_footer_grid1_left">
+            <p>&copy; 2020 ZapFlix. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+        </div>
+        <div class="col-md-7 w3ls_footer_grid1_right">
+            <ul>
+                <li>
+					<a href="/">Home</a>
+				</li>
+				<li>
+					<a href="/trailers">Trailers</a>
+				</li>
+				<li>
+					<a href="/list">List</a>
+				</li>
+				<li>
+					<a href="/stats">Stats</a>
+				</li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- //footer -->
+<!-- Bootstrap Core JavaScript -->
+<script src="../static/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".dropdown").hover(
+            function () {
+                $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                $(this).toggleClass('open');
+            },
+            function () {
+                $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                $(this).toggleClass('open');
+            }
+        );
+    });
+</script>
+<!-- //Bootstrap Core JavaScript -->
+<!-- here stars scrolling icon -->
+<script type="text/javascript">
+    $("#form-name")[0].value = "";
+    $("#form-comment")[0].value = "";
+    $("#form-stars")[0].selectedIndex = 0;
+
+    $(document).ready(function () {
+        /*
+            var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear'
+            };
+        */
+
+        $().UItoTop({easingType: 'easeOutQuart'});
+
+    });
+</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>

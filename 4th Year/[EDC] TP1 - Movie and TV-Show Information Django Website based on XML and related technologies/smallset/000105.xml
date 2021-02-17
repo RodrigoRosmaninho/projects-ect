@@ -1,0 +1,2248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="000105">
+  <docid>000105</docid>
+  <title>'Allo 'Allo!</title>
+  <year>1982</year>
+  <type>TelevisionSeries</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Dunstan, John (I)</editor>
+    <editor>Poole, Rob (II)</editor>
+  </editors>
+  <genres>
+    <genre>War</genre>
+    <genre>Comedy</genre>
+  </genres>
+  <keywords>
+    <keyword>onion</keyword>
+    <keyword>cult-favorite</keyword>
+    <keyword>cafe-owner</keyword>
+    <keyword>italian-army</keyword>
+    <keyword>sausage</keyword>
+    <keyword>cafe</keyword>
+    <keyword>german-army</keyword>
+    <keyword>mother-in-law</keyword>
+    <keyword>french-resistance</keyword>
+    <keyword>number-in-title</keyword>
+    <keyword>undertaker</keyword>
+    <keyword>escape</keyword>
+    <keyword>character-name-in-title</keyword>
+    <keyword>adultery</keyword>
+    <keyword>reference-to-the-madonna</keyword>
+    <keyword>reference-to-marie-antoinette</keyword>
+    <keyword>captain</keyword>
+    <keyword>gestapo</keyword>
+    <keyword>nazi-germany</keyword>
+    <keyword>sitcom</keyword>
+    <keyword>breaking-the-fourth-wall</keyword>
+    <keyword>cult-tv</keyword>
+    <keyword>twin-brother</keyword>
+    <keyword>limp</keyword>
+    <keyword>execution</keyword>
+    <keyword>colonel</keyword>
+    <keyword>plot-to-kill-hitler</keyword>
+    <keyword>forger</keyword>
+    <keyword>funny-nazi</keyword>
+    <keyword>painting</keyword>
+    <keyword>wwii</keyword>
+    <keyword>farce</keyword>
+    <keyword>newspaper-photo</keyword>
+    <keyword>singing</keyword>
+    <keyword>disguise</keyword>
+    <keyword>empty-grave</keyword>
+  </keywords>
+  <languages>
+    <language>English</language>
+  </languages>
+  <countries>
+    <country>UK</country>
+  </countries>
+  <certificates>
+    <certificate country="UK">PG</certificate>
+    <certificate country="Australia">PG</certificate>
+    <certificate country="Singapore">PG</certificate>
+    <certificate country="Finland">S</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="France">3 July 1989</releasedate>
+    <releasedate country="UK">5 January 1991</releasedate>
+    <releasedate country="Sweden">3 November 1985</releasedate>
+    <releasedate country="Finland">4 January 1985</releasedate>
+    <releasedate country="Netherlands">18 November 1988</releasedate>
+    <releasedate country="Estonia">28 September 2008</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="UK">45</runningtime>
+    <runningtime country="USA">25</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Belbin, Susan</director>
+    <director>Boden, Richard (I)</director>
+    <director>Carr, Robin (I)</director>
+    <director>Croft, David (I)</director>
+    <director>Dennis, Martin</director>
+    <director>Hobbs, John B.</director>
+    <director>Longstaff, Sue</director>
+    <director>Stephens, Mike (I)</director>
+  </directors>
+  <producers>
+    <producer>Croft, David (I)</producer>
+    <producer>Hobbs, John B.</producer>
+    <producer>Stephens, Mike (I)</producer>
+  </producers>
+  <writers>
+    <writer>Croft, David (I)</writer>
+    <writer>Lloyd, Jeremy (I)</writer>
+    <writer>Adam, Paul (I)</writer>
+    <writer>Chapman, John T.</writer>
+    <writer>Chesney, Ronald (I)</writer>
+    <writer>Croft, David (I)</writer>
+    <writer>Davidson, Ian (II)</writer>
+    <writer>Lloyd, Jeremy (I)</writer>
+    <writer>Wolfe, Ronald</writer>
+  </writers>
+  <composers>
+    <composer>Croft, David (I)</composer>
+    <composer>Moore, Roy (IV)</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Aldous, Robert</actor>
+      <role>French Peasant</role>
+    </credit>
+    <credit>
+      <actor>Allen, Joy (I)</actor>
+      <role>Mrs. Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Andrews, Chris (III)</actor>
+      <role>German Soldier</role>
+    </credit>
+    <credit>
+      <actor>Anselmi, Lisa</actor>
+      <role>Communist Resistance Leader</role>
+    </credit>
+    <credit>
+      <actor>Anselmi, Lisa</actor>
+      <role>Resistance Girl</role>
+    </credit>
+    <credit>
+      <actor>Anton, Marek</actor>
+      <role>German Soldier</role>
+    </credit>
+    <credit>
+      <actor>Arnell, Dennis</actor>
+      <role>Onlooker</role>
+    </credit>
+    <credit>
+      <actor>Ash, Elizabeth</actor>
+      <role>Maxine</role>
+    </credit>
+    <credit>
+      <actor>Ash, Elizabeth</actor>
+      <role>Maxine</role>
+    </credit>
+    <credit>
+      <actor>Ash, Elizabeth</actor>
+      <role>Maxine</role>
+    </credit>
+    <credit>
+      <actor>Ashby, Carole (I)</actor>
+      <role>Louise</role>
+    </credit>
+    <credit>
+      <actor>Ashby, Carole (I)</actor>
+      <role>Louise</role>
+    </credit>
+    <credit>
+      <actor>Ashby, Carole (I)</actor>
+      <role>Louise</role>
+    </credit>
+    <credit>
+      <actor>Ashby, Carole (I)</actor>
+      <role>Louise</role>
+    </credit>
+    <credit>
+      <actor>Ashby, Carole (I)</actor>
+      <role>Louise</role>
+    </credit>
+    <credit>
+      <actor>Ashby, Carole (I)</actor>
+      <role>Louise</role>
+    </credit>
+    <credit>
+      <actor>Ashby, Carole (I)</actor>
+      <role>Louise</role>
+    </credit>
+    <credit>
+      <actor>Ashby, Carole (I)</actor>
+      <role>Louise</role>
+    </credit>
+    <credit>
+      <actor>Ashman, Jacqueline</actor>
+      <role>Michelle's Assistant</role>
+    </credit>
+    <credit>
+      <actor>Ashman, Jacqueline</actor>
+      <role>Michelle's Assistant</role>
+    </credit>
+    <credit>
+      <actor>Barker, Tim (I)</actor>
+      <role>German Soldier</role>
+    </credit>
+    <credit>
+      <actor>Barron, James (III)</actor>
+      <role>Captain Starkington</role>
+    </credit>
+    <credit>
+      <actor>Beckett, David (I)</actor>
+      <role>German Sentry</role>
+    </credit>
+    <credit>
+      <actor>Beckett, David (I)</actor>
+      <role>German Sergeant</role>
+    </credit>
+    <credit>
+      <actor>Beckman, Jeremy</actor>
+      <role>Soldier</role>
+    </credit>
+    <credit>
+      <actor>Betts, Paul David</actor>
+      <role>German Soldier #1</role>
+    </credit>
+    <credit>
+      <actor>Betts, Paul David</actor>
+      <role>Guard #1</role>
+    </credit>
+    <credit>
+      <actor>Bingham, James</actor>
+      <role>Guard #2</role>
+    </credit>
+    <credit>
+      <actor>Bluthal, John</actor>
+      <role>Klein the Tailor</role>
+    </credit>
+    <credit>
+      <actor>Bonehill, Richard</actor>
+      <role>German Guard</role>
+    </credit>
+    <credit>
+      <actor>Bonehill, Richard</actor>
+      <role>German Guard</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bostrom, Arthur</actor>
+      <role>Officer Crabtree</role>
+    </credit>
+    <credit>
+      <actor>Bradshaw, Peter (I)</actor>
+      <role>London Calling</role>
+    </credit>
+    <credit>
+      <actor>Brenman, Owen</actor>
+      <role>'French' Radio Voice</role>
+    </credit>
+    <credit>
+      <actor>Brenman, Owen</actor>
+      <role>Guard</role>
+    </credit>
+    <credit>
+      <actor>Brenman, Owen</actor>
+      <role>Kingfisher</role>
+    </credit>
+    <credit>
+      <actor>Brenman, Owen</actor>
+      <role>London Calling</role>
+    </credit>
+    <credit>
+      <actor>Broad, Jackie D.</actor>
+      <role>Large Communist Girl</role>
+    </credit>
+    <credit>
+      <actor>Broad, Jackie D.</actor>
+      <role>Resistance Girl</role>
+    </credit>
+    <credit>
+      <actor>Bronowski, Steven</actor>
+      <role>German Pilot</role>
+    </credit>
+    <credit>
+      <actor>Brown, Tim (I)</actor>
+      <role>Squadron Leader Simpson</role>
+    </credit>
+    <credit>
+      <actor>Brown, Tim (I)</actor>
+      <role>Squadron Leader Simpson</role>
+    </credit>
+    <credit>
+      <actor>Brown, Tim (I)</actor>
+      <role>Submarine Lieutenant</role>
+    </credit>
+    <credit>
+      <actor>Brown, Tim (I)</actor>
+      <role>Tailor</role>
+    </credit>
+    <credit>
+      <actor>Bryant, Fred (I)</actor>
+      <role>German General</role>
+    </credit>
+    <credit>
+      <actor>Bryant, Fred (I)</actor>
+      <role>German General</role>
+    </credit>
+    <credit>
+      <actor>Burnell, Nick (I)</actor>
+      <role>Camp Commandant</role>
+    </credit>
+    <credit>
+      <actor>Burnell, Nick (I)</actor>
+      <role>Camp Commandant</role>
+    </credit>
+    <credit>
+      <actor>Burnell, Nick (I)</actor>
+      <role>Camp Commandant</role>
+    </credit>
+    <credit>
+      <actor>Carey, Mark (I)</actor>
+      <role>Soldier #1</role>
+    </credit>
+    <credit>
+      <actor>Caswell, Eddie</actor>
+      <role>Fruit Seller</role>
+    </credit>
+    <credit>
+      <actor>Charles, James (I)</actor>
+      <role>German Corporal</role>
+    </credit>
+    <credit>
+      <actor>Christian-Young, Julie</actor>
+      <role>Cockney Girl</role>
+    </credit>
+    <credit>
+      <actor>Christian-Young, Julie</actor>
+      <role>Operator</role>
+    </credit>
+    <credit>
+      <actor>Churchett, Stephen (I)</actor>
+      <role>Wing Commander Belfridge</role>
+    </credit>
+    <credit>
+      <actor>Clapham, Peter</actor>
+      <role>Field Marshall</role>
+    </credit>
+    <credit>
+      <actor>Clifford, Peggy Ann</actor>
+      <role>French Lady</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Collins, John D.</actor>
+      <role>Flying Officer Fairfax</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Connor, Kenneth</actor>
+      <role>Monsieur Alfonse</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooke, Kirsten</actor>
+      <role>Michelle Dubois</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Paul (I)</actor>
+      <role>German Tailor</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Paul (I)</actor>
+      <role>London Calling</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Paul (I)</actor>
+      <role>London Calling</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Paul (I)</actor>
+      <role>London Calling</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Paul (I)</actor>
+      <role>London Calling</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Paul (I)</actor>
+      <role>London Calling</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Paul (I)</actor>
+      <role>London Calling</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Paul (I)</actor>
+      <role>London Calling/Winston Churchill</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Paul (I)</actor>
+      <role>Wagstaff</role>
+    </credit>
+    <credit>
+      <actor>Cottan, Richard</actor>
+      <role>Claude</role>
+    </credit>
+    <credit>
+      <actor>Cotterill, Michael</actor>
+      <role>Bishop</role>
+    </credit>
+    <credit>
+      <actor>Dayson, Peter</actor>
+      <role>German Soldier #2</role>
+    </credit>
+    <credit>
+      <actor>Delamain, Aimée</actor>
+      <role>Madame Sablon</role>
+    </credit>
+    <credit>
+      <actor>Dellal, Gaby</actor>
+      <role>Communist Girl</role>
+    </credit>
+    <credit>
+      <actor>Dennis, Caroline</actor>
+      <role>French Girl</role>
+    </credit>
+    <credit>
+      <actor>Diamond, Max</actor>
+      <role>Peasant #1</role>
+    </credit>
+    <credit>
+      <actor>Dielle, Taryn</actor>
+      <role>Tart #1</role>
+    </credit>
+    <credit>
+      <actor>Dodson, Eric (I)</actor>
+      <role>Intelligence Officer</role>
+    </credit>
+    <credit>
+      <actor>Dukes, Peter (III)</actor>
+      <role>Peasant #2</role>
+    </credit>
+    <credit>
+      <actor>Dulieu, Gordon</actor>
+      <role>German Sentry</role>
+    </credit>
+    <credit>
+      <actor>Dulieu, Gordon</actor>
+      <role>German Soldier</role>
+    </credit>
+    <credit>
+      <actor>East, Robert</actor>
+      <role>Wing Commander Blenkinsop</role>
+    </credit>
+    <credit>
+      <actor>Edwards, Patrick (I)</actor>
+      <role>German Guard</role>
+    </credit>
+    <credit>
+      <actor>Edwards, Patrick (I)</actor>
+      <role>German Guard</role>
+    </credit>
+    <credit>
+      <actor>Edwards, Patrick (I)</actor>
+      <role>German Soldier</role>
+    </credit>
+    <credit>
+      <actor>Edwards, Patrick (I)</actor>
+      <role>Guard</role>
+    </credit>
+    <credit>
+      <actor>Edwards, Patrick (I)</actor>
+      <role>Soldier in Café</role>
+    </credit>
+    <credit>
+      <actor>Edwin, Steve</actor>
+      <role>Farkington</role>
+    </credit>
+    <credit>
+      <actor>Evanson, John James</actor>
+      <role>Winston Churchill</role>
+    </credit>
+    <credit>
+      <actor>Faulkner, Tim</actor>
+      <role>Soldier #1</role>
+    </credit>
+    <credit>
+      <actor>Fergison, Cheryl</actor>
+      <role>Desiree</role>
+    </credit>
+    <credit>
+      <actor>Float, Ray</actor>
+      <role>German Sentry</role>
+    </credit>
+    <credit>
+      <actor>Foot, Moira</actor>
+      <role>Denise Laroque</role>
+    </credit>
+    <credit>
+      <actor>Foot, Moira</actor>
+      <role>Denise Laroque</role>
+    </credit>
+    <credit>
+      <actor>Foot, Moira</actor>
+      <role>Denise Laroque</role>
+    </credit>
+    <credit>
+      <actor>Foot, Moira</actor>
+      <role>Denise Laroque</role>
+    </credit>
+    <credit>
+      <actor>Foot, Moira</actor>
+      <role>Denise Laroque</role>
+    </credit>
+    <credit>
+      <actor>Fox, Philip (I)</actor>
+      <role>British Agent 1</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Frankau, Nicholas</actor>
+      <role>Flying Officer Carstairs</role>
+    </credit>
+    <credit>
+      <actor>Garratt, Geoffrey</actor>
+      <role>Juan Garcia</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Richard (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Gibson-Lees, Amanda</actor>
+      <role>Communist Resistance Girl</role>
+    </credit>
+    <credit>
+      <actor>Gleeson, Jonathan</actor>
+      <role>Guard #2</role>
+    </credit>
+    <credit>
+      <actor>Goffe, Rusty</actor>
+      <role>Pierre LeGrand</role>
+    </credit>
+    <credit>
+      <actor>Gold, Louise</actor>
+      <role>Private Elsa Bigstern</role>
+    </credit>
+    <credit>
+      <actor>Gold, Louise</actor>
+      <role>Private Elsa Bigstern</role>
+    </credit>
+    <credit>
+      <actor>Gonshaw, Francesca</actor>
+      <role>Maria Recamier</role>
+    </credit>
+    <credit>
+      <actor>Gonshaw, Francesca</actor>
+      <role>Maria Recamier</role>
+    </credit>
+    <credit>
+      <actor>Gonshaw, Francesca</actor>
+      <role>Maria Recamier</role>
+    </credit>
+    <credit>
+      <actor>Gonshaw, Francesca</actor>
+      <role>Maria Recamier</role>
+    </credit>
+    <credit>
+      <actor>Gonshaw, Francesca</actor>
+      <role>Maria Recamier</role>
+    </credit>
+    <credit>
+      <actor>Gonshaw, Francesca</actor>
+      <role>Maria Recamier</role>
+    </credit>
+    <credit>
+      <actor>Gonshaw, Francesca</actor>
+      <role>Maria Recamier</role>
+    </credit>
+    <credit>
+      <actor>Gonshaw, Francesca</actor>
+      <role>Maria Recamier</role>
+    </credit>
+    <credit>
+      <actor>Gonshaw, Francesca</actor>
+      <role>Maria Recamier</role>
+    </credit>
+    <credit>
+      <actor>Gow, James (II)</actor>
+      <role>British Agent 2</role>
+    </credit>
+    <credit>
+      <actor>Gow, James (II)</actor>
+      <role>First German Guard</role>
+    </credit>
+    <credit>
+      <actor>Gow, James (II)</actor>
+      <role>German Soldier</role>
+    </credit>
+    <credit>
+      <actor>Gow, James (II)</actor>
+      <role>London Calling</role>
+    </credit>
+    <credit>
+      <actor>Gow, James (II)</actor>
+      <role>Soldier</role>
+    </credit>
+    <credit>
+      <actor>Gray, Christopher (I)</actor>
+      <role>German Guard</role>
+    </credit>
+    <credit>
+      <actor>Gray, Christopher (I)</actor>
+      <role>German Soldier</role>
+    </credit>
+    <credit>
+      <actor>Griffin, David (I)</actor>
+      <role>Submarine Commander</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Haig, Jack</actor>
+      <role>Roger Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Hammond, Roger</actor>
+      <role>Monk</role>
+    </credit>
+    <credit>
+      <actor>Hammond, Roger</actor>
+      <role>Monk</role>
+    </credit>
+    <credit>
+      <actor>Hanham, Ian</actor>
+      <role>German Ambush Leader</role>
+    </credit>
+    <credit>
+      <actor>Hanham, Ian</actor>
+      <role>German Sergeant</role>
+    </credit>
+    <credit>
+      <actor>Harris, Dick (I)</actor>
+      <role>Stormtrooper</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Lance Corporal Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Lance Corporal Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Lance Corporal Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Lance Corporal Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Lance Corporal Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Private Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Private Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Private Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Private Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Private Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Private Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Private Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Private Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Private Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Private Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Private Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Private Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Private Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hartman, Kim</actor>
+      <role>Private Helga Geerhart</role>
+    </credit>
+    <credit>
+      <actor>Hauenstein, Sarah</actor>
+      <role>Communist Resistance Girl</role>
+    </credit>
+    <credit>
+      <actor>Hauenstein, Sarah</actor>
+      <role>Communist Resistance Girl</role>
+    </credit>
+    <credit>
+      <actor>Hauenstein, Sarah</actor>
+      <role>Communist Resistance Girl</role>
+    </credit>
+    <credit>
+      <actor>Hedley, Jack</actor>
+      <role>General von Karzibrot</role>
+    </credit>
+    <credit>
+      <actor>Hedley, Jack</actor>
+      <role>General von Karzibrot</role>
+    </credit>
+    <credit>
+      <actor>Henderson, Pia</actor>
+      <role>Resistance Girl</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hill, Rose (I)</actor>
+      <role>Madame Fanny</role>
+    </credit>
+    <credit>
+      <actor>Hillier, Kit</actor>
+      <role>Guard #4</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hodge, Sue</actor>
+      <role>Mimi Labonq</role>
+    </credit>
+    <credit>
+      <actor>Hopkins, David (VII)</actor>
+      <role>German Officer</role>
+    </credit>
+    <credit>
+      <actor>Hopkins, David (VII)</actor>
+      <role>Soldier #2</role>
+    </credit>
+    <credit>
+      <actor>Howard, Rikki</actor>
+      <role>Elaine</role>
+    </credit>
+    <credit>
+      <actor>Howard, Rikki</actor>
+      <role>Hélène 'Ici' Cerise</role>
+    </credit>
+    <credit>
+      <actor>Hoye, John (I)</actor>
+      <role>Guard #1</role>
+    </credit>
+    <credit>
+      <actor>Hurn, Jonnie</actor>
+      <role>Peasant #3</role>
+    </credit>
+    <credit>
+      <actor>Janson, David (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Janson, David (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Janson, David (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Janson, David (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Janson, David (I)</actor>
+      <role>Herr Otto Flick</role>
+    </credit>
+    <credit>
+      <actor>Janson, David (I)</actor>
+      <role>Hitler's Double</role>
+    </credit>
+    <credit>
+      <actor>Jayes, Michael</actor>
+      <role>Priest</role>
+    </credit>
+    <credit>
+      <actor>John, Robin (II)</actor>
+      <role>German Guard</role>
+    </credit>
+    <credit>
+      <actor>Kaye, Gorden</actor>
+      <role>René Artois</role>
+    </credit>
+    <credit>
+      <actor>Kaye, Gorden</actor>
+      <role>René Artois</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Denise (I)</actor>
+      <role>Maquis Leader</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Sam (I)</actor>
+      <role>Captain Hans Geering</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Sam (I)</actor>
+      <role>Captain Hans Geering</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Sam (I)</actor>
+      <role>Captain Hans Geering</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Sam (I)</actor>
+      <role>Captain Hans Geering</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Sam (I)</actor>
+      <role>Captain Hans Geering</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Sam (I)</actor>
+      <role>Captain Hans Geering</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Sam (I)</actor>
+      <role>Captain Hans Geering</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Sam (I)</actor>
+      <role>Captain Hans Geering</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Sam (I)</actor>
+      <role>Captain Hans Geering</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Sam (I)</actor>
+      <role>Captain Hans Geering</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Sam (I)</actor>
+      <role>Captain Hans Geering</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Sam (I)</actor>
+      <role>Captain Hans Geering</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Sam (I)</actor>
+      <role>Captain Hans Geering</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Sam (I)</actor>
+      <role>Captain Hans Geering</role>
+    </credit>
+    <credit>
+      <actor>Kendall, Philip</actor>
+      <role>London Calling</role>
+    </credit>
+    <credit>
+      <actor>Kendall, Philip</actor>
+      <role>London Calling</role>
+    </credit>
+    <credit>
+      <actor>Kendall, Philip</actor>
+      <role>London Calling</role>
+    </credit>
+    <credit>
+      <actor>Kenny, Kate (I)</actor>
+      <role>Major</role>
+    </credit>
+    <credit>
+      <actor>Keyes, Len</actor>
+      <role>Old Man</role>
+    </credit>
+    <credit>
+      <actor>Kitter, Roger</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Kitter, Roger</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Kitter, Roger</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Kitter, Roger</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Kitter, Roger</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Kitter, Roger</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Kyd, Susan</actor>
+      <role>Communist Resistance Leader</role>
+    </credit>
+    <credit>
+      <actor>Lambe, Annabel</actor>
+      <role>Agnette</role>
+    </credit>
+    <credit>
+      <actor>Leader, Howard</actor>
+      <role>German Guard</role>
+    </credit>
+    <credit>
+      <actor>Leader, Howard</actor>
+      <role>German Guard</role>
+    </credit>
+    <credit>
+      <actor>Leader, Howard</actor>
+      <role>German Soldier #2</role>
+    </credit>
+    <credit>
+      <actor>Leader, Howard</actor>
+      <role>Sergeant</role>
+    </credit>
+    <credit>
+      <actor>Leader, Howard</actor>
+      <role>Ticket Seller</role>
+    </credit>
+    <credit>
+      <actor>Lebor, Stanley</actor>
+      <role>Gypsy Leader</role>
+    </credit>
+    <credit>
+      <actor>Lee, Ruben (II)</actor>
+      <role>Gypsy</role>
+    </credit>
+    <credit>
+      <actor>Leeson, John</actor>
+      <role>Train's Cook</role>
+    </credit>
+    <credit>
+      <actor>Leonard, Craig</actor>
+      <role>German sentry</role>
+    </credit>
+    <credit>
+      <actor>Lloyd, David (II)</actor>
+      <role>German Guard #1</role>
+    </credit>
+    <credit>
+      <actor>Lloyd, David (II)</actor>
+      <role>German Soldier</role>
+    </credit>
+    <credit>
+      <actor>Lloyd, David (II)</actor>
+      <role>Soldier in Château</role>
+    </credit>
+    <credit>
+      <actor>Lloyd, Jeremy (I)</actor>
+      <role>Wolfgang</role>
+    </credit>
+    <credit>
+      <actor>Malin, Bill (I)</actor>
+      <role>Soldier</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Mansi, Louis</actor>
+      <role>Herr Engelbert von Smallhausen</role>
+    </credit>
+    <credit>
+      <actor>Marner, Richard</actor>
+      <role>Colonel Kurt von Strohm</role>
+    </credit>
+    <credit>
+      <actor>Marner, Richard</actor>
+      <role>Colonel Kurt von Strohm</role>
+    </credit>
+    <credit>
+      <actor>Marner, Richard</actor>
+      <role>Colonel Kurt von Strohm</role>
+    </credit>
+    <credit>
+      <actor>Marner, Richard</actor>
+      <role>Colonel Kurt von Strohm</role>
+    </credit>
+    <credit>
+      <actor>Marner, Richard</actor>
+      <role>Colonel Kurt von Strohm</role>
+    </credit>
+    <credit>
+      <actor>Marner, Richard</actor>
+      <role>Colonel Kurt von Strohm</role>
+    </credit>
+    <credit>
+      <actor>Marner, Richard</actor>
+      <role>Colonel Kurt von Strohm</role>
+    </credit>
+    <credit>
+      <actor>Marner, Richard</actor>
+      <role>Colonel Kurt von Strohm</role>
+    </credit>
+    <credit>
+      <actor>Marner, Richard</actor>
+      <role>Colonel Kurt von Strohm</role>
+    </credit>
+    <credit>
+      <actor>Marner, Richard</actor>
+      <role>Colonel Kurt von Strohm</role>
+    </credit>
+    <credit>
+      <actor>Marner, Richard</actor>
+      <role>Colonel Kurt von Strohm</role>
+    </credit>
+    <credit>
+      <actor>Marner, Richard</actor>
+      <role>Colonel Kurt von Strohm</role>
+    </credit>
+    <credit>
+      <actor>Marner, Richard</actor>
+      <role>Colonel Kurt von Strohm</role>
+    </credit>
+    <credit>
+      <actor>Marner, Richard</actor>
+      <role>Colonel Kurt von Strohm</role>
+    </credit>
+    <credit>
+      <actor>Marriott, Tim</actor>
+      <role>Tigger Thompson</role>
+    </credit>
+    <credit>
+      <actor>Matthews, Darren (I)</actor>
+      <role>Pilkers</role>
+    </credit>
+    <credit>
+      <actor>Matthews, Estelle</actor>
+      <role>Communist Girl</role>
+    </credit>
+    <credit>
+      <actor>Matthews, Estelle</actor>
+      <role>Mademoiselle Valérie Vendome</role>
+    </credit>
+    <credit>
+      <actor>McInnerny, Philip</actor>
+      <role>Wing Commander Andy Hargreaves</role>
+    </credit>
+    <credit>
+      <actor>McInnerny, Philip</actor>
+      <role>Wing Commander Randy Hargreaves</role>
+    </credit>
+    <credit>
+      <actor>McLaren, Ian (II)</actor>
+      <role>Guard</role>
+    </credit>
+    <credit>
+      <actor>Merry, Gary</actor>
+      <role>German Soldier</role>
+    </credit>
+    <credit>
+      <actor>Michelle, Ann</actor>
+      <role>First Communist Girl</role>
+    </credit>
+    <credit>
+      <actor>Michelle, Vicki</actor>
+      <role>Yvette Carte-Blanche</role>
+    </credit>
+    <credit>
+      <actor>Michelle, Vicki</actor>
+      <role>Yvette Carte-Blanche</role>
+    </credit>
+    <credit>
+      <actor>Michelle, Vicki</actor>
+      <role>Yvette Carte-Blanche</role>
+    </credit>
+    <credit>
+      <actor>Michelle, Vicki</actor>
+      <role>Yvette Carte-Blanche</role>
+    </credit>
+    <credit>
+      <actor>Michelle, Vicki</actor>
+      <role>Yvette Carte-Blanche</role>
+    </credit>
+    <credit>
+      <actor>Michelle, Vicki</actor>
+      <role>Yvette Carte-Blanche</role>
+    </credit>
+    <credit>
+      <actor>Michelle, Vicki</actor>
+      <role>Yvette Carte-Blanche</role>
+    </credit>
+    <credit>
+      <actor>Michelle, Vicki</actor>
+      <role>Yvette Carte-Blanche</role>
+    </credit>
+    <credit>
+      <actor>Michelle, Vicki</actor>
+      <role>Yvette Carte-Blanche</role>
+    </credit>
+    <credit>
+      <actor>Michelle, Vicki</actor>
+      <role>Yvette Carte-Blanche</role>
+    </credit>
+    <credit>
+      <actor>Michelle, Vicki</actor>
+      <role>Yvette Carte-Blanche</role>
+    </credit>
+    <credit>
+      <actor>Michelle, Vicki</actor>
+      <role>Yvette Carte-Blanche</role>
+    </credit>
+    <credit>
+      <actor>Michelle, Vicki</actor>
+      <role>Yvette Carte-Blanche</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Minster, Hilary</actor>
+      <role>General Erich von Klinkerhoffen</role>
+    </credit>
+    <credit>
+      <actor>Mitchell, Iain (I)</actor>
+      <role>Priest</role>
+    </credit>
+    <credit>
+      <actor>Mitchell, Iain (I)</actor>
+      <role>Priest</role>
+    </credit>
+    <credit>
+      <actor>Moore, Christine (I)</actor>
+      <role>Desiree</role>
+    </credit>
+    <credit>
+      <actor>Moore, Nancy Olive</actor>
+      <role>Cleaning Lady</role>
+    </credit>
+    <credit>
+      <actor>Morley, Ken</actor>
+      <role>General Leopold von Flockenstuffen</role>
+    </credit>
+    <credit>
+      <actor>Morley, Ken</actor>
+      <role>General Leopold von Flockenstuffen</role>
+    </credit>
+    <credit>
+      <actor>Morley, Ken</actor>
+      <role>General Leopold von Flockenstuffen</role>
+    </credit>
+    <credit>
+      <actor>Morley, Ken</actor>
+      <role>General Leopold von Flockenstuffen</role>
+    </credit>
+    <credit>
+      <actor>Morley, Ken</actor>
+      <role>General Leopold von Flockenstuffen</role>
+    </credit>
+    <credit>
+      <actor>Morley, Ken</actor>
+      <role>General Leopold von Flockenstuffen</role>
+    </credit>
+    <credit>
+      <actor>Moss, Julian</actor>
+      <role>Guard #3</role>
+    </credit>
+    <credit>
+      <actor>Omoboni, Lino</actor>
+      <role>Italian Soldier</role>
+    </credit>
+    <credit>
+      <actor>Parkinson, Robin</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Parkinson, Robin</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Parkinson, Robin</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Parkinson, Robin</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Parkinson, Robin</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Parkinson, Robin</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Parkinson, Robin</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Parkinson, Robin</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Parkinson, Robin</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Parkinson, Robin</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Parkinson, Robin</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Parkinson, Robin</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Parkinson, Robin</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Percival, Michael (I)</actor>
+      <role>Yoop Hoop de Hoop</role>
+    </credit>
+    <credit>
+      <actor>Pertwee, James</actor>
+      <role>Soldier on Coast</role>
+    </credit>
+    <credit>
+      <actor>Rattray, Iain</actor>
+      <role>German Major</role>
+    </credit>
+    <credit>
+      <actor>Readman, John (I)</actor>
+      <role>Italian Soldier</role>
+    </credit>
+    <credit>
+      <actor>Readman, John (I)</actor>
+      <role>Italian Soldier</role>
+    </credit>
+    <credit>
+      <actor>Readman, John (I)</actor>
+      <role>Italian Soldier</role>
+    </credit>
+    <credit>
+      <actor>Readman, John (I)</actor>
+      <role>Italian Soldier</role>
+    </credit>
+    <credit>
+      <actor>Readman, John (I)</actor>
+      <role>Italian Soldier</role>
+    </credit>
+    <credit>
+      <actor>Reynolds, Stephen (I)</actor>
+      <role>Surgeon</role>
+    </credit>
+    <credit>
+      <actor>Richards, Gavin (I)</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Richards, Gavin (I)</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Richards, Gavin (I)</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Richards, Gavin (I)</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Richards, Gavin (I)</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Richards, Gavin (I)</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Richards, Gavin (I)</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Richards, Gavin (I)</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Richards, Gavin (I)</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Richards, Gavin (I)</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Richards, Gavin (I)</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Richards, Gavin (I)</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Richards, Gavin (I)</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Richards, Gavin (I)</actor>
+      <role>Captain Alberto Bertorelli</role>
+    </credit>
+    <credit>
+      <actor>Richardson, Miles</actor>
+      <role>Captain Frobisher</role>
+    </credit>
+    <credit>
+      <actor>Rowlands, David (I)</actor>
+      <role>Doctor</role>
+    </credit>
+    <credit>
+      <actor>Rowlands, David (I)</actor>
+      <role>Doctor</role>
+    </credit>
+    <credit>
+      <actor>Rowlands, David (I)</actor>
+      <role>Doctor</role>
+    </credit>
+    <credit>
+      <actor>Royle, Derek</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Royle, Derek</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Royle, Derek</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Royle, Derek</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Royle, Derek</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Royle, Derek</actor>
+      <role>Ernest Leclerc</role>
+    </credit>
+    <credit>
+      <actor>Rutland, John (I)</actor>
+      <role>Clock Repairer</role>
+    </credit>
+    <credit>
+      <actor>Sadler, Martin</actor>
+      <role>Gibson</role>
+    </credit>
+    <credit>
+      <actor>Sadler, Martin</actor>
+      <role>Wing Commander</role>
+    </credit>
+    <credit>
+      <actor>Sadler, Martin</actor>
+      <role>Wing Commander</role>
+    </credit>
+    <credit>
+      <actor>Seed, Graham</actor>
+      <role>Pilot</role>
+    </credit>
+    <credit>
+      <actor>Seymour, Richard (II)</actor>
+      <role>German Guard</role>
+    </credit>
+    <credit>
+      <actor>Sheard, Michael</actor>
+      <role>Goering's Double</role>
+    </credit>
+    <credit>
+      <actor>Sheldon, Louis</actor>
+      <role>German Soldier</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Siner, Guy</actor>
+      <role>Lieutenant Hubert Gruber</role>
+    </credit>
+    <credit>
+      <actor>Smith, Trevor T.</actor>
+      <role>Gate Guard</role>
+    </credit>
+    <credit>
+      <actor>Smith, Trevor T.</actor>
+      <role>German Guard</role>
+    </credit>
+    <credit>
+      <actor>Smith, Trevor T.</actor>
+      <role>German Guard</role>
+    </credit>
+    <credit>
+      <actor>Smith, Trevor T.</actor>
+      <role>German Guard</role>
+    </credit>
+    <credit>
+      <actor>Smith, Trevor T.</actor>
+      <role>German Guard</role>
+    </credit>
+    <credit>
+      <actor>Smith, Trevor T.</actor>
+      <role>German Guard</role>
+    </credit>
+    <credit>
+      <actor>Smith, Trevor T.</actor>
+      <role>German Guard #2</role>
+    </credit>
+    <credit>
+      <actor>Smith, Trevor T.</actor>
+      <role>German Soldier</role>
+    </credit>
+    <credit>
+      <actor>Smith, Trevor T.</actor>
+      <role>German Soldier #1</role>
+    </credit>
+    <credit>
+      <actor>Smith, Trevor T.</actor>
+      <role>Second German Guard</role>
+    </credit>
+    <credit>
+      <actor>Solms-Baruth, Friedrich</actor>
+      <role>Soldier #2</role>
+    </credit>
+    <credit>
+      <actor>Soundy, Ian</actor>
+      <role>Sentry</role>
+    </credit>
+    <credit>
+      <actor>Stainton, Michael</actor>
+      <role>German Sergeant</role>
+    </credit>
+    <credit>
+      <actor>Taylor, David (XII)</actor>
+      <role>Guard #2</role>
+    </credit>
+    <credit>
+      <actor>Tipler, Huw</actor>
+      <role>Guard #1</role>
+    </credit>
+    <credit>
+      <actor>Tudor Owen, Sion</actor>
+      <role>German Co-Pilot</role>
+    </credit>
+    <credit>
+      <actor>Valentine-Webb, David</actor>
+      <role>Pilot</role>
+    </credit>
+    <credit>
+      <actor>Waddington, Peter</actor>
+      <role>German Sentry</role>
+    </credit>
+    <credit>
+      <actor>Wall, Kim (II)</actor>
+      <role>German Sentry</role>
+    </credit>
+    <credit>
+      <actor>Watling, Giles</actor>
+      <role>Major Twistleton-Smythe</role>
+    </credit>
+    <credit>
+      <actor>West, Neil (I)</actor>
+      <role>Train Guard</role>
+    </credit>
+    <credit>
+      <actor>Weston, Brian</actor>
+      <role>Soldier</role>
+    </credit>
+    <credit>
+      <actor>Wild, Christopher</actor>
+      <role>German Soldier</role>
+    </credit>
+    <credit>
+      <actor>Woolcott, Matthew</actor>
+      <role>Soldier on Train</role>
+    </credit>
+  </cast>
+<plot>René Artois runs a small café in France during World War II. He always seems to have his hands full: He's having affairs with most of his waitresses, he's keeping his wife happy, he's trying to please the German soldiers who frequent his café, and he's running a major underground operation for the Resistance. Quite often, the Germans' incompetence itself is what nearly lands René and his cohorts in hot water; they are not helped either by the locals, who are dreadfully keen to get rid of the Germans, but their blatant and theatrical attempts at espionage and secrecy often create problems that René must solve quickly.</plot><plot>René Artois runs a small café in France during World War II. He always seems to have his hands full: He's having affairs with most of his waitresses, he's keeping his wife happy, he's trying to please the German soldiers who frequent his café, and he's running a major underground operation for the Resistance. Quite often, the Germans' incompetence itself is what nearly lands René and his cohorts in hot water; they are not helped either by the locals, who are dreadfully keen to get rid of the Germans, but their blatant and theatrical attempts at espionage and secrecy often create problems that René must solve quickly.</plot><url>http://localhost:8983/solr/movie.html?000105</url></doc>

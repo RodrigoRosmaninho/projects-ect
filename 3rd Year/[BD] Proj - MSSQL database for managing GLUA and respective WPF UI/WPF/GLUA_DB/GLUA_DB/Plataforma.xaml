@@ -1,0 +1,39 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GLUA_DB"
+      xmlns:Custom="http://metro.mahapps.com/winfx/xaml/iconpacks" x:Class="GLUA_DB.Plataforma"
+      mc:Ignorable="d" 
+      Height="Auto" Width="Auto"
+      Title="Plataforma">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="113*"/>
+            <RowDefinition Height="112*"/>
+        </Grid.RowDefinitions>
+
+        <Button HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="Button_Click" Style="{DynamicResource MahApps.Metro.Styles.MetroCircleButtonStyle}">
+            <Custom:PackIconModern Width="14"
+                Height="14"
+                Kind="ArrowLeft" />
+        </Button>
+        <TextBox x:Name="Nome_TextBox" HorizontalAlignment="Left" Height="23" Margin="56,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="300" IsReadOnly="True"/>
+        <Label Content="Nome" HorizontalAlignment="Left" Margin="56,61,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Link_TextBox" HorizontalAlignment="Left" Height="23" Margin="56,189,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="250" IsReadOnly="True"/>
+        <Label Content="Link" HorizontalAlignment="Left" Margin="56,158,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Edit" Content="Editar" HorizontalAlignment="Left" Margin="597,23,0,0" VerticalAlignment="Top" Width="52" Click="Edit_Click"/>
+        <Button x:Name="Delete" Content="Apagar" HorizontalAlignment="Left" Margin="699,23,0,0" VerticalAlignment="Top" Width="55" Click="Delete_Click" />
+        <Button x:Name="Save" Content="Guardar" HorizontalAlignment="Left" Margin="597,23,0,0" VerticalAlignment="Top" Width="63" Click="Save_Click"  Visibility="Hidden"/>
+        <Button x:Name="Cancel" Content="Cancelar" HorizontalAlignment="Left" Margin="690,23,0,0" VerticalAlignment="Top" Width="64" Click="Cancel_Click"  Visibility="Hidden" />
+        <TextBox x:Name="Descricao_TextBox" HorizontalAlignment="Left" Height="109" Margin="56,59.77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="687" IsReadOnly="True" Grid.Row="1"/>
+        <Label Content="Descrição" HorizontalAlignment="Left" Margin="56,28.77,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBox x:Name="NContas_TextBox" HorizontalAlignment="Left" Height="23" Margin="430,190,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="139" IsReadOnly="True"/>
+        <Label x:Name="NContas_Label" Content="Nº Contas" HorizontalAlignment="Left" Margin="430,158,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="VerContas" Content="Ver Contas" HorizontalAlignment="Left" Margin="634,188,0,0" VerticalAlignment="Top" Width="98" RenderTransformOrigin="1.796,0.559" Click="VerContas_Click"/>
+        <Button x:Name="CreatePlataforma" Content="Criar" HorizontalAlignment="Left" Margin="56,206,0,-37" Grid.Row="1" VerticalAlignment="Top" Width="127" Click="Create_Click" Visibility="Hidden"/>
+
+    </Grid>
+</Page>

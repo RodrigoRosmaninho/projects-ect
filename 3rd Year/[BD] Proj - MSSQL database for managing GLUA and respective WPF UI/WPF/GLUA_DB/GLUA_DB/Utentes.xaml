@@ -1,0 +1,28 @@
+﻿<Page x:Class="GLUA_DB.Utentes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GLUA_DB"
+      mc:Ignorable="d" 
+      Height="Auto" Width="Auto"
+      Title="Utentes">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <DataGrid Name="UtentesDataGrid" HorizontalAlignment="Left"  Margin="0,0,0,0" VerticalAlignment="Top" Width="auto" Height="520"  MouseDoubleClick="Row_DoubleClick"  IsReadOnly="True" Grid.Row="2"/>
+        <Button x:Name="InsertUtente" Content="Adicionar um Novo Utente" HorizontalAlignment="Left" Margin="20,0,0,-9" VerticalAlignment="Top" Width="190"  Click="InsertUtente_Click" Grid.Row="4"/>
+        <ComboBox x:Name="Filter_ComboBox" HorizontalAlignment="Left" SelectedValuePath="Content" VerticalAlignment="Top" Width="155" Margin="20,15,0,0" SelectionChanged="Filter_ComboBox_SelectionChanged">
+            <ComboBoxItem>Nome</ComboBoxItem>
+            <ComboBoxItem>Contacto</ComboBoxItem>
+            <ComboBoxItem>Notas</ComboBoxItem>
+        </ComboBox>
+        <TextBox x:Name="Filter_TextBox" HorizontalAlignment="Left" Height="24" Margin="188,15,-98,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="Filter_TextBox_TextChanged"/>
+    </Grid>
+</Page>

@@ -1,0 +1,43 @@
+﻿<Page x:Class="GLUA_DB.Atendimento"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+      xmlns:local="clr-namespace:GLUA_DB"
+      xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+      mc:Ignorable="d" 
+      Height="Auto" Width="Auto"
+      Title="Atendimento">
+
+    <Grid>
+        <Button x:Name="Back" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="Back_Click" Style="{DynamicResource MahApps.Metro.Styles.MetroCircleButtonStyle}">
+            <iconPacks:PackIconModern Width="14"
+                                              Height="14"
+                                              Kind="ArrowLeft" />
+        </Button>
+        <TextBox x:Name="Local_TextBox" HorizontalAlignment="Left" Height="23" Margin="237,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="402" IsReadOnly="True"/>
+        <Label Content="Local" HorizontalAlignment="Left" Margin="237,71,0,0" VerticalAlignment="Top" Width="45"/>
+        <Label Content="Fabricante" HorizontalAlignment="Left" Margin="287,203,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="Fabricante_ComboBox" HorizontalAlignment="Left" Margin="287,234,0,0" VerticalAlignment="Top" Width="102" IsEnabled="False" SelectionChanged="Fabricante_ComboBox_SelectionChanged">
+        </ComboBox>
+        <Label Content="Modelo" HorizontalAlignment="Left" Margin="403,203,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="Modelo_ComboBox" HorizontalAlignment="Left" Margin="403,234,0,0" VerticalAlignment="Top" Width="100" IsEnabled="False">
+        </ComboBox>
+        <Button x:Name="Edit" Content="Editar" HorizontalAlignment="Left" Margin="597,23,0,0" VerticalAlignment="Top" Width="52" Click="Edit_Click"/>
+        <Button x:Name="Delete" Content="Apagar" HorizontalAlignment="Left" Margin="699,23,0,0" VerticalAlignment="Top" Width="55" Click="Delete_Click"/>
+        <Label Content="Data" HorizontalAlignment="Left" Margin="56,71,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="Data_DatePicker" HorizontalAlignment="Left" Margin="56,102,0,0" VerticalAlignment="Top" Width="140" Focusable="False" IsHitTestVisible="False"/>
+        <Button x:Name="Save" Content="Guardar" HorizontalAlignment="Left" Margin="597,23,0,0" VerticalAlignment="Top" Width="63" Click="Save_Click" Visibility="Hidden"/>
+        <Button x:Name="Cancel" Content="Cancelar" HorizontalAlignment="Left" Margin="689,23,0,0" VerticalAlignment="Top" Width="65" Click="Cancel_Click" Visibility="Hidden"/>
+        <Label Content="Computador" HorizontalAlignment="Left" Margin="277,174,0,0" VerticalAlignment="Top"/>
+        <Label Content="Utente" HorizontalAlignment="Left" Margin="56,203,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Tempo_TextBox" HorizontalAlignment="Left" Height="23" Margin="527,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" IsReadOnly="True"/>
+        <Label Content="Tempo Despendido" HorizontalAlignment="Left" Margin="527,203,0,0" VerticalAlignment="Top" Width="122"/>
+        <Button x:Name="showMembros" Content="Ver Membros" HorizontalAlignment="Left" Margin="56,350,0,0" VerticalAlignment="Top" Width="123" Click="showMembrosAtivos_Click"/>
+        <Button x:Name="showProblemas" Content="Ver problemas e tentativas" HorizontalAlignment="Left" Margin="237,350,0,0" VerticalAlignment="Top" Width="168" Click="showProblemas_Click"/>
+        <TextBox x:Name="Utente_TextBox" HorizontalAlignment="Left" Height="23" Margin="56,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" IsReadOnly="True"/>
+        <Button x:Name="showUtente" Content="Ver" HorizontalAlignment="Left" Margin="201,233,0,0" VerticalAlignment="Top" Width="61" Click="showUtente_Click"/>
+        <Button x:Name="addProblem" Content="Adicionar Problema/Tentativa" HorizontalAlignment="Left" Margin="463,350,0,0" VerticalAlignment="Top" Width="186" Click="addProblem_Click"/>
+    </Grid>
+</Page>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="061956">
+  <docid>061956</docid>
+  <title>Bean</title>
+  <year>1997</year>
+  <type>movie</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Blunden, Chris</editor>
+  </editors>
+  <genres>
+    <genre>Comedy</genre>
+  </genres>
+  <keywords>
+    <keyword>los-angeles-california</keyword>
+    <keyword>airplane</keyword>
+    <keyword>misunderstanding</keyword>
+    <keyword>despair</keyword>
+    <keyword>explosion</keyword>
+    <keyword>road-trip</keyword>
+    <keyword>improvisation</keyword>
+    <keyword>briton-abroad</keyword>
+    <keyword>sketch</keyword>
+    <keyword>disguise</keyword>
+    <keyword>turkey</keyword>
+    <keyword>playing-with-food</keyword>
+    <keyword>amusement-park</keyword>
+    <keyword>art-gallery</keyword>
+    <keyword>surprise-after-end-credits</keyword>
+    <keyword>airport</keyword>
+    <keyword>cult-favorite</keyword>
+    <keyword>independent-film</keyword>
+    <keyword>motorcycle</keyword>
+    <keyword>whistler's-mother</keyword>
+    <keyword>paper-bag</keyword>
+    <keyword>sneeze</keyword>
+    <keyword>based-on-sketch-comedy</keyword>
+    <keyword>roller-coaster</keyword>
+    <keyword>skateboarding</keyword>
+    <keyword>key</keyword>
+    <keyword>cultural-difference</keyword>
+    <keyword>singing</keyword>
+    <keyword>eccentricity</keyword>
+    <keyword>father-daughter-relationship</keyword>
+    <keyword>portrait</keyword>
+    <keyword>hospital</keyword>
+    <keyword>teddy-bear</keyword>
+    <keyword>friendship</keyword>
+    <keyword>two-way-mirror</keyword>
+    <keyword>candy</keyword>
+    <keyword>mistake</keyword>
+    <keyword>thick-accent</keyword>
+    <keyword>london-england</keyword>
+    <keyword>stupidity</keyword>
+    <keyword>vomit-scene</keyword>
+    <keyword>x-lax</keyword>
+    <keyword>based-on-tv-series</keyword>
+    <keyword>family-conflict</keyword>
+    <keyword>kids-and-family</keyword>
+    <keyword>blockbuster</keyword>
+    <keyword>husband-wife-relationship</keyword>
+    <keyword>broken-promise</keyword>
+    <keyword>imitation</keyword>
+    <keyword>security-guard</keyword>
+    <keyword>poster</keyword>
+    <keyword>nude-female-painting</keyword>
+    <keyword>character-name-in-title</keyword>
+    <keyword>houseguest</keyword>
+  </keywords>
+  <languages>
+    <language>English</language>
+  </languages>
+  <soundmixes>
+    <soundmix>DTS</soundmix>
+    <soundmix>Dolby Digital</soundmix>
+  </soundmixes>
+  <countries>
+    <country>UK</country>
+    <country>USA</country>
+  </countries>
+  <certificates>
+    <certificate country="Sweden">Btl</certificate>
+    <certificate country="Argentina">13</certificate>
+    <certificate country="Ireland">PG</certificate>
+    <certificate country="Portugal">M/12</certificate>
+    <certificate country="Iceland">L</certificate>
+    <certificate country="Netherlands">AL</certificate>
+    <certificate country="South Korea">12</certificate>
+    <certificate country="Spain">T</certificate>
+    <certificate country="UK">PG</certificate>
+    <certificate country="Australia">PG</certificate>
+    <certificate country="Norway">7</certificate>
+    <certificate country="Canada">PG</certificate>
+    <certificate country="Singapore">PG</certificate>
+    <certificate country="Finland">S</certificate>
+    <certificate country="Italy">T</certificate>
+    <certificate country="Germany">12</certificate>
+    <certificate country="Chile">TE</certificate>
+    <certificate country="USA">PG-13</certificate>
+    <certificate country="France">U</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="Sweden">5 September 1997</releasedate>
+    <releasedate country="Hungary">6 November 1997</releasedate>
+    <releasedate country="Hong Kong">9 October 1997</releasedate>
+    <releasedate country="Estonia">17 October 1997</releasedate>
+    <releasedate country="Argentina">8 January 1998</releasedate>
+    <releasedate country="Ireland">1 August 1997</releasedate>
+    <releasedate country="Portugal">5 September 1997</releasedate>
+    <releasedate country="Czech Republic">23 October 1997</releasedate>
+    <releasedate country="Turkey">31 October 1997</releasedate>
+    <releasedate country="Iceland">29 August 1997</releasedate>
+    <releasedate country="Mexico">16 October 1998</releasedate>
+    <releasedate country="Brazil">22 August 1997</releasedate>
+    <releasedate country="Netherlands">10 July 1997</releasedate>
+    <releasedate country="Japan">21 March 1998</releasedate>
+    <releasedate country="South Korea">17 January 1998</releasedate>
+    <releasedate country="Poland">14 August 1997</releasedate>
+    <releasedate country="Israel">8 August 1997</releasedate>
+    <releasedate country="Spain">18 July 1997</releasedate>
+    <releasedate country="UK">1 August 1997</releasedate>
+    <releasedate country="Australia">3 July 1997</releasedate>
+    <releasedate country="Switzerland">28 November 1997</releasedate>
+    <releasedate country="Canada">24 October 1997</releasedate>
+    <releasedate country="Singapore">30 August 1997</releasedate>
+    <releasedate country="Russia">15 January 1998</releasedate>
+    <releasedate country="Finland">29 August 1997</releasedate>
+    <releasedate country="Greece">3 October 1997</releasedate>
+    <releasedate country="Germany">28 August 1997</releasedate>
+    <releasedate country="New Zealand">17 July 1997</releasedate>
+    <releasedate country="USA">7 November 1997</releasedate>
+    <releasedate country="France">29 October 1997</releasedate>
+    <releasedate country="Denmark">5 September 1997</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="default">90</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Smith, Mel (I)</director>
+  </directors>
+  <producers>
+    <producer>O'Brien, Rebecca (I)</producer>
+    <producer>Atkinson, Rowan</producer>
+    <producer>Curtis, Richard (I)</producer>
+  </producers>
+  <composers>
+    <composer>Goodall, Howard</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Anzilotti, Perry</actor>
+      <role>Dr. Squeaking</role>
+    </credit>
+    <credit>
+      <actor>Atkinson, Rowan</actor>
+      <role>Mr. Bean</role>
+    </credit>
+    <credit>
+      <actor>Brenn, Janni</actor>
+      <role>Nurse Dyper</role>
+    </credit>
+    <credit>
+      <actor>Brown, June</actor>
+      <role>Delilah</role>
+    </credit>
+    <credit>
+      <actor>Brownstein, Rob</actor>
+      <role>Dick Journo</role>
+    </credit>
+    <credit>
+      <actor>Capaldi, Peter</actor>
+      <role>Gareth</role>
+    </credit>
+    <credit>
+      <actor>Charles, Scott (I)</actor>
+      <role>Timmy Pewker Jr</role>
+    </credit>
+    <credit>
+      <actor>Corner, Clive</actor>
+      <role>Dr. Cutler</role>
+    </credit>
+    <credit>
+      <actor>Curtis Brown, Robert</actor>
+      <role>Dr. Frowning</role>
+    </credit>
+    <credit>
+      <actor>Doty, David</actor>
+      <role>Dr. Jacobson</role>
+    </credit>
+    <credit>
+      <actor>Drake, Larry</actor>
+      <role>Elmer</role>
+    </credit>
+    <credit>
+      <actor>Egan, Peter (I)</actor>
+      <role>Lord Walton</role>
+    </credit>
+    <credit>
+      <actor>Ellis, Chris (I)</actor>
+      <role>Det. Butler</role>
+    </credit>
+    <credit>
+      <actor>Fields, Gigi</actor>
+      <role>Nurse Desking</role>
+    </credit>
+    <credit>
+      <actor>Galecki, Johnny</actor>
+      <role>Stingo Wheelie</role>
+    </credit>
+    <credit>
+      <actor>Gant, Richard</actor>
+      <role>Lt. Brutus</role>
+    </credit>
+    <credit>
+      <actor>Goldie, Alison</actor>
+      <role>Stewardess Nicely</role>
+    </credit>
+    <credit>
+      <actor>Goldring, Danny</actor>
+      <role>Security Buck</role>
+    </credit>
+    <credit>
+      <actor>Grace, April</actor>
+      <role>Nurse Pans</role>
+    </credit>
+    <credit>
+      <actor>Helde, Annette</actor>
+      <role>Nurse Gripes</role>
+    </credit>
+    <credit>
+      <actor>Hicks, Richard (II)</actor>
+      <role>Kart Pusherman</role>
+    </credit>
+    <credit>
+      <actor>Irving, Richard (II)</actor>
+      <role>Anxious Man</role>
+    </credit>
+    <credit>
+      <actor>Ivey, Lela</actor>
+      <role>Nurse Pots</role>
+    </credit>
+    <credit>
+      <actor>James, Peter (VI)</actor>
+      <role>Dr. Rosenblum</role>
+    </credit>
+    <credit>
+      <actor>Lawrence, Andrew (I)</actor>
+      <role>Kevin Langley</role>
+    </credit>
+    <credit>
+      <actor>Lowe, Chris (III)</actor>
+      <role>Passenger</role>
+    </credit>
+    <credit>
+      <actor>MacNicol, Peter</actor>
+      <role>David Langley</role>
+    </credit>
+    <credit>
+      <actor>Matthews, Dakin</actor>
+      <role>Tucker, Passenger</role>
+    </credit>
+    <credit>
+      <actor>McGowan, Tom (II)</actor>
+      <role>Walter Merchandise</role>
+    </credit>
+    <credit>
+      <actor>Mills, John (I)</actor>
+      <role>Chairman</role>
+    </credit>
+    <credit>
+      <actor>Mills, Thomas</actor>
+      <role>Officer Stubbles</role>
+    </credit>
+    <credit>
+      <actor>Reynolds, Burt (I)</actor>
+      <role>General Newton</role>
+    </credit>
+    <credit>
+      <actor>Yulin, Harris</actor>
+      <role>George Grierson</role>
+    </credit>
+  </cast>
+<plot>Bean works as a caretaker at Britain's formidable Royal National Gallery, and his bosses want to fire him because he sleeps at work all the time, but can't because the chairman of the gallery's board defends him. They send him to USA, to the small Los Angeles art gallery instead, where he'll have to officiate at the opening of the greatest US picture ever (called "Whistler's Mother").</plot><url>http://localhost:8983/solr/movie.html?061956</url></doc>

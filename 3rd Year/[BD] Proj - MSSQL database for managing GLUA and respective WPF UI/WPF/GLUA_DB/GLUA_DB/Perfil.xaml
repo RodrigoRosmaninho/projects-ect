@@ -1,0 +1,21 @@
+﻿<Page x:Class="GLUA_DB.Perfil"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GLUA_DB"
+      mc:Ignorable="d" 
+      Height="Auto" Width="Auto"
+      Title="Perfil">
+
+    <Grid>
+        <PasswordBox x:Name="Password_TextBox" HorizontalAlignment="Left" Height="23" Margin="231,129,0,0" VerticalAlignment="Top" Width="300"/>
+        <Label Content="Nova Password" HorizontalAlignment="Left" Margin="231,98,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="Password_TextBox2" HorizontalAlignment="Left" Height="23" Margin="231,200,0,0" VerticalAlignment="Top" Width="300"/>
+        <Label Content="Repetir nova password" HorizontalAlignment="Left" Margin="231,169,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ChangePassword" Content="Alterar Passord" HorizontalAlignment="Left" Margin="231,249,0,0" VerticalAlignment="Top" Width="115" Height="28" Click="ChangePassword_Click"/>
+        <Button x:Name="Logout" Content="Terminar Sessão" HorizontalAlignment="Left" Margin="333,347,0,0" VerticalAlignment="Top" Width="125" Click="Logout_Click"/>
+        <Label Content="Sessão Atual:" HorizontalAlignment="Left" Margin="231,23,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label x:Name="Nome_Label" Content="" HorizontalAlignment="Left" Margin="362,23,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+    </Grid>
+</Page>

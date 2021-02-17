@@ -1,0 +1,6093 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc id="551581">
+  <docid>551581</docid>
+  <title>The Daily Show</title>
+  <year>1996</year>
+  <type>TelevisionSeries</type>
+  <colorinfos>
+    <colorinfo>Color</colorinfo>
+  </colorinfos>
+  <editors>
+    <editor>Dreher, Tonya</editor>
+    <editor>Matheson, Andrew</editor>
+    <editor>Paone, Mark</editor>
+    <editor>Schlesselman, Daric</editor>
+    <editor>Small, David (I)</editor>
+    <editor>Westerlund, Einar</editor>
+  </editors>
+  <genres>
+    <genre>News</genre>
+    <genre>Comedy</genre>
+    <genre>Talk-Show</genre>
+  </genres>
+  <keywords>
+    <keyword>u.s.-vice-president</keyword>
+    <keyword>american-president</keyword>
+    <keyword>secretary-of-state</keyword>
+    <keyword>president</keyword>
+    <keyword>news-satire</keyword>
+    <keyword>condoleezza-rice</keyword>
+    <keyword>political-satire</keyword>
+    <keyword>dick-cheney</keyword>
+    <keyword>rudolph-valentino</keyword>
+    <keyword>fake-news-report</keyword>
+    <keyword>u.s.-president</keyword>
+    <keyword>george-w.-bush</keyword>
+    <keyword>vice-president</keyword>
+  </keywords>
+  <languages>
+    <language>English</language>
+  </languages>
+  <soundmixes>
+    <soundmix>Stereo</soundmix>
+  </soundmixes>
+  <countries>
+    <country>USA</country>
+  </countries>
+  <certificates>
+    <certificate country="Australia">M</certificate>
+    <certificate country="Canada">14+</certificate>
+    <certificate country="USA">TV-14</certificate>
+  </certificates>
+  <releasedates>
+    <releasedate country="Sweden">31 August 2004</releasedate>
+    <releasedate country="Japan">18 April 2007</releasedate>
+    <releasedate country="UK">20 January 2009</releasedate>
+    <releasedate country="Australia">25 January 2003</releasedate>
+    <releasedate country="Norway">31 August 2004</releasedate>
+    <releasedate country="Canada">15 April 2008</releasedate>
+    <releasedate country="Finland">31 August 2004</releasedate>
+    <releasedate country="USA">24 September 2009</releasedate>
+    <releasedate country="Denmark">31 August 2004</releasedate>
+  </releasedates>
+  <runningtimes>
+    <runningtime country="default">30</runningtime>
+    <runningtime country="USA">30</runningtime>
+  </runningtimes>
+  <directors>
+    <director>Barsh, Andy (I)</director>
+    <director>O'Neil, Chuck (II)</director>
+    <director>Preston, Scott (I)</director>
+    <director>Santiago, Christian</director>
+  </directors>
+  <producers>
+    <producer>Usdan, Jennifer</producer>
+    <producer>Asadourian, Arbi</producer>
+    <producer>Blog, Dave</producer>
+    <producer>Chodikoff, Adam</producer>
+    <producer>Edmands, Chiara</producer>
+    <producer>Hay, Brendan (I)</producer>
+    <producer>Hinkle, Thom</producer>
+    <producer>Layton, Elizabeth (I)</producer>
+    <producer>Mastroianni, Victor</producer>
+    <producer>O'Brien, Matt (III)</producer>
+    <producer>Polidoro, Matt</producer>
+    <producer>Powell, Daniel (I)</producer>
+    <producer>Smith, Campbell (II)</producer>
+    <producer>Kalan, Elliott</producer>
+    <producer>Middleton, Ryan (II)</producer>
+    <producer>Albanese, Rory</producer>
+    <producer>Bailey, Stewart</producer>
+    <producer>Corn, Kahane</producer>
+    <producer>Karlin, Ben</producer>
+    <producer>Lieb, Josh</producer>
+    <producer>Sterling, Dan</producer>
+    <producer>Stewart, Jon</producer>
+    <producer>Bailey, Stewart</producer>
+  </producers>
+  <writers>
+    <writer>Albanese, Rory</writer>
+    <writer>Axler, Rachel</writer>
+    <writer>Bergeron, Aaron</writer>
+    <writer>Bines, Jonathan</writer>
+    <writer>Bleyer, Kevin</writer>
+    <writer>Blomquist, Rich</writer>
+    <writer>Bodow, Steve</writer>
+    <writer>Carvell, Tim</writer>
+    <writer>Cenac, Wyatt</writer>
+    <writer>Colbert, Stephen</writer>
+    <writer>Drysdale, Eric</writer>
+    <writer>Earl, Jim</writer>
+    <writer>Feldman, David (II)</writer>
+    <writer>Goor, Daniel J.</writer>
+    <writer>Grandy, Charlie</writer>
+    <writer>Havlan, J.R.</writer>
+    <writer>Jacobson, Scott (II)</writer>
+    <writer>Javerbaum, David</writer>
+    <writer>Johnson, Tom (VI)</writer>
+    <writer>Jones, Kent (I)</writer>
+    <writer>Kalan, Elliott</writer>
+    <writer>Karlin, Ben</writer>
+    <writer>Kreski, Chris</writer>
+    <writer>Kutner, Rob</writer>
+    <writer>Lieb, Josh</writer>
+    <writer>Means, Sam (II)</writer>
+    <writer>Mecurio, Paul</writer>
+    <writer>Nicolucci, Guy</writer>
+    <writer>Oliver, John (II)</writer>
+    <writer>Regan, Chris (II)</writer>
+    <writer>Reich, Jason</writer>
+    <writer>Ross, Jason (V)</writer>
+    <writer>Silverman, Allison</writer>
+    <writer>Smithberg, Madeleine</writer>
+    <writer>Stewart, Jon</writer>
+    <writer>Stilson, Jeff</writer>
+    <writer>Winstead, Lizz</writer>
+    <writer>Smithberg, Madeleine</writer>
+    <writer>Winstead, Lizz</writer>
+  </writers>
+  <composers>
+    <composer>Flansburgh, John</composer>
+    <composer>Linnell, John</composer>
+  </composers>
+  <cast>
+    <credit>
+      <actor>Abdul, Paula</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Abdul-Jabbar, Kareem (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Abe, Shinzô</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Abrams, Floyd</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Addy, Mark</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Affleck, Ben</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Affleck, Ben</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Affleck, Ben</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Aguilera, Christina</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Ahmadinejad, Mahmoud</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Albright, Madeleine</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Alcabes, Philip</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Alda, Alan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Alexander, Khandi</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Alexander, Lamar</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Alexander, Matthew (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Allawi, Ali A.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Allen, Bob (XI)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Alonso, Maria Conchita</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Alster, Tina</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Alt, Carol</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Alterman, Eric (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Amaechi, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Amanpour, Christiane</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Ammiano, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Amos, Tori</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Amstler, Robert</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Anderson, Gillian (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Anderson, Kenny (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Anderson, Pamela (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Anderson, Richard Dean</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Anglin, Doug</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Antku, Chuck</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Applegate, Christina</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Arkin, Adam</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Armstrong, Lance (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Arnett, Will</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Arnold, Tom (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Arquette, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Arthur, Bea</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Ashcroft, John (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Aslan, Reza</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Aslan, Reza</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Aslan, Reza</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Atkinson, Rowan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Attell, Dave</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Attell, Dave</actor>
+      <role>Himself-Contributor, 'The Ugly American' (1999-2002)</role>
+    </credit>
+    <credit>
+      <actor>Auletta, Ken</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Avlon, John P.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ayne, Krista</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Babbin, Jed</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bai, Matt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bailey, Stewart</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Bailey, Stewart</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Baker III, James</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bakkedahl, Dan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bakkedahl, Dan</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Bakkedahl, Dan</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Bakkedahl, Dan</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Bakkedahl, Dan</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Baldwin, Alec</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Baldwin, William (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ballinger, Lee (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Balmer, Randall</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Banderas, Antonio (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Banks, Tyra</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Banzhaf, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Barber, Tiki (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Barber, Tom (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Barfoed, Lars</actor>
+      <role>Himself - Minister</role>
+    </credit>
+    <credit>
+      <actor>Barkley, Charles</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Barnes, Frederic W.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Baron Cohen, Sacha</actor>
+      <role>Borat Sagdiyev</role>
+    </credit>
+    <credit>
+      <actor>Baron Cohen, Sacha</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Barone, Michael</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Barr, Roger</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Barrows, Sydney</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Barrymore, Drew (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bartlett, Bruce</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bartlett, Dan (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bateman, Jason</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bates, Kathy (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Batiste, John (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bayh, Evan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Beach, Geo</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Beah, Ishmael</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Beals, Jennifer (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bear, Greg</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Beauvais, Garcelle</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Beckham, Victoria</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Beckinsale, Kate</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bee, Samantha</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bee, Samantha</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bee, Samantha</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bee, Samantha</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bee, Samantha</actor>
+      <role>Herself (segment "Pope in America: Blessed Week Ever")</role>
+    </credit>
+    <credit>
+      <actor>Bee, Samantha</actor>
+      <role>Herself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Bee, Samantha</actor>
+      <role>Herself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Bee, Samantha</actor>
+      <role>Herself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Bee, Samantha</actor>
+      <role>Herself - Senior White House Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Bee, Samantha</actor>
+      <role>Herself - Tech Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Beeman, Richard (II)</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Behar, Joy</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Belzer, Richard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ben-Meir, Alon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bendtsen, Bendt</actor>
+      <role>Himself - Minister</role>
+    </credit>
+    <credit>
+      <actor>Benedict XVI, Pope</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bening, Annette</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Benjamin, André</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Benjamin, H. Jon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bennett, William J.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bentley, Amanda</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bentley, Sandy</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bergen, Peter (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Berger, Gayle</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bergeron, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Berle, Milton</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bernhard, Sandra</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bernstein, Carl (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bernstein, Josh</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Berry, Halle</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Berryman, Guy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Beschloss, Michael</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Beschloss, Michael</actor>
+      <role>Himself - Presidential Historian</role>
+    </credit>
+    <credit>
+      <actor>Bezos, Jeff</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bice, Bo</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Biden, Joe</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bin Laden, Osama</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Birdsong, Mary</actor>
+      <role>Herself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Birdsong, Mary</actor>
+      <role>Herself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Bishop, Bill (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bitner, Richard (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Black, Jack (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Black, Lewis</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Black, Lewis</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Black, Lewis</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Black, Lewis</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Black, Lewis</actor>
+      <role>Himself - Commentator</role>
+    </credit>
+    <credit>
+      <actor>Black, Lewis</actor>
+      <role>Himself - Commentator</role>
+    </credit>
+    <credit>
+      <actor>Black, Lewis</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Black, Michael Ian</actor>
+      <role>Johnny Blue Jeans</role>
+    </credit>
+    <credit>
+      <actor>Blair, Tony (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bleeth, Yasmine</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Blieden, Michael</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Blieden, Michael</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Blitzer, Wolf</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Blitzer, Wolf</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bloom, John (I)</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Bloom, John (I)</actor>
+      <role>Himself - Contributor 'God Stuff'</role>
+    </credit>
+    <credit>
+      <actor>Bloom, John (I)</actor>
+      <role>Himself - Contributor 'God Stuff'</role>
+    </credit>
+    <credit>
+      <actor>Bloomberg, Michael</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Blumenthal, Sidney</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Boatman, Michael</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bologna, Joseph</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bolton, John (VI)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bon Jovi</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bond, Kit</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bonds, Barry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bonilla, Henry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Boosler, Elayne</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Boreanaz, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bosworth, Kate</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bowe, John F.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bowers, Todd</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Boxer, Barbara</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bracco, Lorraine</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bradley, Bill (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Braff, Zach</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Branson, Richard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Brazile, Donna</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bremer, Paul (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bremmer, Ian</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Breuer, Jim</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Britton, Connie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Broderick, Matthew (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Brody, Adrien</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Brokaw, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Brokaw, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Brooks, Albert (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Brooks, David (XVIII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Brosnan, Pierce</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Brothers, Joyce</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Brown, A. Whitney</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Brown, A. Whitney</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Brown, A. Whitney</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>Brown, Blair</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Brown, Campbell (II)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Brown, Gordon (VI)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Brown, Rich (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Brown, Rich (I)</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Brownback, Sam</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bruce, Tammy</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Brzezinski, Zbigniew</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Buchanan, Pat (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Buchanan, Pat (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Buckland, Jon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Buckley, Christopher</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Buckley, William F.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bullock, Sandra</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bunning, Jim</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bunton, Emma</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Burk, Martha</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Burnell, Cory</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Burnett, Erin</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Burns, Edward (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Burns, Edward (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Burns, Eric</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Burns, Ken (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Buscemi, Steve</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bush, George W.</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Bush, George W.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Bush, Laura</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Butt, Sameer</actor>
+      <role>Himself-Contributor (1997-1998)</role>
+    </credit>
+    <credit>
+      <actor>Buttafuoco, Joey</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Buzzi, Ruth</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>C.K., Louis</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cafferty, Jack</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cain, Dean</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Caine, Michael (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Caldwell, William B.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cameron, Paul (VIII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Campbell, Alastair</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Campbell-Martin, Tisha</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Cannon, Dyan</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Card, Andrew</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cardinale, Gerald</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Carell, Nancy</actor>
+      <role>Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Carell, Nancy</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Carell, Nancy</actor>
+      <role>Herself - Co-Host</role>
+    </credit>
+    <credit>
+      <actor>Carell, Nancy</actor>
+      <role>Herself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Carell, Steve</actor>
+      <role>Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Carell, Steve</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Carell, Steve</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Carell, Steve</actor>
+      <role>Himself - Co-Host</role>
+    </credit>
+    <credit>
+      <actor>Carell, Steve</actor>
+      <role>Himself - Guest Host</role>
+    </credit>
+    <credit>
+      <actor>Carell, Steve</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>Carey, Mary</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Carlin, George</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Carlisle, Belinda</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Carlsson, Robyn</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Carmona, Richard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Carpenter, John (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Carter, Jimmy (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cattrall, Kim</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Cavanagh, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cavuto, Neil</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cenac, Wyatt</actor>
+      <role>Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Cenac, Wyatt</actor>
+      <role>Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Cenac, Wyatt</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Cenac, Wyatt</actor>
+      <role>Himself - Senior Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Cenac, Wyatt</actor>
+      <role>Himself - Senior Political Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Cenac, Wyatt</actor>
+      <role>Himself - Senior White House Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Chafee, Lincoln</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Chamberlain, Wilt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Champion, Will (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Chan, Jackie (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Chang, Gordon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Chappelle, Dave</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Charo (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Chase, Chevy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cheadle, Don</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Chehab, Zaki</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cheney, Dick</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cheney, Lynne</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Chetry, Kiran</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Chin, Jack</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Chouinard, Abra</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Christensen, Erika</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Christie, Christopher J.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Church, Thomas Haden</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Chávez, Hugo</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Clark, Helen (IV)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Clark, Wesley (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Clarke, Richard (XII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Clarke, Torie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Clarke, Torie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Clarkson, Kelly (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Clay, Andrew Dice</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cleese, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Clinton, Bill (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Clinton, Bill (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Clinton, Hillary Rodham</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Clooney, George</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cohan, William</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cohen, Haley</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Cohen, Steve (XXI)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cohen, William (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Madeline</actor>
+      <role>Oil Company/Herself</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Correspondent/Contributor 'This Week in God'</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself - Co-Host</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself - Guest Host</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself - Guest Host</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself - Handoff to 'The Colbert Report'</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself - Handoff to 'The Colbert Report'</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself - Handoff to 'The Colbert Report'</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself - Handoff to 'The Colbert Report'</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself - Handoff to 'The Colbert Report'</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>Colbert, Stephen</actor>
+      <role>Rev. Al Sharpton</role>
+    </credit>
+    <credit>
+      <actor>Coleman, Norm</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Coles, Kim</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Coll, Steve</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Collins, Jackie (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Collinsworth, Cris</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Colmes, Alan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Comey, James B.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Conlon, Edward (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Connolly, Billy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Connolly, Billy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Continetti, Matthew</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cook, Rachael Leigh</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Anderson</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Anderson</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Matt (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Matt (VIII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cooper, Matthew (V)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Copas, Bleu</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Corddry, Nathan</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Corddry, Nathan</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Corddry, Nathan</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Corddry, Nathan</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Corddry, Rob</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Corddry, Rob</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Corddry, Rob</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Corddry, Rob</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Corddry, Rob</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Corddry, Rob</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Corddry, Rob</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>Cornyn, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Corzine, Jon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Costas, Bob</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Costello, Carol</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Couch, Matt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Coulter, Ann</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Couric, Katie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Couric, Katie</actor>
+      <role>Herself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Cowell, Simon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cox, Ronny (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Craig, Daniel (I)</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Craig, Larry (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Craig, Suzanne (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cramer, Jim</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cranor, Richard</actor>
+      <role>Himself - Earthquake Survivor</role>
+    </credit>
+    <credit>
+      <actor>Craven, Wes</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Crawford, Cindy (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Crawford, John (XVI)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Crier, Catherine</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Crocker, Ryan (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cross, David (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cross, David (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Crowe, Russell</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Crowley, Candy</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Crudup, Billy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Crudup, Billy</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Cruise, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cryer, Jon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Crystal, Ellie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Cube, Ice</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cullen, Michael (VIII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cumming, Alan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cuomo, Chris</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cuomo, Mario</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Curry, Mark (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Curtis, Jamie Lee</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Curtis-Hall, Vondie</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Cusack, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>D'Angelo, Stephen</actor>
+      <role>John Oliver</role>
+    </credit>
+    <credit>
+      <actor>D'Onofrio, Vincent</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dafoe, Willem</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dallek, Robert</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dalton, Timothy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Daly, Carson</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Damon, Matt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Damon, Matt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Danes, Claire</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Dangerfield, Rodney</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Danielle (XVIII)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Daniels, Jeff (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Danson, Ted</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Darling, Ron</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Daschle, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>David, Larry (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Davidson, Tommy (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Davis, Artur</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Davison, Bruce</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dawson, Rosario</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>De Niro, Robert</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>DeCaro, Frank (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>DeCaro, Frank (I)</actor>
+      <role>Himself - Contributor 'Out at the Movies'</role>
+    </credit>
+    <credit>
+      <actor>DeCaro, Frank (I)</actor>
+      <role>Himself - Contributor 'Out at the Movies'</role>
+    </credit>
+    <credit>
+      <actor>DeGeneres, Vance</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>DeGeneres, Vance</actor>
+      <role>Himself - Co-Host</role>
+    </credit>
+    <credit>
+      <actor>DeGeneres, Vance</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>DeGeneres, Vance</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>DeLorenzo, Michael</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>DeMint, Jim</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>DeMuth, Jonathan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>DePandi, Giuliana</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>DeVito, Danny</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>DeVito, Danny</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dean, Howard (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dean, Howard (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dean, Howard (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dean, John (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dembski, William</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dempsey, Patrick (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Diamond, Jared</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Diamond, Larry (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Diaz, Cameron</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Diaz, Cameron</actor>
+      <role>Herself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Dick, Andy (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Diesel, Vin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dietl, Bo</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Diller, Phyllis (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Dillon, Matt (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dinklage, Peter</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dion, Céline</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Disney, Walt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Djupdræt, Martin</actor>
+      <role>Himself - Historian</role>
+    </credit>
+    <credit>
+      <actor>Dobbs, Lou</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dobbs, Lou</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dobbs, Lou</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dodd, Christopher (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dole, Bob (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Donahue, Troy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Donovan, Barry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Doohan, James</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dorgan, Byron</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dowd, Maureen</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Draper, Robert</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dressler, Bill</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Drysdale, Eric</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Drysdale, Eric</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Duchovny, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Duncan, Michael Clarke</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dunn, Anita (II)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Dunst, Kirsten</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Durbin, Richard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Durham, Steve (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Duvall, Robert</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dwyer, Dave</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Dylan, Jakob</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Earnhardt Jr., Dale</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Eastwood, Clint</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ebert, Roger</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ebner, Mark</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Eckhart, Aaron</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Edwards, Elizabeth (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Edwards, Elizabeth (VII)</actor>
+      <role>Herself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Edwards, Elizabeth (X)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Edwards, John (VI)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ehrman, Bart D.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Eilperin, Juliet</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Eisen, Rich</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Electra, Carmen</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Ellemann-Jensen, Uffe</actor>
+      <role>Himself - Minister</role>
+    </credit>
+    <credit>
+      <actor>Elliott, Chris (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Elliott, Gordon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Emanuel, Rahm</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Engel, Richard (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>English, T.J.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ensign, John (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ervin, Clark Kent</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Essman, Susie</actor>
+      <role>Herself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Estes, Rob</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Etheridge, Melissa</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Fagan, Brian (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fakhry, Ghida</actor>
+      <role>Herself - News Anchor</role>
+    </credit>
+    <credit>
+      <actor>Falco, Edie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Farah, Douglas</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Farbman, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Farrell, Colin (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Faustino, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Feingold, Russ</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Feinstein, Dianne</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Feith, Douglas J.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fenger, Lars 'Joker'</actor>
+      <role>Himself - Political activist</role>
+    </credit>
+    <credit>
+      <actor>Fenton, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ferguson, Craig (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fernandes, Julie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Ferraro, Geraldine A.</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Ferrell, Will</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ferrell, Will</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ferrell, Will</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ferrell, Will</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Ferrer, Miguel</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fershners, Bert</actor>
+      <role>Themselves</role>
+    </credit>
+    <credit>
+      <actor>Fey, Tina</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Fineman, Howard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Firth, Colin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fishburne, Laurence</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fisher, Joely</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Fisher, Sarah (III)</actor>
+      <role>Herself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Flake, Jeff</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Flav, Flavor</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fleischer, Ari</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fletcher, Martin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Flexhaug, Chris</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Foley, Dave (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Folsom, Tom (II)</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Fonda, Peter (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Foner, Eric</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ford Jr., Harold</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ford, Harrison (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ford, Harrison (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Foster, Jodie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Foukara, Abderrahim</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fox, Matthew (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fox, Michael J. (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fox, Michael J. (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fox, Vicente</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fox, Vivica A.</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Foxx, Jamie</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fragos Towsend, Frances</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Frances, Peter</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Francis, Joe (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Frank, Thomas (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Franken, Al (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Franken, Al (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Frankfurt, Harry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fraser, Brendan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Freeh, Louis</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Friedman, Thomas</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Frist, Bill</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Frost, Adrianne</actor>
+      <role>Herself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Frost, Adrianne</actor>
+      <role>Herself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Frost, David (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Frum, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Fukuyama, Francis</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gad, Josh</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gad, Josh</actor>
+      <role>Himself - Senior New Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Galloway, Lorri</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Garamendi, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Garlin, Jeff</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Garofalo, Janeane</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Gass, Kyle</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gates, Bill (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gates, Robert (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gedrick, Jason</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gelb, Leslie</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gellar, Sarah Michelle</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Geller, Uri</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gellman, Barton</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gephardt, Richard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gere, Richard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gergen, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gerson, Michael J.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gervais, Ricky</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gervais, Ricky</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gervais, Ricky</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Giamatti, Paul</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Giamatti, Paul</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Charles (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gibson, John (XI)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gibson, Tyrese</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gifford, Cody</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gifford, Rob</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gilbert, Melissa (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Gillespie, Ed (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gillespie, Ed (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gilmore, Jim (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gilpin, Peri</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Gingrich, Newt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gingrich, Newt</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Gintberg, Jan</actor>
+      <role>Himself - TV Host</role>
+    </credit>
+    <credit>
+      <actor>Giuliani, Rudolph W.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Glaser, Jon</actor>
+      <role>Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Glaser, Jon</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Glaser, Jon</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Glass, Nancy</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Glenday, Craig</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Glenn, Scott</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gold, Dore</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gold, Phil (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Goldberg, Adam (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Goldberg, Bernard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Goldberg, Jonah</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Goldsmith, Jack</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Goldsmith, Johanna</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Goldthwait, Bobcat</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Goldwater, C.C.</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Goler, Wendell</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gonzales, Alberto (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Goode, Virgil</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gooding Jr., Cuba</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Goodling, Monica</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Goodwin, Doris Kearns</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Goodwin, Doris Kearns</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Goodwin, Doris Kearns</actor>
+      <role>Herself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Gordon, Michael (XIX)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gordon, Sarah Barringer</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Gordon-Levitt, Joseph</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gore, Al (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gore, Al (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gorman, Dave (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gorman, Dave (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gorman, Dave (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Graham, Lindsey</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Grammer, Kelsey</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Grant, Don (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gravel, Mike</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Graves, Michale</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gray, Spalding</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Green, Al (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Green, Seth</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Greenfield, Jeff (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Greenspan, Alan (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gregory, David (VII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gregory, David (X)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Grenrock-Woods, Stacey</actor>
+      <role>Contributor</role>
+    </credit>
+    <credit>
+      <actor>Grenrock-Woods, Stacey</actor>
+      <role>Herself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Grier, David Alan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Griffin, Eddie (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Griffin, Kathy</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Griffin, Merv</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Grisham, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Groening, Matt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gudaitis, Peter</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Guelzo, Allen C.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Guest, Christopher (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Guest, Christopher (I)</actor>
+      <role>Nigel Tufnel</role>
+    </credit>
+    <credit>
+      <actor>Gumley, Matthew</actor>
+      <role>Gene Kelly</role>
+    </credit>
+    <credit>
+      <actor>Gunn, Tim (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gupta, Sanjay (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gutkind, Lee</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Guttenberg, Steve</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gwar</actor>
+      <role>Themselves</role>
+    </credit>
+    <credit>
+      <actor>Gyllenhaal, Jake</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Gyllenhaal, Maggie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Gyllenhaal, Maggie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>H., Howie</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Haarder, Bertel</actor>
+      <role>Himself - Minister</role>
+    </credit>
+    <credit>
+      <actor>Hackett, Paul (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hagar, Sammy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hagel, Chuck</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Halberstam, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Halevy, Efraim</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hall, Daryl (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hall, Michael C. (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Halper, Keith</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hamilton, Marci A.</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Hammond, Darrell</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hanbrook, Lawrence</actor>
+      <role>Healthy Penis</role>
+    </credit>
+    <credit>
+      <actor>Hanks, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hanks, Tom</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Hannigan, Alyson</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Hannity, Sean</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hansen, Chris (VI)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hansen, Sig</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hardison, Kadeem</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Harkin, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Harper, Stephen (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Harrelson, Woody</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Harris, Ed (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Harris, Neil Patrick</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Harris, Rachael (I)</actor>
+      <role>Herself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Harry, Jackée</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Hart, Gary (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hart, Gary (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hartnett, Josh</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Harwood, John (VI)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hatch, Orrin G.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hathaway, Anne (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Havlan, J.R.</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Hawke, Ethan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hawn, Goldie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Hayden, Michael (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hayes, Isaac</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hayes, Sean (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hayes, Stephen F.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hedaya, Dan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hefner, Hugh M.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Helms, Ed (I)</actor>
+      <role>Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Helms, Ed (I)</actor>
+      <role>Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Helms, Ed (I)</actor>
+      <role>Ed Helms - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Helms, Ed (I)</actor>
+      <role>Ed Helms - Senior Political Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Helms, Ed (I)</actor>
+      <role>George W. Bush</role>
+    </credit>
+    <credit>
+      <actor>Helms, Ed (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Helms, Ed (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Helms, Ed (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Helms, Ed (I)</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Helms, Ed (I)</actor>
+      <role>Himself - Correspondent/Contributor 'Mark Your Calendar'</role>
+    </credit>
+    <credit>
+      <actor>Helms, Ed (I)</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Helms, Ed (I)</actor>
+      <role>Himself - Senior Legal Analyst</role>
+    </credit>
+    <credit>
+      <actor>Helms, Ed (I)</actor>
+      <role>Himself - Senior Middle East Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Hemmer, Bill</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Henner, Marilu</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Hennessy, Jill</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Henry, Buck</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Henry, Buck</actor>
+      <role>Himself - Historical Perspectivist</role>
+    </credit>
+    <credit>
+      <actor>Hersh, Seymour</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Heston, Charlton</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hewitt, Jennifer Love</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Hightower, Jim</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hikind, Dov</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hill, E.D.</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Hilton, Paris</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Hiroka, Sugrta</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hitchens, Christopher</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hockenberry, John (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hodgman, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hodgman, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hodgman, John</actor>
+      <role>Himself - Contributor/Resident Expert</role>
+    </credit>
+    <credit>
+      <actor>Hodgman, John</actor>
+      <role>Himself - Contributor/Resident Expert</role>
+    </credit>
+    <credit>
+      <actor>Hodgman, John</actor>
+      <role>Himself - Contributor/Resident Expert</role>
+    </credit>
+    <credit>
+      <actor>Hodgman, John</actor>
+      <role>Himself - Contributor/Resident Expert</role>
+    </credit>
+    <credit>
+      <actor>Hodgman, John</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Hodgman, John</actor>
+      <role>Himself - Resident Expert</role>
+    </credit>
+    <credit>
+      <actor>Hoffman, Dustin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hoffman, Philip Seymour</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Holmes, T.J. (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Holsinger, James</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Holt, Robby Scott</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hopkins, Anthony</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hopper, Dennis</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hounsou, Djimon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Housley, Adam</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Howard, Ron (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Huckabee, Mike</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Huckabee, Mike</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Hudson, Kate (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Huffington, Arianna</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Hughes, Karen (IV)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Hughley, D.L.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hulme, John (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hulsman, John (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hume, Brit</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Humperdinck, Engelbert (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hunt, Bonnie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Hunt, Bonnie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Hunt, Terence</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hunter, Duncan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Hutchison, Kay Bailey</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Hvilshøj, Rikke</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Ibrahim, Hassan (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Idle, Eric</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ifill, Gwen</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Iglesias, David (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Imus, Don</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Inhofe, James</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ireland, Kathy</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Irving, John (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Isaacson, Walter</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Isaacson, Walter</actor>
+      <role>Himself - Dragon</role>
+    </credit>
+    <credit>
+      <actor>Isikoff, Michael</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Izzard, Eddie</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jackman, Hugh</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Jackson Lee, Sheila</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Jackson, Jesse (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jackson, Joshua</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jackson, Lisa P.</actor>
+      <role>Herself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Jackson, Randy (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jackson, Randy (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jackson, Samuel L.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jackson, Samuel L.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jackson, Samuel L.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>James, Brenda (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>James, Kevin (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>James, LeBron</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>James, LeBron</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Janoski, Frank</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Janssen, Famke</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Jarecki, Eugene</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jarecki, Eugene</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Javerbaum, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jean, Wyclef</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jefferson, William (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jeni, Richard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jennings, Peter (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Joe (XIV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Johnson Sirleaf, Ellen</actor>
+      <role>Herself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Johnson, Dwayne (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Johnson, Steven (VII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Johnson, Tom (VI)</actor>
+      <role>Lord Viper Scorpion</role>
+    </credit>
+    <credit>
+      <actor>Jolie, Angelina</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Jones, Ben (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Himself - Cartoon Analyst</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Himself - Narrator of 'Proposition Zeror'</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Himself - Senior Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Himself - Senior White House Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Jones, Jason (I)</actor>
+      <role>Narrator</role>
+    </credit>
+    <credit>
+      <actor>Jones, Norah</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Jong, Erica</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Jorgensen, Justin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Judd, Ashley</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Judge, Mike (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kaelin, Kato</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kagan, Jeff</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kaine, Timothy M.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kalan, Elliott</actor>
+      <role>Himself - Contibutor</role>
+    </credit>
+    <credit>
+      <actor>Kalan, Elliott</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Kanakaredes, Melina</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Kardashian, Kimberly</actor>
+      <role>Herself (segment "Fights, Camera, Action")</role>
+    </credit>
+    <credit>
+      <actor>Karpinski, Janis</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Katz, Jonathan (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kean, Thomas</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Keefer, Bryan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Keener, Catherine</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Keilar, Brianna</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Kelly, Jim (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kennedy Jr., Robert</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kennedy, Caroline (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Kennedy, Caroline (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Kennedy, Maxwell (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kennedy, Ted (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kennedy, Ted (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kenney, Kerri (I)</actor>
+      <role>Agatha Laupin</role>
+    </credit>
+    <credit>
+      <actor>Kerns, Joanna</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Kerr, Kevin (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kerrey, Bob</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kerry, John (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kessler, Ronald</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kightlinger, Laura</actor>
+      <role>Herself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Kightlinger, Laura</actor>
+      <role>Herself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Kilborn, Craig</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>Kilborn, Craig</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>Kilborn, Craig</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>Kilmer, Val</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kimmel, Jimmy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kind, Richard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kindler, Andy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kindler, Andy</actor>
+      <role>Himself - Contributor, 'TV Guy'</role>
+    </credit>
+    <credit>
+      <actor>King, Don (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>King, John (XXXIV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>King, Joshua (II)</actor>
+      <role>Track' in 'Take Your Child to Work Day</role>
+    </credit>
+    <credit>
+      <actor>King, Larry (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>King, Larry (I)</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>King, Peter (XVII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>King, Stephen (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kingston, Jack</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kinnear, Greg</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kinney, Kathy</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Kinsley, Michael</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kirby, Bruno</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kissinger, Henry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Klein, Joe (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kline, Kevin (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kline, Richard (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Klum, Heidi</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Knightley, Keira</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Knoxville, Johnny</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Knoxville, Johnny</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Koch, Edward I.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kohl, Herb (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Koppel, Ted</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kosloff, Nikolas</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kreskin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kristol, William</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kroft, Steve</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Krugman, Paul</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kubbany, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kucinich, Dennis</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Kucinich, Elizabeth</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Kurzweil, Raymond</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lagarde, Christine</actor>
+      <role>Herself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Lam, Brian</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lamas, Lorenzo</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lamprey, Zane</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lando, Joe</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lane, Diane (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Lane, Frederick</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lane, Lauren</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Lane, Nathan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lapham, Lewis</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lapin, Nicole</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Larson, Edward J.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Latifah, Queen</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Lauer, Matt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Laufer, Peter (II)</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Law, Jude</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lawless, Lucy</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Lawrence, Joseph (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lawrence, Martin (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lawrence, Sharon (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Lawrence, Vicki</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Lazarus, Catie</actor>
+      <role>Various</role>
+    </credit>
+    <credit>
+      <actor>Lazarus, Edward</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>LeVay, Simon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Leach, Robin (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Leahy, Patrick</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Leary, Denis</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Leary, Denis</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Lee, Jason (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lee, Spike</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Leguizamo, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lehrer, Jim</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Leibman, Ron</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Leigh, Janet</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Lennon, Thomas (III)</actor>
+      <role>Meredith Laupin</role>
+    </credit>
+    <credit>
+      <actor>Leonard, Sugar Ray</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Letterman, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Leverett, Flynt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Levin, Carl (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Levitt, Steven</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lewis, Charles (VI)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lewis, Clea</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Lewis, George (VIII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lewis, Huey</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lewis, Michael (XII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lewis, Richard (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Libby, Lewis</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lieberman, Joseph (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Liebman, Wendy</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Liebowitz, Yossi</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lillard, Matthew</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Limbaugh, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Limbaugh, Rush</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Linden, Eugene</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lindsey, Brink</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lindsey, Lawrence B.</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Ling, Lisa</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Liotta, Ray</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Littleford, Beth</actor>
+      <role>Herself - Co-Host</role>
+    </credit>
+    <credit>
+      <actor>Littleford, Beth</actor>
+      <role>Herself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Littleford, Beth</actor>
+      <role>Herself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Littleford, Beth</actor>
+      <role>Herself - Host</role>
+    </credit>
+    <credit>
+      <actor>Litvinenko, Alexander</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lively, Robyn</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Livingston, Ron</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lobo, Rebecca</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Loder, Kurt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Logan, Lara (II)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Loggia, Robert</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lott, Trent</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lott, Trent</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Louis-Dreyfus, Julia</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Lover, Ed (I)</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Lover, Ed (I)</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Lowe, Rob (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lucas, Josh (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ludacris</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lugar, Richard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Luntz, Frank</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Lynn, Loretta</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Lévy, Bernard-Henri</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>MacDonald, Norm (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>MacDonald, Norm (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>MacLachlan, Kyle</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Maddow, Rachel</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Madoff, Bernard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Maguire, James (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Maguire, Tobey</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Maher, Bill (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mahle, Melissa Boyle</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Mahony, Roger Cardinal</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Majd, Hooman</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Malick, Wendie</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Malkovich, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mandelbaum, Michael</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mandvi, Aasif</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mandvi, Aasif</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Mandvi, Aasif</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Mandvi, Aasif</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Mandvi, Aasif</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Mandvi, Aasif</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Mandvi, Aasif</actor>
+      <role>Himself - Legal Analyst</role>
+    </credit>
+    <credit>
+      <actor>Mandvi, Aasif</actor>
+      <role>Himself - Senior Judicial Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Mandvi, Aasif</actor>
+      <role>Himself - Senior White House Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Mantel, Henriette</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Marable, Manning</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Marash, Dave</actor>
+      <role>Himself - News Anchor</role>
+    </credit>
+    <credit>
+      <actor>Mark (XXIX)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mark, David (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Markoe, Merrill</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Marsalis, Wynton</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Martin, Chris (XI)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Martin, Demetri</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Martin, Demetri</actor>
+      <role>Himself - Contributor, 'Trendspotting'</role>
+    </credit>
+    <credit>
+      <actor>Martin, Demetri</actor>
+      <role>Himself - Contributor, 'Trendspotting'</role>
+    </credit>
+    <credit>
+      <actor>Martin, Demetri</actor>
+      <role>Himself - Contributor, 'Trendspotting'</role>
+    </credit>
+    <credit>
+      <actor>Martin, Demetri</actor>
+      <role>Himself - Contributor, 'Trendspotting'</role>
+    </credit>
+    <credit>
+      <actor>Martin, Kelly (III)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Martin, Paul (XXXIII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Martin, Steve (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Martindale, Wink</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Martinez, Mel (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Matthews, Chris (VII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>May, Cliff</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Mazar, Debi</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>McAdams, Rachel</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McAuliffe, Terry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McAvoy, James</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McCain, John (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McCain, John (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McCartney, Laton</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McClellan, Scott (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McClurg, Edie</actor>
+      <role>Herself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>McConaughey, Matthew</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McConnell, Mitch</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McCormack, Eric</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McCormack, Sean (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McCormick, Maureen</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>McCulloch, Bruce</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McCullough, David (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McDonald, Christopher (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McGreevey, Jim</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McIntyre, Jamie</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McKean, Michael (I)</actor>
+      <role>David St. Hubbins</role>
+    </credit>
+    <credit>
+      <actor>McKinney, Mark (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McLean, Bethany</actor>
+      <role>Herself - Guest</role>
+    </credit>
+    <credit>
+      <actor>McMahon, Ed (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>McNamara, Eileen</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>McShane, Ian</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Meacham, Jon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Meacham, Jon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Meaney, Kevin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mecurio, Paul</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Mecurio, Paul</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Mehlman, Ken</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mehlman, Ken</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mellencamp, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Meloni, Christopher</actor>
+      <role>Himself (segment "Fights, Camera, Action")</role>
+    </credit>
+    <credit>
+      <actor>Mendes, Eva</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Menendez, Bob</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Merkel, Angela</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Miller, Dennis (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Miller, Dennis (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Miller, John (XXIX)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Miller, Mark Crispin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Miller, Penelope Ann</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Miller, Reggie</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Miller, Sienna</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Miller, Zell</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mills, Mark (V)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Minor, Jerry</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Minor, Jerry</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Mnookin, Seth</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mohr, Jay</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mohseni, Saad</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Monaghan, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Monday, Carl</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mooney, Chris (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Moore, Julianne (I)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Moore, Michael (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Moore, Stephen (XIV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Moore, Stephen (XIV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Morales, Evo</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Moran, Terry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Morgenthaler, Anders</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Morris, Dick (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Morrow, Rob (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mortensen, Viggo</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Moyers, Bill</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mueller, John (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Muir, David (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mullane, Mike (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Mullaney, Craig</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Murray, Bill (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Musharraf, Pervez</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Myers, Mike (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Nader, Ralph (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Nagl, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Nasr, Vali</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Nealon, Kevin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Neeson, Liam</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Nelson, Ben (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Nelson, Judd</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Nelson, Willie</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Nerz, Ryan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Newhart, Bob</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Newmark, Craig</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Nimoy, Leonard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Norquist, Grover</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>North, Oliver</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Norton, Edward (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Norton, Graham</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>O'Brien, Conan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>O'Brien, Miles (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>O'Brien, Pat (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>O'Connell, Jerry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>O'Hanlon, Redmond</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>O'Harrow Jr., Robert</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>O'Neill, Paul (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>O'Reilly, Bill (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>O'Rourke, P.J.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>O'Rourke, P.J.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>O'Rourke, Simon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>O'Toole, Peter (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Oates, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Obama, Barack</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ober, Ken</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Odenkirk, Bob</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Olbermann, Keith</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself - Narrator of 'Proposition Zeror'</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself - Senior Awards Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself - Senior Economic Analyst</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself - Senior Election Analyst</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself - Senior Immigration Analyst</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself - Senior Legal Analyst</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself - Senior Political Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself - Senior White House Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Himself - Torture Analyst</role>
+    </credit>
+    <credit>
+      <actor>Oliver, John (II)</actor>
+      <role>Senior Poetry Analyst</role>
+    </credit>
+    <credit>
+      <actor>Oren, Michael B.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Osbourne, Ozzy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Osgood, Charles (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Osterloh, Mark</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Owen, Clive</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pacino, Al</actor>
+      <role>Ricky Roma</role>
+    </credit>
+    <credit>
+      <actor>Packer, George (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Paine, Chris (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Palillo, Ron</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Palin, Michael</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pallitto, Robert</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pan, Philip</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pantano, Ilario</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pantoliano, Joe</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Paprzycki, Stan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Parker, Trey (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Partnoy, Frank</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Patel, Dev</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Paul, Ron (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Paxman, Jeremy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pearce, Guy (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pence, Mike</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Perle, Richard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Perlmutter, David D.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Perry, Matthew (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Petraeus, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Phifer, Mekhi</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pickens, Boone</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Plante, Bill (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Podhoretz, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pollack, Kenneth</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pollack, Neal</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pollak, Kevin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pompeii, David</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Pompeii, David</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Pompeii, David</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Ponnuru, Ramesh</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Popper, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Posner, Gerald (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Powell, Colin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Preston, Richard (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Priestley, Jason</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Primo, Albert T.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Prodi, Romano</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Prothero, Stephen</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Provenza, Paul</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Pugh, Lewis Gordon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Putin, Vladimir</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Quaid, Dennis</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Quaid, Dennis</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Quest, Richard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Quinn, Colin (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>RZA (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Racicot, Marc</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rakoff, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rakoff, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Randall, Tony (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rasmussen, Anders Fogh</actor>
+      <role>Himself - Prime Minister</role>
+    </credit>
+    <credit>
+      <actor>Rasmussen, Michael (VII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rather, Dan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ravenel, Thomas</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ray, Robert (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Raymond, Allen</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Raza, Ghyslain</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Redlener, Irwin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Reed, Ralph (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Regan, Chris (II)</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Rehov, Pierre</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Reich, Robert (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Reid, Harry (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Reilly, John C. (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Reilly, John C. (I)</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Remnick, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Reynolds, Burt (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rhodes, Tom (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rhymes, Busta</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rice, Jerry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rich, Frank (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Richardson, Bill (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Richardson, John H.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Richter, Andy (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rickles, Don</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rickles, Don</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ricks, Thomas</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ricks, Thomas</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ridge, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Riggle, Rob</actor>
+      <role>Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Riggle, Rob</actor>
+      <role>Herself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Riggle, Rob</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Riggle, Rob</actor>
+      <role>Himself (segment "Fights, Camera, Action")</role>
+    </credit>
+    <credit>
+      <actor>Riggle, Rob</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Riggle, Rob</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Riggle, Rob</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Riggle, Rob</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Riggle, Rob</actor>
+      <role>Soldier in John Oliver's Reenactment</role>
+    </credit>
+    <credit>
+      <actor>Risen, James</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ritter, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ritter, Scott (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Robbins, Kevin (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Robbins, Lt. Col. Kevin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Robbins, Tim (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Roberts, John (XVII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Robinson, Gene (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rocca, Mo</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rocca, Mo</actor>
+      <role>Himself - Co-Host</role>
+    </credit>
+    <credit>
+      <actor>Rocca, Mo</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Rocca, Mo</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Rock, Chris (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rodriguez, Paul (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rogen, Seth</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Roker, Al</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Romney, Mitt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rosen, Jeffrey</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rosenberg, Charles (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rosenstiel, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ross, Brian (V)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ross, Jeffrey (I)</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Roston, Aram</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Roth, Richard (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rove, Karl (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rowe, Mike (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Royce, Ed</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ruck, Alan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rudd, Paul (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rudd, Paul (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rudd, Paul (I)</actor>
+      <role>Himself/Gene Safken</role>
+    </credit>
+    <credit>
+      <actor>Ruffalo, Mark</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rule, Ja</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rumsfeld, Donald</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rundgren, Todd</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Rushing, Josh</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Russell, Thaddeus</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Russert, Tim</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sachs, Jeffrey</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sada, Georges</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Safire, William</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Salazar, Ken</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Salazar, Ken</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Salley, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Samberg, Andy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sampson, Kyle</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sanchez, Rick (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sanders, Bernie</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sandler, Adam (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sanger, David (IV)</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Santorum, Rick</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sarkozy, Nicolas</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Scahill, Jeremy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Scarborough, Joe</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Schaeffer, Eric</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Scheffer, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Scheib, Walter</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Schieffer, Bob</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Schiff, Peter (II)</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Schimmel, Robert (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Schlesinger, Robert</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Schlüter, Poul</actor>
+      <role>Himself - Prime Minister</role>
+    </credit>
+    <credit>
+      <actor>Schneider, John (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Schneider, Rob (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Schneider, William (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Schumer, Charles</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Schumer, Charles</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Schwimmer, David (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Scott, Larry (X)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sedaris, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Seeber, Ronald</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Segal, George (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Seinfeld, Jerry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Seinfeld, Jerry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Selleck, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Selleck, Tom</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Sensenbrenner, James</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sessions, Jeff</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Shandling, Garry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sharpton, Al</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Shaughnessy, Charles</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Shawn, Eric (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Shearer, Harry</actor>
+      <role>Derek Smalls</role>
+    </credit>
+    <credit>
+      <actor>Sheen, Charlie (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Shenon, Philip</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sherwood, Brad</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Shillue, Tom</actor>
+      <role>Himself - Correspondent/Contributor 'This Week in Hate'</role>
+    </credit>
+    <credit>
+      <actor>Shore, Pauly</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Short, Martin (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Short, Martin (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Shortz, Will</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Shyamalan, M. Night</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Siegel, Lee (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Siegel, Marc (VI)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Siegel, Mark (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Silverman, Jonathan (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Simmons, J.K.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Simms, Phil (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Singer, Marc (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Singer, P.W.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sklar, Mikey</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Slayton, Bobby (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Slotnick, Joey</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Smith, Kevin (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Smith, Robert (XXXV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Smits, Jimmy</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Smuggly</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Snow, Tony (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Spacey, Kevin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Spacey, Kevin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Spader, James</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Speaker, Andrew</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Specter, Arlen</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Spelling, Dan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Spiner, Brent</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Springer, Jerry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Spurlock, Morgan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Starr, Ringo</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stein, Ben (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Steinfeld, Paul</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stephanopoulos, George (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stephanopoulos, George (I)</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Stern, Daniel (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stern, Howard (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stevens, Ted (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stewart, Dan (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stewart, French</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stewart, Jon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stewart, Jon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stewart, Jon</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>Stewart, Jon</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>Stewart, Jon</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>Stewart, Patrick (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stiller, Ben</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stilson, Jeff</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stilson, Jeff</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Stipe, Michael</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stoltz, Eric</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stone, Matt (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Stossel, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Straka, Mike</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sununu, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Suskind, Ron</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sutherland, Kiefer</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Swofford, Anthony</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Sylvester, Jules</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Taibbi, Matt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Taibbi, Matt</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Takei, George</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Tancredo, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Tenet, George</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Terkel, Studs</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Tertzakian, Peter</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Tesh, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Teutul Jr., Paul</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Teutul Sr., Paul</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Thicke, Robin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Thomas, Bill (XIX)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Thompson, Fred Dalton</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Thompson, Scott (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Thompson, Tommy (XVII)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Thornton, Billy Bob</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Timmerman, Kenneth</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Tompkins, Paul F.</actor>
+      <role>Himself - Contributor 'Us People's Weekly Entertainment'</role>
+    </credit>
+    <credit>
+      <actor>Trillin, Calvin</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Trump, Donald</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Tucci, Stanley (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Tutu, Desmond</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Tyler (XVI)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Tyson, Neil</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Unger, Brian</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Unger, Brian</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Unger, Brian</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>Unger, Brian</actor>
+      <role>Himself - Host</role>
+    </credit>
+    <credit>
+      <actor>V., Dave</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Valderrama, Wilmer</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Van Der Beek, James</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Van Peebles, Mario</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Varmus, Harold</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Vaughn, Vince</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>VelJohnson, Reginald</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Ventura, Jesse</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Vick, Michael (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Vickers, Brian (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Viesturs, Ed</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Viguerie, Richard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Vilsack, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Vitter, David</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Vogel, Steve</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Volk, Yevgeny</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Vonnegut Jr., Kurt</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Waits, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Walken, Christopher</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wall, Kevin (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wallace, Chris (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wallace, Chris (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wallace, Greg (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wallace, Mike (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wallis, Jim (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Walsh, Matt (I)</actor>
+      <role>Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Walsh, Matt (I)</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Walsh, Matt (I)</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Warner, John (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Washington, George (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Waters, John (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wattenberg, Ben</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Waxman, Henry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wayans, Damon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wayans, Marlon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wayans, Shawn</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Webb, James (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Weisman, Alan (II)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wexler, Michael</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Whitaker, Al</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>White Stripes, The</actor>
+      <role>Themselves</role>
+    </credit>
+    <credit>
+      <actor>White, Jack (XV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>White, Jaleel</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Whitehouse, Sheldon</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Whitmire, Steve</actor>
+      <role>Kermit the Frog</role>
+    </credit>
+    <credit>
+      <actor>Williams, Brian (III)</actor>
+      <role>Herself</role>
+    </credit>
+    <credit>
+      <actor>Williams, Brian (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Williams, Brian (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Williams, Brian (III)</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Williams, Harland</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Williams, Montel</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Williams, Robin (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Williams, Robin (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Williamson, Eric (IV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Willis, Bruce</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wilmore, Larry</actor>
+      <role>Barack Obama</role>
+    </credit>
+    <credit>
+      <actor>Wilmore, Larry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wilmore, Larry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wilmore, Larry</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Wilmore, Larry</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Wilmore, Larry</actor>
+      <role>Himself - Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Wilmore, Larry</actor>
+      <role>Himself - Senior Black Correspondent</role>
+    </credit>
+    <credit>
+      <actor>Wilson, Douglas (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wilson, Joseph (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wilson, Luke (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wilson, Michael (XV)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wilson, Owen (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wiltfong, Bob</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wiltfong, Bob</actor>
+      <role>Himself - Contributor</role>
+    </credit>
+    <credit>
+      <actor>Windsor, Prince Harry</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Winstead, Wilbur</actor>
+      <role>Himself - Contributor 'Wilbur's Book Club'</role>
+    </credit>
+    <credit>
+      <actor>Winstead, Wilbur</actor>
+      <role>Himself-Jeopardy/Trivial Compromise Announcer (1996-1997)</role>
+    </credit>
+    <credit>
+      <actor>Wohlfeil, Bryan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wolfe, Tom (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wolff, Michael (III)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wolfowitz, Paul</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wood, Elijah</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Woodruff, Bob</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Woodruff, Bob</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Woodward, Bob (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Woody, E.L.</actor>
+      <role>Himself (segment "Fights, Camera, Action")</role>
+    </credit>
+    <credit>
+      <actor>Woog, Dan</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Woolsey, James (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wopat, Tom</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wuhl, Robert</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wulff, Mikael</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Wyle, Noah</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Yergin, Daniel</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Yoakam, Dwight</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>York, Byron</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Young, Neil (I)</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Yunus, Muhammad</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Zakaria, Fareed</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Zakaria, Fareed</actor>
+      <role>Himself - Guest</role>
+    </credit>
+    <credit>
+      <actor>Zimbardo, Philip</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Zinn, Howard</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Zinni, Tony</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>Zogby, John</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>de Leon, Mony J.</actor>
+      <role>Himself</role>
+    </credit>
+    <credit>
+      <actor>de Rothschild, David</actor>
+      <role>Himself</role>
+    </credit>
+  </cast>
+<plot>Providing comedy/news in the tradition of TV Nation and SNL's Weekend Update, Comedy Central's Daily Show reports on the foibles and of the real world with a satirical edge. In addition to news stories, the Daily Show also has celebrities (and semi-celebrities) on for interviews with the host, Jon Stewart. Lampooning everything from televangelists to Charlton Heston ("I did not play a homo in Ben-Hur"), and shamelessly assigning faux-news epithets ("Newt Gingrich: Giant Toddler") Kilborn, Winstead, and the crew actually manage to report some real news from time to time.</plot><url>http://localhost:8983/solr/movie.html?551581</url></doc>

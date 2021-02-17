@@ -1,0 +1,376 @@
+
+<!--
+author: W3layouts
+author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ZapFlix &nbsp;&nbsp;|&nbsp;&nbsp; List</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="../static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../static/css/medile.css" rel='stylesheet' type='text/css' />
+<link href="../static/css/single.css" rel='stylesheet' type='text/css' />
+<!-- news-css -->
+<link rel="stylesheet" href="../static/news-css/news.css" type="text/css" media="all" />
+<!-- //news-css -->
+<!-- list-css -->
+<link rel="stylesheet" href="../static/list-css/list.css" type="text/css" media="all" />
+<!-- //list-css -->
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="../static/css/font-awesome.min.css" />
+<!-- //font-awesome icons -->
+<link rel="shortcut icon" type="image/png" href="../static/images/popcorn.ico" />
+<!-- js -->
+<script type="text/javascript" src="../static/js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="../static/js/move-top.js"></script>
+<script type="text/javascript" src="../static/js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<!-- tables -->
+<link rel="stylesheet" type="text/css" href="../static/list-css/table-style.css" />
+<link rel="stylesheet" type="text/css" href="../static/list-css/basictable.css" />
+<script type="text/javascript" src="../static/list-js/jquery.basictable.min.js"></script>
+ <script type="text/javascript">
+    $(document).ready(function() {
+      $('#table').basictable();
+
+      $('#table-breakpoint').basictable({
+        breakpoint: 768
+      });
+	   $('#table-breakpoint1').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint2').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint3').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint4').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint5').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint6').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint7').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint8').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint9').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint10').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint11').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint12').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint13').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint14').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint15').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint16').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint17').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint18').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint19').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint20').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint21').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint22').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint23').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint24').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint25').basictable({
+        breakpoint: 768
+      });
+	  $('#table-breakpoint26').basictable({
+        breakpoint: 768
+      });
+    });
+  </script>
+<!-- //tables -->
+</head>
+	
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="w3layouts_logo">
+				<a href="/"><h1>Zap<span>Flix</span></h1></a>
+			</div>
+			<div class="w3_search">
+				<form action="/list/" method="post" >
+					{% csrf_token %}
+					<input type="text" name="Search" placeholder="Search" required="">
+					<input type="submit" value="Go">
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //header -->
+<!-- nav -->
+	<div class="movies_nav">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav>
+						<ul class="nav navbar-nav">
+							<li><a href="/">Home</a></li>
+							<li><a href="/trailers">Trailers</a></li>
+							<li class="active"><a href="/list">List</a></li>
+                            <li><a href="/stats">Stats</a></li>
+						</ul>
+					</nav>
+				</div>
+			</nav>	
+		</div>
+	</div>
+<!-- //nav -->
+<!-- faq-banner -->
+	<div class="faq">
+		<h4 class="latest-text w3_faq_latest_text w3_latest_text">Movies & Series List</h4>
+			<div class="container">
+				<div class="agileits-news-top">
+					<ol class="breadcrumb">
+					  <li><a href="/">Home</a></li>
+					  <li class="active">List</li>
+					</ol>
+				</div>
+				<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+						<div id="myTabContent" class="tab-content">
+							<div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+								<div class="agile-news-table">
+									<div class="w3ls-news-result">
+										<h4>Search Results : <span>{{items|length}}</span></h4>
+									</div>
+									<table id="table-breakpoint">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Type</th>
+											<th>Genre</th>
+											<th>Rating</th>
+											<th>Votes</th>
+										  </tr>
+										</thead>
+										<tbody>
+											{% for item in items %}
+												<tr>
+													<td>{{forloop.counter}}</td>
+													{% if item.type == "Movie" %}
+														<td class="w3-list-img"><a href="/movie/{{item.docid}}"><img src="{{item.poster}}" alt="" height="100px"/> <span>{{item.title}}</span></a></td>
+													{% else %}
+														<td class="w3-list-img"><a href="/series/{{item.docid}}"><img src="{{item.poster}}" alt="" height="120px"/> <span>{{item.title}}</span></a></td>
+													{% endif %}
+													<td><a href="/list?year={{item.year}}">{{item.year}}</a></td>
+													<td><a href="/list?type={{item.type}}">{{item.type}}</a></td>
+													<td class="w3-list-info">
+													{% for genre in item.genres %}
+														{% if forloop.counter == item.genres|length %}
+															<a href="/list?genre={{genre}}">{{genre}}</a>
+														{% else %}
+															<a href="/list?genre={{genre}}">{{genre}}</a> |
+														{% endif %}
+													{% endfor %}</td>
+													<td>{{item.imdb_rating}}</td>
+													<td>{{item.imdb_votes}}</td>
+												  </tr>
+											{% endfor %}
+										</tbody>
+									</table>
+								</div>
+							</div>
+
+							<div role="tabpanel" class="tab-pane fade" id="c" aria-labelledby="c-tab">
+								<div class="agile-news-table">
+									<div class="w3ls-news-result">
+										<h4>Search Results : <span>15</span></h4>
+									</div>
+									<table id="table-breakpoint3">
+										<thead>
+										  <tr>
+											<th>No.</th>
+											<th>Movie Name</th>
+											<th>Year</th>
+											<th>Status</th>
+											<th>Country</th>
+											<th>Genres</th>
+											<th>Rating</th>
+										  </tr>
+										</thead>
+										<tbody>
+										  <tr>
+											<td>1</td>
+											<td class="w3-list-img"><a href="single.html"><img src="../static/images/n10.jpg" alt="" /> <span>01 Independence Day</span></a></td>
+											<td>2013</td>
+											<td>HD</td>
+											<td class="w3-list-info"><a href="genres.html">United Kingdom</a></td>
+											<td class="w3-list-info"><a href="genres.html">Comedy, Drama</a></td>
+											<td>7.0</td>
+										  </tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+	</div>
+<!-- //faq-banner -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="w3ls_footer_grid">
+				<div class="col-md-6 w3ls_footer_grid_left">
+				</div>
+				<div class="col-md-6 w3ls_footer_grid_right">
+					<a href="/"><h2>Zap<span>Flix</span></h2></a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-5 w3ls_footer_grid1_left">
+				<p>&copy; 2020 ZapFlix. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+			</div>
+			<div class="col-md-7 w3ls_footer_grid1_right">
+				<ul>
+					<li>
+						<a href="/">Home</a>
+					</li>
+					<li>
+						<a href="/trailers">Trailers</a>
+					</li>
+					<li>
+						<a href="/list">List</a>
+					</li>
+					<li>
+						<a href="/stats">Stats</a>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- Bootstrap Core JavaScript -->
+<script src="../static/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+<script>
+	 $(document).ready(function(){
+        $('#table-breakpoint').after('<div id="nav"></div>');
+        var rowsShown = 20;
+        var rowsTotal = $('#table-breakpoint tbody tr').length;
+        var numPages = rowsTotal/rowsShown;
+        $('#nav').append('<br><div class="col-md-5 text-center">');
+        for(i = 0;i < numPages;i++) {
+            var pageNum = i + 1;
+            $('#nav').append('<a style="font-size: 18px" href="#" rel="'+i+'">'+pageNum+'</a> ');
+        }
+        $('#nav').append('</div>');
+        $('#table-breakpoint tbody tr').hide();
+        $('#table-breakpoint tbody tr').slice(0, rowsShown).show();
+        $('#nav a:first').addClass('active');
+        $('#nav a').bind('click', function(){
+
+            $('#nav a').removeClass('active');
+            $(this).addClass('active');
+            var currPage = $(this).attr('rel');
+            var startItem = currPage * rowsShown;
+            var endItem = startItem + rowsShown;
+            $('#table-breakpoint tbody tr').css('opacity','0.0').hide().slice(startItem, endItem).
+                    css('display','table-row').animate({opacity:1}, 300);
+        });
+    });
+</script>
+<!-- //Bootstrap Core JavaScript -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
