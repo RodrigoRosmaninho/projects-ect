@@ -101,20 +101,14 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Developed with [Pedro Valério](https://github.com/PivZ-24) in 2020
      
-- [[CV] Proj2 - Chessboard and Chess Pieces detector PoC using OpenCV](https://github.com/AMS19-303)
+- [[CV] Proj2 - Chessboard and Chess Pieces detector PoC using OpenCV](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BCV%5D%20Proj2%20-%20Chessboard%20and%20Chess%20Pieces%20detector%20PoC%20using%20OpenCV)
 
      Grade: xx/20
      
      #### Components:
      - OpenCV image pre-processing
      - OpenCV line detection to allow inference of chessboard position
-     - OpenCV contours detection to find all custom pieces currently on the chessboard and calculate their positionsDjango Website
-     - XML dataset parser (w/ XPATH)
-     - BaseX interaction
-     - XML Schema Validation
-     - XSLT transformations
-     - XQuery CRUD operations
-     - RSS feed integratio
+     - OpenCV contours detection to find all custom pieces currently on the chessboard and calculate their positions
      - Virtual Chessboard generation with OpenCV
 
      Developed with [Pedro Valério](https://github.com/PivZ-24) in 2021
