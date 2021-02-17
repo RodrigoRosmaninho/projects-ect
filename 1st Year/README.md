@@ -56,7 +56,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      - Music Generarion - Python w/Struct module
      - Dynamic Website - Vanilla JS w/JQuery and Bootstrap v4
 
-     Developed with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PivZ-24), and [João Trindade](https://github.com/3ndade) in 2018
+     Developed with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PMSValerio), and [João Trindade](https://github.com/3ndade) in 2018
 
 
 #### Subjects:
