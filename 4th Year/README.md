@@ -9,7 +9,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      Grade: 19.5/20
 
      #### Components:
-     - 2 ISP networks (1 transit AS, 1 non-tansit AS)
+     - 2 ISP networks (1 transit AS, 1 non-transit AS)
      - BGP functionality at ISP Border and Internet Core
      - MPLS VPN to ensure Corporate Networking Services
      - OSPF and MPLS LDP ISP Core Networking
