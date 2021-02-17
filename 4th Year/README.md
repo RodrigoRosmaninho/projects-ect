@@ -66,7 +66,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Developed with [Pedro Valério](https://github.com/PMSValerio) and [João Trindade](https://github.com/3ndade) in 2021
      
-- [[SEG] Proj - Secure, multi-player online domino game](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BSEG%5D%20Proj%20-%20Secure%2C%20multi-player%20online%20domino%20game%20in%20Python)
+- [[SEG] Proj - Secure, multi-player online domino game in Python](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BSEG%5D%20Proj%20-%20Secure%2C%20multi-player%20online%20domino%20game%20in%20Python)
 
      Grade: 20/20
      
