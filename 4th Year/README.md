@@ -83,11 +83,11 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Developed with [Pedro Valério](https://github.com/PivZ-24), [João Trindade](https://github.com/3ndade) and [Alexandre Abreu](https://github.com/afabreu) in 2020/2021.
      
-- [[CV] Proj1 - Naive N-Queens Problem Solver Animation in WebGL](https://github.com/AMS19-303)
+- [[CV] Proj1 - Naive N-Queens Problem Solver Animation in WebGL](https://github.com/RodrigoRosmaninho/NQueens_Problem_WebGL)
 
      Grade: 20/20
      
-     [Demonstration]()
+     [Demonstration](https://rodrigorosmaninho.github.io/NQueens_Problem_WebGL/)
      
      #### Components:
      - Basic HTML website (w/ Twitter Bootstrap)
