@@ -50,7 +50,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      - XQuery CRUD operations
      - RSS feed integration
 
-     Developed with [Pedro Valério](https://github.com/PivZ-24) and [João Trindade](https://github.com/3ndade) in 2020
+     Developed with [Pedro Valério](https://github.com/PMSValerio) and [João Trindade](https://github.com/3ndade) in 2020
      
 - [[EDC] TP2 - Movie and TV-Show Information Django Website based on Semantic Web technologies (RDF)](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BEDC%5D%20TP2%20-%20Movie%20and%20TV-Show%20Information%20Django%20Website%20based%20on%20Semantic%20Web%20technologies%20(RDF))
 
@@ -64,7 +64,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      - RDFa integrations on all major website pages
      - DBPedia SPARQL API integration
 
-     Developed with [Pedro Valério](https://github.com/PivZ-24) and [João Trindade](https://github.com/3ndade) in 2021
+     Developed with [Pedro Valério](https://github.com/PMSValerio) and [João Trindade](https://github.com/3ndade) in 2021
      
 - [[SEG] Proj - Secure, multi-player online domino game](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BSEG%5D%20Proj%20-%20Secure%2C%20multi-player%20online%20domino%20game%20in%20Python)
 
@@ -81,7 +81,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      - Secure point accounting and identity assurance using Portugal's Citizenship Card authentication keys and certificates.
      - Certificate Chain Validation
 
-     Developed with [Pedro Valério](https://github.com/PivZ-24), [João Trindade](https://github.com/3ndade) and [Alexandre Abreu](https://github.com/afabreu) in 2020/2021.
+     Developed with [Pedro Valério](https://github.com/PMSValerio), [João Trindade](https://github.com/3ndade) and [Alexandre Abreu](https://github.com/afabreu) in 2020/2021.
      
 - [[CV] Proj1 - Naive N-Queens Problem Solver Animation in WebGL](https://github.com/RodrigoRosmaninho/NQueens_Problem_WebGL)
 
@@ -99,7 +99,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      - Multiple Animation & Rendering control options
      - N-Queens Completion Problem functionality (featuring the possibility to pre-select a fixed position for 1 of the N queens)
 
-     Developed with [Pedro Valério](https://github.com/PivZ-24) in 2020
+     Developed with [Pedro Valério](https://github.com/PMSValerio) in 2020
      
 - [[CV] Proj2 - Chessboard and Chess Pieces detector PoC using OpenCV](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BCV%5D%20Proj2%20-%20Chessboard%20and%20Chess%20Pieces%20detector%20PoC%20using%20OpenCV)
 
@@ -111,7 +111,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      - OpenCV contours detection to find all custom pieces currently on the chessboard and calculate their positions
      - Virtual Chessboard generation with OpenCV
 
-     Developed with [Pedro Valério](https://github.com/PivZ-24) in 2021
+     Developed with [Pedro Valério](https://github.com/PMSValerio) in 2021
 
 <br>
 
