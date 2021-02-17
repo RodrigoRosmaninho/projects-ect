@@ -18,7 +18,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      - HTTP/HTTPS, DNS, FTP and TFTP servers in a Datacenter VM
      - Simple TCP app to send CPU and memory usage from client VM to server VM
 
-     Developed with [Pedro Valério](https://github.com/PivZ-24) in 2019
+     Developed with [Pedro Valério](https://github.com/PMSValerio) in 2019
 
 - [[IIA] TPG - Autonomous agent to play the game Bomberman](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/3rd%20Year/%5BIIA%5D%20TPG%20-%20Autonomous%20agent%20to%20play%20the%20game%20Bomberman)
 
@@ -54,7 +54,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      C++ functions to implement critical components of SOFS19, an ext2-based filesystem
 
-     Developed with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PivZ-24), [João Trindade](https://github.com/3ndade), and [Rita Amante](https://github.com/rita-amante) in 2019
+     Developed with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PMSValerio), [João Trindade](https://github.com/3ndade), and [Rita Amante](https://github.com/rita-amante) in 2019
      
 - [[PEI] - End-to-end IoT platform for UAveiro's Electronics, Telecomunications, and Informatics Department](https://github.com/DETImotica)
 
@@ -73,7 +73,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      - Project Website and Documentation
      - Final Project Report
 
-     Developed with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PivZ-24), [João Trindade](https://github.com/3ndade), [Gonçalo Perna](https://github.com/GoncaloPerna), and [Ricardo Carvalho](https://github.com/R4pinho) in 2020
+     Developed with [Eurico Dias](https://github.com/eurico-dias), [Pedro Valério](https://github.com/PMSValerio), [João Trindade](https://github.com/3ndade), [Gonçalo Perna](https://github.com/GoncaloPerna), and [Ricardo Carvalho](https://github.com/R4pinho) in 2020
      
      Supervised by professor [Diogo Gomes](https://github.com/dgomes)
      
@@ -81,7 +81,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Grade: 20/20
 
-     Developed with [Pedro Valério](https://github.com/PivZ-24) in 2020
+     Developed with [Pedro Valério](https://github.com/PMSValerio) in 2020
      
 - [[BD] Proj - MSSQL database for managing GLUA and respective WPF UI](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/3rd%20Year/%5BBD%5D%20Proj%20-%20MSSQL%20database%20for%20managing%20GLUA%20and%20respective%20WPF%20UI)
 
@@ -101,7 +101,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Grade: Very Good (Qualitative Grade)
 
-     Developed with [Pedro Valério](https://github.com/PivZ-24) and [Gonçalo Perna](https://github.com/GoncaloPerna) in 2020
+     Developed with [Pedro Valério](https://github.com/PMSValerio) and [Gonçalo Perna](https://github.com/GoncaloPerna) in 2020
 
 
 #### Subjects:
