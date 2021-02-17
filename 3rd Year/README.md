@@ -83,7 +83,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Developed with [Pedro Valério](https://github.com/PivZ-24) in 2020
      
-- [[BD] Proj - MSSQL database for managing [GLUA](https://github.com/GLUA-UA) and respective WPF UI](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/3rd%20Year/%5BBD%5D%20Proj%20-%20MSSQL%20database%20for%20managing%20GLUA%20and%20respective%20WPF%20UI)
+- [[BD] Proj - MSSQL database for managing GLUA and respective WPF UI](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/3rd%20Year/%5BBD%5D%20Proj%20-%20MSSQL%20database%20for%20managing%20GLUA%20and%20respective%20WPF%20UI)
 
      Grade: 18/20
 
