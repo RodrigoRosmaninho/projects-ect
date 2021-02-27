@@ -309,7 +309,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      
 - [[CV] Proj2 - Chessboard and Chess Pieces detector PoC using OpenCV](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BCV%5D%20Proj2%20-%20Chessboard%20and%20Chess%20Pieces%20detector%20PoC%20using%20OpenCV)
 
-     Grade: xx/20
+     Grade: 20/20
      
      #### Components:
      - OpenCV image pre-processing
