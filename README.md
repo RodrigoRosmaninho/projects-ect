@@ -319,6 +319,80 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Developed with [Pedro Valério](https://github.com/PMSValerio) in 2021
 
+- [[SD] Proj1 - Concurrent solution to the AirLift Problem](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BSD%5D%20Proj1%20-%20Concurrent%20solution%20to%20the%20AirLift%20Problem)
+
+     Grade: 16/16
+
+     Developed with [Gonçalo Perna](https://github.com/GoncaloPerna) in 2021
+
+- [[SD] Proj2 - Distributed solution to the Airlift Problem based on message passing](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BSD%5D%20Proj2%20-%20Distributed%20solution%20to%20the%20Airlift%20Problem%20based%20on%20message%20passing)
+
+     Grade: 16/16
+
+     Developed with [Gonçalo Perna](https://github.com/GoncaloPerna) in 2021
+
+- [[SD] Proj3 - Distributed solution to the Airlift problem based on Java RMI](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BSD%5D%20Proj3%20-%20Distributed%20solution%20to%20the%20Airlift%20problem%20based%20on%20Java%20RMI)
+
+     Grade: 16/16
+
+     Developed with [Gonçalo Perna](https://github.com/GoncaloPerna) in 2021
+
+- [[GIRS] Proj - Kubernetes Deployment of an HA Gitlab instance](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BGIRS%5D%20Proj%20-%20Kubernetes%20Deployment%20of%20an%20HA%20Gitlab%20instance)
+
+     Grade: 18.6/20
+     
+     #### Components:
+     - Full Gitlab Deployment using omnibus EE images (configured differently according to role)
+     - High-Availability PostgresSQL cluster with read operation load balancing and PgPool-II connection pooling
+     - High-Availability Redis Clusters
+     - High-Availability MinIO Object Storage with Sidekick
+     - CI/CD pipeline execution support with Gitlab Runners
+     - Prometheus Metric Monitoring with Grafana Visualization and Alertmanager Slack notifications
+     - ElasticSearch, Fluentd, Logstash, & Grafana Log Monitoring
+     - Horizontal Pod Autoscaling based on custom metrics
+     - Readiness & Liveness Checks
+     - Secret Protection
+
+     Developed with [Eurico Dias](https://github.com/eurico-dias) in 2021
+
+- [[CR] Proj - AES-128 ECB Encrypter based on a VHDL HW coprocessor and the MicroBlaze platform using DMA](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BCR%5D%20Proj%20-%20AES-128%20ECB%20Encrypter%20based%20on%20a%20VHDL%20HW%20coprocessor%20and%20the%20MicroBlaze%20platform%20using%20DMA)
+
+     Grade: 17/20
+     
+     #### Components:
+     - VHDL HW Coprocessor for completing an AES-128 Round using the single Lookup Table optimization proposed in the algorithm specification
+     - MicroBlaze-based Hardware Platform
+     - SW Encryption and Decryption for validation (in C)
+     - Direct Memory Access interface between HW and SW components
+
+     Developed with [Eurico Dias](https://github.com/eurico-dias) in 2021
+
+- [[ES] LabProj - NASDAQ Stock Checker using Spring Boot and Apache Kafka](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BES%5D%20LabProj%20-%20NASDAQ%20Stock%20Checker%20using%20Spring%20Boot%20and%20Apache%20Kafka)
+
+     Grade: 20/20
+
+     Developed with [Gonçalo Perna](https://github.com/GoncaloPerna) in 2021
+
+- [[ES] Proj - OpenSky Flight Tracker built with Quarkus and Kafka on a Microservices Architecture with a DevOps Pipeline](https://github.com/skyview-es)
+
+     Grade: 19.4/20
+
+     [Documentation](https://skyview-es.github.io/)
+     
+     #### Components:
+     - Apache Kafka
+     - Spring Boot Kafka Producers
+     - Quarkus Kafka Consumers and REST/SSE APIs
+     - InfluxDB data persistence
+     - React JS Frontend Website
+     - Jekyll-based documentation website
+     - TICK stack metric monitoring
+     - ELK stack log monitoring
+     - Docker deployment
+     - Jenkins pipeline for automatic builds, tests, and deployments
+
+     Developed with [Eurico Dias](https://github.com/eurico-dias), [João Trindade](https://github.com/3ndade), [Eduardo Coelho](https://github.com/eduardocoelho11), and [Alexandre Abreu](https://github.com/afabreu) in 2021
+
 <br>
 
 #### Subjects:
@@ -339,3 +413,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 - EDC - Data And Knowledge Engineering (1st Semester, 4th Year)
 - SEG - Security (1st Semester, 4th Year)
 - CV - Visual Computation (1st Semester, 4th Year)
+- ES - Software Engineering (2nd Semester, 4th Year)
+- SD - Distributed Systems (2nd Semester, 4th Year)
+- CR - Reconfigurable Computing (2nd Semester, 4th Year)
+- GIRS - Integrated Management of Networks and Systems (2nd Semester, 4th Year)

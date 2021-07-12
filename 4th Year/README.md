@@ -113,25 +113,25 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Developed with [Pedro Valério](https://github.com/PMSValerio) in 2021
 
-- [[SD] Proj1 - Concurrent solution to the AirLift Problem](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BCV%5D%20Proj2%20-%20Chessboard%20and%20Chess%20Pieces%20detector%20PoC%20using%20OpenCV)
+- [[SD] Proj1 - Concurrent solution to the AirLift Problem](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BSD%5D%20Proj1%20-%20Concurrent%20solution%20to%20the%20AirLift%20Problem)
 
      Grade: 16/16
 
      Developed with [Gonçalo Perna](https://github.com/GoncaloPerna) in 2021
 
-- [[SD] Proj2 - Distributed solution to the Airlift Problem based on message passing](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BCV%5D%20Proj2%20-%20Chessboard%20and%20Chess%20Pieces%20detector%20PoC%20using%20OpenCV)
+- [[SD] Proj2 - Distributed solution to the Airlift Problem based on message passing](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BSD%5D%20Proj2%20-%20Distributed%20solution%20to%20the%20Airlift%20Problem%20based%20on%20message%20passing)
 
      Grade: 16/16
 
      Developed with [Gonçalo Perna](https://github.com/GoncaloPerna) in 2021
 
-- [[SD] Proj3 - Distributed solution to the Airlift problem based on Java RMI](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BCV%5D%20Proj2%20-%20Chessboard%20and%20Chess%20Pieces%20detector%20PoC%20using%20OpenCV)
+- [[SD] Proj3 - Distributed solution to the Airlift problem based on Java RMI](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BSD%5D%20Proj3%20-%20Distributed%20solution%20to%20the%20Airlift%20problem%20based%20on%20Java%20RMI)
 
      Grade: 16/16
 
      Developed with [Gonçalo Perna](https://github.com/GoncaloPerna) in 2021
 
-- [[GIRS] Proj - Kubernetes Deployment of an HA Gitlab instance](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BCV%5D%20Proj2%20-%20Chessboard%20and%20Chess%20Pieces%20detector%20PoC%20using%20OpenCV)
+- [[GIRS] Proj - Kubernetes Deployment of an HA Gitlab instance](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BGIRS%5D%20Proj%20-%20Kubernetes%20Deployment%20of%20an%20HA%20Gitlab%20instance)
 
      Grade: 18.6/20
      
@@ -149,7 +149,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Developed with [Eurico Dias](https://github.com/eurico-dias) in 2021
 
-- [[CR] Proj - AES-128 ECB Encrypter based on a VHDL HW coprocessor and the MicroBlaze platform using DMA](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BCV%5D%20Proj2%20-%20Chessboard%20and%20Chess%20Pieces%20detector%20PoC%20using%20OpenCV)
+- [[CR] Proj - AES-128 ECB Encrypter based on a VHDL HW coprocessor and the MicroBlaze platform using DMA](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BCR%5D%20Proj%20-%20AES-128%20ECB%20Encrypter%20based%20on%20a%20VHDL%20HW%20coprocessor%20and%20the%20MicroBlaze%20platform%20using%20DMA)
 
      Grade: 17/20
      
@@ -161,7 +161,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Developed with [Eurico Dias](https://github.com/eurico-dias) in 2021
 
-- [[ES] LabProj - NASDAQ Stock Checker using Spring Boot and Apache Kafka](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BCV%5D%20Proj2%20-%20Chessboard%20and%20Chess%20Pieces%20detector%20PoC%20using%20OpenCV)
+- [[ES] LabProj - NASDAQ Stock Checker using Spring Boot and Apache Kafka](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BES%5D%20LabProj%20-%20NASDAQ%20Stock%20Checker%20using%20Spring%20Boot%20and%20Apache%20Kafka)
 
      Grade: 20/20
 
