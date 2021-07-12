@@ -1,0 +1,608 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jun 21 15:30:00 2021
+# Process ID: 108428
+# Current directory: C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.runs/impl_1
+# Command line: vivado.exe -log mb_design_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source mb_design_wrapper.tcl -notrace
+# Log file: C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.runs/impl_1/mb_design_wrapper.vdi
+# Journal file: C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source mb_design_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/projects/CR_AES128_Proj/ip_repo/AESEncrypter128Cop_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+Command: link_design -top mb_design_wrapper -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.402 . Memory (MB): peak = 1000.488 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 736 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_0/mb_design_microblaze_0_0.xdc] for cell 'mb_design_i/microblaze_0/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_0/mb_design_microblaze_0_0.xdc] for cell 'mb_design_i/microblaze_0/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_axi_intc_0/mb_design_microblaze_0_axi_intc_0.xdc] for cell 'mb_design_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_axi_intc_0/mb_design_microblaze_0_axi_intc_0.xdc] for cell 'mb_design_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_mdm_1_0/mb_design_mdm_1_0.xdc] for cell 'mb_design_i/mdm_1/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_mdm_1_0/mb_design_mdm_1_0.xdc:50]
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_mdm_1_0/mb_design_mdm_1_0.xdc] for cell 'mb_design_i/mdm_1/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_clk_wiz_1_0/mb_design_clk_wiz_1_0_board.xdc] for cell 'mb_design_i/clk_wiz_1/inst'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_clk_wiz_1_0/mb_design_clk_wiz_1_0_board.xdc] for cell 'mb_design_i/clk_wiz_1/inst'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_clk_wiz_1_0/mb_design_clk_wiz_1_0.xdc] for cell 'mb_design_i/clk_wiz_1/inst'
+INFO: [Timing 38-2] Deriving generated clocks [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_clk_wiz_1_0/mb_design_clk_wiz_1_0.xdc:57]
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_clk_wiz_1_0/mb_design_clk_wiz_1_0.xdc] for cell 'mb_design_i/clk_wiz_1/inst'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_rst_clk_wiz_1_100M_0/mb_design_rst_clk_wiz_1_100M_0_board.xdc] for cell 'mb_design_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_rst_clk_wiz_1_100M_0/mb_design_rst_clk_wiz_1_100M_0_board.xdc] for cell 'mb_design_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_rst_clk_wiz_1_100M_0/mb_design_rst_clk_wiz_1_100M_0.xdc] for cell 'mb_design_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_rst_clk_wiz_1_100M_0/mb_design_rst_clk_wiz_1_100M_0.xdc] for cell 'mb_design_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_0_0/mb_design_axi_gpio_0_0_board.xdc] for cell 'mb_design_i/axi_gpio_switches/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_0_0/mb_design_axi_gpio_0_0_board.xdc] for cell 'mb_design_i/axi_gpio_switches/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_0_0/mb_design_axi_gpio_0_0.xdc] for cell 'mb_design_i/axi_gpio_switches/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_0_0/mb_design_axi_gpio_0_0.xdc] for cell 'mb_design_i/axi_gpio_switches/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_1_0/mb_design_axi_gpio_1_0_board.xdc] for cell 'mb_design_i/axi_gpio_leds/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_1_0/mb_design_axi_gpio_1_0_board.xdc] for cell 'mb_design_i/axi_gpio_leds/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_1_0/mb_design_axi_gpio_1_0.xdc] for cell 'mb_design_i/axi_gpio_leds/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_1_0/mb_design_axi_gpio_1_0.xdc] for cell 'mb_design_i/axi_gpio_leds/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_2_0/mb_design_axi_gpio_2_0_board.xdc] for cell 'mb_design_i/axi_gpio_buttons/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_2_0/mb_design_axi_gpio_2_0_board.xdc] for cell 'mb_design_i/axi_gpio_buttons/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_2_0/mb_design_axi_gpio_2_0.xdc] for cell 'mb_design_i/axi_gpio_buttons/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_2_0/mb_design_axi_gpio_2_0.xdc] for cell 'mb_design_i/axi_gpio_buttons/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_3_0/mb_design_axi_gpio_3_0_board.xdc] for cell 'mb_design_i/axi_gpio_displays/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_3_0/mb_design_axi_gpio_3_0_board.xdc] for cell 'mb_design_i/axi_gpio_displays/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_3_0/mb_design_axi_gpio_3_0.xdc] for cell 'mb_design_i/axi_gpio_displays/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_gpio_3_0/mb_design_axi_gpio_3_0.xdc] for cell 'mb_design_i/axi_gpio_displays/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_uartlite_0_0/mb_design_axi_uartlite_0_0_board.xdc] for cell 'mb_design_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_uartlite_0_0/mb_design_axi_uartlite_0_0_board.xdc] for cell 'mb_design_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_uartlite_0_0/mb_design_axi_uartlite_0_0.xdc] for cell 'mb_design_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_uartlite_0_0/mb_design_axi_uartlite_0_0.xdc] for cell 'mb_design_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_timer_0_0/mb_design_axi_timer_0_0.xdc] for cell 'mb_design_i/axi_timer_0/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_timer_0_0/mb_design_axi_timer_0_0.xdc] for cell 'mb_design_i/axi_timer_0/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0.xdc] for cell 'mb_design_i/axi_dma_0/U0'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0.xdc:56]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0.xdc:61]
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0.xdc] for cell 'mb_design_i/axi_dma_0/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_1/mb_design_axi_emc_0_1_board.xdc] for cell 'mb_design_i/axi_emc_0'
+CRITICAL WARNING: [Netlist 29-160] Cannot set property 'BOARD_PIN', because the property does not exist for objects of type 'pin'. [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_1/mb_design_axi_emc_0_1_board.xdc:37]
+Resolution: Modify the set_property command to apply the property on the correct object type. Since the property is being applied as a scoped constraint, ensure the proper connectivity of the object port objects can be translated into pin objects. This could be due to the insertion of IO Buffers between the top level terminal and cell pin. If the goal is to apply constraints that will migrate to top level ports it is required that IO Buffers manually be instanced.
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_1/mb_design_axi_emc_0_1_board.xdc] for cell 'mb_design_i/axi_emc_0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_1/mb_design_axi_emc_0_1.xdc] for cell 'mb_design_i/axi_emc_0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_emc_0_1/mb_design_axi_emc_0_1.xdc] for cell 'mb_design_i/axi_emc_0'
+Parsing XDC File [C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.srcs/constrs_1/new/synth_design_constrs.xdc]
+Finished Parsing XDC File [C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.srcs/constrs_1/new/synth_design_constrs.xdc]
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_axi_intc_0/mb_design_microblaze_0_axi_intc_0_clocks.xdc] for cell 'mb_design_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_axi_intc_0/mb_design_microblaze_0_axi_intc_0_clocks.xdc] for cell 'mb_design_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0_clocks.xdc] for cell 'mb_design_i/axi_dma_0/U0'
+Finished Parsing XDC File [c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_axi_dma_0_0/mb_design_axi_dma_0_0_clocks.xdc] for cell 'mb_design_i/axi_dma_0/U0'
+INFO: [Project 1-1715] 3 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+WARNING: [Constraints 18-5572] Instance mb_design_i/axi_emc_0/U0/mem_a_int_reg[23] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance mb_design_i/axi_emc_0/U0/mem_a_int_reg[24] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance mb_design_i/axi_emc_0/U0/mem_a_int_reg[25] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance mb_design_i/axi_emc_0/U0/mem_a_int_reg[26] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance mb_design_i/axi_emc_0/U0/mem_a_int_reg[27] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance mb_design_i/axi_emc_0/U0/mem_a_int_reg[28] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance mb_design_i/axi_emc_0/U0/mem_a_int_reg[29] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance mb_design_i/axi_emc_0/U0/mem_a_int_reg[30] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+WARNING: [Constraints 18-5572] Instance mb_design_i/axi_emc_0/U0/mem_a_int_reg[31] has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+Generating merged BMM file for the design top 'mb_design_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.gen/sources_1/bd/mb_design/ip/mb_design_microblaze_0_0/data/mb_bootloop_le.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1386.059 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 146 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 16 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 80 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 32 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 18 instances
+
+14 Infos, 12 Warnings, 1 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1386.059 ; gain = 385.570
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.712 . Memory (MB): peak = 1386.059 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 18701c696
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.357 . Memory (MB): peak = 1404.992 ; gain = 18.934
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 5 inverter(s) to 9 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 18367fafc
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.501 . Memory (MB): peak = 1614.133 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 89 cells and removed 183 cells
+INFO: [Opt 31-1021] In phase Retarget, 24 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1d70a14ab
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.572 . Memory (MB): peak = 1614.133 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 15 cells and removed 50 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 176cb0dfc
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.832 . Memory (MB): peak = 1614.133 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 32 cells and removed 57 cells
+INFO: [Opt 31-1021] In phase Sweep, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG mb_design_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG_inst to drive 40 load(s) on clock net mb_design_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: 1888bae8e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.998 . Memory (MB): peak = 1614.133 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 1888bae8e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1614.133 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1fd2f7768
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1614.133 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |              89  |             183  |                                             24  |
+|  Constant propagation         |              15  |              50  |                                              1  |
+|  Sweep                        |              32  |              57  |                                              1  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              1  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1614.133 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 13d611590
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1614.133 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 40 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 11 newly gated: 0 Total Ports: 80
+Ending PowerOpt Patch Enables Task | Checksum: 168802c34
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.128 . Memory (MB): peak = 1760.379 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 168802c34
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 1760.379 ; gain = 146.246
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 168802c34
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1760.379 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1760.379 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 15ea5bc91
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1760.379 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+42 Infos, 12 Warnings, 1 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1760.379 ; gain = 374.320
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1760.379 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.runs/impl_1/mb_design_wrapper_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file mb_design_wrapper_drc_opted.rpt -pb mb_design_wrapper_drc_opted.pb -rpx mb_design_wrapper_drc_opted.rpx
+Command: report_drc -file mb_design_wrapper_drc_opted.rpt -pb mb_design_wrapper_drc_opted.pb -rpx mb_design_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.runs/impl_1/mb_design_wrapper_drc_opted.rpt.
+report_drc completed successfully
+Command: read_checkpoint -auto_incremental -directive RuntimeOptimized -incremental C:/Xilinx/projects/MB_basePlatform_old/MB_DMA_Base/MB_DMA_Base.srcs/utils_1/imports/impl_1/mb_design_wrapper_routed.dcp
+INFO: [Vivado 12-9151] Incremental flow is being run with directive 'RuntimeOptimized'. This will override place_design, post-place phys_opt_design and route_design directives being called in high reuse mode.
+
+Starting Incremental read checkpoint Task
+
+Phase 1 Process Reference Checkpoint Netlist
+INFO: [Netlist 29-17] Analyzing 734 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1760.379 ; gain = 0.000
+
+Phase 2 Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1760.379 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1760.379 ; gain = 0.000
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1760.379 ; gain = 0.000
+
+Phase 3 Replay Physical Synthesis Transforms
+INFO: [Vivado_Tcl 4-521] iPhys_opt_design summary: tried 0 changes and 0 changes are successfully applied
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1760.379 ; gain = 0.000
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+
+Phase 4 Build Reuse DB
+Reading placer database...
+Read XDEF File: Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1760.379 ; gain = 0.000
+Finished XDEF File Restore: Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1760.379 ; gain = 0.000
+INFO: [Designutils 20-2297] Reference Design: C:/Xilinx/projects/MB_basePlatform_old/MB_DMA_Base/MB_DMA_Base.srcs/utils_1/imports/impl_1/mb_design_wrapper_routed.dcp, Summary | WNS = 0.157 | WHS = 0.029 | State = POST_ROUTE |
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 1760.379 ; gain = 0.000
+
+Phase 5 Checking legality
+Phase 5 Checking legality | Checksum: 107c4cbf0
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 1760.379 ; gain = 0.000
+
+Phase 6 Reporting
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Jun 21 15:30:43 2021
+| Host         : EURICO-PC running 64-bit major release  (build 9200)
+| Design       : mb_design_wrapper
+| Device       : xc7a100t
+| Design State : Fully Routed
+------------------------------------------------------------------------------------
+
+Incremental Implementation Information
+
+Table of Contents
+-----------------
+1. Incremental Flow Summary
+2. Reuse Summary
+3. Reference Checkpoint Information
+4. Comparison with Reference Run
+5. Optimization Comparison With Reference Run
+5.1 iphys_opt_replay Optimizations
+5.2 QoR Suggestion Optimizations
+6. Command Comparison with Reference Run
+6.1 Reference:
+6.2 Incremental:
+7. Non Reuse Information
+
+1. Incremental Flow Summary
+---------------------------
+
++-----------------------+------------------+
+|    Flow Information   |       Value      |
++-----------------------+------------------+
+| Synthesis Flow        |          Default |
+| Auto Incremental      |              Yes |
+| Incremental Directive | RuntimeOptimized |
+| Reuse mode            |             High |
+| Target WNS            |              0.0 |
+| QoR Suggestions       |                0 |
++-----------------------+------------------+
+
+
+2. Reuse Summary
+----------------
+
++-------+----------------------+----------------------------+--------------------+-------+
+|  Type | Matched % (of Total) | Current Reuse % (of Total) | Fixed % (of Total) | Total |
++-------+----------------------+----------------------------+--------------------+-------+
+| Cells |               100.00 |                     100.00 |               1.21 | 15904 |
+| Nets  |               100.00 |                     100.00 |               0.00 | 11667 |
+| Pins  |                    - |                     100.00 |                  - | 62096 |
+| Ports |               100.00 |                     100.00 |             100.00 |   103 |
++-------+----------------------+----------------------------+--------------------+-------+
+
+
+3. Reference Checkpoint Information
+-----------------------------------
+
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+| DCP Location:  | C:/Xilinx/projects/MB_basePlatform_old/MB_DMA_Base/MB_DMA_Base.srcs/utils_1/imports/impl_1/mb_design_wrapper_routed.dcp |
++----------------+-------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------+----------------------------+
+|         DCP Information        |            Value           |
++--------------------------------+----------------------------+
+| Vivado Version                 |                     2020.2 |
+| DCP State                      |                 POST_ROUTE |
+| Recorded WNS                   |                      0.157 |
+| Recorded WHS                   |                      0.029 |
+| Reference Speed File Version   | PRODUCTION 1.23 2018-06-13 |
+| Incremental Speed File Version | PRODUCTION 1.23 2018-06-13 |
++--------------------------------+----------------------------+
+* Recorded WNS/WHS timing numbers are estimated timing numbers. They may vary slightly from sign-off timing numbers.
+
+
+4. Comparison with Reference Run
+--------------------------------
+
++-----------------+---------------------------+---------------------------+---------------------------+
+|                 |          WNS(ns)          |  Runtime(elapsed)(hh:mm)  |    Runtime(cpu)(hh:mm)    |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|      Stage      |  Reference  | Incremental |  Reference  | Incremental |  Reference  | Incremental |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+| synth_design    |             |             |       00:02 |       00:01 |       00:02 |       00:01 |
+| opt_design      |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| read_checkpoint |             |             |     < 1 min |             |     < 1 min |             |
+| place_design    |       0.157 |             |     < 1 min |             |     < 1 min |             |
+| phys_opt_design |       0.157 |             |     < 1 min |             |     < 1 min |             |
+| route_design    |       0.157 |             |     < 1 min |             |     < 1 min |             |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+
+5. Optimization Comparison With Reference Run
+---------------------------------------------
+
+5.1 iphys_opt_replay Optimizations
+----------------------------------
+
++-------------------------+--------+------------+
+| iphys_opt_design replay | Reused | Not Reused |
++-------------------------+--------+------------+
+
+
+5.2 QoR Suggestion Optimizations
+--------------------------------
+
++-----------------+-------+
+| QoR Suggestions | Value |
++-----------------+-------+
+
+
+6. Command Comparison with Reference Run
+----------------------------------------
+
+6.1 Reference:
+--------------
+synth_design-verilog_define default::[not_specified] -top  mb_design_wrapper -part  xc7a100tcsg324-1 
+opt_design
+read_checkpoint -directive RuntimeOptimized  -incremental -auto_incremental C:/Xilinx/projects/MB_basePlatform_old/MB_DMA_Base/MB_DMA_Base.srcs/utils_1/imports/impl_1/mb_design_wrapper_routed.dcp
+place_design
+phys_opt_design
+route_design
+
+6.2 Incremental:
+----------------
+synth_design-verilog_define default::[not_specified] -top  mb_design_wrapper -part  xc7a100tcsg324-1 
+opt_design
+read_checkpoint -directive RuntimeOptimized  -incremental -auto_incremental C:/Xilinx/projects/MB_basePlatform_old/MB_DMA_Base/MB_DMA_Base.srcs/utils_1/imports/impl_1/mb_design_wrapper_routed.dcp
+
+7. Non Reuse Information
+------------------------
+
++-----------------------+------+
+|          Type         |   %  |
++-----------------------+------+
+| Non-Reused Cells      | 0.00 |
+| Partially reused nets | 0.00 |
+| Non-Reused nets       | 0.00 |
+| Non-Reused Ports      | 0.00 |
++-----------------------+------+
+
+
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 1764.840 ; gain = 4.461
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1764.840 ; gain = 4.461
+read_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1764.840 ; gain = 4.461
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+
+Starting Incremental Placer Task
+INFO: [Vivado_Tcl 4-24] Running Incremental Placer flow for unplaced cells using reference design-checkpoint 'C:/Xilinx/projects/MB_basePlatform_old/MB_DMA_Base/MB_DMA_Base.srcs/utils_1/imports/impl_1/mb_design_wrapper_routed.dcp'.
+INFO: [Place 46-42] Incremental Compile is being run in High Reuse Mode.
+INFO: [Place 46-44] place_design is using directive Default with target WNS of 0 ns.
+INFO: [Place 30-281] No place-able instance is found; design doesn't contain any instance or all instances are placed
+
+Reference - Incremental Comparison Summary
+
+1. Comparison with Reference Run
+--------------------------------
+
++-----------------+---------------------------+---------------------------+---------------------------+
+|                 |          WNS(ns)          |  Runtime(elapsed)(hh:mm)  |    Runtime(cpu)(hh:mm)    |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|      Stage      |  Reference  | Incremental |  Reference  | Incremental |  Reference  | Incremental |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+| synth_design    |             |             |       00:02 |       00:01 |       00:02 |       00:01 |
+| opt_design      |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| read_checkpoint |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| place_design    |       0.157 |       0.157 |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| phys_opt_design |       0.157 |             |     < 1 min |             |     < 1 min |             |
+| route_design    |       0.157 |             |     < 1 min |             |     < 1 min |             |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+
+Ending Incremental Placer Task | Checksum: 107c4cbf0
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1773.660 ; gain = 8.820
+INFO: [Common 17-83] Releasing license: Implementation
+61 Infos, 12 Warnings, 1 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.798 . Memory (MB): peak = 1783.008 ; gain = 9.348
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.runs/impl_1/mb_design_wrapper_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file mb_design_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1783.008 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file mb_design_wrapper_utilization_placed.rpt -pb mb_design_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file mb_design_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1783.008 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+
+Reference - Incremental Comparison Summary
+
+1. Comparison with Reference Run
+--------------------------------
+
++-----------------+---------------------------+---------------------------+---------------------------+
+|                 |          WNS(ns)          |  Runtime(elapsed)(hh:mm)  |    Runtime(cpu)(hh:mm)    |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|      Stage      |  Reference  | Incremental |  Reference  | Incremental |  Reference  | Incremental |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+| synth_design    |             |             |       00:02 |       00:01 |       00:02 |       00:01 |
+| opt_design      |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| read_checkpoint |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| place_design    |       0.157 |       0.157 |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| phys_opt_design |       0.157 |       0.157 |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| route_design    |       0.157 |             |     < 1 min |             |     < 1 min |             |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+
+INFO: [Common 17-83] Releasing license: Implementation
+70 Infos, 12 Warnings, 1 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.901 . Memory (MB): peak = 1785.543 ; gain = 2.535
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.runs/impl_1/mb_design_wrapper_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Reference - Incremental Comparison Summary
+
+1. Comparison with Reference Run
+--------------------------------
+
++-----------------+---------------------------+---------------------------+---------------------------+
+|                 |          WNS(ns)          |  Runtime(elapsed)(hh:mm)  |    Runtime(cpu)(hh:mm)    |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|      Stage      |  Reference  | Incremental |  Reference  | Incremental |  Reference  | Incremental |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+| synth_design    |             |             |       00:02 |       00:01 |       00:02 |       00:01 |
+| opt_design      |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| read_checkpoint |             |             |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| place_design    |       0.157 |       0.157 |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| phys_opt_design |       0.157 |       0.157 |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
+| route_design    |       0.157 |       0.157 |     < 1 min |     < 1 min |     < 1 min |     < 1 min |
++-----------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+
+INFO: [Common 17-83] Releasing license: Implementation
+80 Infos, 12 Warnings, 1 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.798 . Memory (MB): peak = 1796.488 ; gain = 0.301
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.runs/impl_1/mb_design_wrapper_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file mb_design_wrapper_drc_routed.rpt -pb mb_design_wrapper_drc_routed.pb -rpx mb_design_wrapper_drc_routed.rpx
+Command: report_drc -file mb_design_wrapper_drc_routed.rpt -pb mb_design_wrapper_drc_routed.pb -rpx mb_design_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.runs/impl_1/mb_design_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file mb_design_wrapper_methodology_drc_routed.rpt -pb mb_design_wrapper_methodology_drc_routed.pb -rpx mb_design_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file mb_design_wrapper_methodology_drc_routed.rpt -pb mb_design_wrapper_methodology_drc_routed.pb -rpx mb_design_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.runs/impl_1/mb_design_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file mb_design_wrapper_power_routed.rpt -pb mb_design_wrapper_power_summary_routed.pb -rpx mb_design_wrapper_power_routed.rpx
+Command: report_power -file mb_design_wrapper_power_routed.rpt -pb mb_design_wrapper_power_summary_routed.pb -rpx mb_design_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+92 Infos, 13 Warnings, 1 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file mb_design_wrapper_route_status.rpt -pb mb_design_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file mb_design_wrapper_timing_summary_routed.rpt -pb mb_design_wrapper_timing_summary_routed.pb -rpx mb_design_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file mb_design_wrapper_incremental_reuse_routed.rpt
+INFO: [runtcl-4] Executing : report_clock_utilization -file mb_design_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file mb_design_wrapper_bus_skew_routed.rpt -pb mb_design_wrapper_bus_skew_routed.pb -rpx mb_design_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Memdata 28-208] The XPM instance: <mb_design_i/axis_data_fifo_0/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <mb_design_i/axis_data_fifo_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-167] Found XPM memory block mb_design_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the mb_design_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <mb_design_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <mb_design_i/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <mb_design_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <mb_design_i/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+Command: write_bitstream -force mb_design_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (mb_design_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (mb_design_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 2 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./mb_design_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-186] 'C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Mon Jun 21 15:31:19 2021. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.2/doc/webtalk_introduction.html.
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2300.602 ; gain = 499.969
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 21 15:31:19 2021...

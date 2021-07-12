@@ -1,0 +1,7 @@
+15:11:26 **** Clean-only build of configuration Debug for project aes128_proj ****
+make clean 
+rm -rf  ./src/aes128_main.o ./src/example.o ./src/platform.o  ./src/aes128_main.d ./src/example.d ./src/platform.d  aes128_proj.elf.size  aes128_proj.elf
+' '
+
+15:11:26 Build Finished (took 150ms)
+

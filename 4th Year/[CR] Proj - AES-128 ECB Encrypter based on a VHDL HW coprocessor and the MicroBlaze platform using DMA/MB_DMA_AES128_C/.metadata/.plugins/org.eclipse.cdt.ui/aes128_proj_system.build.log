@@ -1,0 +1,8 @@
+15:11:26 **** Clean-only build of configuration Debug for project aes128_proj_system ****
+make clean 
+rm -rf ./_sds
+rm -rf package
+rm -f system.bif
+
+15:11:26 Build Finished (took 103ms)
+

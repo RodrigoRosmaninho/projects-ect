@@ -1,0 +1,6 @@
+04:29:50 **** Build of configuration Debug for project test_reverse_endianess_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+04:29:50 Build Finished (took 94ms)
+

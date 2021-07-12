@@ -1,0 +1,266 @@
+#
+#   GITLAB
+#
+
+# TODO: Stuff, for sure
+
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: gitlab
+  namespace: code-ua
+spec:
+  replicas: 3
+  podManagementPolicy: "Parallel"
+  updateStrategy:
+    type: RollingUpdate
+  serviceName: "gitlab"
+  selector:
+    matchLabels:
+      app: gitlab
+  template:
+    metadata:
+      labels:
+        app: gitlab
+    spec:
+      containers:
+      - name: gitlab
+        image: 10.110.0.3:5000/codeua-gitlab-ee:latest
+        resources:
+         requests:
+           memory: "3.5Gi"
+           cpu: "500m"
+         limits:
+           memory: "6Gi"
+           cpu: "2000m"
+        livenessProbe:
+          httpGet:
+            path: /-/liveness
+            port: 80
+          initialDelaySeconds: 360  # 6 minutes
+          periodSeconds: 5
+          timeoutSeconds: 10
+        readinessProbe:
+          exec:
+            command:
+              - "/bin/bash"
+              - "-c"
+              - python3 /check_ready.py status "$(curl -s -X GET http://localhost/-/readiness?all=1)"
+          initialDelaySeconds: 375  # 6 minutes and 15 seconds - probe liveness endpoint first
+          periodSeconds: 5
+          timeoutSeconds: 10
+        env:
+        - name: TZ
+          value: "Europe/Lisbon"
+        - name: DEBUG
+          value: "false"
+        - name: GITLAB_HOST
+          value: localhost
+        - name: GITLAB_PORT
+          value: "80"
+        - name: GITLAB_SSH_PORT
+          value: "22"
+        - name: GITLAB_ROOT_PASSWORD
+          value: "girsgitlab"
+        - name: GITLAB_DATABASE_USERNAME
+          value: "postgres"
+        - name: GITLAB_SHARED_RUNNERS_REGISTRATION_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: gitlab-config
+              key: GITLAB_SHARED_RUNNERS_REGISTRATION_TOKEN
+        - name: GITALY_FEATURE_DEFAULT_ON
+          value: "1"
+        - name: ACTION_CABLE_IN_APP
+          value: "true"
+        ports:
+        - containerPort: 80
+        - containerPort: 22
+        - containerPort: 9100
+        - containerPort: 9168
+        - containerPort: 9229
+        volumeMounts:
+        # - name: gitlab-data
+        #   mountPath: /home/git/data
+        - name: gitlab-config
+          mountPath: /etc/gitlab/gitlab.rb
+          subPath: gitlab.rb
+        - name: varlog
+          mountPath: /var/log
+        - name: check-ready
+          mountPath: /check_ready.py
+          subPath: check_ready.py
+        - name: check-live
+          mountPath: /check_live.py
+          subPath: check_live.py
+        # - name: gitlab-secrets
+        #   mountPath: /etc/gitlab/gitlab-secrets.json
+        #   subPath: gitlab-secrets.json
+        # - name: gitlab-pages-secret
+        #   mountPath: /var/opt/gitlab/gitlab-rails/etc/gitlab_pages_secret
+        #   subPath: gitlab_pages_secret
+      - name: fluentd-agent
+        image: 10.110.0.3:5000/codeua-fluentd
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+        - name: config-volume
+          mountPath: /fluentd/etc/fluent.conf
+          subPath: fluent.conf
+      volumes:
+      - name: varlog
+        emptyDir: {}
+      - name: config-volume
+        configMap:
+          name: gitlab-fluentd-config
+      # - name: gitlab-data
+      #   persistentVolumeClaim:
+      #     claimName: gitlab-data-pv-claim
+      - name: gitlab-config
+        secret:
+          secretName: gitlab-config
+          items:
+            - key: gitlab.rb
+              path: gitlab.rb
+      - name: gitlab-secrets
+        secret:
+          secretName: gitlab-config
+          items:
+            - key: gitlab-secrets.json
+              path: gitlab-secrets.json
+      - name: gitlab-pages-secret
+        secret:
+          secretName: gitlab-config
+          items:
+            - key: gitlab-pages-secret
+              path: gitlab-pages-secret
+      - name: check-ready
+        configMap:
+          name: gitlab-check-ready
+      - name: check-live
+        configMap:
+          name: gitlab-check-live
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gitlab
+  namespace: code-ua
+spec:
+  ports:
+  - port: 80
+    targetPort: 80
+    name: http
+  - port: 22
+    targetPort: 22
+    name: ssh
+  selector:
+    app: gitlab
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gitlab-fluentd-config
+  namespace: code-ua
+data:
+  fluent.conf: |
+    <source>
+      type tail
+      format none
+      path /var/log/gitlab/**/*
+      pos_file /var/log/gitlab/**/*.pos
+      tag gitlab
+    </source>
+
+    <source>
+      type tail
+      format none
+      path /var/log/gitlab/**/gitlab_*.log
+      pos_file /var/log/gitlab/**/gitlab_*.log.pos
+      tag gitlab-rp
+    </source>
+
+    <filter **>
+      @type record_transformer
+      <record>
+        hostname "#{Socket.gethostname}"
+        tag ${tag}
+      </record>
+    </filter>
+
+    <match **>
+      @type elasticsearch
+      host 10.110.4.80
+      port 9200
+      logstash_format true
+    </match>
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gitlab-check-ready
+  namespace: code-ua
+data:
+  check_ready.py: |
+    import json
+    import sys
+    def check_ready_git():
+        j = json.loads(sys.argv[2])
+        check = sys.argv[1]
+        if check == "status":
+            return j["status"] != "ok"
+        else:
+            return j[check][0]["status"] != "ok"
+    sys.exit(check_ready_git())
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gitlab-check-live
+  namespace: code-ua
+data:
+  check_live.py: |
+    import json
+    import sys
+    j = json.loads(sys.argv[1])
+    sys.exit(j["status"] != "ok")
+
+# ---
+# apiVersion: networking.k8s.io/v1beta1
+# kind: Ingress
+# metadata:
+#   name: gitlab
+#   namespace: code-ua
+#   annotations:
+#     kubernetes.io/ingress.class: traefik
+#     traefik.ingress.kubernetes.io/frontend-entry-points: http,https
+#     traefik.ingress.kubernetes.io/redirect-entry-point: https
+#     traefik.ingress.kubernetes.io/redirect-permanent: "true"
+# spec:
+#   rules:
+#   - host: code-ua.k3s
+#     http:
+#       paths:
+#       - path: /
+#         backend:
+#           serviceName: gitlab
+#           servicePort: 80
+---
+apiVersion: autoscaling/v2beta1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: gitlab-hpa
+  namespace: code-ua
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: StatefulSet
+    name: gitlab
+  minReplicas: 3
+  maxReplicas: 5
+  metrics:
+  - type: Pods
+    pods:
+      metricName: gitlab_workhorse_http_in_flight_requests
+      targetAverageValue: "9000"

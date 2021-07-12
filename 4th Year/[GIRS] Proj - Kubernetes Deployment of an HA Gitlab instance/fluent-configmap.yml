@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: fluentd-config
+  namespace: code-ua
+data:
+  fluent.conf: |
+    <source>
+      type tail
+      format none
+      path /var/log/gitlab*/*.log
+      pos_file /var/log/gitlab*/*.log.pos
+      tag default
+    </source>
+
+    <filter **>
+      @type record_transformer
+      <record>
+        hostname "#{Socket.gethostname}"
+        tag ${tag}
+      </record>
+    </filter>
+
+    <match **>
+      @type elasticsearch
+      host 10.110.4.80
+      port 9200
+      logstash_format true
+    </match>

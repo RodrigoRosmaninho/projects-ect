@@ -1,0 +1,108 @@
+version: '3'
+services:
+  labproject:
+    depends_on:
+      - db
+      - kafka
+      - zookeeper
+    build: .
+    container_name: labproject-stock-checker
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/stocks?allowPublicKeyRetrieval=true&useSSL=false
+    networks:
+      stock-check-net:
+        ipv4_address: 172.117.0.2
+
+  events_consumer:
+    depends_on:
+      - kafka
+      - zookeeper
+    build: consumer
+    container_name: labproject-events-consumer
+    ports:
+      - "8081:8080"
+    environment:
+      MODE: "events"
+      KAFKA_HOST: "172.117.0.4"
+    networks:
+      stock-check-net:
+        ipv4_address: 172.117.0.6
+
+  logs_consumer:
+    depends_on:
+      - kafka
+      - zookeeper
+    build: consumer
+    container_name: labproject-logs-consumer
+    ports:
+      - "8082:8080"
+    environment:
+      MODE: "logs"
+      KAFKA_HOST: "172.117.0.4"
+    networks:
+      stock-check-net:
+        ipv4_address: 172.117.0.7
+
+  db:
+    image: mysql:latest
+    container_name: labproject-mysql
+    restart: always
+    ports:
+      - "3306:3306"
+    expose:
+      - "3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_PASSWORD: password
+      MYSQL_USER: admin
+      MYSQL_DATABASE: stocks
+      MYSQL_ROOT_HOST: '%'
+    volumes:
+      - labproject-db:/var/lib/mysql
+    networks:
+      stock-check-net:
+        ipv4_address: 172.117.0.3
+
+  kafka:
+    depends_on:
+      - zookeeper
+    image: wurstmeister/kafka
+    container_name: labproject-kafka
+    ports:
+      - "9092:9092"
+    expose:
+      - "9902"
+    environment:
+      KAFKA_BROKER_ID: 5
+      KAFKA_ADVERTISED_HOST_NAME: 172.117.0.4
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_CREATE_TOPICS: "logs:1:1,events:1:1"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      stock-check-net:
+        ipv4_address: 172.117.0.4
+
+  zookeeper:
+    image: wurstmeister/zookeeper
+    container_name: labproject-zookeeper
+    ports:
+      - "2181:2181"
+    expose:
+      - "2181"
+    networks:
+      stock-check-net:
+        ipv4_address: 172.117.0.5
+
+volumes:
+  labproject-db:
+
+networks:
+  stock-check-net:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.117.0.0/24
+

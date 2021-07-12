@@ -1,0 +1,30 @@
+04:29:49 **** Build of configuration Debug for project test_reverse_endianess ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/euric/Vitis_Workspace/reverse_endianess/export/reverse_endianess/sw/reverse_endianess/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:214:13: warning: unknown escape sequence: '\M'
+  214 |  xil_printf("\r\Max transfer length in bytes = %d", dmaInstDefs.TxBdRing.MaxTransferLen); // = to (2^^Width of buffer length register in DMA)-1
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/euric/Vitis_Workspace/reverse_endianess/export/reverse_endianess/sw/reverse_endianess/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: test_reverse_endianess.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/euric/Vitis_Workspace/reverse_endianess/export/reverse_endianess/sw/reverse_endianess/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "test_reverse_endianess.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_reverse_endianess.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size test_reverse_endianess.elf  |tee "test_reverse_endianess.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  18088	   1476	  49248	  68812	  10ccc	test_reverse_endianess.elf
+'Finished building: test_reverse_endianess.elf.size'
+' '
+
+04:29:50 Build Finished (took 594ms)
+

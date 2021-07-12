@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>StockCheck</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
+
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+<script src='/webjars/chartjs/2.9.4/Chart.min.js'></script>
+<script>
+    var dic = {};
+</script>
+<style>
+    :root {
+        --jumbotron-padding-y: 3rem;
+    }
+
+    .jumbotron {
+        padding-top: var(--jumbotron-padding-y);
+        padding-bottom: var(--jumbotron-padding-y);
+        margin-bottom: 0;
+        background-color: #fff;
+    }
+    @media (min-width: 768px) {
+        .jumbotron {
+            padding-top: calc(var(--jumbotron-padding-y) * 2);
+            padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+        }
+    }
+
+    .jumbotron p:last-child {
+        margin-bottom: 0;
+    }
+
+    .jumbotron-heading {
+        font-weight: 300;
+    }
+
+    .jumbotron .container {
+        max-width: 40rem;
+    }
+
+    footer {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    footer p {
+        margin-bottom: .25rem;
+    }
+
+    .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+</style>
+
+<header>
+    <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/></svg><path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/><circle cx="12" cy="13" r="4"></circle></svg>
+                <strong style="padding-left: 5px;">Stock Check</strong>
+            </a>
+        </div>
+    </div>
+</header>
+
+<main role="main">
+
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">Stock Check</h1>
+            <p class="lead text-muted">
+                NASDAQ is currently <span id="status"><b>?</b></span>, it will be <span id="nextStatus"><b>?</b></span> in <span id="timeUntilNextStatus"><b>?</b></span>
+            </p>
+            <br>
+            <p>
+                <input id="myInput" type="text" onkeyup="myFunction()" name="company_name" placeholder="Search for a company...">
+            </p>
+        </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+        <div class="container" >
+
+            <div class="row" id="myUL">
+                    <div class="companies" name='default' style="display: none;">
+                        <article>
+                            <header>
+                                <h2>No matches found</h2>
+                            </header><!-- .entry-header -->
+                        </article><!-- #post-## -->
+                    </div>
+                    <div class="col-md-4 companies" th:each="company : ${companies}" th:attr="name=${company.getName()}">
+                    <div class="card mb-4 box-shadow">
+                        <div class="card-body">
+                            <h4 class="card-title"  style="font-weight: bold;" th:text="${company.getName()}"></h4>
+                            <div class="card-text" style="display:flex;  flex-direction: column;">
+                                <div style="display:flex; justify-content: space-between; flex-direction: row;">
+                                    <div style=" margin:0 0px 0px 30px;">
+                                        <span>Current: </span><span id="current" th:text="${company.getCurrent()}"></span>
+                                    </div>
+                                    <div style=" margin:0 30px 0px 0;">
+                                        &nbsp;<span id="rawDelta" th:text="${company.getRawDelta()}"></span>&nbsp;(<span id="percentageDelta" th:text="${company.getPercentageDelta()}"></span>%)</span>
+                                    </div>
+                                </div>
+                                <div style="display:flex;   flex-direction: column;">
+                                    <div style="display:flex; justify-content: space-between; flex-direction: row;">
+                                        <div style=" margin:0 0px 0px 30px;">
+                                            <span>High: </span><span id="max" th:text="${company.getHigh()}"></span>
+                                        </div>
+                                        <div style=" margin:0 30px 0px 0;">
+                                            <span>Low: </span><span id="min" th:text="${company.getLow()}"></span><br/>
+                                        </div>
+                                    </div>
+                                    <div style=" margin:0 0px 0px 30px;">
+                                        <span>Open: </span><span id="first" th:text="${company.getOpen()}"></span><br/>
+                                    </div>
+                                </div>
+                            </div>
+                            <span id="timestamp" th:text="${company.getTimestamp()}" hidden></span>
+                            <p class="card-text"><small class="text-muted">Last updated <span id="elapsed">0 seconds</span> ago</small></p>
+                        </div>
+                        <canvas th:attr="id=${company.getName()}"></canvas>
+                    </div>
+                    <script>
+                          var array = [];
+
+                          for (var i = 1; i <= 100; i++) {
+                             array.push("[[${company.getName()}]]");
+                          }
+                          var stockData = {
+                          labels: array,
+                          datasets: [{
+                            label: "Price",
+                            data: [[${company.getGraphValues()}]],
+                          }]
+                        };
+
+                        var chartOptions = {
+                          scales:{
+                            xAxes: [{
+                                display: false
+                            }]
+                          },
+                          legend: {
+                            display: false,
+                            position: 'top',
+                            labels: {
+                              boxWidth: 80,
+                              fontColor: 'black'
+                            }
+                          }
+                        };
+
+                        var speedCanvas = document.getElementById("[[${company.getName()}]]").getContext("2d");
+
+                        var lineChart = new Chart(speedCanvas, {
+                        type: 'line',
+                        data: stockData,
+                        options: chartOptions
+                        });
+                        dic["[[${company.getName()}]]"] = lineChart;
+                    </script>
+                </li>
+
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer class="text-muted">
+    <div class="container">
+        <p class="float-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>ES LabProject L31 - Gonçalo Perna, Rodrigo Rosmaninho - 2021 (DETI - UA)</p>
+        <p>Data: Finnhub API  |  Template: Album © Bootstrap, free to use and customise</p>
+    </div>
+</footer>
+
+<script src="/webjars/jquery/jquery.min.js"></script>
+<script src="/webjars/sockjs-client/sockjs.min.js"></script>
+<script src="/webjars/stomp-websocket/stomp.min.js"></script>
+<script src="/webjars/popper.js/2.5.4/umd/popper.min.js"></script>
+<script src="/webjars/holderjs/holder.min.js"></script>
+<script type="text/javascript" src="http://momentjs.com/downloads/moment.min.js"></script>
+<script type="text/javascript" src="http://momentjs.com/downloads/moment-timezone-with-data.min.js"></script>
+
+<script>
+    var socket = new SockJS('/stock-check-websocket');
+    stompClient = Stomp.over(socket);
+    stompClient.connect({}, function (frame) {
+        console.log('Connected: ' + frame);
+        stompClient.subscribe('/topic/quotes', function (quote) {
+            data = JSON.parse(quote.body).quotes;
+            data.forEach(function(entry) {
+                var l_chart = dic[entry.name];
+                l_chart.data.labels.push(entry.name)
+                l_chart.data.labels.splice(0, 1);
+
+                l_chart.data.datasets[0].data.push(entry.c);
+                l_chart.data.datasets[0].data.splice(0, 1);
+                l_chart.update();
+
+                div = $('div[name=' + entry.name + ']');
+                div.find("#current").text(entry.c);
+                div.find("#max").text(entry.h);
+                div.find("#min").text(entry.l);
+                div.find("#first").text(entry.o);
+                div.find("#rawDelta").text(entry.rawDelta);
+                div.find("#percentageDelta").text(entry.percentageDelta);
+                div.find("#timestamp").text(new Date().getTime() / 1000);
+                div.find("#elapsed").text(0 + " seconds");
+            });
+        });
+    });
+
+
+
+    function myFunction() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            ul = document.getElementById("myUL");
+            li = document.getElementsByClassName("companies");
+
+            var count = 0;
+            for (i = 0; i < li.length; i++) {
+                txtValue = li[i].getAttribute("name");
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                    count++;
+                }
+            }
+            if (count == li.length){
+                li[0].style.display = "";
+            }
+            else{
+                li[0].style.display = "none";
+            }
+        }
+
+    var holidays = [
+        '2016-01-01', '2016-01-18', '2016-02-15', '2016-03-25', '2016-05-30', '2016-07-04', '2016-09-05', '2016-11-24', '2016-12-26',
+        '2017-01-02', '2017-01-16', '2017-02-20', '2017-04-14', '2017-05-29', '2017-07-04', '2017-09-04', '2017-11-23', '2017-12-25',
+        '2018-01-01', '2018-01-15', '2018-02-19', '2018-03-30', '2018-05-28', '2018-07-04', '2018-09-03', '2018-11-22', '2018-12-25',
+        '2019-01-01', '2019-01-21', '2019-02-18', '2019-04-19', '2019-05-27', '2019-07-04', '2019-09-02', '2019-11-28', '2019-12-25',
+        '2020-01-01', '2020-01-20', '2020-02-17', '2020-04-10', '2020-05-25', '2020-07-03', '2020-09-07', '2020-11-26', '2020-12-25',
+        '2021-01-01', '2021-01-18', '2021-02-15', '2021-04-02', '2021-05-31', '2021-07-05', '2021-09-06', '2021-11-25', '2021-12-24'
+    ];
+
+    var earlyCloseDates = [
+        '2018-07-03', '2018-11-23', '2018-12-24',
+        '2019-07-03', '2019-11-29', '2019-12-24',
+        '2020-11-27', '2020-12-24',
+        '2021-11-26'
+    ];
+
+    function nasdaqStatus(currentDateISOString) {
+        var now = moment(currentDateISOString).tz('America/New_York');
+
+        if (!isWorkingDay(now)) {
+            var nextOpenDate = nextWorkingDay(now).hour(9).minute(30).second(0);
+            var timeToWait = moment.duration(nextOpenDate.diff(now, 'seconds'), 'seconds');
+            return {currentStatus: 'CLOSED', nextStatus: 'open', timeUntilNextStatus: durationToString(timeToWait)};
+        }
+
+        var openDate = moment(now).hour(9).minute(30).second(0);
+        if (now.isBefore(openDate)) {
+            var timeToWait = moment.duration(openDate.diff(now, 'seconds'), 'seconds');
+            return {currentStatus: 'CLOSED', nextStatus: 'open', timeUntilNextStatus: durationToString(timeToWait)};
+        }
+
+        var closingHour = isEarlyClose(now)? 13 : 16;
+        var closeDate = moment(now).hour(closingHour).minute(0).second(0);
+        if (now.isAfter(closeDate)) {
+            var nextOpenDate = nextWorkingDay(now).hour(9).minute(30).second(0);
+            var timeToWait = moment.duration(nextOpenDate.diff(now, 'seconds'), 'seconds');
+            return {currentStatus: 'CLOSED', nextStatus: 'open', timeUntilNextStatus: durationToString(timeToWait)};
+        }
+
+        var timeToWait = moment.duration(closeDate.diff(now, 'seconds'), 'seconds');
+        return {currentStatus: 'OPEN', nextStatus: 'closed', timeUntilNextStatus: durationToString(timeToWait)};
+    }
+
+    function isWorkingDay(now) {
+        if (isHoliday(now)) return false;
+        var SUNDAY = 0;
+        var SATURDAY = 6;
+        return !(now.day() == SUNDAY || now.day() == SATURDAY);
+    }
+
+    function isHoliday(now) {
+        for (var i = 0; i < holidays.length; i++) {
+            var holiday = moment.tz(holidays[i], "America/New_York");
+            if (now.isSame(holiday, 'day')) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    function isEarlyClose(now) {
+        for (var i = 0; i < earlyCloseDates.length; i++) {
+            var earlyCloseDate = moment.tz(earlyCloseDates[i], "America/New_York");
+            if (now.isSame(earlyCloseDate, 'day')) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    function nextWorkingDay(now) {
+        var candidate = moment(now).add(1, 'days');
+        while(!isWorkingDay(candidate))
+            candidate = candidate.add(1, 'days');
+        return candidate;
+    }
+
+    function durationToString(duration) {
+        return duration.days() + 'd ' + duration.hours() + 'h ' + duration.minutes() + 'm ' + duration.seconds() + 's';
+    }
+
+    function myTimer() {
+        var status = nasdaqStatus();
+        $('#status').html(status.currentStatus);
+        if ($('#status:contains("OPEN")').length) {
+            $('#status').css('color', 'green');
+        } else {
+            $('#status').css('color', 'red');
+        }
+        $('#nextStatus').html(status.nextStatus);
+        $('#timeUntilNextStatus').html(status.timeUntilNextStatus);
+
+        $('.card-body').each(function() {
+            var card = $(this);
+            var now = new Date().getTime() / 1000;
+            var then = parseInt(card.find("#timestamp").text());
+            card.find("#elapsed").text(Math.floor(now - then) + " seconds");
+        });
+    }
+
+    $('.card-body').each(function() {
+        $(this).find('#timestamp').text(new Date().getTime() / 1000);
+    });
+
+    setInterval(myTimer, 1000);
+
+</script>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="348" height="225" viewBox="0 0 348 225" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="17" style="font-weight:bold;font-size:17pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Price Graph</text></svg></body></html>

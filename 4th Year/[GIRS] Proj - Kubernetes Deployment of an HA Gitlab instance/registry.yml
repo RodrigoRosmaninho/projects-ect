@@ -1,0 +1,134 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: registry
+  namespace: code-ua
+spec:
+  replicas: 2
+  serviceName: registry
+  selector:
+    matchLabels:
+      app: registry
+  template:
+    metadata:
+      labels:
+        app: registry
+    spec:
+      containers:
+      - name: registry
+        image: 10.110.0.3:5000/codeua-gitlab-container-registry:master
+        resources:
+          limits:
+            memory: "500Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 5000
+        env:
+        - name: REGISTRY_AUTH_TOKEN_REALM
+          value: http://localhost:3000/jwt/auth
+        volumeMounts:
+          - mountPath: /etc/docker/registry
+            name: registry-conf
+          - mountPath: /scripts
+            name: registry-scripts
+          - mountPath: /var/lib/registry/docker
+            name: registry-storage
+      - name: fluentd-agent
+        image: 10.110.0.3:5000/codeua-fluentd
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+        - name: config-volume
+          mountPath: /fluentd/etc/fluent.conf
+          subPath: fluent.conf
+      volumes:
+      - name: varlog
+        emptyDir: {}
+      - name: config-volume
+        configMap:
+          name: fluentd-config
+      - name: registry-conf
+        secret:
+          secretName: registry-config
+      - name: registry-scripts
+        configMap:
+          name: registry-scripts-map
+      - name: registry-storage
+        persistentVolumeClaim:
+          claimName: registry-storage-pv-claim
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: registry
+  namespace: code-ua
+spec:
+  selector:
+    app: registry
+  ports:
+  - port: 5000
+    targetPort: 5000
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: registry-scripts-map
+  namespace: code-ua
+data:
+  db-migrate: |
+    #!/bin/bash
+
+    registry database migrate up ${CONFIG_DIRECTORY}/${CONFIG_FILENAME}
+  healthcheck: |
+    #!/bin/bash
+
+    set -e
+
+    status=$(curl --retry 6 -s -q -w '%{http_code}' http://127.0.0.1:${GITLAB_CONTAINER_REGISTRY_LISTEN_PORT:-5000}/v2/)
+
+    [[ '200 401' =~ "$status" ]]
+  wait-for-deps: |
+    #!/bin/bash
+
+    WAIT_FOR_TIMEOUT="${WAIT_FOR_TIMEOUT:-30}"
+    SLEEP_DURATION="${SLEEP_DURATION:-1}"
+    BYPASS_SCHEMA_VERSION="${BYPASS_SCHEMA_VERSION:-}"
+
+    TMP=$(mktemp)
+
+    function checkStatus {
+      # result=true|false, if command successful
+      result=$(registry database migrate status --up-to-date ${CONFIG_DIRECTORY}/${CONFIG_FILENAME})
+      ret=$?
+
+      if [ $ret -eq 0 ]; then
+        # successful run, check the output, if we care
+        if [ -z "${BYPASS_SCHEMA_VERSION}" ]; then
+          ret=$(${result})
+        fi
+      fi
+
+      return $ret
+    }
+
+    counter=1
+    until [ $counter -eq $WAIT_FOR_TIMEOUT ]; do
+      # if successful, break and move on.
+      if checkStatus ; then
+        break
+      fi
+      # otherwise, sleep, increment, and try again.
+      sleep $SLEEP_DURATION;
+      ((counter++))
+    done
+
+    # check that if we failed, and output.
+    if [ $counter -eq $WAIT_FOR_TIMEOUT ]; then
+      echo 'WARNING: Not all services were operational, with data migrations completed.'
+      # Output a message as to how to resolve this container failing.
+      echo 'If this container continues to fail, please see: https://docs.gitlab.com/charts/troubleshooting/index.html#application-containers-constantly-initializing'
+      exit 1
+    fi
+
+    # `exec` the arguments passed to this script (if any)
+    exec "$@"

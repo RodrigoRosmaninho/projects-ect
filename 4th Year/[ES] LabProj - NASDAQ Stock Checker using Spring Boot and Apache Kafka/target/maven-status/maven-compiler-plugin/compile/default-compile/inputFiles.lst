@@ -1,0 +1,12 @@
+/home/rrosmaninho/Repos/MIECT/ES/StockCheck/src/main/java/pt/ua/deti/es/l31/labproject/controllers/ScheduledTasks.java
+/home/rrosmaninho/Repos/MIECT/ES/StockCheck/src/main/java/pt/ua/deti/es/l31/labproject/models/QuoteUpdate.java
+/home/rrosmaninho/Repos/MIECT/ES/StockCheck/src/main/java/pt/ua/deti/es/l31/labproject/models/APIQueries.java
+/home/rrosmaninho/Repos/MIECT/ES/StockCheck/src/main/java/pt/ua/deti/es/l31/labproject/controllers/KafkaController.java
+/home/rrosmaninho/Repos/MIECT/ES/StockCheck/src/main/java/pt/ua/deti/es/l31/labproject/models/EntryRepository.java
+/home/rrosmaninho/Repos/MIECT/ES/StockCheck/src/main/java/pt/ua/deti/es/l31/labproject/controllers/GreetingController.java
+/home/rrosmaninho/Repos/MIECT/ES/StockCheck/src/main/java/pt/ua/deti/es/l31/labproject/models/Quote.java
+/home/rrosmaninho/Repos/MIECT/ES/StockCheck/src/main/java/pt/ua/deti/es/l31/labproject/WebSocketConfig.java
+/home/rrosmaninho/Repos/MIECT/ES/StockCheck/src/main/java/pt/ua/deti/es/l31/labproject/controllers/RestAPIController.java
+/home/rrosmaninho/Repos/MIECT/ES/StockCheck/src/main/java/pt/ua/deti/es/l31/labproject/models/PriceEntry.java
+/home/rrosmaninho/Repos/MIECT/ES/StockCheck/src/main/java/pt/ua/deti/es/l31/labproject/StockCheckApplication.java
+/home/rrosmaninho/Repos/MIECT/ES/StockCheck/src/main/java/pt/ua/deti/es/l31/labproject/pubsub/KafkaProducer.java

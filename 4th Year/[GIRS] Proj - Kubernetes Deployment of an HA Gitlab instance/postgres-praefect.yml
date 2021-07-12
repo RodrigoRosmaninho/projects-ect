@@ -1,0 +1,113 @@
+#
+#   POSTGRESQL
+#
+
+# TODO: Volumes, lb, secrets
+# Search how to deploy postgres to k8s - see if anything is missing besides the above
+
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: postgres-praefect
+  namespace: code-ua
+spec:
+  replicas: 3
+  serviceName: "postgres-praefect"
+  selector:
+    matchLabels:
+      app: postgres-praefect
+  template:
+    metadata:
+      labels:
+        app: postgres-praefect
+    spec:
+      containers:
+      - name: postgres
+        image: 10.110.0.3:5000/codeua-postgresql-repmgr:12
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 5432
+        env:
+        - name: POSTGRESQL_USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: pg-praefect-credentials
+              key: POSTGRESQL_USERNAME
+        - name: POSTGRESQL_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: pg-praefect-credentials
+              key: POSTGRESQL_PASSWORD
+        - name: POSTGRESQL_DATABASE
+          valueFrom:
+            secretKeyRef:
+              name: pg-praefect-credentials
+              key: POSTGRESQL_DATABASE
+        - name: POSTGRESQL_NUM_SYNCHRONOUS_REPLICAS
+          value: "2"
+        - name: REPMGR_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: postgres-credentials
+              key: REPMGR_PASSWORD
+        - name: BITNAMI_DEBUG
+          value: "true"
+        - name: REPMGR_NODE_IDX
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        - name: REPMGR_PRIMARY_HOST
+          value: postgres-praefect-0
+        - name: REPMGR_PARTNER_NODES
+          value: "postgres-praefect-0,postgres-praefect-1,postgres-praefect-2"
+        - name: REPMGR_NODE_NAME
+          value: "$(REPMGR_NODE_IDX)"
+        - name: REPMGR_NODE_NETWORK_NAME
+          value: "$(REPMGR_NODE_IDX)"
+        volumeMounts:
+        - name: postgres-praefect-data-pvc
+          mountPath: /bitnami/postgresql
+      - name: fluentd-agent
+        image: 10.110.0.3:5000/codeua-fluentd
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+        - name: config-volume
+          mountPath: /fluentd/etc/fluent.conf
+          subPath: fluent.conf
+      volumes:
+      - name: varlog
+        emptyDir: {}
+      - name: config-volume
+        configMap:
+          name: fluentd-config
+      dnsConfig:
+        searches:
+          - postgres-praefect.code-ua.svc.cluster.local
+  volumeClaimTemplates:
+  - metadata:
+      name: postgres-praefect-data-pvc
+    spec:
+      accessModes: ["ReadWriteOnce"]
+      resources:
+        requests:
+          storage: 1Gi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: postgres-praefect
+  namespace: code-ua
+spec:
+  ports:
+  - port: 5432
+    targetPort: 5432
+  selector:
+    app: postgres-praefect

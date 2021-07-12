@@ -1,0 +1,121 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: runner
+  namespace: code-ua
+spec:
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  selector:
+    matchLabels:
+      app: runner
+  template:
+    metadata:
+      labels:
+        app: runner
+    spec:
+      containers:
+      - image: 10.110.0.3:5000/codeua-gitlab-runner:ubuntu-v13.11.0
+        name: runner
+        resources:
+          requests:
+            cpu: 200m
+            memory: 250Mi
+          limits:
+            cpu: 500m
+            memory: 750Mi
+        ports:
+          - containerPort: 8093
+        env:
+        - name: CI_SERVER_URL
+          value: "http://gitlab.code-ua"
+        - name: REGISTRATION_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: gitlab-runner-credentials
+              key: REGISTRATION_TOKEN
+        - name: API_VERSION
+          value: v4
+        - name: GIT_SSL_NO_VERIFY
+          value: "1"
+        - name: TEMPLATE_CONFIG_FILE
+          value: /opt/gitlab-runner/config.toml
+        command: ["/bin/bash"]
+        args: ["-c", "mkdir /var/log/gitlab-runner; gitlab-runner register -n -r $REGISTRATION_TOKEN -u $CI_SERVER_URL --executor shell --locked=\"false\" --access-level=\"not_protected\" --run-untagged=\"true\" > /var/log/gitlab-runner/out.log 2>&1 && sleep 2 && sed -i '1ilog_level = \\\"debug\\\"' /etc/gitlab-runner/config.toml && sed -i 's/check_interval = 0/check_interval = 5/g' /etc/gitlab-runner/config.toml && gitlab-runner stop && THIS_RUNNER_TOKEN=$(grep -m 1 \"token = \" /etc/gitlab-runner/config.toml | awk -F 'token = \"' '{print $2}' | awk -F '\"' '{print $1}'); while :; do gitlab-runner run-single -u http://gitlab.code-ua -t $THIS_RUNNER_TOKEN --executor shell --shell bash --request-concurrency 1 --wait-timeout 8 >> /var/log/gitlab-runner/out.log 2>&1; sleep 1; done"]
+        # --executor docker --docker-image docker:latest --docker-network-mode gitlaboncompose_default --docker-privileged
+        volumeMounts:
+        - mountPath: /opt/gitlab-runner/config.toml
+          name: runner-conf
+          subPath: config.toml
+        - name: varlog
+          mountPath: /var/log
+        lifecycle:
+          preStop:
+            exec:
+              command:
+                - "/bin/bash"
+                - "-c"
+                - "gitlab-runner unregister --all-runners"
+      - name: fluentd-agent
+        image: 10.110.0.3:5000/codeua-fluentd
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+        - name: config-volume
+          mountPath: /fluentd/etc/fluent.conf
+          subPath: fluent.conf
+      volumes:
+      - name: varlog
+        emptyDir: {}
+      - name: config-volume
+        configMap:
+          name: runner-fluentd-config
+      - name: runner-conf
+        secret:
+          secretName: runner-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: runner
+  namespace: code-ua
+spec:
+  selector:
+    app: runner
+  ports:
+  - port: 8093
+    targetPort: 8093
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: runner-fluentd-config
+  namespace: code-ua
+data:
+  fluent.conf: |
+    <source>
+      type tail
+      format none
+      path /var/log/gitlab*/*.log
+      pos_file /var/log/gitlab*/*.log.pos
+      tag runner
+    </source>
+
+    <filter **>
+      @type record_transformer
+      <record>
+        hostname "#{Socket.gethostname}"
+        tag ${tag}
+      </record>
+    </filter>
+
+    <match **>
+      @type elasticsearch
+      host 10.110.4.80
+      port 9200
+      logstash_format true
+    </match>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="sdx.custom.platform.repository.locations" value="C:\Users\euric\Vitis_Workspace\reverse_endianess\export\reverse_endianess;C:\Users\euric\Vitis_Workspace\mb_dma_aes128\export\mb_dma_aes128;C:\Xilinx\projects\CR_AES128_Proj\MB_DMA_C\mb_dma_aes128\export\mb_dma_aes128;C:\Xilinx\projects\CR_AES128_Proj\MB_DMA_AES128_C\mb_dma_aes128\export\mb_dma_aes128"/>
+	<item key="sdx.custom.platform.repository.last.directory.dialog.location" value="C:\Xilinx\projects\CR_AES128_Proj\MB_DMA_AES128_C\mb_dma_aes128\export\mb_dma_aes128"/>
+</section>

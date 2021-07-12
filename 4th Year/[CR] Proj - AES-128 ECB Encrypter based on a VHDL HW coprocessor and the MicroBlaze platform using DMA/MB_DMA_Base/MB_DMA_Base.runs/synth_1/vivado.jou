@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jun 21 15:27:48 2021
+# Process ID: 9772
+# Current directory: C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.runs/synth_1
+# Command line: vivado.exe -log mb_design_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_design_wrapper.tcl
+# Log file: C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.runs/synth_1/mb_design_wrapper.vds
+# Journal file: C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_Base/MB_DMA_Base.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mb_design_wrapper.tcl -notrace

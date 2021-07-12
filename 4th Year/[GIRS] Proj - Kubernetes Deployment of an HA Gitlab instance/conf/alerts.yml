@@ -1,0 +1,12 @@
+groups:
+- name: nginx
+  rules:
+  - alert: NGINX requests per second are over 10m
+    expr: nginx_http_requests_total > 10
+    for: 1m
+    labels:
+      severity: warning
+    annotations:
+      summary: ""
+      description: "Requests per second are over 10m"
+      owners: "<@U025VQ0QW79> <@U026P67SCP3>"

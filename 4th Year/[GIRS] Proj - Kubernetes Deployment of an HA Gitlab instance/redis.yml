@@ -1,0 +1,803 @@
+#
+#   REDIS
+#
+
+# TODO: Volumes, lb (cache vs persistence), secrets
+# Search how to deploy redis to k8s - see if anything is missing besides the above
+
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: redis-queues
+  namespace: code-ua
+spec:
+  replicas: 1
+  serviceName: redis-queues
+  selector:
+    matchLabels:
+      app: redis-queues
+  template:
+    metadata:
+      labels:
+        app: redis-queues
+    spec:
+      containers:
+      - name: redis
+        image: 10.110.0.3:5000/codeua-redis:6.0.10
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 6379
+        command: ["bash", "-c", "redis-server /usr/local/etc/redis/redis.conf"]
+        volumeMounts:
+        - name: redis-conf
+          mountPath: /usr/local/etc/redis/
+      - name: fluentd-agent
+        image: 10.110.0.3:5000/codeua-fluentd
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+        - name: config-volume
+          mountPath: /fluentd/etc/fluent.conf
+          subPath: fluent.conf
+      - name: exporter
+        image: 10.110.0.3:5000/codeua-redis-exporter:latest
+        ports:
+        - containerPort: 9121
+        env:
+        - name: REDIS_ADDR
+          value: redis://localhost:6379
+        - name: REDIS_PASSWORD
+          value: redis-meercat
+      volumes:
+      - name: varlog
+        emptyDir: {}
+      - name: config-volume
+        configMap:
+          name: fluentd-config
+      - name: redis-conf
+        configMap:
+          name: redis-conf
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: redis-queues-slave
+  namespace: code-ua
+spec:
+  replicas: 2
+  serviceName: redis-queues-slave
+  selector:
+    matchLabels:
+      app: redis-queues-slave
+  template:
+    metadata:
+      labels:
+        app: redis-queues-slave
+    spec:
+      containers:
+      - name: redis
+        image: 10.110.0.3:5000/codeua-redis:6.0.10
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 6379
+        command: ["bash", "-c", "redis-server /usr/local/etc/redis/redis.conf --slaveof redis-queues.code-ua 6379 --masterauth redis-meercat"]
+        volumeMounts:
+        - name: redis-conf
+          mountPath: /usr/local/etc/redis/
+      - name: exporter
+        image: 10.110.0.3:5000/codeua-redis-exporter:latest
+        ports:
+        - containerPort: 9121
+        env:
+        - name: REDIS_ADDR
+          value: redis://localhost:6379
+        - name: REDIS_PASSWORD
+          value: redis-meercat
+      volumes:
+      - name: redis-conf
+        configMap:
+          name: redis-conf
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-queues
+  namespace: code-ua
+spec:
+  ports:
+  - port: 6379
+    targetPort: 6379
+  selector:
+    app: redis-queues
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-queues-slave
+  namespace: code-ua
+spec:
+  ports:
+  - port: 6379
+    targetPort: 6379
+  selector:
+    app: redis-queues-slave
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: redis-state
+  namespace: code-ua
+spec:
+  replicas: 1
+  serviceName: redis-state
+  selector:
+    matchLabels:
+      app: redis-state
+  template:
+    metadata:
+      labels:
+        app: redis-state
+    spec:
+      containers:
+      - name: redis
+        image: 10.110.0.3:5000/codeua-redis:6.0.10
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 6379
+        command: ["bash", "-c", "redis-server /usr/local/etc/redis/redis.conf"]
+        volumeMounts:
+        - name: redis-conf
+          mountPath: /usr/local/etc/redis/
+      - name: exporter
+        image: 10.110.0.3:5000/codeua-redis-exporter:latest
+        ports:
+        - containerPort: 9121
+        env:
+        - name: REDIS_ADDR
+          value: redis://localhost:6379
+        - name: REDIS_PASSWORD
+          value: redis-meercat
+      volumes:
+      - name: redis-conf
+        configMap:
+          name: redis-conf
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: redis-state-slave
+  namespace: code-ua
+spec:
+  replicas: 2
+  serviceName: redis-state-slave
+  selector:
+    matchLabels:
+      app: redis-state-slave
+  template:
+    metadata:
+      labels:
+        app: redis-state-slave
+    spec:
+      containers:
+      - name: redis
+        image: 10.110.0.3:5000/codeua-redis:6.0.10
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 6379
+        command: ["bash", "-c", "redis-server /usr/local/etc/redis/redis.conf --slaveof redis-state.code-ua 6379 --masterauth redis-meercat"]
+        volumeMounts:
+        - name: redis-conf
+          mountPath: /usr/local/etc/redis/
+      - name: exporter
+        image: 10.110.0.3:5000/codeua-redis-exporter:latest
+        ports:
+        - containerPort: 9121
+        env:
+        - name: REDIS_ADDR
+          value: redis://localhost:6379
+        - name: REDIS_PASSWORD
+          value: redis-meercat
+      volumes:
+      - name: redis-conf
+        configMap:
+          name: redis-conf
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-state
+  namespace: code-ua
+spec:
+  ports:
+  - port: 6379
+    targetPort: 6379
+  selector:
+    app: redis-state
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-state-slave
+  namespace: code-ua
+spec:
+  ports:
+  - port: 6379
+    targetPort: 6379
+  selector:
+    app: redis-state-slave
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: redis-cache
+  namespace: code-ua
+spec:
+  replicas: 1
+  serviceName: redis-cache
+  selector:
+    matchLabels:
+      app: redis-cache
+  template:
+    metadata:
+      labels:
+        app: redis-cache
+    spec:
+      containers:
+      - name: redis
+        image: 10.110.0.3:5000/codeua-redis:6.0.10
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 6379
+        command: ["bash", "-c", "redis-server /usr/local/etc/redis/redis.conf"]
+        volumeMounts:
+        - name: redis-conf
+          mountPath: /usr/local/etc/redis/
+      - name: exporter
+        image: 10.110.0.3:5000/codeua-redis-exporter:latest
+        ports:
+        - containerPort: 9121
+        env:
+        - name: REDIS_ADDR
+          value: redis://localhost:6379
+        - name: REDIS_PASSWORD
+          value: redis-meercat
+      volumes:
+      - name: redis-conf
+        configMap:
+          name: redis-conf
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: redis-cache-slave
+  namespace: code-ua
+spec:
+  replicas: 2
+  serviceName: redis-cache-slave
+  selector:
+    matchLabels:
+      app: redis-cache-slave
+  template:
+    metadata:
+      labels:
+        app: redis-cache-slave
+    spec:
+      containers:
+      - name: redis
+        image: 10.110.0.3:5000/codeua-redis:6.0.10
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 6379
+        command: ["bash", "-c", "redis-server /usr/local/etc/redis/redis.conf --slaveof redis-cache.code-ua 6379 --masterauth redis-meercat"]
+        volumeMounts:
+        - name: redis-conf
+          mountPath: /usr/local/etc/redis/
+      - name: exporter
+        image: 10.110.0.3:5000/codeua-redis-exporter:latest
+        ports:
+        - containerPort: 9121
+        env:
+        - name: REDIS_ADDR
+          value: redis://localhost:6379
+        - name: REDIS_PASSWORD
+          value: redis-meercat
+      volumes:
+      - name: redis-conf
+        configMap:
+          name: redis-conf
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-cache
+  namespace: code-ua
+spec:
+  ports:
+  - port: 6379
+    targetPort: 6379
+  selector:
+    app: redis-cache
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-cache-slave
+  namespace: code-ua
+spec:
+  ports:
+  - port: 6379
+    targetPort: 6379
+  selector:
+    app: redis-cache-slave
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: redis-actioncable
+  namespace: code-ua
+spec:
+  replicas: 1
+  serviceName: redis-actioncable
+  selector:
+    matchLabels:
+      app: redis-actioncable
+  template:
+    metadata:
+      labels:
+        app: redis-actioncable
+    spec:
+      containers:
+      - name: redis
+        image: 10.110.0.3:5000/codeua-redis:6.0.10
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 6379
+        command: ["bash", "-c", "redis-server /usr/local/etc/redis/redis.conf"]
+        volumeMounts:
+        - name: redis-conf
+          mountPath: /usr/local/etc/redis/
+      - name: exporter
+        image: 10.110.0.3:5000/codeua-redis-exporter:latest
+        ports:
+        - containerPort: 9121
+        env:
+        - name: REDIS_ADDR
+          value: redis://localhost:6379
+        - name: REDIS_PASSWORD
+          value: redis-meercat
+      volumes:
+      - name: redis-conf
+        configMap:
+          name: redis-conf
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: redis-actioncable-slave
+  namespace: code-ua
+spec:
+  replicas: 2
+  serviceName: redis-actioncable-slave
+  selector:
+    matchLabels:
+      app: redis-actioncable-slave
+  template:
+    metadata:
+      labels:
+        app: redis-actioncable-slave
+    spec:
+      containers:
+      - name: redis
+        image: 10.110.0.3:5000/codeua-redis:6.0.10
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 6379
+        command: ["bash", "-c", "redis-server /usr/local/etc/redis/redis.conf --slaveof redis-actioncable.code-ua 6379 --masterauth redis-meercat"]
+        volumeMounts:
+        - name: redis-conf
+          mountPath: /usr/local/etc/redis/
+      - name: exporter
+        image: 10.110.0.3:5000/codeua-redis-exporter:latest
+        ports:
+        - containerPort: 9121
+        env:
+        - name: REDIS_ADDR
+          value: redis://localhost:6379
+        - name: REDIS_PASSWORD
+          value: redis-meercat
+      volumes:
+      - name: redis-conf
+        configMap:
+          name: redis-conf
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-actioncable
+  namespace: code-ua
+spec:
+  ports:
+  - port: 6379
+    targetPort: 6379
+  selector:
+    app: redis-actioncable
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-actioncable-slave
+  namespace: code-ua
+spec:
+  ports:
+  - port: 6379
+    targetPort: 6379
+  selector:
+    app: redis-actioncable-slave
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: redis-queues-sentinel
+  namespace: code-ua
+spec:
+  replicas: 3
+  serviceName: redis-queues-sentinel
+  selector:
+    matchLabels:
+      app: redis-queues-sentinel
+  template:
+    metadata:
+      labels:
+        app: redis-queues-sentinel
+    spec:
+      containers:
+      - name: redis
+        image: 10.110.0.3:5000/codeua-redis:6.0.10
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:"bash", "-c",
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 26379
+        command: ["bash", "-c", "cp /redis/redis-sentinel.conf /usr/local/etc/redis/redis-sentinel.conf && redis-sentinel /usr/local/etc/redis/redis-sentinel.conf"]
+        volumeMounts:
+        - name: redis-queues-sentinel-conf
+          mountPath: /redis/redis-sentinel.conf
+          subPath: redis-sentinel.conf
+        - name: redis-writable-conf
+          mountPath: /usr/local/etc/redis/
+      - name: exporter
+        image: 10.110.0.3:5000/codeua-redis-exporter:latest
+        ports:
+        - containerPort: 9121
+        env:
+        - name: REDIS_ADDR
+          value: redis://localhost:26379
+        - name: REDIS_PASSWORD
+          value: redis-meercat
+      volumes:
+      - name: redis-queues-sentinel-conf
+        configMap:
+          name: redis-queues-sentinel-conf
+      - name: redis-writable-conf
+        emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-queues-sentinel
+  namespace: code-ua
+spec:
+  ports:
+  - port: 26379
+    targetPort: 26379
+  selector:
+    app: redis-queues-sentinel
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: redis-queues-sentinel-conf
+  namespace: code-ua
+data:
+  redis-sentinel.conf: |
+    bind 0.0.0.0
+    port 26379
+    sentinel monitor gitlab-redis redis-queues.code-ua 6379 1
+    sentinel down-after-milliseconds gitlab-redis 5000
+    sentinel failover-timeout gitlab-redis 5000
+    sentinel auth-pass gitlab-redis redis-meercat
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: redis-actioncable-sentinel
+  namespace: code-ua
+spec:
+  replicas: 3
+  serviceName: redis-actioncable-sentinel
+  selector:
+    matchLabels:
+      app: redis-actioncable-sentinel
+  template:
+    metadata:
+      labels:
+        app: redis-actioncable-sentinel
+    spec:
+      containers:
+      - name: redis
+        image: 10.110.0.3:5000/codeua-redis:6.0.10
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:"bash", "-c",
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 26379
+        command: ["bash", "-c", "cp /redis/redis-sentinel.conf /usr/local/etc/redis/redis-sentinel.conf && redis-sentinel /usr/local/etc/redis/redis-sentinel.conf"]
+        volumeMounts:
+        - name: redis-actioncable-sentinel-conf
+          mountPath: /redis/redis-sentinel.conf
+          subPath: redis-sentinel.conf
+        - name: redis-writable-conf
+          mountPath: /usr/local/etc/redis/
+      - name: exporter
+        image: 10.110.0.3:5000/codeua-redis-exporter:latest
+        ports:
+        - containerPort: 9121
+        env:
+        - name: REDIS_ADDR
+          value: redis://localhost:26379
+        - name: REDIS_PASSWORD
+          value: redis-meercat
+      volumes:
+      - name: redis-actioncable-sentinel-conf
+        configMap:
+          name: redis-actioncable-sentinel-conf
+      - name: redis-writable-conf
+        emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-actioncable-sentinel
+  namespace: code-ua
+spec:
+  ports:
+  - port: 26379
+    targetPort: 26379
+  selector:
+    app: redis-actioncable-sentinel
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: redis-actioncable-sentinel-conf
+  namespace: code-ua
+data:
+  redis-sentinel.conf: |
+    bind 0.0.0.0
+    port 26379
+    sentinel monitor gitlab-redis redis-actioncable.code-ua 6379 1
+    sentinel down-after-milliseconds gitlab-redis 5000
+    sentinel failover-timeout gitlab-redis 5000
+    sentinel auth-pass gitlab-redis redis-meercat
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: redis-state-sentinel
+  namespace: code-ua
+spec:
+  replicas: 3
+  serviceName: redis-state-sentinel
+  selector:
+    matchLabels:
+      app: redis-state-sentinel
+  template:
+    metadata:
+      labels:
+        app: redis-state-sentinel
+    spec:
+      containers:
+      - name: redis
+        image: 10.110.0.3:5000/codeua-redis:6.0.10
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:"bash", "-c",
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 26379
+        command: ["bash", "-c", "cp /redis/redis-sentinel.conf /usr/local/etc/redis/redis-sentinel.conf && redis-sentinel /usr/local/etc/redis/redis-sentinel.conf"]
+        volumeMounts:
+        - name: redis-state-sentinel-conf
+          mountPath: /redis/redis-sentinel.conf
+          subPath: redis-sentinel.conf
+        - name: redis-writable-conf
+          mountPath: /usr/local/etc/redis/
+      - name: exporter
+        image: 10.110.0.3:5000/codeua-redis-exporter:latest
+        ports:
+        - containerPort: 9121
+        env:
+        - name: REDIS_ADDR
+          value: redis://localhost:26379
+        - name: REDIS_PASSWORD
+          value: redis-meercat
+      volumes:
+      - name: redis-state-sentinel-conf
+        configMap:
+          name: redis-state-sentinel-conf
+      - name: redis-writable-conf
+        emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-state-sentinel
+  namespace: code-ua
+spec:
+  ports:
+  - port: 26379
+    targetPort: 26379
+  selector:
+    app: redis-state-sentinel
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: redis-state-sentinel-conf
+  namespace: code-ua
+data:
+  redis-sentinel.conf: |
+    bind 0.0.0.0
+    port 26379
+    sentinel monitor gitlab-redis redis-state.code-ua 6379 1
+    sentinel down-after-milliseconds gitlab-redis 5000
+    sentinel failover-timeout gitlab-redis 5000
+    sentinel auth-pass gitlab-redis redis-meercat
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: redis-cache-sentinel
+  namespace: code-ua
+spec:
+  replicas: 3
+  serviceName: redis-cache-sentinel
+  selector:
+    matchLabels:
+      app: redis-cache-sentinel
+  template:
+    metadata:
+      labels:
+        app: redis-cache-sentinel
+    spec:
+      containers:
+      - name: redis
+        image: 10.110.0.3:5000/codeua-redis:6.0.10
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:"bash", "-c",
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 26379
+        command: ["bash", "-c", "cp /redis/redis-sentinel.conf /usr/local/etc/redis/redis-sentinel.conf && redis-sentinel /usr/local/etc/redis/redis-sentinel.conf"]
+        volumeMounts:
+        - name: redis-cache-sentinel-conf
+          mountPath: /redis/redis-sentinel.conf
+          subPath: redis-sentinel.conf
+        - name: redis-writable-conf
+          mountPath: /usr/local/etc/redis/
+      - name: exporter
+        image: 10.110.0.3:5000/codeua-redis-exporter:latest
+        ports:
+        - containerPort: 9121
+        env:
+        - name: REDIS_ADDR
+          value: redis://localhost:26379
+        - name: REDIS_PASSWORD
+          value: redis-meercat
+      volumes:
+      - name: redis-cache-sentinel-conf
+        configMap:
+          name: redis-cache-sentinel-conf
+      - name: redis-writable-conf
+        emptyDir: {}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: redis-cache-sentinel
+  namespace: code-ua
+spec:
+  ports:
+  - port: 26379
+    targetPort: 26379
+  selector:
+    app: redis-cache-sentinel
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: redis-cache-sentinel-conf
+  namespace: code-ua
+data:
+  redis-sentinel.conf: |
+    bind 0.0.0.0
+    port 26379
+    sentinel monitor gitlab-redis redis-cache.code-ua 6379 1
+    sentinel down-after-milliseconds gitlab-redis 5000
+    sentinel failover-timeout gitlab-redis 5000
+    sentinel auth-pass gitlab-redis redis-meercat
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: redis-conf
+  namespace: code-ua
+data:
+  redis.conf: |
+    bind 0.0.0.0
+    port 6379
+    requirepass redis-meercat

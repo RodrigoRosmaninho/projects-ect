@@ -1,0 +1,139 @@
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: sidekiq
+  namespace: code-ua
+spec:
+  replicas: 4
+  podManagementPolicy: "Parallel"
+  updateStrategy:
+    type: RollingUpdate
+  serviceName: sidekiq
+  selector:
+    matchLabels:
+      app: sidekiq
+  template:
+    metadata:
+      labels:
+        app: sidekiq
+    spec:
+      containers:
+      - name: sidekiq
+        image: 10.110.0.3:5000/codeua-gitlab-ee:latest
+        resources:
+         requests:
+           memory: "1Gi"
+           cpu: "250m"
+         limits:
+           memory: "3Gi"
+           cpu: "1000m"
+        env:
+        - name: TZ
+          value: "Europe/Lisbon"
+        - name: DEBUG
+          value: "false"
+        - name: GITLAB_DATABASE_USERNAME
+          value: "postgres"
+        # livenessProbe:
+        #   httpGet:
+        #     path: /-/health
+        #     port: 80
+        #   initialDelaySeconds: 480  # 8 minutes
+        #   periodSeconds: 5
+        #   timeoutSeconds: 2
+        # readinessProbe:
+        #   httpGet:
+        #     path: /-/ready?all=1
+        #     port: 80
+        #   initialDelaySeconds: 480  # 8 minutes
+        #   periodSeconds: 5
+        #   timeoutSeconds: 2
+        ports:
+        - containerPort: 8082
+        volumeMounts:
+        - name: sidekiq-config
+          mountPath: /etc/gitlab/gitlab.rb
+          subPath: gitlab.rb
+        - name: varlog
+          mountPath: /var/log
+        # - name: gitlab-pages-secret
+        #   mountPath: /var/opt/gitlab/gitlab-rails/etc/gitlab_pages_secret
+        #   subPath: gitlab_pages_secret
+      - name: fluentd-agent
+        image: 10.110.0.3:5000/codeua-fluentd
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+        - name: config-volume
+          mountPath: /fluentd/etc/fluent.conf
+          subPath: fluent.conf
+      volumes:
+      - name: varlog
+        emptyDir: {}
+      - name: config-volume
+        configMap:
+          name: sidekiq-fluentd-config
+      - name: sidekiq-config
+        secret:
+          secretName: sidekiq-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: sidekiq
+  namespace: code-ua
+spec:
+  ports:
+  - port: 8082
+    targetPort: 8082
+  selector:
+    app: sidekiq
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sidekiq-fluentd-config
+  namespace: code-ua
+data:
+  fluent.conf: |
+    <source>
+      type tail
+      format none
+      path /var/log/gitlab/**/current
+      pos_file /var/log/gitlab/**/current.pos
+      tag gitlab-sidekiq
+    </source>
+
+    <filter **>
+      @type record_transformer
+      <record>
+        hostname "#{Socket.gethostname}"
+        tag ${tag}
+      </record>
+    </filter>
+
+    <match **>
+      @type elasticsearch
+      host 10.110.4.80
+      port 9200
+      logstash_format true
+    </match>
+---
+apiVersion: autoscaling/v2beta1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: sidekiq-hpa
+  namespace: code-ua
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: StatefulSet
+    name: sidekiq
+  minReplicas: 4
+  maxReplicas: 6
+  metrics:
+  - type: Pods
+    pods:
+      metricName: sidekiq_running_jobs
+      targetAverageValue: "30"

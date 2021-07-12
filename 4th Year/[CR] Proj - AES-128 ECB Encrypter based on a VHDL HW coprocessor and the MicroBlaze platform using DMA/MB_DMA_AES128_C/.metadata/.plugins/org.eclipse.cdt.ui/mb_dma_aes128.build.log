@@ -1,0 +1,25 @@
+15:11:23 **** Clean-only build of project mb_dma_aes128 ****
+buildplatform.bat 55309 mb_dma_aes128 clean 
+XSDB Server Channel: tcfchan#7
+Cleaning the BSP for domain  - standalone_microblaze_0
+make -C microblaze_0/libsrc/axidma_v9_12/src -s clean 
+
+make -C microblaze_0/libsrc/bram_v4_5/src -s clean 
+
+make -C microblaze_0/libsrc/cpu_v2_12/src -s clean 
+
+make -C microblaze_0/libsrc/gpio_v4_7/src -s clean 
+
+make -C microblaze_0/libsrc/intc_v3_12/src -s clean 
+
+make -C microblaze_0/libsrc/standalone_v7_3/src -s clean 
+
+make -C microblaze_0/libsrc/tmrctr_v4_7/src -s clean 
+
+make -C microblaze_0/libsrc/uartlite_v3_5/src -s clean 
+
+rm -f microblaze_0/lib/libxil.a
+
+
+15:11:25 Build Finished (took 2s.16ms)
+

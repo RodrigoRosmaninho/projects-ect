@@ -1,0 +1,129 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: minio
+  namespace: code-ua
+spec:
+  replicas: 8
+  podManagementPolicy: "Parallel"
+  selector:
+    matchLabels:
+      app: minio
+  serviceName: "minio"
+  template:
+    metadata:
+      annotations:
+        initialized: "true"
+      labels:
+        app: minio
+    spec:
+      containers:
+      - name: minio
+        volumeMounts:
+        - name: minio-pv-claim 
+          mountPath: "/data"
+        image: 10.110.0.3:5000/codeua-minio:RELEASE.2021-04-27T23-46-03Z
+        args:
+        - server
+        - http://minio-{0...3}.minio.code-ua/data/export{0...3}
+        - http://minio-{4...7}.minio.code-ua/data/export{0...3}
+        env:
+          - name: MINIO_ACCESS_KEY
+            valueFrom:
+              secretKeyRef:
+                name: minio
+                key: username
+          - name: MINIO_SECRET_KEY
+            valueFrom:
+              secretKeyRef:
+                name: minio
+                key: password
+          - name: MINIO_PROMETHEUS_AUTH_TYPE
+            value: "public"
+          - name: MINIO_HTTP_TRACE
+            value: /var/log/gitlab-minio/trace.log
+        ports:
+        - containerPort: 9000
+        resources:
+          requests:
+            cpu: 250m
+            memory: 250Mi
+          limits:
+            cpu: 500m
+            memory: 1Gi
+      - name: fluentd-agent
+        image: 10.110.0.3:5000/codeua-fluentd
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+        - name: config-volume
+          mountPath: /fluentd/etc/fluent.conf
+          subPath: fluent.conf
+      - name: exporter
+        image: 10.110.0.3:5000/codeua-nginx:1.20
+        ports:
+        - containerPort: 9001
+        volumeMounts:
+        - name: nginx-exporter-conf
+          mountPath: /etc/nginx
+      volumes:
+        - name: nginx-exporter-conf
+          configMap:
+            name: minio-exporter-conf-map
+        - name: varlog
+          emptyDir: {}
+        - name: config-volume
+          configMap:
+            name: fluentd-config
+  volumeClaimTemplates:
+    - metadata:
+        name: minio-pv-claim
+      spec:
+        storageClassName: longhorn
+        accessModes:
+        - ReadWriteOnce
+        resources:
+          requests:
+            storage: 5Gi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: minio
+  namespace: code-ua
+spec:
+  ports:
+    - port: 9000
+      targetPort: 9000
+      protocol: TCP
+  selector:
+    app: minio
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: minio-exporter-conf-map
+  namespace: code-ua
+data:
+  nginx.conf: |
+    user nginx;
+    worker_processes 1;
+
+    error_log  /var/log/nginx/error.log warn;
+    pid        /var/run/nginx.pid;
+
+    events {
+      worker_connections  4096;
+    }
+
+    http {
+      sendfile on;
+
+      server {
+        listen *:9001;
+
+        location /metrics {
+          proxy_pass http://localhost:9000/minio/v2/metrics/cluster;
+        }
+      }
+    }

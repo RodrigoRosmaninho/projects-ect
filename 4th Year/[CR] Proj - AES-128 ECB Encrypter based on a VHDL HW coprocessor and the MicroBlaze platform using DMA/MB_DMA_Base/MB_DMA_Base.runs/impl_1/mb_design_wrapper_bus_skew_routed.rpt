@@ -1,0 +1,15 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Jun 21 15:31:01 2021
+| Host         : EURICO-PC running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file mb_design_wrapper_bus_skew_routed.rpt -pb mb_design_wrapper_bus_skew_routed.pb -rpx mb_design_wrapper_bus_skew_routed.rpx
+| Design       : mb_design_wrapper
+| Device       : 7a100t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

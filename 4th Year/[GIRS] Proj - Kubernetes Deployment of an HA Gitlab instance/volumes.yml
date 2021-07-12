@@ -1,0 +1,151 @@
+#
+#   VOLUMES & CLAIMS
+#
+
+# ---
+# apiVersion: v1
+# kind: PersistentVolume
+# metadata:
+#   name: shared-dir-pv-volume
+#   namespace: code-ua
+#   labels:
+#     type: longhorn
+# spec:
+#   storageClassName: longhorn
+#   accessModes:
+#     - ReadWriteMany
+#   capacity:
+#       storage: 10Gi
+#   claimRef:
+#     name: shared-dir-pv-claim
+#     namespace: code-ua
+# ---
+# apiVersion: v1
+# kind: PersistentVolume
+# metadata:
+#   name: pages-pv-volume
+#   namespace: code-ua
+#   labels:
+#     type: longhorn
+# spec:
+#   storageClassName: longhorn
+#   accessModes:
+#     - ReadWriteMany
+#   capacity:
+#     storage: 10Gi
+#   claimRef:
+#     name: pages-pv-claim
+#     namespace: code-ua
+# ---
+# apiVersion: v1
+# kind: PersistentVolume
+# metadata:
+#   name: db-upgrade-pv-volume
+#   namespace: code-ua
+#   labels:
+#     type: longhorn
+# spec:
+#   storageClassName: longhorn
+#   accessModes:
+#     - ReadWriteMany
+#   capacity:
+#       storage: 5Gi
+#   claimRef:
+#     name: db-upgrade-pv-claim
+#     namespace: code-ua
+# ---
+# apiVersion: v1
+# kind: PersistentVolume
+# metadata:
+#   name: gitlab-uploads-pv
+#   namespace: code-ua
+#   labels:
+#     type: local
+# spec:
+#   storageClassName: longhorn
+#   capacity:
+#     storage: 10Gi
+#   accessModes:
+#     - ReadWriteMany
+#   claimRef:
+#     name: gitlab-uploads-pv-claim
+#     namespace: code-ua
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: gitlab-data-pv-claim
+  namespace: code-ua
+spec:
+  storageClassName: longhorn
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 2Gi
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: db-upgrade-pv-claim
+  namespace: code-ua
+spec:
+  storageClassName: longhorn
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 2Gi
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: shared-dir-pv-claim
+  namespace: code-ua
+spec:
+  storageClassName: longhorn
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 3Gi
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: pages-pv-claim
+  namespace: code-ua
+spec:
+  storageClassName: longhorn
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 3Gi
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: gitlab-uploads-pv-claim
+  namespace: code-ua
+spec:
+  storageClassName: longhorn
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 3Gi
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: registry-storage-pv-claim
+  namespace: code-ua
+spec:
+  storageClassName: longhorn
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 5Gi
+---

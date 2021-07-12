@@ -1,0 +1,134 @@
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: gitaly
+  namespace: code-ua
+spec:
+  replicas: 3
+  podManagementPolicy: "Parallel"
+  updateStrategy:
+    type: RollingUpdate
+  serviceName: "gitaly"
+  selector:
+    matchLabels:
+      app: gitaly
+  template:
+    metadata:
+      labels:
+        app: gitaly
+    spec:
+      containers:
+      - name: gitaly
+        image: 10.110.0.3:5000/codeua-gitlab-ee:latest
+        resources:
+         requests:
+           memory: "1Gi"
+           cpu: "250m"
+         limits:
+           memory: "3Gi"
+           cpu: "1000m"
+        # livenessProbe:
+        #   httpGet:
+        #     path: /-/health
+        #     port: 80
+        #   initialDelaySeconds: 180  # 8 minutes
+        #   periodSeconds: 5
+        #   timeoutSeconds: 2
+        # readinessProbe:
+        #   httpGet:
+        #     path: /-/ready?all=1
+        #     port: 80
+        #   initialDelaySeconds: 180  # 8 minutes
+        #   periodSeconds: 5
+        #   timeoutSeconds: 2
+        env:
+        - name: TZ
+          value: "Europe/Lisbon"
+        - name: DEBUG
+          value: "false"
+        ports:
+        - containerPort: 8075
+        - containerPort: 9236
+        - containerPort: 80
+        volumeMounts:
+        - name: gitaly-config
+          mountPath: /etc/gitlab/gitlab.rb
+          subPath: gitlab.rb
+        - name: gitaly-pv-claim
+          mountPath: /var/opt/gitlab/git-data
+        - name: varlog
+          mountPath: /var/log
+        # - name: gitlab-pages-secret
+        #   mountPath: /var/opt/gitlab/gitlab-rails/etc/gitlab_pages_secret
+        #   subPath: gitlab_pages_secret
+      - name: fluentd-agent
+        image: 10.110.0.3:5000/codeua-fluentd
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+        - name: config-volume
+          mountPath: /fluentd/etc/fluent.conf
+          subPath: fluent.conf
+      volumes:
+      - name: varlog
+        emptyDir: {}
+      - name: config-volume
+        configMap:
+          name: gitaly-fluentd-config
+      - name: gitaly-config
+        secret:
+          secretName: gitaly-config
+  volumeClaimTemplates:
+  - metadata:
+      name: gitaly-pv-claim
+      namespace: code-ua
+    spec:
+      accessModes: [ "ReadWriteOnce" ]
+      storageClassName: "longhorn"
+      resources:
+        requests:
+          storage: 5Gi
+        
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gitaly
+  namespace: code-ua
+spec:
+  ports:
+  - port: 8075
+    targetPort: 8075
+  selector:
+    app: gitaly
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gitaly-fluentd-config
+  namespace: code-ua
+data:
+  fluent.conf: |
+    <source>
+      type tail
+      format none
+      path /var/log/gitlab/**/*
+      pos_file /var/log/gitlab/**/*.pos
+      tag gitaly
+    </source>
+
+    <filter **>
+      @type record_transformer
+      <record>
+        hostname "#{Socket.gethostname}"
+        tag ${tag}
+      </record>
+    </filter>
+
+    <match **>
+      @type elasticsearch
+      host 10.110.4.80
+      port 9200
+      logstash_format true
+    </match>

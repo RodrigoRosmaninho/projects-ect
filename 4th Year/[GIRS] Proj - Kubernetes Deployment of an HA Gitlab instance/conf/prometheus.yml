@@ -1,0 +1,337 @@
+# Sample config for Prometheus.
+
+global:
+  scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+  # scrape_timeout is set to the global default (10s).
+
+  # Attach these labels to any time series or alerts when communicating with
+  # external systems (federation, remote storage, Alertmanager).
+  external_labels:
+      monitor: 'example'
+
+# Alertmanager configuration
+alerting:
+  alertmanagers:
+  - static_configs:
+    - targets: ['10.110.4.80:9093']
+
+rule_files:
+  - "alerts.yml"
+
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
+  - job_name: 'prometheus'
+
+    # Override the global default and scrape targets from this job every 5 seconds.
+    scrape_interval: 5s
+    scrape_timeout: 5s
+
+    # metrics_path defaults to '/metrics'
+    # scheme defaults to 'http'.
+
+    static_configs:
+      - targets: ['localhost:9090']
+
+  - job_name: node
+    # If prometheus-node-exporter is installed, grab stats about the local
+    # machine by default.
+    static_configs:
+      - targets: ['localhost:9100']
+    
+  - job_name: gitlab_node_metrics_0
+    metrics_path: '/gitlab_node_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_workhorse_metrics_0
+    metrics_path: '/gitlab_workhorse_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_node_metrics_1
+    metrics_path: '/gitlab_node_metrics_1'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_workhorse_metrics_1
+    metrics_path: '/gitlab_workhorse_metrics_1'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_node_metrics_2
+    metrics_path: '/gitlab_node_metrics_2'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_workhorse_metrics_2
+    metrics_path: '/gitlab_workhorse_metrics_2'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_node_metrics_3
+    metrics_path: '/gitlab_node_metrics_3'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_workhorse_metrics_3
+    metrics_path: '/gitlab_workhorse_metrics_3'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_node_metrics_4
+    metrics_path: '/gitlab_node_metrics_4'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_workhorse_metrics_4
+    metrics_path: '/gitlab_workhorse_metrics_4'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_node_metrics_5
+    metrics_path: '/gitlab_node_metrics_5'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_workhorse_metrics_5
+    metrics_path: '/gitlab_workhorse_metrics_5'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: pgpool_metrics
+    metrics_path: '/pgpool_metrics'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: praefect_metrics
+    metrics_path: '/praefect_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitaly_metrics_0
+    metrics_path: '/gitaly_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitaly_metrics_1
+    metrics_path: '/gitaly_metrics_1'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitaly_metrics_2
+    metrics_path: '/gitaly_metrics_2'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: minio_sidekick_metrics_0
+    metrics_path: '/minio_sidekick_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: minio_sidekick_metrics_1
+    metrics_path: '/minio_sidekick_metrics_1'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_sidekiq_metrics_0
+    metrics_path: '/gitlab_sidekiq_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_sidekiq_metrics_1
+    metrics_path: '/gitlab_sidekiq_metrics_1'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_sidekiq_metrics_2
+    metrics_path: '/gitlab_sidekiq_metrics_2'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_sidekiq_metrics_3
+    metrics_path: '/gitlab_sidekiq_metrics_3'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_sidekiq_metrics_4
+    metrics_path: '/gitlab_sidekiq_metrics_4'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_sidekiq_metrics_5
+    metrics_path: '/gitlab_sidekiq_metrics_5'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_sidekiq_metrics_6
+    metrics_path: '/gitlab_sidekiq_metrics_6'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: gitlab_sidekiq_metrics_7
+    metrics_path: '/gitlab_sidekiq_metrics_7'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_state_metrics_0
+    metrics_path: '/redis_state_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_state_metrics_1
+    metrics_path: '/redis_state_metrics_1'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_state_metrics_2
+    metrics_path: '/redis_state_metrics_2'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_state_sentinel_metrics_0
+    metrics_path: '/redis_state_sentinel_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_state_sentinel_metrics_1
+    metrics_path: '/redis_state_sentinel_metrics_1'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_state_sentinel_metrics_2
+    metrics_path: '/redis_state_sentinel_metrics_2'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_cache_metrics_0
+    metrics_path: '/redis_cache_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_cache_metrics_1
+    metrics_path: '/redis_cache_metrics_1'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_cache_metrics_2
+    metrics_path: '/redis_cache_metrics_2'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_cache_sentinel_metrics_0
+    metrics_path: '/redis_cache_sentinel_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_state_cache_metrics_1
+    metrics_path: '/redis_cache_sentinel_metrics_1'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_cache_sentinel_metrics_2
+    metrics_path: '/redis_cache_sentinel_metrics_2'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_queues_metrics_0
+    metrics_path: '/redis_queues_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_queues_metrics_1
+    metrics_path: '/redis_queues_metrics_1'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_queues_metrics_2
+    metrics_path: '/redis_queues_metrics_2'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_queues_sentinel_metrics_0
+    metrics_path: '/redis_queues_sentinel_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_queues_sentinel_metrics_1
+    metrics_path: '/redis_queues_sentinel_metrics_1'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_queues_sentinel_metrics_2
+    metrics_path: '/redis_queues_sentinel_metrics_2'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_actioncable_metrics_0
+    metrics_path: '/redis_actioncable_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_actioncable_metrics_1
+    metrics_path: '/redis_actioncable_metrics_1'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_actioncable_metrics_2
+    metrics_path: '/redis_actioncable_metrics_2'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_actioncable_sentinel_metrics_0
+    metrics_path: '/redis_actioncable_sentinel_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_actioncable_sentinel_metrics_1
+    metrics_path: '/redis_actioncable_sentinel_metrics_1'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: redis_actioncable_sentinel_metrics_2
+    metrics_path: '/redis_actioncable_sentinel_metrics_2'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+
+  - job_name: nginx_metrics_0
+    metrics_path: '/nginx_metrics_0'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+        labels:
+          kubernetes_pod_name: 'nginx-0'
+          kubernetes_namespace: 'code-ua'
+
+  - job_name: nginx_metrics_1
+    metrics_path: '/nginx_metrics_1'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+        labels:
+          kubernetes_pod_name: 'nginx-1'
+          kubernetes_namespace: 'code-ua'
+
+  - job_name: nginx_metrics_2
+    metrics_path: '/nginx_metrics_2'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+        labels:
+          kubernetes_pod_name: 'nginx-2'
+          kubernetes_namespace: 'code-ua'
+
+  - job_name: nginx_metrics_3
+    metrics_path: '/nginx_metrics_3'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+        labels:
+          kubernetes_pod_name: 'nginx-3'
+          kubernetes_namespace: 'code-ua'
+
+  - job_name: nginx_metrics_4
+    metrics_path: '/nginx_metrics_4'
+    static_configs:
+      - targets: ['10.110.4.80:8080']
+        labels:
+          kubernetes_pod_name: 'nginx-4'
+          kubernetes_namespace: 'code-ua'

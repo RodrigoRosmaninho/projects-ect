@@ -1,0 +1,127 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: pages
+  namespace: code-ua
+spec:
+  replicas: 2
+  serviceName: pages
+  selector:
+    matchLabels:
+      app: pages
+  template:
+    metadata:
+      labels:
+        app: pages
+    spec:
+      containers:
+      - name: pages
+        image: 10.110.0.3:5000/codeua-gitlab-ee:latest
+        resources:
+          limits:
+            memory: "500Mi"
+            cpu: "500m"
+        # livenessProbe:
+        #   httpGet:
+        #     path: /-/health
+        #     port: 80
+        #   initialDelaySeconds: 480  # 8 minutes
+        #   periodSeconds: 5
+        #   timeoutSeconds: 2
+        # readinessProbe:
+        #   httpGet:
+        #     path: /-/ready?all=1
+        #     port: 80
+        #   initialDelaySeconds: 480  # 8 minutes
+        #   periodSeconds: 5
+        #   timeoutSeconds: 2
+        ports:
+        - containerPort: 8090
+        env:
+        - name: TZ
+          value: Europe/Lisbon
+        - name: VIRTUAL_HOST
+          value: "pages.code-ua.k3s,*.pages.code-ua.k3s"
+        - name: VIRTUAL_PORT
+          value: "8090"
+        - name: HTTPS_METHOD
+          value: "nohttps"
+        volumeMounts:
+          - name: pages-conf
+            mountPath: /var/opt/gitlab/gitlab-pages
+          - name: varlog
+            mountPath: /var/log
+          # - name: pages-shared-dir
+          #   mountPath: /srv/gitlab/shared
+          - name: pages-dir
+            mountPath: /var/opt/gitlab/gitlab-rails/shared/pages
+        command: ["/bin/bash"]
+        args: ['-c', '/opt/gitlab/embedded/bin/gitlab-pages -config="/var/opt/gitlab/gitlab-pages/gitlab-pages-config"']
+        # command: ["/bin/bash"]
+        # args: ["-c", "sleep 3600"]
+      - name: fluentd-agent
+        image: 10.110.0.3:5000/codeua-fluentd
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+        - name: config-volume
+          mountPath: /fluentd/etc/fluent.conf
+          subPath: fluent.conf
+      volumes:
+      - name: varlog
+        emptyDir: {}
+      - name: config-volume
+        configMap:
+          name: fluentd-config
+      - name: pages-conf
+        secret:
+          secretName: pages-config
+      # - name: pages-shared-dir
+      #   persistentVolumeClaim:
+      #     claimName: gitlab-data-pv-claim
+      - name: pages-dir
+        persistentVolumeClaim:
+          claimName: pages-pv-claim
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pages
+  namespace: code-ua
+spec:
+  selector:
+    app: pages
+  ports:
+  - port: 8090
+    targetPort: 8090
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: fluentd-config
+  namespace: code-ua
+data:
+  fluent.conf: |
+    <source>
+      type tail
+      format none
+      path /var/log/gitlab/**/current
+      pos_file /var/log/gitlab/**/current.pos
+      tag gitlab-pages
+    </source>
+
+    <filter **>
+      @type record_transformer
+      <record>
+        hostname "#{Socket.gethostname}"
+        tag ${tag}
+      </record>
+    </filter>
+
+    <match **>
+      @type elasticsearch
+      host 10.110.4.80
+      port 9200
+      logstash_format true
+    </match>
+

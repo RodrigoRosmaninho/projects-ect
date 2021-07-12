@@ -1,0 +1,119 @@
+#
+#   POSTGRESQL
+#
+
+# TODO: Volumes, lb, secrets
+# Search how to deploy postgres to k8s - see if anything is missing besides the above
+
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: pgpool
+  namespace: code-ua
+spec:
+  replicas: 1
+  serviceName: pgpool
+  selector:
+    matchLabels:
+      app: pgpool
+  template:
+    metadata:
+      labels:
+        app: pgpool
+    spec:
+      containers:
+      - name: pgpool
+        image: 10.110.0.3:5000/codeua-pgpool:4
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 5432
+        env:
+        - name: PGPOOL_BACKEND_NODES
+          value: 0:postgres-0:5432,1:postgres-1:5432,2:postgres-2:5432
+        - name: PGPOOL_SR_CHECK_USER
+          valueFrom:
+            secretKeyRef:
+              name: postgres-credentials
+              key: POSTGRESQL_USERNAME
+        - name: PGPOOL_SR_CHECK_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: postgres-credentials
+              key: POSTGRESQL_PASSWORD
+        - name: PGPOOL_ENABLE_LDAP
+          value: "no"
+        - name: PGPOOL_POSTGRES_USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: pgpool-credentials
+              key: POSTGRESQL_USERNAME
+        - name: PGPOOL_POSTGRES_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: pgpool-credentials
+              key: POSTGRESQL_PASSWORD
+        - name: PGPOOL_ADMIN_USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: pgpool-credentials
+              key: POSTGRESQL_ADMIN_USERNAME
+        - name: PGPOOL_ADMIN_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: pgpool-credentials
+              key: POSTGRESQL_ADMIN_PASSWORD
+        - name: PGPOOL_ENABLE_LOAD_BALANCING
+          value: "yes"
+        - name: BITNAMI_DEBUG
+          value: "true"
+      - name: pgpool-exporter
+        image: 10.110.0.3:5000/codeua-pgpool-exporter:latest
+        #resources:
+        #  requests:
+        #    memory: "32Mi"
+        #    cpu: "10m"
+        #  limits:
+        #    memory: "128Mi"
+        #    cpu: "500m"
+        ports:
+        - containerPort: 9719
+        env:
+        - name: DATA_SOURCE_NAME
+          value: postgresql://postgres:meercat@localhost:5432/codeua_production?sslmode=disable
+      - name: fluentd-agent
+        image: 10.110.0.3:5000/codeua-fluentd
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+        - name: config-volume
+          mountPath: /fluentd/etc/fluent.conf
+          subPath: fluent.conf
+      volumes:
+      - name: varlog
+        emptyDir: {}
+      - name: config-volume
+        configMap:
+          name: fluentd-config
+      dnsConfig:
+        searches:
+          - postgres.code-ua.svc.cluster.local
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pgpool
+  namespace: code-ua
+spec:
+  ports:
+  - port: 5432
+    targetPort: 5432
+  selector:
+    app: pgpool
+

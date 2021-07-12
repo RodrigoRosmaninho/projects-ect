@@ -1,0 +1,617 @@
+!SESSION 2021-06-21 15:09:45.152 -----------------------------------------------
+eclipse.buildId=2020.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_PT
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file C:\Xilinx\projects\CR_AES128_Proj\MB_DMA_AES128_C\.metadata\.bak_0.log
+Created Time: 2021-06-21 15:10:15.889
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.889
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.893
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0], Result: [null, {"axi_gpio_switches_S_AXI": {"name": "axi_gpio_switches",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_leds_S_AXI": {"name": "axi_gpio_leds",
+"base": "0x40010000",
+"high": "0x4001FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_buttons_S_AXI": {"name": "axi_gpio_buttons",
+"base": "0x40020000",
+"high": "0x4002FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_displays_S_AXI": {"name": "axi_gpio_displays",
+"base": "0x40030000",
+"high": "0x4003FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_axi_intc_s_axi": {"name": "microblaze_0_axi_intc",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "s_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_timer_0_S_AXI": {"name": "axi_timer_0",
+"base": "0x41C00000",
+"high": "0x41C0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_dma_0_S_AXI_LITE": {"name": "axi_dma_0",
+"base": "0x41E00000",
+"high": "0x41E0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI_LITE",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x0000FFFF",
+"size": "65536",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+"axi_emc_0_S_AXI_MEM_Mem0": {"name": "axi_emc_0",
+"base": "0x60000000",
+"high": "0x60FFFFFF",
+"size": "16777216",
+"slaveintf": "S_AXI_MEM",
+"type": "MEMORY",
+"flags": "3",
+"segment": "Mem0",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.894
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0 C_DEBUG_ENABLED], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.895
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.896
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.897
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.897
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.898
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, 1]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.899
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.918
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.919
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0 C_FREQ], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.920
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.920
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.922
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0 C_CPU_CLK_FREQ_HZ], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.922
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.924
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.926
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa mdm_1], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.948
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa mdm_1], Result: [null, {}]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.949
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa mdm_1], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.950
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.951
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa mdm_1], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.952
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa mdm_1], Result: [null, microblaze_0]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:15.953
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-21 15:10:18.875
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY org.eclipse.tcf 4 0 2021-06-21 15:10:18.875
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:18.942
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:18.943
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.103
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504963A]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.104
+!MESSAGE XSCT Command: [version -server], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.105
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.105
+!MESSAGE XSCT Command: [version], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.106
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.123
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.127
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504963A]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.127
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.139
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.142
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.145
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504963A]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.146
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.156
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.157
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.160
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504963A]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.161
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.171
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.172
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.175
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504963A]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.176
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.187
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.187
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.191
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4 210274504963A]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.191
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.202
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.203
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504963A" && level == 0}], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.214
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504963A" && level == 0}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.214
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.215
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.215
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.217
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.261
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.265
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504963A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.266
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.276
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:20.280
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504963A-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:21.096
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504963A-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:21.097
+!MESSAGE XSCT Command: [fpga -file C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_AES128_C/aes128_proj/_ide/bitstream/mb_design_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:23.287
+!MESSAGE XSCT command with result: [fpga -file C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_AES128_C/aes128_proj/_ide/bitstream/mb_design_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:23.316
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:24.077
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:24.078
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa -regs], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:24.852
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa -regs], Result: [null, mb_design_wrapper_0]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:24.852
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:24.853
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:24.854
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:24.864
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:24.864
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:24.866
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:24.867
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:27.873
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:27.874
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:28.917
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:28.918
+!MESSAGE XSCT Command: [dow C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_AES128_C/aes128_proj/Debug/aes128_proj.elf], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:29.190
+!MESSAGE XSCT command with result: [dow C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_AES128_C/aes128_proj/Debug/aes128_proj.elf], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:29.253
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:29.268
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:29.269
+!MESSAGE XSCT Command: [con], Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:29.288
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:42.828
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/sw/mb_dma_aes128/standalone_microblaze_0/system.mss ], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:42.831
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/sw/mb_dma_aes128/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:42.831
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/sw/mb_dma_aes128/standalone_microblaze_0/system.mss], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:42.833
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/sw/mb_dma_aes128/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-06-21 15:10:42.833
+!MESSAGE Generating MD5 hash for file: C:\Users\euric\Vitis_Workspace\mb_dma_aes128\export\mb_dma_aes128\sw\mb_dma_aes128\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:42.834
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/sw/mb_dma_aes128/standalone_microblaze_0/system.mss], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:42.835
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/sw/mb_dma_aes128/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.557
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-124
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.559
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-124
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.564
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.575
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#6]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.576
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.581
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504963A]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.582
+!MESSAGE XSCT Command: [version -server], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.583
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.583
+!MESSAGE XSCT Command: [version], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.583
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.584
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.587
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504963A]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.588
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.599
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.599
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.603
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504963A]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.603
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.614
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.615
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.619
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504963A]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.619
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.630
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.630
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.634
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504963A]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.635
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.646
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.646
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.650
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504963A]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.650
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.661
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.662
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504963A" && level == 0}], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.673
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4 210274504963A" && level == 0}], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.673
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.674
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.688
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.692
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4 210274504963A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.692
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.703
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.704
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504963A-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.727
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4 210274504963A" && level==0 && jtag_device_ctx=="jsn-Nexys4-210274504963A-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:46.727
+!MESSAGE XSCT Command: [fpga -file C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_AES128_C/aes128_proj/_ide/bitstream/mb_design_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:48.915
+!MESSAGE XSCT command with result: [fpga -file C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_AES128_C/aes128_proj/_ide/bitstream/mb_design_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:48.930
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:48.942
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:48.942
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa -regs], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:48.951
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/euric/Vitis_Workspace/mb_dma_aes128/export/mb_dma_aes128/hw/mb_design_wrapper.xsa -regs], Result: [null, mb_design_wrapper_0]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:48.952
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:48.953
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:48.953
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:48.964
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:48.964
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:48.974
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:48.975
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:51.991
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:51.992
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:52.003
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:52.003
+!MESSAGE XSCT Command: [dow C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_AES128_C/aes128_proj/Debug/aes128_proj.elf], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:52.280
+!MESSAGE XSCT command with result: [dow C:/Xilinx/projects/CR_AES128_Proj/MB_DMA_AES128_C/aes128_proj/Debug/aes128_proj.elf], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:52.363
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:52.378
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:52.378
+!MESSAGE XSCT Command: [con], Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:10:52.394
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-1: Launching SystemDebugger_aes128_proj_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:11:30.560
+!MESSAGE XSCT Command: [disconnect tcfchan#6], Thread: Thread-169
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-06-21 15:11:30.562
+!MESSAGE XSCT command with result: [disconnect tcfchan#6], Result: [null, ]. Thread: Thread-169

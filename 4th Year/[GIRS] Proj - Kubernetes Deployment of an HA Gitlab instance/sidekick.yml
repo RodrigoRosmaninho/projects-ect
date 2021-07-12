@@ -1,0 +1,65 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: minio-sidekick
+  namespace: code-ua
+spec:
+  replicas: 2
+  serviceName: minio-sidekick
+  selector:
+    matchLabels:
+      app: minio-sidekick
+  template:
+    metadata:
+      labels:
+        app: minio-sidekick
+    spec:
+      containers:
+      - name: minio-sidekick
+        image: 10.110.0.3:5000/codeua-sidekick:v1.0.0
+        args: ["-i", "-l",  "--health-path", "/minio/health/ready", "--address", ":9000", "http://minio-{0...3}.minio.code-ua:9000", "http://minio-{4...7}.minio.code-ua:9000"]
+        resources:
+          limits:
+            memory: "750Mi"
+            cpu: "1000m"
+        # env:
+        # - name: SIDEKICK_CACHE_ENDPOINT
+        #   value: "http://minio-remote:9000"
+        # - name: SIDEKICK_CACHE_ACCESS_KEY
+        #   value: "minio"
+        # - name: SIDEKICK_CACHE_SECRET_KEY
+        #   value: "minio123"
+        # - name: SIDEKICK_CACHE_BUCKET
+        #   value: "cache01"
+        # - name: SIDEKICK_CACHE_MIN_SIZE
+        #   value: "32MiB"
+        # - name: SIDEKICK_CACHE_HEALTH_DURATION
+        #   value: "20"
+        ports:
+        - containerPort: 9000
+      - name: fluentd-agent
+        image: 10.110.0.3:5000/codeua-fluentd
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+        - name: config-volume
+          mountPath: /fluentd/etc/fluent.conf
+          subPath: fluent.conf
+      volumes:
+      - name: varlog
+        emptyDir: {}
+      - name: config-volume
+        configMap:
+          name: fluentd-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: minio-sidekick
+  namespace: code-ua
+spec:
+  selector:
+    app: minio-sidekick
+  ports:
+  - port: 9000
+    targetPort: 9000

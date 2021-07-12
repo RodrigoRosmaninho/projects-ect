@@ -1,0 +1,143 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: minio-client
+  namespace: code-ua
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: minio-client
+  template:
+    metadata:
+        labels:
+          app: minio-client
+    spec:
+      containers:
+      - name: minio-client
+        image: 10.110.0.3:5000/codeua-minio-mc:RELEASE.2021-04-22T17-40-00Z
+        env:
+          - name: MINIO_HOST
+            # value: "http://minio-0.minio.code-ua:9000" # make sure that one of the StatefulSet minio pods is running
+            value: http://minio-sidekick.code-ua:9000
+          - name: MINIO_ACCESS_KEY
+            valueFrom:
+              secretKeyRef:
+                name: minio
+                key: username
+          - name: MINIO_SECRET_KEY
+            valueFrom:
+              secretKeyRef:
+                name: minio
+                key: password
+          - name: ARTIFACTS_BUCKET
+            value: "artifacts"
+          - name: EXT_DIFFS_BUCKET
+            value: "external-diffs"
+          - name: LFS_BUCKET
+            value: "lfs-objects"
+          - name: UPLOADS_BUCKET
+            value: "uploads"
+          - name: PACKAGES_BUCKET
+            value: "packages"
+          - name: DEP_PROXY_BUCKET
+            value: "dependency-proxy"
+          - name: TERRAFORM_BUCKET
+            value: "terraform-state"
+          - name: PAGES_BUCKET
+            value: pages
+          - name: "RUNNERS_CACHE_BUCKET"
+            value: runner
+        resources:
+          requests:
+            cpu: 250m
+            memory: 100Mi
+          limits:
+            cpu: 500m
+            memory: 250Mi
+        command:
+        - "/bin/bash"
+        - "-c"
+        - "mc config host rm local && mc config host add --quiet --api s3v4 minio $MINIO_HOST $MINIO_ACCESS_KEY $MINIO_SECRET_KEY && mc mb --ignore-existing --region eu-west-1 minio/$ARTIFACTS_BUCKET minio/$EXT_DIFFS_BUCKET minio/$LFS_BUCKET minio/$UPLOADS_BUCKET minio/$PACKAGES_BUCKET minio/$DEP_PROXY_BUCKET minio/$TERRAFORM_BUCKET minio/$PAGES_BUCKET minio/$RUNNERS_CACHE_BUCKET && mc admin user add minio girs-admin girsgitlab && mc admin policy add minio adminpolicy /opt/minio-client/config/admin.json && mc admin policy set minio adminpolicy user=girs-admin && mc admin trace minio 2>&1 >> /var/log/trace.log && while :; do sleep 3600; done"
+        volumeMounts:
+          - mountPath: /opt/minio-client/config/admin.json
+            name: minio-console-admin-conf
+            subPath: admin.json
+          - name: varlog
+            mountPath: /var/log
+      - name: fluentd-agent
+        image: 10.110.0.3:5000/codeua-fluentd
+        volumeMounts:
+        - name: varlog
+          mountPath: /var/log
+        - name: config-volume
+          mountPath: /fluentd/etc/fluent.conf
+          subPath: fluent.conf
+      volumes:
+      - name: varlog
+        emptyDir: {}
+      - name: config-volume
+        configMap:
+          name: mc-fluentd-config
+      - name: minio-console-admin-conf
+        configMap:
+          name: minio-console-admin-conf-map
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: minio-console-admin-conf-map
+  namespace: code-ua
+data:
+  admin.json: |
+    {
+      "Version": "2012-10-17",
+      "Statement": [{
+          "Action": [
+            "admin:*"
+          ],
+          "Effect": "Allow",
+          "Sid": ""
+        },
+        {
+          "Action": [
+                    "s3:*"
+          ],
+          "Effect": "Allow",
+          "Resource": [
+            "arn:aws:s3:::*"
+          ],
+          "Sid": ""
+        }
+      ]
+    }
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mc-fluentd-config
+  namespace: code-ua
+data:
+  fluent.conf: |
+    <source>
+      type tail
+      format none
+      path /var/log/trace.log
+      pos_file /var/log/trace.log.pos
+      tag minio
+    </source>
+
+    <filter **>
+      @type record_transformer
+      <record>
+        hostname "#{Socket.gethostname}"
+        tag ${tag}
+      </record>
+    </filter>
+
+    <match **>
+      @type elasticsearch
+      host 10.110.4.80
+      port 9200
+      logstash_format true
+    </match>

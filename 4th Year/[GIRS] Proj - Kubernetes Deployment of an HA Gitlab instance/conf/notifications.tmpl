@@ -1,0 +1,23 @@
+{{ define "__single_message_title" }}{{ range .Alerts }}{{ .Labels.alertname }}{{ end }}{{ end }}
+{{ define "slack.default.title" }}{{ if eq .Status "resolved" }}Resolved -{{else}}{{ if eq .CommonLabels.severity "critical" }}Alert -{{ else if eq .CommonLabels.severity "warning" }}Warning -{{ end }}{{end}} {{ range .Alerts }}{{ .Labels.alertname }} @ {{ .Labels.kubernetes_pod_name }}{{ end }}{{ end }}
+{{ define "__subject" }}{{ if eq .Status "resolved" }}Resolved -{{else}}{{ if eq .CommonLabels.severity "critical" }}Alert -{{ else if eq .CommonLabels.severity "warning" }}Warning -{{ end }}{{end}} {{ range .Alerts }}{{ .Labels.alertname }} @ {{ .Labels.kubernetes_pod_name }}{{ end }}{{ end }}
+{{ define "slack.default.fallback" }}{{ template "__subject" . }}{{end}}
+
+{{ define "custom_slack_message" }}
+{{ if or (and (eq (len .Alerts.Firing) 1) (eq (len .Alerts.Resolved) 0)) (and (eq (len .Alerts.Firing) 0) (eq (len .Alerts.Resolved) 1)) }}
+{{ range .Alerts.Firing }}{{ .Annotations.description }}{{ end }}{{ range .Alerts.Resolved }}{{ .Annotations.description }}{{ end }}
+{{ else }}
+{{ if gt (len .Alerts.Firing) 0 }}
+{{ range .Alerts.Firing }}
+*Alert:* {{ .Annotations.summary }}{{ if .Labels.severity }} - `{{ .Labels.severity }}`{{ end }}
+
+*Description:* {{ .Annotations.description }}
+
+{{ end }}{{ end }}
+{{ if gt (len .Alerts.Resolved) 0 }}
+{{ range .Alerts.Resolved }}
+*Alert:* {{ .Annotations.summary }} 
+
+{{ end }}{{ end }}
+{{ end }}
+{{ end }}

@@ -1,0 +1,59 @@
+version: '3.3'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.13.1
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      - "ES_JAVA_OPTS=-Xms1200m -Xmx1200m"
+      - node.name=es-codeua-node-1
+      - cluster.name=es-codeua-cluster
+      - cluster.initial_master_nodes=es-codeua-node-1
+  kibana:
+    image: docker.elastic.co/kibana/kibana-oss:7.10.2
+    depends_on:
+      - elasticsearch
+    ports:
+      - "5601:5601"
+  grafana:
+    image: grafana/grafana:7.5.9-ubuntu
+    user: "1000:1000"
+    depends_on:
+      - elasticsearch
+    ports:
+      - "13000:3000"
+    volumes:
+      - "grafana-data:/var/lib/grafana:rw"
+  prometheus:
+    image: prom/prometheus
+    ports:
+      - 9090:9090
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./alerts.yml:/etc/prometheus/alerts.yml
+  prometheus-proxy:
+    image: pambrose/prometheus-proxy:1.9.1
+    ports:
+      - 8082:8082
+      - 8092:8092
+      - 50051:50051
+      - 8080:8080
+    environment:
+      - ADMIN_ENABLED=true
+      - METRICS_ENABLED=true
+  alertmanager:
+    image: prom/alertmanager
+    container_name: zabbix-alertmanager
+    restart: always
+    volumes:
+      - ./alertmanager.yml:/etc/alertmanager/alertmanager.yml
+      - ./notifications.tmpl:/etc/alertmanager/notifications.tmpl
+    ports:
+      - "9093:9093"
+
+volumes:
+  grafana-data:
+
+
+

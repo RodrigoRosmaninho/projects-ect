@@ -1,0 +1,352 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prometheus-agent
+  namespace: code-ua
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: prometheus-agent
+  template:
+    metadata:
+      labels:
+        app: prometheus-agent
+    spec:
+      containers:
+      - name: prometheus-agent
+        image: 10.110.0.3:5000/codeua-prometheus-agent:1.9.1
+        resources:
+         requests:
+           memory: "1Gi"
+           cpu: "250m"
+         limits:
+           memory: "3Gi"
+           cpu: "1000m"
+        env:
+        - name: TZ
+          value: "Europe/Lisbon"
+        - name: AGENT_CONFIG
+          value: "/etc/prom.conf"
+        ports:
+        - containerPort: 2305
+        volumeMounts:
+        - name: prometheus-agent-config
+          mountPath: /etc/prom.conf
+          subPath: prom.conf
+      volumes:
+      - name: prometheus-agent-config
+        configMap:
+          name: prometheus-agent-config
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prometheus-agent-config
+  namespace: code-ua
+data:
+  prom.conf: |
+    proxy {
+      admin.debugEnabled = true
+
+      admin.enabled: true
+      metrics.enabled: true
+
+      http.requestLoggingEnabled: true
+    }
+
+    agent {
+
+      proxy.hostname = 10.110.4.80
+      admin.enabled: true
+      metrics.enabled: true
+
+      pathConfigs: [
+        {
+          name: "Agent metrics"
+          path: agent_metrics
+          url: "http://localhost:8083/metrics"
+        }
+        {
+          name: "Gitlab node metrics"
+          path: gitlab_node_metrics_0
+          url: "http://gitlab-0.gitlab.code-ua:9100/metrics"
+        }
+        {
+          name: "Gitlab workhorse metrics"
+          path: gitlab_workhorse_metrics_0
+          url: "http://gitlab-0.gitlab.code-ua:9229/metrics"
+        }
+        {
+          name: "Gitlab node metrics"
+          path: gitlab_node_metrics_1
+          url: "http://gitlab-1.gitlab.code-ua:9100/metrics"
+        }
+        {
+          name: "Gitlab workhorse metrics"
+          path: gitlab_workhorse_metrics_1
+          url: "http://gitlab-1.gitlab.code-ua:9229/metrics"
+        }
+        {
+          name: "Gitlab node metrics"
+          path: gitlab_node_metrics_2
+          url: "http://gitlab-2.gitlab.code-ua:9100/metrics"
+        }
+        {
+          name: "Gitlab workhorse metrics"
+          path: gitlab_workhorse_metrics_2
+          url: "http://gitlab-2.gitlab.code-ua:9229/metrics"
+        }
+        {
+          name: "Gitlab node metrics"
+          path: gitlab_node_metrics_3
+          url: "http://gitlab-3.gitlab.code-ua:9100/metrics"
+        }
+        {
+          name: "Gitlab workhorse metrics"
+          path: gitlab_workhorse_metrics_3
+          url: "http://gitlab-3.gitlab.code-ua:9229/metrics"
+        }
+        {
+          name: "Gitlab node metrics"
+          path: gitlab_node_metrics_4
+          url: "http://gitlab-4.gitlab.code-ua:9100/metrics"
+        }
+        {
+          name: "Gitlab workhorse metrics"
+          path: gitlab_workhorse_metrics_4
+          url: "http://gitlab-4.gitlab.code-ua:9229/metrics"
+        }
+        {
+          name: "Gitlab node metrics"
+          path: gitlab_node_metrics_5
+          url: "http://gitlab-5.gitlab.code-ua:9100/metrics"
+        }
+        {
+          name: "Gitlab workhorse metrics"
+          path: gitlab_workhorse_metrics_5
+          url: "http://gitlab-5.gitlab.code-ua:9229/metrics"
+        }
+        {
+          name: "Gitlab Sidekiq metrics"
+          path: gitlab_sidekiq_metrics_0
+          url: "http://sidekiq-0.sidekiq.code-ua:8082/metrics"
+        }
+        {
+          name: "Gitlab Sidekiq metrics"
+          path: gitlab_sidekiq_metrics_1
+          url: "http://sidekiq-1.sidekiq.code-ua:8082/metrics"
+        }
+        {
+          name: "Gitlab Sidekiq metrics"
+          path: gitlab_sidekiq_metrics_2
+          url: "http://sidekiq-2.sidekiq.code-ua:8082/metrics"
+        }
+        {
+          name: "Gitlab Sidekiq metrics"
+          path: gitlab_sidekiq_metrics_3
+          url: "http://sidekiq-3.sidekiq.code-ua:8082/metrics"
+        }
+        {
+          name: "Gitlab Sidekiq metrics"
+          path: gitlab_sidekiq_metrics_4
+          url: "http://sidekiq-4.sidekiq.code-ua:8082/metrics"
+        }
+        {
+          name: "Gitlab Sidekiq metrics"
+          path: gitlab_sidekiq_metrics_5
+          url: "http://sidekiq-5.sidekiq.code-ua:8082/metrics"
+        }
+        {
+          name: "Gitlab Sidekiq metrics"
+          path: gitlab_sidekiq_metrics_6
+          url: "http://sidekiq-6.sidekiq.code-ua:8082/metrics"
+        }
+        {
+          name: "Gitlab Sidekiq metrics"
+          path: gitlab_sidekiq_metrics_7
+          url: "http://sidekiq-7.sidekiq.code-ua:8082/metrics"
+        }
+        {
+          name: "PgPool-II PgSQL metrics"
+          path: pgpool_metrics
+          url: "http://pgpool-0.pgpool.code-ua:9719/metrics"
+        }
+        {
+          name: "Praefect metrics"
+          path: praefect_metrics_0
+          url: "http://praefect-0.praefect.code-ua:9652/metrics"
+        }
+        {
+          name: "Gitaly metrics"
+          path: gitaly_metrics_0
+          url: "http://gitaly-0.gitaly.code-ua:9236/metrics"
+        }
+        {
+          name: "Gitaly metrics"
+          path: gitaly_metrics_1
+          url: "http://gitaly-1.gitaly.code-ua:9236/metrics"
+        }
+        {
+          name: "Gitaly metrics"
+          path: gitaly_metrics_2
+          url: "http://gitaly-2.gitaly.code-ua:9236/metrics"
+        }
+        {
+          name: "MinIO Sidekick metrics"
+          path: minio_sidekick_metrics_0
+          url: "http://minio-sidekick-0.minio-sidekick.code-ua:9000/.prometheus/metrics"
+        }
+        {
+          name: "MinIO Sidekick metrics"
+          path: minio_sidekick_metrics_1
+          url: "http://minio-sidekick-1.minio-sidekick.code-ua:9000/.prometheus/metrics"
+        }
+        {
+          name: "Redis state metrics"
+          path: redis_state_metrics_0
+          url: "http://redis-state-0.redis-state.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis state metrics"
+          path: redis_state_metrics_1
+          url: "http://redis-state-slave-0.redis-state-slave.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis state metrics"
+          path: redis_state_metrics_2
+          url: "http://redis-state-slave-1.redis-state-slave.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis state sentinel metrics"
+          path: redis_state_sentinel_metrics_0
+          url: "http://redis-state-sentinel-0.redis-state-sentinel.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis state sentinel metrics"
+          path: redis_state_sentinel_metrics_1
+          url: "http://redis-state-sentinel-1.redis-state-sentinel.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis state sentinel metrics"
+          path: redis_state_sentinel_metrics_2
+          url: "http://redis-state-sentinel-2.redis-state-sentinel.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis cache metrics"
+          path: redis_cache_metrics_0
+          url: "http://redis-cache-0.redis-cache.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis cache metrics"
+          path: redis_cache_metrics_1
+          url: "http://redis-cache-slave-0.redis-cache-slave.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis cache metrics"
+          path: redis_cache_metrics_2
+          url: "http://redis-cache-slave-1.redis-cache-slave.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis cache sentinel metrics"
+          path: redis_cache_sentinel_metrics_0
+          url: "http://redis-cache-sentinel-0.redis-cache-sentinel.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis cache sentinel metrics"
+          path: redis_cache_sentinel_metrics_1
+          url: "http://redis-cache-sentinel-1.redis-cache-sentinel.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis cache sentinel metrics"
+          path: redis_cache_sentinel_metrics_2
+          url: "http://redis-cache-sentinel-2.redis-cache-sentinel.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis queues metrics"
+          path: redis_queues_metrics_0
+          url: "http://redis-queues-0.redis-queues.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis queues metrics"
+          path: redis_queues_metrics_1
+          url: "http://redis-queues-slave-0.redis-queues-slave.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis queues metrics"
+          path: redis_queues_metrics_2
+          url: "http://redis-queues-slave-1.redis-queues-slave.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis queues sentinel metrics"
+          path: redis_queues_sentinel_metrics_0
+          url: "http://redis-queues-sentinel-0.redis-queues-sentinel.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis queues sentinel metrics"
+          path: redis_queues_sentinel_metrics_1
+          url: "http://redis-queues-sentinel-1.redis-queues-sentinel.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis queues sentinel metrics"
+          path: redis_queues_sentinel_metrics_2
+          url: "http://redis-queues-sentinel-2.redis-queues-sentinel.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis actioncable metrics"
+          path: redis_actioncable_metrics_0
+          url: "http://redis-actioncable-0.redis-actioncable.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis actioncable metrics"
+          path: redis_actioncable_metrics_1
+          url: "http://redis-actioncable-slave-0.redis-actioncable-slave.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis actioncable metrics"
+          path: redis_actioncable_metrics_2
+          url: "http://redis-actioncable-slave-1.redis-actioncable-slave.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis actioncable sentinel metrics"
+          path: redis_actioncable_sentinel_metrics_0
+          url: "http://redis-actioncable-sentinel-0.redis-actioncable-sentinel.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis actioncable sentinel metrics"
+          path: redis_actioncable_sentinel_metrics_1
+          url: "http://redis-actioncable-sentinel-1.redis-actioncable-sentinel.code-ua:9121/metrics"
+        }
+        {
+          name: "Redis actioncable sentinel metrics"
+          path: redis_actioncable_sentinel_metrics_2
+          url: "http://redis-actioncable-sentinel-2.redis-actioncable-sentinel.code-ua:9121/metrics"
+        }
+        {
+          name: "NGINX metrics"
+          path: nginx_metrics_0
+          url: "http://nginx-0.nginx.code-ua:9113/metrics"
+        }
+        {
+          name: "NGINX metrics"
+          path: nginx_metrics_1
+          url: "http://nginx-1.nginx.code-ua:9113/metrics"
+        }
+        {
+          name: "NGINX metrics"
+          path: nginx_metrics_2
+          url: "http://nginx-2.nginx.code-ua:9113/metrics"
+        }
+        {
+          name: "NGINX metrics"
+          path: nginx_metrics_3
+          url: "http://nginx-3.nginx.code-ua:9113/metrics"
+        }
+        {
+          name: "NGINX metrics"
+          path: nginx_metrics_4
+          url: "http://nginx-4.nginx.code-ua:9113/metrics"
+        }
+      ]
+    }

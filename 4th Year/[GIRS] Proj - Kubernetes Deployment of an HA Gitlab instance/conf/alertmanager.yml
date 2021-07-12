@@ -1,0 +1,25 @@
+global:
+  resolve_timeout: 1m
+  slack_api_url: 'https://hooks.slack.com/services/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'
+
+
+route:
+  group_by: [...]
+  group_wait: 1s
+  group_interval: 1s
+  repeat_interval: 14d
+  receiver: 'slack-notifications-codeua'
+
+templates:
+- /etc/alertmanager/notifications.tmpl
+
+receivers:
+- name: 'slack-notifications-codeua'
+  slack_configs:
+  - channel: '#monitoring'
+    send_resolved: true
+    username: 'Monitoring'
+    title_link: ''
+    color: '{{ if eq .Status "firing" }}{{ if eq .CommonLabels.severity "warning" }}warning{{ else }}danger{{ end }}{{ else }}good{{ end }}'
+    title: '{{ if eq .Status "resolved" }}:white_check_mark: Resolved -{{else}}{{ if eq .CommonLabels.severity "critical" }}:fire: Alert -{{ else if eq .CommonLabels.severity "warning" }}:warning: Warning -{{ end }}{{end}} {{ range .Alerts }}{{ .Labels.alertname }} @ {{ .Labels.kubernetes_pod_name }}{{ end }}'
+    text: '{{ range .Alerts.Firing }}{{ .Annotations.description }}{{"\n"}}{{ .Annotations.owners }}{{ end }}'
