@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/USB-II_STARTER_KIT/production/SOTR_TMAN.X.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>531968</length>                 
+      <used>58444</used>                     
+      <free>473524</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>131072</length>                 
+      <used>34937</used>                     
+      <free>96135</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 
