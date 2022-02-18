@@ -4,19 +4,19 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
 ## Project List:
 
-- [[RMI] Assignment 1 - Robotic Agent to solve Mapping, and Planning problems on a maze](https://github.com/skyview-es)
+- [[RMI] Assignment 1 - Robotic Agent to solve Mapping, and Planning problems on a maze](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/5th%20Year/%5BRMI%5D%20Assignment%201%20-%20Robotic%20Agent%20to%20solve%20Location%2C%20Mapping%2C%20and%20Planning%20problems%20on%20a%20maze)
 
      Grade: 14.2/20
 
      Developed with [Pedro Valério](https://github.com/PMSValerio) in 2021
 
-- [[RMI] Assignment 2 - Robotic Agent to solve Location, Mapping, and Planning problems on a maze](https://github.com/skyview-es)
+- [[RMI] Assignment 2 - Robotic Agent to solve Location, Mapping, and Planning problems on a maze](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/5th%20Year/%5BRMI%5D%20Assignment%202%20-%20Robotic%20Agent%20to%20solve%20Movement%2C%20Location%2C%20Mapping%2C%20and%20Planning%20problems%20on%20a%20maze)
 
      Grade: 15.5/20
 
      Developed with [Pedro Valério](https://github.com/PMSValerio) in 2022
 
-- [[SOTR] Project - RT Task Management Framework for FreeRTOS](https://github.com/skyview-es)
+- [[SOTR] Project - RT Task Management Framework for FreeRTOS](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/5th%20Year/%5BSOTR%5D%20Project%20-%20RT%20Task%20Management%20Framework%20for%20FreeRTOS)
 
      Grade: 17.2/20
      
@@ -32,7 +32,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
 
      Developed with [Pedro Valério](https://github.com/PMSValerio) in 2022
 
-- [[TPR] Project - DNS-Over-HTTPS Browsing and Tunneling on corporate networks detection service based on ML techniques](https://github.com/skyview-es)
+- [[TPR] Project - DNS-Over-HTTPS Browsing and Tunneling on corporate networks detection service based on ML techniques](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/5th%20Year/%5BTPR%5D%20Project%20-%20DNS-Over-HTTPS%20Browsing%20and%20Tunneling%20on%20corporate%20networks%20detection%20service%20based%20on%20ML%20techniques)
 
      Grade: 19.4/20
      
