@@ -1,7 +1,5 @@
 # 4th Year
 
-You should NOT attempt to copy this if you need to hand in a similar project.
-
 ## Project List:
 
 - [[ARA] Proj - Multi-ISP Network Implementation in GNS3](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/4th%20Year/%5BARA%5D%20Proj%20-%20Multi-ISP%20Network%20Implementation%20in%20GNS3)

@@ -1,6 +1,5 @@
 # 1st Year
 
-You should NOT attempt to copy this if you need to hand in a similar project.
 
 ## Project List:
 

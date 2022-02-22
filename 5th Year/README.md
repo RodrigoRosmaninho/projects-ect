@@ -1,7 +1,5 @@
 # 5th Year
 
-You should NOT attempt to copy this if you need to hand in a similar project.
-
 ## Project List:
 
 - [[RMI] Assignment 1 - Robotic Agent to solve Mapping, and Planning problems on a maze](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/5th%20Year/%5BRMI%5D%20Assignment%201%20-%20Robotic%20Agent%20to%20solve%20Location%2C%20Mapping%2C%20and%20Planning%20problems%20on%20a%20maze)
