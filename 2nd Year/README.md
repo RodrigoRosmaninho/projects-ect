@@ -1,6 +1,5 @@
 # 2nd Year
 
-
 ## Project List:
 
  - [[MPEI] PF - Directory file checker using bloom filter and minhashing](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/2nd%20Year/%5BMPEI%5D%20PF%20-%20Directory%20file%20checker%20using%20bloom%20filter%20and%20minhashing)

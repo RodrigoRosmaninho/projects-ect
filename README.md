@@ -4,6 +4,14 @@
 
 ### Projects developed for the Computers and Telematics Engineering BSc + MSc at the University of Aveiro
 
+## Thanks:
+
+I'd like to express my gratitude towards the colleagues who developed these projects with me over the course of our 5 year BSc + MSc degree, namely:
+
+[Alexandre Abreu](https://github.com/afabreu), [Alexandre Lourenço](https://github.com/AlexMLourenco), [André Alves](https://github.com/andralves717), [Daniel Correia](https://github.com/danielcorreia13), [Eduardo Coelho](https://github.com/eduardocoelho11), [Eurico Dias](https://github.com/eurico-dias), [Gonçalo Perna](https://github.com/GoncaloPerna), [João Trindade](https://github.com/3ndade), Jorge Silva, [Pedro Valério](https://github.com/PMSValerio), [Ricardo Carvalho](https://github.com/R4pinho), [Rita Amante](https://github.com/rita-amante), and [Tomás Martins](https://github.com/tomasfilipe7)
+
+Thanks for all the hours and dedication.
+
 ## Project List:
 
 ### 1st Year

@@ -1,7 +1,5 @@
 # 3rd Year
 
-You should NOT attempt to copy this if you need to hand in a similar project.
-
 ## Project List:
 
 - [[FR] MP - Small Business Network Implementation in GNS3](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/3rd%20Year/%5BFR%5D%20MP%20-%20Small%20Business%20Network%20Implementation%20in%20GNS3)
@@ -77,7 +75,7 @@ You should NOT attempt to copy this if you need to hand in a similar project.
      
      Supervised by professor [Diogo Gomes](https://github.com/dgomes)
      
-- [[AR] Proj - Commplete Business Network Implementation in GNS3](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/3rd%20Year/%5BAR%5D%20Proj%20-%20Commplete%20Business%20Network%20Implementation%20in%20GNS3)
+- [[AR] Proj - Complete Business Network Implementation in GNS3](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/3rd%20Year/%5BAR%5D%20Proj%20-%20Complete%20Business%20Network%20Implementation%20in%20GNS3)
 
      Grade: 20/20
 

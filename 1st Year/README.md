@@ -1,6 +1,5 @@
 # 1st Year
 
-
 ## Project List:
 
 - [[LABI] AP1 - LaTeX Report about LaTeX Functionalities](https://github.com/RodrigoRosmaninho/projects-ect/tree/master/1st%20Year/%5BLABI%5D%20AP1%20-%20LaTeX%20Report%20about%20LaTeX%20Functionalities)
